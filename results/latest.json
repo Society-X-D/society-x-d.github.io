@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T223628Z",
-  "started_at": "2026-11-23T22:36:19.746346+00:00",
-  "completed_at": "2026-11-23T22:36:28.148429+00:00",
+  "run_id": "20261123T223659Z",
+  "started_at": "2026-11-23T22:36:49.238277+00:00",
+  "completed_at": "2026-11-23T22:36:59.220294+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:19.746346+00:00",
+      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:19.746346+00:00",
+      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:19.746346+00:00",
+      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:19.746346+00:00",
+      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:19.746346+00:00",
+      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:19.746346+00:00",
+      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:19.746346+00:00",
+      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
       "provider": "World Bank"
     }
   },
@@ -3951,111 +3951,111 @@
     "new_topics_in_sample": 80,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10582",
-        "name": "Ethics in Clinical Research",
-        "description": "This cluster of papers focuses on the ethical considerations and challenges in medical research participation, including issues related to informed consent, clinical trials, minority recruitment, genomic research, human subjects protection, biobanking, and vulnerability in research. The papers also discuss strategies for improving recruitment and retention of diverse populations in research studies.",
-        "works_count": 97026,
+        "id": "https://openalex.org/T13315",
+        "name": "Occupational Health and Safety in Workplaces",
+        "description": "This cluster of papers covers a wide range of topics related to occupational health and safety in workplaces, including ergonomics, teleworking, risk assessment, musculoskeletal disorders, and safety management systems. It also addresses health promotion, industrial hygiene, and relevant legislation. The papers discuss various aspects of creating healthy and safe work environments, identifying and mitigating workplace hazards, and promoting employee well-being.",
+        "works_count": 281821,
         "field": "Medicine",
         "subfield": "Public Health, Environmental and Occupational Health",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10825",
-        "name": "Plant Pathogens and Fungal Diseases",
-        "description": "This cluster of papers explores the diversity, evolution, and pathogenicity of fungal pathogens, with a focus on endophytic fungi, phylogenetic analysis, genomic characterization, plant pathogenesis, species recognition, molecular identification, host specificity, and taxonomic revision.",
-        "works_count": 390615,
+        "id": "https://openalex.org/T12045",
+        "name": "Rice Cultivation and Yield Improvement",
+        "description": "This cluster of papers focuses on the management of water in rice cultivation to enhance productivity, with an emphasis on strategies for drought resistance, yield potential improvement, aerobic rice systems, QTL mapping for important traits, root characteristics, and the application of the System of Rice Intensification (SRI). It also explores nitrogen use efficiency and its impact on grain yield in rice production.",
+        "works_count": 310001,
         "field": "Agricultural and Biological Sciences",
         "subfield": "Plant Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10834",
-        "name": "Welding Techniques and Residual Stresses",
-        "description": "This cluster of papers focuses on various welding techniques, including laser welding, gas tungsten arc welding, and electron beam welding. It explores topics such as residual stress measurement, numerical simulation of welding processes, heat transfer and fluid flow during welding, and the effects of welding parameters on microstructure and mechanical properties. Additionally, the cluster delves into the optimization of welding processes and the impact of residual stresses on fatigue performance.",
-        "works_count": 161711,
-        "field": "Engineering",
-        "subfield": "Mechanical Engineering",
+        "id": "https://openalex.org/T10199",
+        "name": "Wildlife Ecology and Conservation",
+        "description": "This cluster of papers covers a wide range of topics in wildlife ecology and conservation biology, including estimating occupancy rates, analyzing animal movement patterns, trophic cascades, habitat selection, population dynamics of large herbivores and carnivores, human-wildlife conflict, camera trapping for wildlife monitoring, and strategies for conservation management. It also explores the impact of predation risk on prey species, global biodiversity loss, and the ecological implications of human-induced stress on animal behavior.",
+        "works_count": 320880,
+        "field": "Environmental Science",
+        "subfield": "Ecology",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T13621",
-        "name": "Ancient and Medieval Archaeology Studies",
-        "description": "This cluster of papers explores the cultural interactions and archaeological evidence of Bronze Age societies in Europe, focusing on topics such as Corded Ware Culture, funerary customs, chronometry, and environmental forces shaping the development of these ancient cultures.",
-        "works_count": 583079,
+        "id": "https://openalex.org/T12586",
+        "name": "Folklore, Mythology, and Literature Studies",
+        "description": "This cluster of papers explores the pervasiveness and persistence of fairy tales in culture, focusing on their impact on gender roles, children's literature, and the transmission of cultural values. It delves into the social history, mythology, and feminist perspectives related to fairy tales and folklore, highlighting their significance as a form of oral tradition and literary analysis.",
+        "works_count": 470740,
         "field": "Arts and Humanities",
-        "subfield": "Archeology (arts and humanities)",
+        "subfield": "Literature and Literary Theory",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T10417",
-        "name": "Lung Cancer Treatments and Mutations",
-        "description": "This cluster of papers focuses on the advancements in lung cancer research, particularly in understanding EGFR and ALK mutations, targeted therapy, resistance mechanisms to tyrosine kinase inhibitors, clinical trials evaluating different treatment regimens, genomic profiling for personalized medicine, and the development of treatment guidelines based on molecular biomarkers. The research also explores the concept of oncogene addiction and its implications for targeted therapies.",
-        "works_count": 93701,
-        "field": "Medicine",
-        "subfield": "Pulmonary and Respiratory Medicine",
+        "id": "https://openalex.org/T11314",
+        "name": "Clinical Laboratory Practices and Quality Control",
+        "description": "This cluster of papers focuses on advancements in laboratory medicine and testing procedures, including the determination of reference intervals, management of preanalytical variables, establishment of quality indicators, utilization of point-of-care testing, understanding biological variation, development of clinical laboratory guidelines, identification and prevention of diagnostic errors, and implementation of laboratory quality management practices. The papers cover a wide range of topics related to improving the accuracy and reliability of laboratory testing in healthcare.",
+        "works_count": 192480,
+        "field": "Health Professions",
+        "subfield": "Medical Laboratory Technology",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12319",
-        "name": "Fish Biology and Ecology Studies",
-        "description": "This cluster of papers focuses on the length-weight relationships, morphology, biodiversity, and biogeography of various fish species, with an emphasis on freshwater ecosystems. It also explores genetic diversity, conservation, and the influence of environmental factors on fish populations.",
-        "works_count": 387712,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Aquatic Science",
+        "id": "https://openalex.org/T10427",
+        "name": "Visual perception and processing mechanisms",
+        "description": "This cluster of papers explores the neural mechanisms underlying visual perception, including topics such as perceptual learning, cortical connectivity, sensory integration, retinotopic mapping, motion processing, binocular vision, neuronal adaptation, and psychophysical function.",
+        "works_count": 240473,
+        "field": "Neuroscience",
+        "subfield": "Cognitive Neuroscience",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T12504",
-        "name": "Mathematics and Applications",
-        "description": "This cluster of papers covers a wide range of topics in geometric mathematics, including hyperbolic geometry, loops, billiards in ellipses, Poncelet's theorem, Moufang loops, trigonometry, algebraic structures, and their applications in relativity and inversive geometry.",
-        "works_count": 130749,
-        "field": "Mathematics",
-        "subfield": "Geometry and Topology",
+        "id": "https://openalex.org/T11960",
+        "name": "Relativity and Gravitational Theory",
+        "description": "This cluster of papers explores the theory of relativity, including special and general relativity, unified field theories, spacetime geometry, gauge symmetry, and quantum gravity. It delves into Einstein's contributions, symmetries, and the implications of general covariance.",
+        "works_count": 175517,
+        "field": "Physics and Astronomy",
+        "subfield": "Astronomy and Astrophysics",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T13247",
-        "name": "Local Governance and Planning",
-        "description": "This cluster of papers focuses on the spatial planning and public administration in Poland, covering topics such as local governance, urban development, community participation, sustainable infrastructure, land use, decentralization, environmental protection, and European Union law.",
-        "works_count": 337994,
-        "field": "Social Sciences",
-        "subfield": "Geography, Planning and Development",
+        "id": "https://openalex.org/T10316",
+        "name": "Sleep and related disorders",
+        "description": "This cluster of papers encompasses a wide range of research on sleep and insomnia, including topics such as the epidemiology of insomnia, the effects of sleep duration on health, cognitive behavioral therapy for insomnia, and the psychometric evaluation of sleep measures. It also covers the impact of sleep on various health outcomes, including cardiovascular disease, diabetes, obesity, and mental health. Additionally, the cluster includes studies on the role of circadian rhythms and sleep quality in overall well-being.",
+        "works_count": 148402,
+        "field": "Psychology",
+        "subfield": "Experimental and Cognitive Psychology",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T11153",
-        "name": "Streptococcal Infections and Treatments",
-        "description": "This cluster of papers focuses on the global burden, pathogenesis, and management of Group A Streptococcal diseases, including necrotizing fasciitis, rheumatic heart disease, and soft tissue infections. It covers topics such as streptococcal virulence factors, immunoglobulin therapy, and the epidemiology of streptococcal infections.",
-        "works_count": 90420,
+        "id": "https://openalex.org/T10307",
+        "name": "Head and Neck Cancer Studies",
+        "description": "This cluster of papers focuses on the epidemiology, treatment, and prognosis of head and neck cancer, with a particular emphasis on human papillomavirus (HPV)-related oropharyngeal cancer. It covers topics such as the impact of HPV infection, the role of radiotherapy and chemotherapy, survival outcomes, and the molecular landscape of head and neck squamous cell carcinomas.",
+        "works_count": 187274,
         "field": "Medicine",
-        "subfield": "Infectious Diseases",
+        "subfield": "Otorhinolaryngology",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12329",
-        "name": "Hemiptera Insect Studies",
-        "description": "This cluster of papers focuses on the biology, ecology, management, and impact of the invasive stink bug species Halyomorpha halys (Brown Marmorated Stink Bug), including its interactions with native species, use of pheromones for monitoring and control, potential geographic distribution, and responses to climate change. The cluster also covers topics such as biological control, host plant effects, and the development of behaviorally-based management strategies.",
-        "works_count": 164987,
+        "id": "https://openalex.org/T10494",
+        "name": "Plant Virus Research Studies",
+        "description": "This cluster of papers explores the mechanisms of viral RNA silencing, gene silencing, and plant immunity in response to virus infections. It delves into topics such as small RNAs, recombination analysis, virus transmission, and the role of RNA-dependent RNA polymerases in antiviral defense. The cluster also investigates the use of virus-induced gene silencing as a tool for studying gene function in plants.",
+        "works_count": 131711,
         "field": "Agricultural and Biological Sciences",
-        "subfield": "Ecology, Evolution, Behavior and Systematics",
+        "subfield": "Plant Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T11529",
-        "name": "Refrigeration and Air Conditioning Technologies",
-        "description": "This cluster of papers focuses on refrigeration systems and technologies, with an emphasis on refrigerants, ejectors, CO2 heat pumps, vapor compression systems, low-GWP alternatives, thermodynamic analysis, energy efficiency, environmental impact, and heat pump technology. The papers cover a wide range of topics including experimental validation, numerical investigations, performance predictions, and environmental considerations in the field of refrigeration and heat pump systems.",
-        "works_count": 125070,
-        "field": "Engineering",
-        "subfield": "Mechanical Engineering",
+        "id": "https://openalex.org/T10721",
+        "name": "Surfactants and Colloidal Systems",
+        "description": "This cluster of papers focuses on the aggregation, self-assembly, and interfacial behavior of surfactants, including topics such as micelle formation, wormlike micelles, ionic liquids, and microemulsions. It also covers the adsorption mechanisms of surfactants at air-water interfaces and the viscoelastic properties of surfactant solutions.",
+        "works_count": 160099,
+        "field": "Chemistry",
+        "subfield": "Physical and Theoretical Chemistry",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10585",
-        "name": "Family Dynamics and Relationships",
-        "description": "This cluster of papers explores the complex interplay between family demographics, including divorce, cohabitation, and marriage, and its impact on fertility patterns, parenting dynamics, and children's well-being. It delves into the evolving roles of fathers, the consequences of changing family structures on child development, and the societal shifts influencing fertility decisions.",
-        "works_count": 279760,
-        "field": "Social Sciences",
-        "subfield": "Demography",
+        "id": "https://openalex.org/T10677",
+        "name": "Attachment and Relationship Dynamics",
+        "description": "This cluster of papers explores theoretical developments in attachment theory, focusing on the dynamics of adult attachment, parent-child attachment, marital quality, interpersonal processes, emotion regulation, and the role of social support in intimate relationships. It covers a wide range of topics related to attachment and relationships from infancy to adulthood.",
+        "works_count": 124477,
+        "field": "Psychology",
+        "subfield": "Social Psychology",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,257 +4069,314 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10582",
-            "name": "Ethics in Clinical Research",
+            "id": "https://openalex.org/T13315",
+            "name": "Occupational Health and Safety in Workplaces",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T13417",
-            "name": "Biomedical Ethics and Regulation",
-            "field": "Nursing",
+            "id": "https://openalex.org/T14091",
+            "name": "Industrial and Mining Safety",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W4234152194",
+          "https://openalex.org/W1997960703",
+          "https://openalex.org/W4302413410"
+        ],
+        "research_question": "How are Occupational Health and Safety in Workplaces and Industrial and Mining Safety connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Industrial and Mining Safety will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T13315",
+            "name": "Occupational Health and Safety in Workplaces",
+            "field": "Medicine",
             "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 7,
-        "example_work_ids": [
-          "https://openalex.org/W4292528167",
-          "https://openalex.org/W2497721881",
-          "https://openalex.org/W2564042923",
-          "https://openalex.org/W2499590469",
-          "https://openalex.org/W2475767983"
-        ],
-        "research_question": "How are Ethics in Clinical Research and Biomedical Ethics and Regulation connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Ethics in Clinical Research and Biomedical Ethics and Regulation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10825",
-            "name": "Plant Pathogens and Fungal Diseases",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T12668",
-            "name": "Yeasts and Rust Fungi Studies",
-            "field": "Immunology and Microbiology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 4,
-        "example_work_ids": [
-          "https://openalex.org/W2414659653",
-          "https://openalex.org/W2591172920",
-          "https://openalex.org/W4230450401",
-          "https://openalex.org/W2006444758"
-        ],
-        "research_question": "How are Plant Pathogens and Fungal Diseases and Yeasts and Rust Fungi Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Plant Pathogens and Fungal Diseases and Yeasts and Rust Fungi Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T13621",
-            "name": "Ancient and Medieval Archaeology Studies",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12532",
-            "name": "Historical and Cultural Archaeology Studies",
+            "id": "https://openalex.org/T14168",
+            "name": "Occupational Health and Global Justice",
             "field": "Social Sciences",
             "domain": "Social Sciences"
           }
         ],
-        "coassigned_work_count": 3,
+        "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2586280608",
-          "https://openalex.org/W1606802182",
-          "https://openalex.org/W4231511501"
+          "https://openalex.org/W2033791981",
+          "https://openalex.org/W4234152194"
         ],
-        "research_question": "How are Ancient and Medieval Archaeology Studies and Historical and Cultural Archaeology Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Ancient and Medieval Archaeology Studies and Historical and Cultural Archaeology Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Occupational Health and Safety in Workplaces and Occupational Health and Global Justice connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Occupational Health and Global Justice will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10825",
-            "name": "Plant Pathogens and Fungal Diseases",
+            "id": "https://openalex.org/T13315",
+            "name": "Occupational Health and Safety in Workplaces",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12006",
+            "name": "Ergonomics and Musculoskeletal Disorders",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2149552744",
+          "https://openalex.org/W2736493709"
+        ],
+        "research_question": "How are Occupational Health and Safety in Workplaces and Ergonomics and Musculoskeletal Disorders connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Ergonomics and Musculoskeletal Disorders will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12045",
+            "name": "Rice Cultivation and Yield Improvement",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10497",
-            "name": "Fungal and yeast genetics research",
+            "id": "https://openalex.org/T11468",
+            "name": "Genetic Mapping and Diversity in Plants and Animals",
             "field": "Biochemistry, Genetics and Molecular Biology",
             "domain": "Life Sciences"
           }
         ],
-        "coassigned_work_count": 3,
+        "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W1540563425",
-          "https://openalex.org/W4230450401",
-          "https://openalex.org/W2006444758"
+          "https://openalex.org/W2076243827",
+          "https://openalex.org/W4295007161"
         ],
-        "research_question": "How are Plant Pathogens and Fungal Diseases and Fungal and yeast genetics research connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Plant Pathogens and Fungal Diseases and Fungal and yeast genetics research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Rice Cultivation and Yield Improvement and Genetic Mapping and Diversity in Plants and Animals connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Rice Cultivation and Yield Improvement and Genetic Mapping and Diversity in Plants and Animals will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10834",
-            "name": "Welding Techniques and Residual Stresses",
-            "field": "Engineering",
+            "id": "https://openalex.org/T10199",
+            "name": "Wildlife Ecology and Conservation",
+            "field": "Environmental Science",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T12427",
-            "name": "Metal Alloys Wear and Properties",
-            "field": "Materials Science",
+            "id": "https://openalex.org/T13546",
+            "name": "Census and Population Estimation",
+            "field": "Mathematics",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W4248405911",
-          "https://openalex.org/W2495943377"
+          "https://openalex.org/W2116665868",
+          "https://openalex.org/W2101348276"
         ],
-        "research_question": "How are Welding Techniques and Residual Stresses and Metal Alloys Wear and Properties connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Welding Techniques and Residual Stresses and Metal Alloys Wear and Properties will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Wildlife Ecology and Conservation and Census and Population Estimation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Wildlife Ecology and Conservation and Census and Population Estimation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13621",
-            "name": "Ancient and Medieval Archaeology Studies",
+            "id": "https://openalex.org/T10199",
+            "name": "Wildlife Ecology and Conservation",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10174",
+            "name": "Animal Behavior and Reproduction",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2087369095",
+          "https://openalex.org/W1978939541"
+        ],
+        "research_question": "How are Wildlife Ecology and Conservation and Animal Behavior and Reproduction connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Wildlife Ecology and Conservation and Animal Behavior and Reproduction will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12586",
+            "name": "Folklore, Mythology, and Literature Studies",
             "field": "Arts and Humanities",
             "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T13741",
-            "name": "Cross-Cultural and Social Analysis",
+            "id": "https://openalex.org/T12882",
+            "name": "Jungian Analytical Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2321031999"
+        ],
+        "research_question": "How are Folklore, Mythology, and Literature Studies and Jungian Analytical Psychology connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Folklore, Mythology, and Literature Studies and Jungian Analytical Psychology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12586",
+            "name": "Folklore, Mythology, and Literature Studies",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12864",
+            "name": "Psychoanalysis and Social Critique",
             "field": "Social Sciences",
             "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2065250998"
+          "https://openalex.org/W2080610040"
         ],
-        "research_question": "How are Ancient and Medieval Archaeology Studies and Cross-Cultural and Social Analysis connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Ancient and Medieval Archaeology Studies and Cross-Cultural and Social Analysis will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Folklore, Mythology, and Literature Studies and Psychoanalysis and Social Critique connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Folklore, Mythology, and Literature Studies and Psychoanalysis and Social Critique will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13621",
-            "name": "Ancient and Medieval Archaeology Studies",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12364",
-            "name": "Archaeological Research and Protection",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2568421887"
-        ],
-        "research_question": "How are Ancient and Medieval Archaeology Studies and Archaeological Research and Protection connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Ancient and Medieval Archaeology Studies and Archaeological Research and Protection will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10582",
-            "name": "Ethics in Clinical Research",
+            "id": "https://openalex.org/T13315",
+            "name": "Occupational Health and Safety in Workplaces",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10206",
-            "name": "Meta-analysis and systematic reviews",
-            "field": "Decision Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W1984982865"
-        ],
-        "research_question": "How are Ethics in Clinical Research and Meta-analysis and systematic reviews connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Ethics in Clinical Research and Meta-analysis and systematic reviews will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10582",
-            "name": "Ethics in Clinical Research",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T14374",
-            "name": "Statistical Methods in Epidemiology",
-            "field": "Mathematics",
+            "id": "https://openalex.org/T13604",
+            "name": "Adsorption, diffusion, and thermodynamic properties of materials",
+            "field": "Chemistry",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1984982865"
+          "https://openalex.org/W1997960703"
         ],
-        "research_question": "How are Ethics in Clinical Research and Statistical Methods in Epidemiology connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Ethics in Clinical Research and Statistical Methods in Epidemiology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Occupational Health and Safety in Workplaces and Adsorption, diffusion, and thermodynamic properties of materials connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Adsorption, diffusion, and thermodynamic properties of materials will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10825",
-            "name": "Plant Pathogens and Fungal Diseases",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T13315",
+            "name": "Occupational Health and Safety in Workplaces",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10015",
-            "name": "Genomics and Phylogenetic Studies",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T13633",
+            "name": "Public Health and Social Inequalities",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2414659653"
+          "https://openalex.org/W3208275537"
         ],
-        "research_question": "How are Plant Pathogens and Fungal Diseases and Genomics and Phylogenetic Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Plant Pathogens and Fungal Diseases and Genomics and Phylogenetic Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Occupational Health and Safety in Workplaces and Public Health and Social Inequalities connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Public Health and Social Inequalities will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T13315",
+            "name": "Occupational Health and Safety in Workplaces",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13233",
+            "name": "Occupational Health and Safety Management",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2149552744"
+        ],
+        "research_question": "How are Occupational Health and Safety in Workplaces and Occupational Health and Safety Management connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Occupational Health and Safety Management will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12045",
+            "name": "Rice Cultivation and Yield Improvement",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10140",
+            "name": "Food composition and properties",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W616920926"
+        ],
+        "research_question": "How are Rice Cultivation and Yield Improvement and Food composition and properties connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Rice Cultivation and Yield Improvement and Food composition and properties will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
     ],
-    "dataset_candidates": [],
+    "dataset_candidates": [
+      {
+        "id": "24484542",
+        "title": "Patient Specific 3D Printable Mandibular Osteoma Model for Surgical Rehearsal and Preoperative Planning",
+        "description": "<p>This dataset provides a patient specific, 3D printable mandibular model reconstructed from cone-beam computed tomography (CBCT) images of a 25 years old male patient with a suspected peripheral osteoma of the right mandible.</p>\n<p>The anatomical model was generated using 3D Slicer and Blender and fabricated at a 1:1 scale using fused deposition modelling (FDM) technology and polylactic acid (PLA) filament.</p>\n<p>The model was used for preoperative surgical rehearsal, including osteoma resection simulation, evaluation of resection boundaries, and reconstruction plate planning.</p>\n<p>The S",
+        "publication_date": "2026-11-23",
+        "doi": "10.5281/zenodo.24484542",
+        "resource_type": "dataset",
+        "license": "cc-by-4.0",
+        "url": null,
+        "matched_topic": "Occupational Health and Safety in Workplaces",
+        "source": "Zenodo",
+        "status": "metadata_candidate_not_yet_validated"
+      }
+    ],
     "metadata_only": true,
     "interpretation": "Topics are sampled from OpenAlex's live multidisciplinary taxonomy. Cross-topic links are inferred from topics assigned together to indexed works. Candidate hypotheses are literature-derived leads, not original verified discoveries. Zenodo records are metadata candidates only; no files are downloaded or analysed.",
     "source_failures": {
@@ -7685,14 +7742,14 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "winsorized_pearson",
-      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
-      "path": "proposals/winsorized_pearson.py"
+      "method": "spearman_rank",
+      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
+      "path": "proposals/spearman_rank.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
@@ -7744,6 +7801,59 @@
         "auth_required": false,
         "integration_status": "active_literature_only",
         "notes": "Scholarly metadata search; not currently ingested as research observations."
+      },
+      {
+        "id": "our_world_in_data",
+        "name": "Our World in Data",
+        "domains": [
+          "biology",
+          "public_health",
+          "climate",
+          "energy",
+          "economics",
+          "demography",
+          "agriculture"
+        ],
+        "kind": "quantitative_data",
+        "keywords": [
+          "life expectancy",
+          "health",
+          "climate change",
+          "energy",
+          "agriculture",
+          "population",
+          "education"
+        ],
+        "access": "public_downloads_and_apis",
+        "endpoint": "https://ourworldindata.org/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Dataset-level licences and attribution requirements must be checked individually."
+      },
+      {
+        "id": "pubmed",
+        "name": "PubMed / NCBI E-utilities",
+        "domains": [
+          "biology",
+          "medicine",
+          "public_health",
+          "neuroscience",
+          "psychology"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "clinical",
+          "disease",
+          "health",
+          "medical",
+          "brain",
+          "mental health"
+        ],
+        "access": "public_api",
+        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
@@ -7759,17 +7869,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "literacy",
-        "unemployment"
+        "health_spending",
+        "literacy"
       ],
-      "priority_score": 0.734,
+      "priority_score": 0.7337,
       "selected_labels": [
-        "Adult literacy rate (%)",
-        "Unemployment (% of labor force)"
+        "Current health expenditure per capita (US$)",
+        "Adult literacy rate (%)"
       ],
-      "selection_score": 0.734,
+      "selection_score": 0.7337,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7778,8 +7888,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 17,
-    "next_question": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 18,
+    "next_question": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex live multidisciplinary topics, identifies cross-field links in scholarly works, formulates literature-derived falsifiable leads, and searches Zenodo for candidate datasets. These are metadata leads, not validated discoveries; quantitative analysis still requires source-specific ingestion and validation."
   },
   "limitations": [
