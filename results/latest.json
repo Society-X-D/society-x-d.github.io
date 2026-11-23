@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T223917Z",
-  "started_at": "2026-11-23T22:39:05.522117+00:00",
-  "completed_at": "2026-11-23T22:39:17.846812+00:00",
+  "run_id": "20261123T223956Z",
+  "started_at": "2026-11-23T22:39:38.822224+00:00",
+  "completed_at": "2026-11-23T22:39:56.117744+00:00",
   "runtime": {
     "python": "3.12.16",
-    "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
+    "platform": "Linux-7.0.0-1016-aws-x86_64-with-glibc2.43"
   },
   "research_scope": {
     "start_year": 2000,
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:39:05.522117+00:00",
+      "retrieved_at": "2026-11-23T22:39:38.822224+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:39:05.522117+00:00",
+      "retrieved_at": "2026-11-23T22:39:38.822224+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:39:05.522117+00:00",
+      "retrieved_at": "2026-11-23T22:39:38.822224+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:39:05.522117+00:00",
+      "retrieved_at": "2026-11-23T22:39:38.822224+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:39:05.522117+00:00",
+      "retrieved_at": "2026-11-23T22:39:38.822224+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:39:05.522117+00:00",
+      "retrieved_at": "2026-11-23T22:39:38.822224+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:39:05.522117+00:00",
+      "retrieved_at": "2026-11-23T22:39:38.822224+00:00",
       "provider": "World Bank"
     }
   },
@@ -3948,114 +3948,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 80,
+    "new_topics_in_sample": 77,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10189",
-        "name": "Anesthesia and Pain Management",
-        "description": "This cluster of papers focuses on the management of postoperative pain, risk factors, and complications associated with various anesthesia techniques. It covers topics such as regional anesthesia, chronic pain, analgesia efficacy, surgical outcomes, and perioperative care.",
-        "works_count": 238933,
-        "field": "Medicine",
-        "subfield": "Anesthesiology and Pain Medicine",
+        "id": "https://openalex.org/T14316",
+        "name": "Nursing Education, Practice, and Leadership",
+        "description": "This cluster of papers focuses on the role of nurses in advocating for health policy development, political participation, and leadership within the healthcare system. It explores the impact of nursing advocacy, professional organizations, and education on shaping public health policies and influencing decision-making processes. The papers also discuss the challenges, barriers, and facilitators that affect nurses' involvement in policy development and political action.",
+        "works_count": 86330,
+        "field": "Nursing",
+        "subfield": "Issues, ethics and legal aspects",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12568",
-        "name": "Plant Taxonomy and Phylogenetics",
-        "description": "This cluster of papers focuses on the phylogeny, evolution, and classification of grasses (Poaceae), with particular emphasis on topics such as apomixis, C4 photosynthesis, reproductive pathways, genetics, and the evolutionary history of bamboos. It explores the genetic control of apomixis, geographical parthenogenesis, polyploidy, and the molecular phylogeny of various grass subfamilies.",
-        "works_count": 293986,
+        "id": "https://openalex.org/T10230",
+        "name": "Marine and fisheries research",
+        "description": "This cluster of papers focuses on the impacts of climate change on marine fisheries, including topics such as fish population dynamics, trophic cascades, ecosystem management, and the sustainability of global fish production. It also explores the influence of climate change on estuarine habitats and the use of otolith chemistry in understanding fish life cycles.",
+        "works_count": 265947,
         "field": "Agricultural and Biological Sciences",
-        "subfield": "Ecology, Evolution, Behavior and Systematics",
+        "subfield": "Aquatic Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10045",
-        "name": "Organic Electronics and Photovoltaics",
-        "description": "This cluster of papers represents a collection of research on advances in organic solar cell technology, focusing on topics such as conjugated polymers, bulk heterojunction solar cells, efficiency enhancement, non-fullerene acceptors, solution processing, charge transport, morphology control, high-efficiency solar cells, and field-effect transistors.",
-        "works_count": 120783,
-        "field": "Engineering",
-        "subfield": "Electrical and Electronic Engineering",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10254",
-        "name": "Innovations in Medical Education",
-        "description": "This cluster of papers focuses on the transformation of medical education and the development of professionalism in healthcare. It covers topics such as competency-based education, assessment methods, continuing medical education, reflective practice, clinical skills development, faculty development, e-learning in healthcare, patient-oriented learning, and leadership in medicine.",
-        "works_count": 431231,
-        "field": "Social Sciences",
-        "subfield": "Education",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11376",
-        "name": "Geriatric Care and Nursing Homes",
-        "description": "This cluster of papers focuses on the quality and practices in nursing home care, including topics such as person-centered care, staffing levels, long-term care, home-based primary care, the impact of COVID-19, resident assessment instruments, hospitalizations, and caregiver staffing.",
-        "works_count": 158572,
-        "field": "Medicine",
-        "subfield": "Geriatrics and Gerontology",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11836",
-        "name": "Bryophyte Studies and Records",
-        "description": "This cluster of papers explores the diversity, evolution, and ecological significance of bryophytes, including mosses, liverworts, and hornworts. It delves into topics such as phylogeny, cryptic speciation, biogeography, chemical diversity, and the role of bryophytes as indicators of climate change and habitat fragmentation.",
-        "works_count": 165910,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Ecology, Evolution, Behavior and Systematics",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10190",
-        "name": "Air Quality and Health Impacts",
-        "description": "This cluster of papers focuses on the health effects of air pollution, particularly related to particulate matter and its impact on cardiovascular disease, mortality, and global burden of disease. The papers cover topics such as exposure assessment, oxidative stress, and the results of various epidemiological studies.",
-        "works_count": 119344,
+        "id": "https://openalex.org/T10895",
+        "name": "Species Distribution and Climate Change",
+        "description": "This cluster of papers focuses on species distribution modeling in the context of climate change impacts, utilizing methods such as MaxEnt and ecological niche modeling. It explores the effects of climate change on biodiversity, habitat suitability, range shifts, and conservation efforts. Additionally, it highlights the role of citizen science in ecological research.",
+        "works_count": 1586634,
         "field": "Environmental Science",
-        "subfield": "Health, Toxicology and Mutagenesis",
+        "subfield": "Ecological Modeling",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T12522",
-        "name": "Mathematics Education and Pedagogy",
-        "description": "This cluster of papers focuses on improving mathematical literacy and problem-solving skills through various approaches such as PISA assessment framework, realistic mathematics education, guided discovery learning, and contextual learning. It also explores the influence of factors like adversity quotient, gender differences, and metacognition on mathematical abilities. The papers emphasize the development of teaching strategies to enhance students' creative thinking and problem-solving capabilities in mathematics.",
-        "works_count": 357936,
+        "id": "https://openalex.org/T10008",
+        "name": "Teacher Education and Leadership Studies",
+        "description": "This cluster of papers focuses on teacher professional development, qualitative research methods, teacher identity formation, educational leadership, technology integration in education, teacher efficacy, professional learning communities, school improvement, and reflective practice. It explores the challenges and strategies for improving teaching practices, fostering a supportive educational environment, and enhancing the effectiveness of professional development programs for educators.",
+        "works_count": 346205,
         "field": "Social Sciences",
         "subfield": "Education",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T10926",
-        "name": "Peripheral Artery Disease Management",
-        "description": "This cluster of papers focuses on the management, treatment, and epidemiology of peripheral arterial disease (PAD), covering topics such as guidelines for diagnosis and treatment, comparison of revascularization methods, risk factors, and the impact of PAD on patients with diabetes. It also includes discussions on the use of ankle-brachial index, stents, and the prevalence of atherosclerosis-related conditions.",
-        "works_count": 105303,
+        "id": "https://openalex.org/T11163",
+        "name": "Organ Donation and Transplantation",
+        "description": "This cluster of papers explores the ethical, medical, and societal aspects of organ donation, with a focus on living kidney donors, brain death determination, transplantation outcomes, ethical considerations, donor management, and family decision-making. It also delves into the health risks and long-term consequences for both donors and recipients. The papers provide insights into the global landscape of organ trafficking and the impact of legislation on donation rates.",
+        "works_count": 75849,
         "field": "Medicine",
-        "subfield": "Surgery",
+        "subfield": "Public Health, Environmental and Occupational Health",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10428",
-        "name": "Reproductive tract infections research",
-        "description": "This cluster of papers explores the vaginal microbiome, its association with sexually transmitted infections, including bacterial vaginosis, Chlamydia trachomatis, and Neisseria gonorrhoeae. It also investigates the impact on women's reproductive health, including preterm delivery and HIV transmission.",
-        "works_count": 122199,
-        "field": "Immunology and Microbiology",
-        "subfield": "Microbiology",
+        "id": "https://openalex.org/T10788",
+        "name": "Neuroscience and Music Perception",
+        "description": "This cluster of papers explores the neural mechanisms underlying auditory processing, including music and speech perception, temporal processing, emotional responses to music, brain plasticity related to musical training, and the neuroanatomical correlates of auditory perception. It delves into topics such as the organization of the auditory cortex, interval timing, cortical responses to music and speech, and the effects of musical training on brain development.",
+        "works_count": 74798,
+        "field": "Neuroscience",
+        "subfield": "Cognitive Neuroscience",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10511",
-        "name": "High voltage insulation and dielectric phenomena",
-        "description": "This cluster of papers explores advances in nanocomposite dielectric materials, focusing on polymer nanocomposites, their dielectric properties, interface role, space charge behavior, and applications in electrical insulation and power systems. The research covers topics such as partial discharge detection, electrical breakdown, surface charge accumulation, and the development of eco-friendly gases to replace SF6 in high-voltage applications.",
-        "works_count": 115417,
-        "field": "Engineering",
-        "subfield": "Electrical and Electronic Engineering",
+        "id": "https://openalex.org/T10310",
+        "name": "Corrosion Behavior and Inhibition",
+        "description": "This cluster of papers focuses on the development and application of corrosion inhibitors, including organic compounds and plant extracts, for the protection of metals from corrosion in various aggressive environments. The research encompasses electrochemical impedance spectroscopy, molecular dynamics simulations, and the investigation of self-healing mechanisms in protective coatings. Additionally, it explores the impact of sulfate-reducing bacteria on metal corrosion.",
+        "works_count": 213530,
+        "field": "Materials Science",
+        "subfield": "Materials Chemistry",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T14469",
-        "name": "Renaissance Literature and Culture",
-        "description": "This cluster of papers encompasses a wide range of interdisciplinary studies focused on the Renaissance period, including literature, art, history, gender, culture, religion, philosophy, science, and society. The topics covered include the works of prominent figures such as Marguerite de Navarre, Montaigne, and Rabelais, as well as broader themes related to the intellectual and cultural developments of the era.",
-        "works_count": 296979,
+        "id": "https://openalex.org/T10778",
+        "name": "Philosophy of Biology and Scientific Explanation",
+        "description": "This cluster of papers explores the concept of mechanistic explanation in scientific discovery and evolution, encompassing topics such as evolutionary synthesis, causation, genetic information, scientific models, social mechanisms, and the philosophy of science. It delves into the intricacies of biological explanation, genetic code, and developmental biology.",
+        "works_count": 139346,
         "field": "Arts and Humanities",
-        "subfield": "Literature and Literary Theory",
+        "subfield": "History and Philosophy of Science",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11521",
+        "name": "Salivary Gland Disorders and Functions",
+        "description": "This cluster of papers focuses on the diagnosis, classification, and management of Sjögren's syndrome, an autoimmune disease primarily affecting the salivary glands. It explores the use of saliva as a diagnostic tool, development of classification criteria, association with lymphoma, and potential biomarkers for early detection. Additionally, it discusses the impact of xerostomia and various treatment approaches.",
+        "works_count": 67475,
+        "field": "Medicine",
+        "subfield": "Physiology (medical)",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11725",
+        "name": "Immunodeficiency and Autoimmune Disorders",
+        "description": "This cluster of papers focuses on the genetic basis and clinical manifestations of primary immunodeficiency disorders, including immune dysregulation, Th17 cell deficiency, common variable immunodeficiency, and defects in the interferon-? pathway. It also discusses the use of hematopoietic stem cell transplantation and immunoglobulin replacement therapy in the management of these disorders.",
+        "works_count": 57409,
+        "field": "Immunology and Microbiology",
+        "subfield": "Immunology",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10330",
+        "name": "Hydrology and Watershed Management Studies",
+        "description": "This cluster of papers focuses on hydrological modeling, water resource management, and the impact of climate change on global hydrology. It covers topics such as model evaluation guidelines, watershed simulations, sediment transport, land use change, and uncertainty assessment in hydrological modeling. The papers also discuss the effects of human interventions and climate change on water resources, as well as the evaluation of streamflow trends and the implications for water availability.",
+        "works_count": 180977,
+        "field": "Environmental Science",
+        "subfield": "Water Science and Technology",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10485",
+        "name": "Bullying, Victimization, and Aggression",
+        "description": "This cluster of papers explores the various forms of bullying, including traditional and cyberbullying, their impact on psychological well-being, and the role of school climate and social skills training in addressing these issues. It delves into topics such as aggression, peer victimization, violent video games, and their effects on adolescent development and mental health.",
+        "works_count": 133842,
+        "field": "Psychology",
+        "subfield": "Social Psychology",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,296 +4069,295 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10254",
-            "name": "Innovations in Medical Education",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12574",
-            "name": "Clinical Reasoning and Diagnostic Skills",
-            "field": "Medicine",
+            "id": "https://openalex.org/T14316",
+            "name": "Nursing Education, Practice, and Leadership",
+            "field": "Nursing",
             "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 3,
-        "example_work_ids": [
-          "https://openalex.org/W1991635648",
-          "https://openalex.org/W2154563310",
-          "https://openalex.org/W2115173015"
-        ],
-        "research_question": "How are Innovations in Medical Education and Clinical Reasoning and Diagnostic Skills connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Innovations in Medical Education and Clinical Reasoning and Diagnostic Skills will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10254",
-            "name": "Innovations in Medical Education",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T12802",
-            "name": "Competency Development and Evaluation",
-            "field": "Business, Management and Accounting",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 3,
-        "example_work_ids": [
-          "https://openalex.org/W1991635648",
-          "https://openalex.org/W2154563310",
-          "https://openalex.org/W2157641530"
-        ],
-        "research_question": "How are Innovations in Medical Education and Competency Development and Evaluation connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Innovations in Medical Education and Competency Development and Evaluation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10254",
-            "name": "Innovations in Medical Education",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12413",
-            "name": "Health and Medical Education",
+            "id": "https://openalex.org/T11816",
+            "name": "Nursing Roles and Practices",
             "field": "Health Professions",
             "domain": "Health Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 5,
         "example_work_ids": [
-          "https://openalex.org/W1969089620",
-          "https://openalex.org/W2157641530"
+          "https://openalex.org/W4252163875",
+          "https://openalex.org/W3201207281",
+          "https://openalex.org/W3097167561",
+          "https://openalex.org/W4310013147",
+          "https://openalex.org/W1984783874"
         ],
-        "research_question": "How are Innovations in Medical Education and Health and Medical Education connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Innovations in Medical Education and Health and Medical Education will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Nursing Education, Practice, and Leadership and Nursing Roles and Practices connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nursing Education, Practice, and Leadership and Nursing Roles and Practices will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10045",
-            "name": "Organic Electronics and Photovoltaics",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T10230",
+            "name": "Marine and fisheries research",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10024",
-            "name": "TiO2 Photocatalysis and Solar Cells",
-            "field": "Energy",
+            "id": "https://openalex.org/T10302",
+            "name": "Fish Ecology and Management Studies",
+            "field": "Environmental Science",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2016088184",
-          "https://openalex.org/W2073777485"
+          "https://openalex.org/W1999748030",
+          "https://openalex.org/W2007263482"
         ],
-        "research_question": "How are Organic Electronics and Photovoltaics and TiO2 Photocatalysis and Solar Cells connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Organic Electronics and Photovoltaics and TiO2 Photocatalysis and Solar Cells will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Marine and fisheries research and Fish Ecology and Management Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Marine and fisheries research and Fish Ecology and Management Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12568",
-            "name": "Plant Taxonomy and Phylogenetics",
+            "id": "https://openalex.org/T10230",
+            "name": "Marine and fisheries research",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T11354",
-            "name": "Evolution and Paleontology Studies",
+            "id": "https://openalex.org/T10341",
+            "name": "Coral and Marine Ecosystems Studies",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2147807123",
+          "https://openalex.org/W2156709416"
+        ],
+        "research_question": "How are Marine and fisheries research and Coral and Marine Ecosystems Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Marine and fisheries research and Coral and Marine Ecosystems Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10008",
+            "name": "Teacher Education and Leadership Studies",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10547",
+            "name": "Education, Achievement, and Giftedness",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2150918430",
+          "https://openalex.org/W2160638994"
+        ],
+        "research_question": "How are Teacher Education and Leadership Studies and Education, Achievement, and Giftedness connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Teacher Education and Leadership Studies and Education, Achievement, and Giftedness will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10230",
+            "name": "Marine and fisheries research",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13485",
+            "name": "Coastal Fisheries and Human Impacts",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2147807123"
+        ],
+        "research_question": "How are Marine and fisheries research and Coastal Fisheries and Human Impacts connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Marine and fisheries research and Coastal Fisheries and Human Impacts will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10230",
+            "name": "Marine and fisheries research",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12643",
+            "name": "Sustainability and Ecological Systems Analysis",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2007263482"
+        ],
+        "research_question": "How are Marine and fisheries research and Sustainability and Ecological Systems Analysis connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Marine and fisheries research and Sustainability and Ecological Systems Analysis will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10230",
+            "name": "Marine and fisheries research",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10765",
+            "name": "Marine Biology and Ecology Research",
             "field": "Earth and Planetary Sciences",
             "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
-        "example_work_ids": [
-          "https://openalex.org/W2155357761",
-          "https://openalex.org/W2152758433"
-        ],
-        "research_question": "How are Plant Taxonomy and Phylogenetics and Evolution and Paleontology Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Plant Taxonomy and Phylogenetics and Evolution and Paleontology Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T12568",
-            "name": "Plant Taxonomy and Phylogenetics",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10434",
-            "name": "Chromosomal and Genetic Variations",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 2,
-        "example_work_ids": [
-          "https://openalex.org/W2108240161",
-          "https://openalex.org/W1990282786"
-        ],
-        "research_question": "How are Plant Taxonomy and Phylogenetics and Chromosomal and Genetic Variations connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Plant Taxonomy and Phylogenetics and Chromosomal and Genetic Variations will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10189",
-            "name": "Anesthesia and Pain Management",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12626",
-            "name": "Cancer, Stress, Anesthesia, and Immune Response",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2155233219"
+          "https://openalex.org/W2156709416"
         ],
-        "research_question": "How are Anesthesia and Pain Management and Cancer, Stress, Anesthesia, and Immune Response connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Anesthesia and Pain Management and Cancer, Stress, Anesthesia, and Immune Response will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Marine and fisheries research and Marine Biology and Ecology Research connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Marine and fisheries research and Marine Biology and Ecology Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10254",
-            "name": "Innovations in Medical Education",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10467",
-            "name": "Psychometric Methodologies and Testing",
-            "field": "Decision Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2091254174"
-        ],
-        "research_question": "How are Innovations in Medical Education and Psychometric Methodologies and Testing connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Innovations in Medical Education and Psychometric Methodologies and Testing will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10254",
-            "name": "Innovations in Medical Education",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13117",
-            "name": "Health Education and Validation",
+            "id": "https://openalex.org/T14316",
+            "name": "Nursing Education, Practice, and Leadership",
             "field": "Nursing",
             "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T14396",
+            "name": "Healthcare Regulation",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2091254174"
+          "https://openalex.org/W1992408458"
         ],
-        "research_question": "How are Innovations in Medical Education and Health Education and Validation connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Innovations in Medical Education and Health Education and Validation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Nursing Education, Practice, and Leadership and Healthcare Regulation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nursing Education, Practice, and Leadership and Healthcare Regulation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10045",
-            "name": "Organic Electronics and Photovoltaics",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T14316",
+            "name": "Nursing Education, Practice, and Leadership",
+            "field": "Nursing",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10956",
-            "name": "Fullerene Chemistry and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T11990",
+            "name": "Global Health Workforce Issues",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2071134066"
+          "https://openalex.org/W3017325690"
         ],
-        "research_question": "How are Organic Electronics and Photovoltaics and Fullerene Chemistry and Applications connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Organic Electronics and Photovoltaics and Fullerene Chemistry and Applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Nursing Education, Practice, and Leadership and Global Health Workforce Issues connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nursing Education, Practice, and Leadership and Global Health Workforce Issues will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10045",
-            "name": "Organic Electronics and Photovoltaics",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T14316",
+            "name": "Nursing Education, Practice, and Leadership",
+            "field": "Nursing",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10321",
-            "name": "Quantum Dots Synthesis And Properties",
-            "field": "Materials Science",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T12194",
+            "name": "Cultural Competency in Health Care",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2073777485"
+          "https://openalex.org/W3201207281"
         ],
-        "research_question": "How are Organic Electronics and Photovoltaics and Quantum Dots Synthesis And Properties connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Organic Electronics and Photovoltaics and Quantum Dots Synthesis And Properties will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Nursing Education, Practice, and Leadership and Cultural Competency in Health Care connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nursing Education, Practice, and Leadership and Cultural Competency in Health Care will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12568",
-            "name": "Plant Taxonomy and Phylogenetics",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T14316",
+            "name": "Nursing Education, Practice, and Leadership",
+            "field": "Nursing",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10303",
-            "name": "Photosynthetic Processes and Mechanisms",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T13340",
+            "name": "Palliative and Oncologic Care",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2097616658"
+          "https://openalex.org/W1984783874"
         ],
-        "research_question": "How are Plant Taxonomy and Phylogenetics and Photosynthetic Processes and Mechanisms connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Plant Taxonomy and Phylogenetics and Photosynthetic Processes and Mechanisms will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Nursing Education, Practice, and Leadership and Palliative and Oncologic Care connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nursing Education, Practice, and Leadership and Palliative and Oncologic Care will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T14316",
+            "name": "Nursing Education, Practice, and Leadership",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10694",
+            "name": "Menopause: Health Impacts and Treatments",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2327453499"
+        ],
+        "research_question": "How are Nursing Education, Practice, and Leadership and Menopause: Health Impacts and Treatments connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nursing Education, Practice, and Leadership and Menopause: Health Impacts and Treatments will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -4373,7 +4372,7 @@
         "resource_type": "dataset",
         "license": "cc-by-4.0",
         "url": "https://zenodo.org/records/24484626",
-        "matched_topic": "Anesthesia and Pain Management",
+        "matched_topic": "Nursing Education, Practice, and Leadership",
         "source": "Zenodo",
         "status": "metadata_candidate_not_yet_validated"
       }
@@ -7743,14 +7742,14 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Current health expenditure per capita (US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between Infant mortality (per 1,000 live births) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
@@ -7802,59 +7801,6 @@
         "auth_required": false,
         "integration_status": "active_literature_only",
         "notes": "Scholarly metadata search; not currently ingested as research observations."
-      },
-      {
-        "id": "our_world_in_data",
-        "name": "Our World in Data",
-        "domains": [
-          "biology",
-          "public_health",
-          "climate",
-          "energy",
-          "economics",
-          "demography",
-          "agriculture"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "life expectancy",
-          "health",
-          "climate change",
-          "energy",
-          "agriculture",
-          "population",
-          "education"
-        ],
-        "access": "public_downloads_and_apis",
-        "endpoint": "https://ourworldindata.org/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Dataset-level licences and attribution requirements must be checked individually."
-      },
-      {
-        "id": "pubmed",
-        "name": "PubMed / NCBI E-utilities",
-        "domains": [
-          "biology",
-          "medicine",
-          "public_health",
-          "neuroscience",
-          "psychology"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "clinical",
-          "disease",
-          "health",
-          "medical",
-          "brain",
-          "mental health"
-        ],
-        "access": "public_api",
-        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
@@ -7870,17 +7816,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "health_spending",
+        "infant_mortality",
         "unemployment"
       ],
-      "priority_score": 0.7126,
+      "priority_score": 0.6874,
       "selected_labels": [
-        "Current health expenditure per capita (US$)",
+        "Infant mortality (per 1,000 live births)",
         "Unemployment (% of labor force)"
       ],
-      "selection_score": 0.7126,
+      "selection_score": 0.6874,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Current health expenditure per capita (US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between Infant mortality (per 1,000 live births) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7889,8 +7835,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 20,
-    "next_question": "Does the association between Current health expenditure per capita (US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 21,
+    "next_question": "Does the association between Infant mortality (per 1,000 live births) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex live multidisciplinary topics, identifies cross-field links in scholarly works, formulates literature-derived falsifiable leads, and searches Zenodo for candidate datasets. These are metadata leads, not validated discoveries; quantitative analysis still requires source-specific ingestion and validation."
   },
   "limitations": [
