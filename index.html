@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="SOCIETY-X — open, reproducible research, discoveries and hypotheses.">
+<title>SOCIETY-X — Discovery Portal</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#121a2d;--line:#27334b;--text:#edf2ff;--muted:#a8b4ca;--accent:#82d8c4;--warn:#f2c879}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#182943 0,transparent 42%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1080px;margin:auto;padding:48px 22px 80px}.eyebrow{color:var(--accent);letter-spacing:.16em;text-transform:uppercase;font-size:.76rem;font-weight:700}
+h1{font-size:clamp(2.4rem,7vw,4.8rem);line-height:1;margin:.5rem 0 1rem;letter-spacing:-.055em}h2{font-size:1.25rem;margin:0 0 12px}p{color:var(--muted);margin:.4rem 0 1rem}.intro{max-width:760px;font-size:1.1rem}.status{display:inline-flex;align-items:center;gap:8px;border:1px solid #41675f;border-radius:99px;padding:5px 11px;color:var(--accent);font-size:.82rem;margin:18px 0 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:24px 0}.panel{background:linear-gradient(145deg,#151f34,#101729);border:1px solid var(--line);border-radius:16px;padding:20px}.metric{font-size:2rem;font-weight:700;letter-spacing:-.04em}.metric-label{font-size:.85rem;color:var(--muted)}
+.section{margin-top:38px}.finding{padding:17px 0;border-top:1px solid var(--line)}.finding:first-child{border-top:0}.finding-title{font-weight:650}.meta{font-size:.86rem;color:var(--muted);margin-top:5px}.pill{display:inline-block;border:1px solid var(--line);border-radius:7px;padding:2px 7px;font-size:.76rem;color:var(--warn);margin-left:7px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.links{display:flex;flex-wrap:wrap;gap:18px;margin-top:18px}.notice{border-left:3px solid var(--warn);padding:12px 16px;background:#211e18;border-radius:0 10px 10px 0;color:#e8d9b9;font-size:.9rem}.footer{border-top:1px solid var(--line);margin-top:48px;padding-top:20px;font-size:.85rem;color:var(--muted)}
+#error{color:#ffb4a9}.small{font-size:.82rem}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">Open research · Independent inquiry</div>
+<h1>SOCIETY-X</h1>
+<p class="intro">An open research initiative exploring data, identifying unexpected relationships, formulating hypotheses, and attempting to falsify them. Findings are published with their methods, sources, uncertainties, and limitations.</p>
+<div class="status">● Research discoveries · preliminary results</div>
+<div class="grid" aria-live="polite">
+ <section class="panel"><div class="metric" id="run">—</div><div class="metric-label">Latest run (UTC)</div></section>
+ <section class="panel"><div class="metric" id="indicators">—</div><div class="metric-label">Datasets retrieved</div></section>
+ <section class="panel"><div class="metric" id="count">—</div><div class="metric-label">Candidate associations in latest run</div></section>
+ <section class="panel"><div class="metric" id="status">—</div><div class="metric-label">Validation status</div></section>
+</div>
+<section class="section panel">
+<h2>Latest research discoveries</h2>
+<p>Ranked statistical associations in open cross-country data. An association is not an explanation or evidence of causation.</p>
+<div id="findings"><p>Loading the latest research results…</p></div>
+<div id="error" role="status"></div>
+</section>
+<section class="section">
+<h2>How to interpret these results</h2>
+<div class="notice">The candidates below are exploratory and unverified. They show statistical patterns in a limited selection of indicators. They do not establish causality, novelty, or predictive power.</div>
+<p>SOCIETY-X aims to report failed attempts, data limitations, and findings that contradict previous hypotheses. Stronger conclusions require independent data, robustness checks, and replication.</p>
+</section>
+<section class="section">
+<h2>Data and methodology</h2>
+<p>The initial prototype analyses World Bank indicators for 2000–2023. Pearson correlations are calculated separately for each year across countries with available observations. This is a basic discovery mechanism, not a complete statistical review.</p>
+<div class="links"><a href="./results/latest.json">Latest result (JSON) ↗</a><a href="./results/history.jsonl">Full research history (JSONL) ↗</a><a href="https://github.com/Society-X-D/society-x-d.github.io">Project repository ↗</a><a href="./docs/RESEARCH_METHOD.md">Research methodology ↗</a></div>
+</section>
+<div class="footer">SOCIETY-X · Open research, reproducibility, and intellectual humility.<br><span class="small">The portal is updated when new research runs are published.</span></div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const safeDate=s=>{try{return new Date(s).toLocaleString("en-GB",{timeZone:"UTC",timeZoneName:"short"})}catch{return s||"—"}};
+async function load(){
+ try{
+  const response=await fetch("./results/latest.json",{cache:"no-store"});
+  if(!response.ok)throw new Error("Could not retrieve latest.json (HTTP "+response.status+").");
+  const data=await response.json();
+  $("run").textContent=safeDate(data.completed_at);
+  $("indicators").textContent=(data.research_scope?.indicators_retrieved??"—")+"/"+(data.research_scope?.indicators_requested??"—");
+  $("count").textContent=data.candidate_discoveries?.length??0;
+  $("status").textContent=(data.status||"unknown").replaceAll("_"," ");
+  const root=$("findings");root.replaceChildren();
+  const rows=data.candidate_discoveries||[];
+  if(!rows.length){root.textContent="No candidate associations were reported in this run.";return}
+  for(const item of rows.slice(0,10)){
+   const article=document.createElement("article");article.className="finding";
+   const title=document.createElement("div");title.className="finding-title";title.textContent=(item.labels||item.variables||[]).join(" ↔ ");
+   const pill=document.createElement("span");pill.className="pill";pill.textContent="exploratory";title.append(pill);
+   const meta=document.createElement("div");meta.className="meta";
+   meta.textContent="Median r: "+item.median_yearly_r+" · Mean |r|: "+item.mean_absolute_yearly_r+" · Years: "+item.years_analysed+" · Observations: "+item.total_country_year_observations;
+   const note=document.createElement("p");note.textContent=item.interpretation||"Exploratory association; no causal conclusion.";
+   article.append(title,meta,note);root.append(article);
+  }
+ }catch(error){$("findings").textContent="The research results could not be displayed."; $("error").textContent=error.message+" Check that the published portal contains the results/ directory."}
+}
+load();
+</script>
+</body></html>
