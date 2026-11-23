@@ -44,7 +44,7 @@
         const p=document.createElement("p");
         const vars=Array.isArray(check.variables)?check.variables.join(" ↔ "):"Candidate pair";
         const flags=Array.isArray(check.warning_flags)?check.warning_flags:[];
-        p.textContent=vars+" · direction agreement: "+Math.round((check.direction_agreement_fraction||0)*100)+"% · median estimator gap: "+(check.median_absolute_pearson_spearman_gap??"n/a")+(flags.length?" · caution: "+flags.join(" "):" · no large estimator disagreement flagged");
+        p.textContent=vars+" · direction agreement: "+Math.round((check.direction_agreement_fraction||0)*100)+"% · median estimator gap: "+(check.median_absolute_pearson_spearman_gap??"n/a")+(check.median_partial_pearson_controlled_for_gdp!==null&&check.median_partial_pearson_controlled_for_gdp!==undefined?" · GDP-adjusted partial r: "+check.median_partial_pearson_controlled_for_gdp:"")+(flags.length?" · caution: "+flags.join(" "):" · no large estimator disagreement flagged");
         list.appendChild(p);
       });
     }else{
