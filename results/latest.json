@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T220956Z",
-  "started_at": "2026-11-23T22:09:53.334333+00:00",
-  "completed_at": "2026-11-23T22:09:56.618140+00:00",
+  "run_id": "20261123T222728Z",
+  "started_at": "2026-11-23T22:27:22.746516+00:00",
+  "completed_at": "2026-11-23T22:27:28.112082+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:09:53.334333+00:00",
+      "retrieved_at": "2026-11-23T22:27:22.746516+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:09:53.334333+00:00",
+      "retrieved_at": "2026-11-23T22:27:22.746516+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:09:53.334333+00:00",
+      "retrieved_at": "2026-11-23T22:27:22.746516+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:09:53.334333+00:00",
+      "retrieved_at": "2026-11-23T22:27:22.746516+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:09:53.334333+00:00",
+      "retrieved_at": "2026-11-23T22:27:22.746516+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:09:53.334333+00:00",
+      "retrieved_at": "2026-11-23T22:27:22.746516+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:09:53.334333+00:00",
+      "retrieved_at": "2026-11-23T22:27:22.746516+00:00",
       "provider": "World Bank"
     }
   },
@@ -6300,39 +6300,16 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "What mechanisms or confounding factors could explain the observed association between GDP per capita (constant 2015 US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
+    "query": "What mechanisms or confounding factors could explain the observed association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
     "catalogue_size": 6,
     "candidate_sources": [
-      {
-        "id": "openalex",
-        "name": "OpenAlex",
-        "domains": [
-          "all_sciences",
-          "physics",
-          "biology",
-          "psychology",
-          "economics",
-          "computer_science"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "scholarly articles",
-          "research papers",
-          "scientific literature"
-        ],
-        "access": "public_api",
-        "endpoint": "https://api.openalex.org/",
-        "auth_required": false,
-        "integration_status": "active_literature_only",
-        "notes": "Scholarly metadata search; not currently ingested as research observations."
-      },
       {
         "id": "world_bank_wdi",
         "name": "World Bank World Development Indicators",
@@ -6359,53 +6336,129 @@
         "auth_required": false,
         "integration_status": "active",
         "notes": "Country-level indicators; ecological and coverage limitations apply."
+      },
+      {
+        "id": "openalex",
+        "name": "OpenAlex",
+        "domains": [
+          "all_sciences",
+          "physics",
+          "biology",
+          "psychology",
+          "economics",
+          "computer_science"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "scholarly articles",
+          "research papers",
+          "scientific literature"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.openalex.org/",
+        "auth_required": false,
+        "integration_status": "active_literature_only",
+        "notes": "Scholarly metadata search; not currently ingested as research observations."
+      },
+      {
+        "id": "our_world_in_data",
+        "name": "Our World in Data",
+        "domains": [
+          "biology",
+          "public_health",
+          "climate",
+          "energy",
+          "economics",
+          "demography",
+          "agriculture"
+        ],
+        "kind": "quantitative_data",
+        "keywords": [
+          "life expectancy",
+          "health",
+          "climate change",
+          "energy",
+          "agriculture",
+          "population",
+          "education"
+        ],
+        "access": "public_downloads_and_apis",
+        "endpoint": "https://ourworldindata.org/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Dataset-level licences and attribution requirements must be checked individually."
+      },
+      {
+        "id": "pubmed",
+        "name": "PubMed / NCBI E-utilities",
+        "domains": [
+          "biology",
+          "medicine",
+          "public_health",
+          "neuroscience",
+          "psychology"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "clinical",
+          "disease",
+          "health",
+          "medical",
+          "brain",
+          "mental health"
+        ],
+        "access": "public_api",
+        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
   },
   "literature_context": {
     "provider": "OpenAlex",
-    "query_url": "https://api.openalex.org/works?search=GDP+per+capita+%28constant+2015+US%24%29+Infant+mortality+%28per+1%2C000+live+births%29&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+    "query_url": "https://api.openalex.org/works?search=Current+health+expenditure+per+capita+%28US%24%29+Infant+mortality+%28per+1%2C000+live+births%29&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
     "results": [
       {
-        "title": "Analysis of the potential correlation between infant mortality rate and GDP per capita among 217 countries",
-        "year": 2024,
-        "type": "article",
-        "doi": "https://doi.org/10.54254/2753-8818/51/2024ch0195",
-        "openalex_id": "https://openalex.org/W4404047460",
-        "cited_by_count": 4
-      },
-      {
-        "title": "The Impact of Health on Per Capita GDP in Indonesia",
-        "year": 2021,
-        "type": "article",
-        "doi": "https://doi.org/10.15294/edaj.v10i2.41365",
-        "openalex_id": "https://openalex.org/W4293166527",
-        "cited_by_count": 5
-      },
-      {
-        "title": "Estimating the Effect of Maternal and Child Health Outcomes to GDP per Capita",
-        "year": 2016,
-        "type": "article",
-        "doi": "https://doi.org/10.9734/bjemt/2016/22802",
-        "openalex_id": "https://openalex.org/W2434051424",
-        "cited_by_count": 14
-      },
-      {
-        "title": "Health Aid and Infant Mortality",
-        "year": 2007,
-        "type": "article",
-        "doi": "https://doi.org/10.5089/9781451866643.001",
-        "openalex_id": "https://openalex.org/W2955241082",
-        "cited_by_count": 77
-      },
-      {
-        "title": "Healthcare Inflation and Child Mortality in Nigeria: An Investigation into the Moderating Role of GDP per Capita Growth",
+        "title": "Public health determinants of life expectancy in Saudi Arabia: a multidimensional analysis of infant mortality, anemia, immunization, fertility, and health expenditure",
         "year": 2026,
         "type": "article",
-        "doi": "https://doi.org/10.55603/jes.v5i2.a1",
-        "openalex_id": "https://openalex.org/W7170581429",
+        "doi": "https://doi.org/10.1186/s12889-026-30121-5",
+        "openalex_id": "https://openalex.org/W7223907789",
         "cited_by_count": 0
+      },
+      {
+        "title": "Inequality of Health Spending and Public Health Outcome in Countries of the WHO’s Eastern Mediterranean Regional Office (EMRO)",
+        "year": 2015,
+        "type": "article",
+        "doi": "https://doi.org/10.20286/ijtmgh-030479",
+        "openalex_id": "https://openalex.org/W2186893727",
+        "cited_by_count": 2
+      },
+      {
+        "title": "The State of the Physician Assistant Profession in Ghana",
+        "year": 2006,
+        "type": "article",
+        "doi": "https://doi.org/10.1097/01367895-200617010-00011",
+        "openalex_id": "https://openalex.org/W2316083124",
+        "cited_by_count": 2
+      },
+      {
+        "title": "Impact of sanitation, safe drinking water and health expenditure on infant mortality rate in developing economies",
+        "year": 2019,
+        "type": "article",
+        "doi": "https://doi.org/10.1111/1467-8454.12167",
+        "openalex_id": "https://openalex.org/W2996123363",
+        "cited_by_count": 47
+      },
+      {
+        "title": "El Sistema de Salud de Chile: una tarea pendiente",
+        "year": 2015,
+        "type": "article",
+        "doi": "https://doi.org/10.4067/s0034-98872015000600011",
+        "openalex_id": "https://openalex.org/W2171778592",
+        "cited_by_count": 146
       }
     ],
     "failure": null,
@@ -6415,16 +6468,16 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "gdp_per_capita",
+        "health_spending",
         "infant_mortality"
       ],
       "selected_labels": [
-        "GDP per capita (constant 2015 US$)",
+        "Current health expenditure per capita (US$)",
         "Infant mortality (per 1,000 live births)"
       ],
-      "selection_score": 0.5082,
+      "selection_score": 0.4956,
       "reason": "Highest robustness-weighted candidate after discounting previously selected pairs.",
-      "research_question": "What mechanisms or confounding factors could explain the observed association between GDP per capita (constant 2015 US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
+      "research_question": "What mechanisms or confounding factors could explain the observed association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -6433,8 +6486,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 12,
-    "next_question": "What mechanisms or confounding factors could explain the observed association between GDP per capita (constant 2015 US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
+    "cycles_completed": 13,
+    "next_question": "What mechanisms or confounding factors could explain the observed association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
     "capability_note": "The agent autonomously selects follow-up questions, analyses World Bank and available OWID country-year datasets, retrieves a bounded GBIF annual occurrence-record summary, matches questions against a cross-disciplinary source catalogue, retrieves scholarly leads, and writes isolated candidate method code. Several scientific domains and source types still require additional connectors and domain-specific methods."
   },
   "limitations": [
