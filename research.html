@@ -35,6 +35,27 @@
       p.textContent=(index+1)+". "+vars+" · median yearly r: "+(item.median_yearly_r??"n/a")+" · years: "+(item.years_analysed??"n/a");
       list.appendChild(p);
     });
+    const papers=Array.isArray(data.literature_context?.results)?data.literature_context.results:[];
+    if(papers.length){
+      const heading=document.createElement("h3");
+      heading.textContent="Scholarly context · OpenAlex";
+      list.appendChild(heading);
+      papers.forEach(paper=>{
+        const p=document.createElement("p");
+        const title=document.createElement("strong");
+        title.textContent=(paper.title||"Untitled work")+" ("+(paper.year||"year n/a")+")";
+        p.appendChild(title);
+        if(typeof paper.doi==="string" && paper.doi.startsWith("https://doi.org/")){
+          p.appendChild(document.createTextNode(" · "));
+          const link=document.createElement("a");
+          link.href=paper.doi;
+          link.textContent="DOI";
+          link.rel="noopener noreferrer";
+          p.appendChild(link);
+        }
+        list.appendChild(p);
+      });
+    }
     const disclaimer=document.createElement("p");
     disclaimer.textContent="These are exploratory associations, not verified discoveries or causal findings.";
     list.appendChild(disclaimer);
