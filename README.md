@@ -1,23 +1,21 @@
-# SOCIETY-X — Discovery Portal
+# SOCIETY-X — Public Research Portal
 
-The public research portal for SOCIETY-X. This repository contains the static website, published research outputs, and public methodology. The research engine is maintained separately.
+The public portal for SOCIETY-X: an evolving initiative to develop an open-ended, evidence-driven research system.
 
-## Website
-The current GitHub Pages address is:
-https://society-x-d.github.io/
+**Live website:** https://society-x-d.github.io/
 
-A custom domain (for example, `society-x.io`) can be connected after it has been registered and its DNS records have been configured.
+## Pages
+- Home: mission, research principles, implementation status and development direction.
+- Research log: a human-readable summary of the latest exploratory run.
+- Methodology: current data coverage, analytical procedure and limitations.
 
-## Published material
-- Latest exploratory research record: `results/latest.json`
-- Research run history: `results/history.jsonl`
-- Research methodology and source notes: `docs/RESEARCH_METHOD.md`
+## Publication boundary
+This repository contains public-facing website material and selected research summaries. The private research engine is maintained separately. Do not place credentials, private prompts, internal logs, private datasets or sensitive information here.
+
+Raw machine-readable result records may exist in the repository for automated publication and reproducibility, but the public website intentionally presents interpreted summaries rather than linking visitors directly to raw files.
 
 ## Interpretation
-Current records are exploratory and unverified. Correlation is not causation. These results do not establish novelty, causality, or predictive usefulness. Stronger claims require robustness checks and independent replication.
+Current outputs are exploratory and unverified. Correlation is not causation. They do not establish novelty, causality or predictive usefulness. Stronger claims require robustness checks and independent replication.
 
 ## Deployment
-The GitHub Actions workflow in `.github/workflows/pages.yml` deploys this static site. In Settings → Pages, set **Build and deployment → Source** to **GitHub Actions**. Future pushes to `main` will deploy automatically.
-
-## Separation and privacy
-This repository is intended to remain public. Do not place private agent code, internal prompts, credentials, tokens, private data, or internal operational logs here. The core research repository is maintained separately. Moving files does not erase public Git history.
+GitHub Pages deploys the static site from the `main` branch using GitHub Actions.
