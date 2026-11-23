@@ -1,10 +1,12 @@
-# Initial research methodology
+# Current research methodology
 
 ## Why this first experiment?
 An initial autonomous research system needs a transparent, reproducible task that can run without a paid model API or private credentials. The prototype scans a finite set of open indicators for persistent relationships that may merit deeper investigation. It is intentionally modest: a first instrument for discovery, not a claim to general intelligence or scientific validation.
 
-## Dataset
-World Bank World Development Indicators, accessed through the documented public API. The selected indicators, codes, years, and retrieval URLs are captured in each run record. Review the World Bank's terms and attribution guidance before reusing data outside this prototype:
+## Current data coverage
+The prototype currently uses **only the World Bank's World Development Indicators (WDI)**, accessed through its documented public API. It does not yet combine World Bank data with OECD, Eurostat, UN, national statistical agencies, academic literature, or other independent sources. The WDI-only scope is a practical first experiment, not a restriction on the project's longer-term research scope.
+
+The selected indicators, codes, years, and retrieval URLs are captured in each run record. Review the World Bank's terms and attribution guidance before reusing data outside this prototype:
 - https://datahelpdesk.worldbank.org/knowledgebase/articles/898581-api-basic-call-structures
 - https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets
 
