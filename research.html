@@ -21,9 +21,14 @@
     const date=data.completed_at?new Date(data.completed_at).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short",timeZone:"UTC"})+" UTC":"Timestamp unavailable";
     document.querySelector("#live-cycle small").textContent="Latest automated cycle · "+date;
     meta.textContent="Run "+(data.run_id||"unknown")+" · "+(data.research_scope?.indicators_retrieved??"?")+"/"+(data.research_scope?.indicators_requested??"?")+" indicators retrieved · status: "+(data.status||"unknown")+". Recurring cloud schedule: every hour.";
-    list.replaceChildren();
+    const agent=data.autonomous_agent||{};
+    const plan=agent.research_plan||{};
+    const question=document.createElement("p");
+    question.textContent=plan.research_question?"Agent-selected next question: "+plan.research_question:"No new research question was selected in this cycle.";
+    meta.appendChild(document.createTextNode(" · Agent cycles completed: "+(agent.cycles_completed??0)));
+    list.replaceChildren(question);
     const findings=Array.isArray(data.candidate_discoveries)?data.candidate_discoveries.slice(0,5):[];
-    if(!findings.length){list.textContent="No candidate signals were recorded in this cycle.";}
+    if(!findings.length){const empty=document.createElement("p");empty.textContent="No candidate signals were recorded in this cycle.";list.appendChild(empty);}
     findings.forEach((item,index)=>{
       const p=document.createElement("p");
       const vars=Array.isArray(item.labels)?item.labels.join(" ↔ "):(Array.isArray(item.variables)?item.variables.join(" ↔ "):"Candidate "+(index+1));
