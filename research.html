@@ -20,7 +20,7 @@
     const data=await response.json();
     const date=data.completed_at?new Date(data.completed_at).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short",timeZone:"UTC"})+" UTC":"Timestamp unavailable";
     document.querySelector("#live-cycle small").textContent="Latest automated cycle · "+date;
-    meta.textContent="Run "+(data.run_id||"unknown")+" · "+(data.research_scope?.indicators_retrieved??"?")+"/"+(data.research_scope?.indicators_requested??"?")+" indicators retrieved · status: "+(data.status||"unknown")+". Recurring cloud schedule: every six hours.";
+    meta.textContent="Run "+(data.run_id||"unknown")+" · "+(data.research_scope?.indicators_retrieved??"?")+"/"+(data.research_scope?.indicators_requested??"?")+" indicators retrieved · status: "+(data.status||"unknown")+". Recurring cloud schedule: every hour.";
     list.replaceChildren();
     const findings=Array.isArray(data.candidate_discoveries)?data.candidate_discoveries.slice(0,5):[];
     if(!findings.length){list.textContent="No candidate signals were recorded in this cycle.";}
