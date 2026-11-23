@@ -3,75 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="SOCIETY-X — open, reproducible research, discoveries and hypotheses.">
-<title>SOCIETY-X — Discovery Portal</title>
+<meta name="description" content="SOCIETY-X is an open-ended research initiative designed to discover variables, generate hypotheses and test unexpected patterns across fields of knowledge.">
+<title>SOCIETY-X — Independent Discovery</title>
 <style>
-:root{color-scheme:dark;--bg:#0b1020;--panel:#121a2d;--line:#27334b;--text:#edf2ff;--muted:#a8b4ca;--accent:#82d8c4;--warn:#f2c879}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#182943 0,transparent 42%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
-main{max-width:1080px;margin:auto;padding:48px 22px 80px}.eyebrow{color:var(--accent);letter-spacing:.16em;text-transform:uppercase;font-size:.76rem;font-weight:700}
-h1{font-size:clamp(2.4rem,7vw,4.8rem);line-height:1;margin:.5rem 0 1rem;letter-spacing:-.055em}h2{font-size:1.25rem;margin:0 0 12px}p{color:var(--muted);margin:.4rem 0 1rem}.intro{max-width:760px;font-size:1.1rem}.status{display:inline-flex;align-items:center;gap:8px;border:1px solid #41675f;border-radius:99px;padding:5px 11px;color:var(--accent);font-size:.82rem;margin:18px 0 30px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:24px 0}.panel{background:linear-gradient(145deg,#151f34,#101729);border:1px solid var(--line);border-radius:16px;padding:20px}.metric{font-size:2rem;font-weight:700;letter-spacing:-.04em}.metric-label{font-size:.85rem;color:var(--muted)}
-.section{margin-top:38px}.finding{padding:17px 0;border-top:1px solid var(--line)}.finding:first-child{border-top:0}.finding-title{font-weight:650}.meta{font-size:.86rem;color:var(--muted);margin-top:5px}.pill{display:inline-block;border:1px solid var(--line);border-radius:7px;padding:2px 7px;font-size:.76rem;color:var(--warn);margin-left:7px}
-a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.links{display:flex;flex-wrap:wrap;gap:18px;margin-top:18px}.notice{border-left:3px solid var(--warn);padding:12px 16px;background:#211e18;border-radius:0 10px 10px 0;color:#e8d9b9;font-size:.9rem}.footer{border-top:1px solid var(--line);margin-top:48px;padding-top:20px;font-size:.85rem;color:var(--muted)}
-#error{color:#ffb4a9}.small{font-size:.82rem}
+:root{color-scheme:dark;--bg:#080d18;--panel:#111a2b;--line:#26344b;--text:#edf3ff;--muted:#aab8ce;--accent:#8ce0ca;--gold:#f0c879}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 12% 0%,#1a3044 0,transparent 38%),radial-gradient(ellipse at 90% 18%,#18223b 0,transparent 35%),var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1100px;margin:auto;padding:42px 24px 90px}.eyebrow{color:var(--accent);letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;font-weight:750}
+.hero{padding:75px 0 64px;max-width:850px}h1{font-size:clamp(3.2rem,10vw,6.8rem);line-height:.92;letter-spacing:-.075em;margin:20px 0 28px}h2{font-size:1.45rem;letter-spacing:-.025em;margin:0 0 12px}h3{font-size:1.04rem;margin:0 0 8px}.lead{font-size:clamp(1.15rem,2.5vw,1.45rem);line-height:1.55;color:#d4deef;max-width:780px}.sub{color:var(--muted);max-width:760px}.tag{display:inline-flex;border:1px solid #41675f;border-radius:99px;padding:5px 12px;color:var(--accent);font-size:.8rem;margin-top:22px}
+.section{margin-top:62px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:22px}.card{background:linear-gradient(145deg,#151f32,#101827);border:1px solid var(--line);border-radius:16px;padding:22px}.num{font-size:.78rem;color:var(--accent);letter-spacing:.12em;font-weight:750;margin-bottom:12px}.card p{color:var(--muted);margin:0}.statement{border-left:3px solid var(--accent);padding:16px 20px;background:#101d29;border-radius:0 12px 12px 0;color:#d9e7f2}.muted{color:var(--muted)}.status{border:1px solid #665638;background:#211e18;border-radius:14px;padding:20px;margin-top:22px}.status strong{color:var(--gold)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.links{display:flex;flex-wrap:wrap;gap:18px;margin-top:18px}.footer{border-top:1px solid var(--line);margin-top:70px;padding-top:22px;color:var(--muted);font-size:.88rem}
+@media(max-width:600px){main{padding:28px 18px 60px}.hero{padding:55px 0 40px}.section{margin-top:48px}}
 </style>
 </head>
 <body><main>
-<div class="eyebrow">Open research · Independent inquiry</div>
+<header class="hero">
+<div class="eyebrow">Open-ended research · Independent inquiry</div>
 <h1>SOCIETY-X</h1>
-<p class="intro">An open research initiative exploring data, identifying unexpected relationships, formulating hypotheses, and attempting to falsify them. Findings are published with their methods, sources, uncertainties, and limitations.</p>
-<div class="status">● Research discoveries · preliminary results</div>
-<div class="grid" aria-live="polite">
- <section class="panel"><div class="metric" id="run">—</div><div class="metric-label">Latest run (UTC)</div></section>
- <section class="panel"><div class="metric" id="indicators">—</div><div class="metric-label">Datasets retrieved</div></section>
- <section class="panel"><div class="metric" id="count">—</div><div class="metric-label">Candidate associations in latest run</div></section>
- <section class="panel"><div class="metric" id="status">—</div><div class="metric-label">Validation status</div></section>
+<p class="lead">A research system designed to explore the unknown: discovering overlooked variables, connecting distant fields of knowledge, generating original hypotheses and testing whether unexpected patterns withstand scrutiny.</p>
+<p class="sub">No fixed list of questions. No predetermined conclusion. The research agenda should emerge from evidence, curiosity and repeated attempts to challenge what appears to be true.</p>
+<div class="tag">An evolving research initiative</div>
+</header>
+
+<section class="section">
+<h2>The ambition</h2>
+<p class="sub">SOCIETY-X is intended to become an autonomous, open-ended research agent. Its purpose is not simply to analyse a predefined dataset, but to investigate the world across disciplines and develop new ways of asking and answering questions.</p>
+<div class="grid">
+ <article class="card"><div class="num">01 · DISCOVER</div><h3>Explore without a fixed map</h3><p>Find public datasets, scientific work, archives and other accessible evidence across fields. Identify gaps, unusual observations and potentially overlooked variables.</p></article>
+ <article class="card"><div class="num">02 · CONNECT</div><h3>Look across boundaries</h3><p>Combine evidence from different domains and timescales. Search for relationships that may be invisible when subjects are studied in isolation.</p></article>
+ <article class="card"><div class="num">03 · HYPOTHESISE</div><h3>Generate new questions</h3><p>Formulate its own research questions, propose measurable variables, construct explanations and derive predictions that can be tested.</p></article>
+ <article class="card"><div class="num">04 · CHALLENGE</div><h3>Try to prove itself wrong</h3><p>Seek counter-evidence, compare alternative explanations, test robustness and distinguish genuine signals from coincidence or bias.</p></article>
+ <article class="card"><div class="num">05 · EXPERIMENT</div><h3>Develop better methods</h3><p>Evaluate its research strategies and test improvements in isolated, reproducible experiments before adopting them.</p></article>
+ <article class="card"><div class="num">06 · ACCUMULATE</div><h3>Build on what survives</h3><p>Preserve provenance, uncertainty, negative results and replication history so that each research cycle can inform the next.</p></article>
 </div>
-<section class="section panel">
-<h2>Latest research discoveries</h2>
-<p>Ranked statistical associations in open cross-country data. An association is not an explanation or evidence of causation.</p>
-<div id="findings"><p>Loading the latest research results…</p></div>
-<div id="error" role="status"></div>
 </section>
+
 <section class="section">
-<h2>How to interpret these results</h2>
-<div class="notice">The candidates below are exploratory and unverified. They show statistical patterns in a limited selection of indicators. They do not establish causality, novelty, or predictive power.</div>
-<p>SOCIETY-X aims to report failed attempts, data limitations, and findings that contradict previous hypotheses. Stronger conclusions require independent data, robustness checks, and replication.</p>
+<h2>A continuous research loop</h2>
+<p class="statement">Discovery → data acquisition → variable formation → hypothesis generation → testing → falsification → replication → improved questions.</p>
+<p class="sub">The process is iterative rather than linear. A surprising result may send the system back to search for new sources, construct a different variable or design a better experiment.</p>
 </section>
+
 <section class="section">
-<h2>Data and methodology</h2>
-<p><strong>Current data coverage: World Bank World Development Indicators (WDI) only.</strong> This first experiment uses a limited selection of WDI indicators for 2000–2023. It is a deliberately narrow starting point, not the intended boundary of SOCIETY-X research. Other independent sources have not yet been integrated.</p>
-<p>For each year, the prototype calculates Pearson correlations across countries with available observations. These statistical associations are used to generate leads for further investigation; they are not explanations, causal findings, or a complete statistical review. The next stages should broaden the evidence base with independent datasets and test whether candidate patterns hold up.</p>
-<div class="links"><a href="./results/latest.json">Latest research record (JSON) ↗</a><a href="./results/history.jsonl">Research run history (JSONL) ↗</a><a href="./docs/RESEARCH_METHOD.md">Detailed methodology and sources ↗</a></div>
+<h2>Research principles</h2>
+<div class="grid">
+ <article class="card"><h3>Open scope</h3><p>No permanent restriction to one discipline, institution, dataset or predefined set of variables.</p></article>
+ <article class="card"><h3>Evidence before conviction</h3><p>Existing research is valuable evidence, not unquestionable authority. Founding assumptions must also be open to challenge.</p></article>
+ <article class="card"><h3>Reproducibility</h3><p>Record sources, methods, assumptions, uncertainty, failed attempts and the steps needed to independently verify a result.</p></article>
+ <article class="card"><h3>Responsible access</h3><p>Use lawful, accessible evidence. Respect privacy, licences, access controls and human autonomy. Research freedom does not authorise intrusion or harm.</p></article>
+</div>
 </section>
-<div class="footer">SOCIETY-X · Open research, reproducibility, and intellectual humility.<br><span class="small">The portal is updated when new research runs are published.</span></div>
-</main>
-<script>
-const $=id=>document.getElementById(id);
-const safeDate=s=>{try{return new Date(s).toLocaleString("en-GB",{timeZone:"UTC",timeZoneName:"short"})}catch{return s||"—"}};
-async function load(){
- try{
-  const response=await fetch("./results/latest.json",{cache:"no-store"});
-  if(!response.ok)throw new Error("Could not retrieve latest.json (HTTP "+response.status+").");
-  const data=await response.json();
-  $("run").textContent=safeDate(data.completed_at);
-  $("indicators").textContent=(data.research_scope?.indicators_retrieved??"—")+"/"+(data.research_scope?.indicators_requested??"—");
-  $("count").textContent=data.candidate_discoveries?.length??0;
-  $("status").textContent=(data.status||"unknown").replaceAll("_"," ");
-  const root=$("findings");root.replaceChildren();
-  const rows=data.candidate_discoveries||[];
-  if(!rows.length){root.textContent="No candidate associations were reported in this run.";return}
-  for(const item of rows.slice(0,10)){
-   const article=document.createElement("article");article.className="finding";
-   const title=document.createElement("div");title.className="finding-title";title.textContent=(item.labels||item.variables||[]).join(" ↔ ");
-   const pill=document.createElement("span");pill.className="pill";pill.textContent="exploratory";title.append(pill);
-   const meta=document.createElement("div");meta.className="meta";
-   meta.textContent="Median r: "+item.median_yearly_r+" · Mean |r|: "+item.mean_absolute_yearly_r+" · Years: "+item.years_analysed+" · Observations: "+item.total_country_year_observations;
-   const note=document.createElement("p");note.textContent=item.interpretation||"Exploratory association; no causal conclusion.";
-   article.append(title,meta,note);root.append(article);
-  }
- }catch(error){$("findings").textContent="The research results could not be displayed."; $("error").textContent=error.message+" Check that the published portal contains the results/ directory."}
-}
-load();
-</script>
-</body></html>
+
+<section class="section">
+<h2>Current implementation status</h2>
+<div class="status"><strong>Early prototype — not yet the autonomous research system described above.</strong><p class="muted">The currently running experiment is deliberately limited: it retrieves a small, predefined set of World Bank indicators for 2000–2023 and calculates exploratory cross-country correlations. It does not yet browse the open web autonomously, discover new data sources or variables, generate its own research agenda, or develop and validate new research methods.</p></div>
+<p class="sub">This prototype is a starting point for testing automated data retrieval, reproducible analysis and scheduled execution. The intended next architectural steps are broader source discovery, a persistent knowledge layer, autonomous research planning, experimental tooling, independent validation and controlled self-improvement.</p>
+<div class="links"><a href="./docs/RESEARCH_METHOD.md">Current prototype: methodology and sources ↗</a></div>
+</section>
+
+<footer class="footer">SOCIETY-X · Independent inquiry, reproducible research and intellectual humility.<br><span class="muted">The ambition is broad. Claims about actual capabilities will remain explicit and evidence-based.</span></footer>
+</main></body></html>
