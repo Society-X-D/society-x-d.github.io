@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T222818Z",
-  "started_at": "2026-11-23T22:28:15.938821+00:00",
-  "completed_at": "2026-11-23T22:28:18.726761+00:00",
+  "run_id": "20261123T223429Z",
+  "started_at": "2026-11-23T22:34:25.368062+00:00",
+  "completed_at": "2026-11-23T22:34:29.814996+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:28:15.938821+00:00",
+      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:28:15.938821+00:00",
+      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:28:15.938821+00:00",
+      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:28:15.938821+00:00",
+      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:28:15.938821+00:00",
+      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:28:15.938821+00:00",
+      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:28:15.938821+00:00",
+      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
       "provider": "World Bank"
     }
   },
@@ -7302,38 +7302,43 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
-        "id": "openalex",
-        "name": "OpenAlex",
+        "id": "our_world_in_data",
+        "name": "Our World in Data",
         "domains": [
-          "all_sciences",
-          "physics",
           "biology",
-          "psychology",
+          "public_health",
+          "climate",
+          "energy",
           "economics",
-          "computer_science"
+          "demography",
+          "agriculture"
         ],
-        "kind": "literature",
+        "kind": "quantitative_data",
         "keywords": [
-          "scholarly articles",
-          "research papers",
-          "scientific literature"
+          "life expectancy",
+          "health",
+          "climate change",
+          "energy",
+          "agriculture",
+          "population",
+          "education"
         ],
-        "access": "public_api",
-        "endpoint": "https://api.openalex.org/",
+        "access": "public_downloads_and_apis",
+        "endpoint": "https://ourworldindata.org/",
         "auth_required": false,
-        "integration_status": "active_literature_only",
-        "notes": "Scholarly metadata search; not currently ingested as research observations."
+        "integration_status": "catalogued",
+        "notes": "Dataset-level licences and attribution requirements must be checked individually."
       },
       {
         "id": "world_bank_wdi",
@@ -7361,6 +7366,52 @@
         "auth_required": false,
         "integration_status": "active",
         "notes": "Country-level indicators; ecological and coverage limitations apply."
+      },
+      {
+        "id": "gbif",
+        "name": "Global Biodiversity Information Facility",
+        "domains": [
+          "biology",
+          "ecology",
+          "biodiversity",
+          "environment"
+        ],
+        "kind": "quantitative_data",
+        "keywords": [
+          "species",
+          "occurrence",
+          "wildlife",
+          "plants",
+          "animals"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.gbif.org/v1/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Occurrence data; coordinate uncertainty, sampling bias, and record-level licences matter."
+      },
+      {
+        "id": "openalex",
+        "name": "OpenAlex",
+        "domains": [
+          "all_sciences",
+          "physics",
+          "biology",
+          "psychology",
+          "economics",
+          "computer_science"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "scholarly articles",
+          "research papers",
+          "scientific literature"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.openalex.org/",
+        "auth_required": false,
+        "integration_status": "active_literature_only",
+        "notes": "Scholarly metadata search; not currently ingested as research observations."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
@@ -7376,17 +7427,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "gdp_per_capita",
-        "unemployment"
+        "owid_co2_per_capita",
+        "owid_life_expectancy"
       ],
       "priority_score": 0.775,
       "selected_labels": [
-        "GDP per capita (constant 2015 US$)",
-        "Unemployment (% of labor force)"
+        "CO2 emissions per capita (OWID)",
+        "Life expectancy (OWID)"
       ],
       "selection_score": 0.775,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7395,8 +7446,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 14,
-    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 15,
+    "next_question": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent screens a bounded shortlist against OpenAlex, ranks research opportunities by transparent evidence-quality heuristics, and attaches explicit falsification tests. It still uses a fixed starter indicator set and deterministic methods; literature hit counts do not establish novelty or consensus. Several scientific domains still require domain-specific datasets and methods."
   },
   "limitations": [
