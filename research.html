@@ -35,6 +35,26 @@
       p.textContent=(index+1)+". "+vars+" · median yearly r: "+(item.median_yearly_r??"n/a")+" · years: "+(item.years_analysed??"n/a");
       list.appendChild(p);
     });
+    const checks=Array.isArray(data.adversarial_sensitivity_checks)?data.adversarial_sensitivity_checks:[];
+    const skepticHeading=document.createElement("h3");
+    skepticHeading.textContent="Skeptical sensitivity checks · Pearson vs Spearman";
+    list.appendChild(skepticHeading);
+    if(checks.length){
+      checks.slice(0,5).forEach(check=>{
+        const p=document.createElement("p");
+        const vars=Array.isArray(check.variables)?check.variables.join(" ↔ "):"Candidate pair";
+        const flags=Array.isArray(check.warning_flags)?check.warning_flags:[];
+        p.textContent=vars+" · direction agreement: "+Math.round((check.direction_agreement_fraction||0)*100)+"% · median estimator gap: "+(check.median_absolute_pearson_spearman_gap??"n/a")+(flags.length?" · caution: "+flags.join(" "):" · no large estimator disagreement flagged");
+        list.appendChild(p);
+      });
+    }else{
+      const p=document.createElement("p");
+      p.textContent="No eligible sensitivity reports were recorded in this cycle.";
+      list.appendChild(p);
+    }
+    const skepticNote=document.createElement("p");
+    skepticNote.textContent="These checks compare two association estimators on the same data. Agreement does not establish causality, rule out confounding, or count as independent replication.";
+    list.appendChild(skepticNote);
     const ext=data.external_sources||{};
     const sourceNames=Object.keys(ext);
     const sourceSummary=document.createElement("p");
