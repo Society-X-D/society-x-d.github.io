@@ -4,7 +4,7 @@
 @media(max-width:760px){.summary{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.cards{grid-template-columns:1fr}.wrap{width:calc(100% - 30px)}}
 </style></head><body><div class="top"><nav class="wrap nav"><a class="brand" href="./">SOCIETY<span>·</span>X</a><div><a href="./">Home</a>　<a href="./methodology.html">Methodology</a></div></nav></div><main class="wrap"><header class="hero"><div class="eyebrow">Evidence explorer / live research feed</div><h1>Research, by field.</h1><p class="muted">Explore the patterns SOCIETY-X is currently investigating. Each area groups related signals, shows how consistently they appear and exposes the methodological caveats — including when the evidence is weak or incomplete.</p></header>
 <div class="summary" id="summary"><div class="stat"><b>—</b><span>Research cycle</span></div><div class="stat"><b>—</b><span>Datasets retrieved</span></div><div class="stat"><b>—</b><span>Candidate relationships</span></div><div class="stat"><b>—</b><span>Years covered</span></div></div>
-<div class="notice"><strong>How to read this page</strong><p class="muted">The values are median yearly Pearson correlations across countries, calculated separately for each year from 2000–2023. They are exploratory associations, not causal effects, verified discoveries or evidence of novelty. The same relationship can appear in more than one field because scientific questions often cross disciplinary boundaries. Sample counts are country-year observations summed across years, not unique countries.</p></div>
+<div class="notice"><strong>How to read this page</strong><p class="muted">The correlations are exploratory associations, not causal effects or verified discoveries. Research priority scores combine repeatability, estimator agreement, data coverage and warning penalties; they are transparent heuristics, not probabilities or measures of importance. OpenAlex hit counts are bounded literature-search context, not systematic reviews or proof of novelty. The same relationship can appear in more than one field because scientific questions often cross disciplinary boundaries. Sample counts are country-year observations summed across years, not unique countries.</p></div>
 <h2>Choose a scientific area</h2><div class="tabs" id="tabs" role="group" aria-label="Filter research by scientific area"></div>
 <div id="areas"><div class="empty">Loading the latest research results…</div></div>
 <section class="bio" id="area-biodiversity"><small>BIODIVERSITY · SEPARATE DATA STREAM</small><h3>Global biodiversity observation records</h3><p class="muted" id="bio-copy">Loading GBIF record summary…</p><p class="muted">Important: the number of records reflects observation, digitisation and reporting effort. It is not a measure of species abundance, ecosystem health or biodiversity change.</p></section>
@@ -27,6 +27,7 @@ const years=(d.research_scope?.end_year??2023)-(d.research_scope?.start_year??20
 const stats=document.getElementById("summary");stats.replaceChildren();
 [[d.run_id||"—","Latest research cycle"],[d.research_scope?.quantitative_datasets_retrieved??"—","Quantitative datasets retrieved"],[(d.candidate_discoveries||[]).length,"Candidate relationships"],[years,"Years covered"]].forEach(([v,l])=>{const s=el("div","stat");s.append(el("b","",String(v)),el("span","",l));stats.append(s)});
 const checks=new Map((d.adversarial_sensitivity_checks||[]).map(x=>[x.variables.slice().sort().join("|"),x]));
+const opportunities=new Map((d.research_opportunities||[]).map(x=>[x.variables.slice().sort().join("|"),x]));
 root.replaceChildren();
 areas.forEach(area=>{
 const section=el("section","area");section.id="area-"+area.id;
@@ -39,6 +40,15 @@ matches.forEach(x=>{
 const c=el("article","finding");const check=checks.get(x.variables.slice().sort().join("|"));
 c.append(el("small","", "CANDIDATE SIGNAL"),el("h3","",(x.labels||x.variables).join(" ↔ ")),el("div","r","r = "+Number(x.median_yearly_r).toFixed(3)));
 const meta=el("div","meta");meta.append(el("span","pill",(x.years_analysed||"—")+" yearly comparisons"),el("span","pill",Number(x.total_country_year_observations||0).toLocaleString()+" country-year observations"),el("span","pill",Math.round((x.direction_consistency||0)*100)+"% direction consistency"));c.append(meta);
+const opportunity=opportunities.get(x.variables.slice().sort().join("|"));
+if(opportunity){
+const priority=el("div","meta");priority.append(el("span","pill","Research priority "+Math.round((opportunity.priority_score||0)*100)+"/100"),el("span","pill",opportunity.literature_context?.status?.replaceAll("_"," ")||"Literature not assessed"));c.append(priority);
+const q=el("p","","Research question: "+(opportunity.research_question||""));q.style.color="#edf4ff";c.append(q);
+const tests=el("details","");tests.append(el("summary","","How SOCIETY-X will try to disprove it"));const list=el("ul","");(opportunity.falsification_tests||[]).forEach(t=>list.append(el("li","",t)));tests.append(list);
+const lit=opportunity.literature_context||{};tests.append(el("p","", "OpenAlex indexed works in bounded search: "+(lit.indexed_work_count??"not available")+". This is not a systematic review and cannot establish novelty or scientific consensus."));
+(lit.results||[]).slice(0,3).forEach(item=>{const p=el("p","",((item.year||"")+". "+(item.title||"Untitled paper")));tests.append(p)});
+c.append(tests);
+}
 let interpretation=x.interpretation||"Exploratory cross-country association; not evidence of causation.";
 if(x.variables.includes("owid_co2_per_capita"))interpretation="A moderate positive cross-country association between emissions per person and life expectancy. Wealth, energy access, industrial structure and other development factors may explain much of the pattern; this is not evidence that emissions improve health.";
 c.append(el("p","",interpretation));
