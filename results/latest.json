@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T222745Z",
-  "started_at": "2026-11-23T22:27:42.796059+00:00",
-  "completed_at": "2026-11-23T22:27:45.581965+00:00",
+  "run_id": "20261123T222803Z",
+  "started_at": "2026-11-23T22:27:59.806526+00:00",
+  "completed_at": "2026-11-23T22:28:03.112686+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -15,48 +15,48 @@
     "indicators_retrieved": 7,
     "quantitative_datasets_retrieved": 9
   },
-  "method": "Pairwise Pearson correlations calculated separately within each year across countries; pairs require at least 40 countries per year and 8 valid years.",
+  "method": "Pairwise Pearson correlations calculated separately within each year across countries; pairs require at least 40 countries per year and 8 valid years. A separate evidence-led prioritization layer combines direction consistency, estimator agreement, temporal/data coverage, warning penalties, and bounded OpenAlex literature context. Priority scores are heuristics, not probabilities or measures of novelty.",
   "sources": {
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:27:42.796059+00:00",
+      "retrieved_at": "2026-11-23T22:27:59.806526+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:27:42.796059+00:00",
+      "retrieved_at": "2026-11-23T22:27:59.806526+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:27:42.796059+00:00",
+      "retrieved_at": "2026-11-23T22:27:59.806526+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:27:42.796059+00:00",
+      "retrieved_at": "2026-11-23T22:27:59.806526+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:27:42.796059+00:00",
+      "retrieved_at": "2026-11-23T22:27:59.806526+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:27:42.796059+00:00",
+      "retrieved_at": "2026-11-23T22:27:59.806526+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:27:42.796059+00:00",
+      "retrieved_at": "2026-11-23T22:27:59.806526+00:00",
       "provider": "World Bank"
     }
   },
@@ -3151,6 +3151,1008 @@
         }
       ],
       "interpretation": "Exploratory cross-country association within each year; not evidence of causation."
+    }
+  ],
+  "research_opportunities": [
+    {
+      "variables": [
+        "infant_mortality",
+        "life_expectancy"
+      ],
+      "labels": [
+        "Infant mortality (per 1,000 live births)",
+        "Life expectancy at birth (years)"
+      ],
+      "research_question": "Does the association between Infant mortality (per 1,000 live births) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.9969,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.9845,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": -0.9242,
+        "years_analysed": 24,
+        "country_year_observations": 5856,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": 26,
+        "status": "some_indexed_matches",
+        "results": [
+          {
+            "title": "Health Inequities, Environmental Insecurity and the Attainment of the Millennium Development Goals in Sub-Saharan Africa: The Case Study of Zambia",
+            "year": 2006,
+            "type": "article",
+            "doi": "https://doi.org/10.3390/ijerph2006030026",
+            "openalex_id": "https://openalex.org/W2151580544",
+            "cited_by_count": 31
+          },
+          {
+            "title": "Impact investing as a tool for achieving the targets for sustainable development of the region",
+            "year": 2023,
+            "type": "conference-paper",
+            "doi": "https://doi.org/10.1051/e3sconf/202345101016",
+            "openalex_id": "https://openalex.org/W4388936344",
+            "cited_by_count": 2
+          },
+          {
+            "title": "Air Pollution and Health Status in Sub-Sahara Africa (SSA)",
+            "year": 2019,
+            "type": "article",
+            "doi": "https://doi.org/10.7176/jesd/10-22-03",
+            "openalex_id": "https://openalex.org/W2992010826",
+            "cited_by_count": 10
+          },
+          {
+            "title": "DECOMPOSING WELL-BEING INDICATORS USING DISTRIBUTIONAL DATA",
+            "year": 2004,
+            "type": "preprint",
+            "doi": "https://doi.org/10.22004/ag.econ.20232",
+            "openalex_id": "https://openalex.org/W1601313619",
+            "cited_by_count": 0
+          },
+          {
+            "title": "Over the Border and Under the Radar: Should Illegal Migrants Be Active Citizens?",
+            "year": 2008,
+            "type": "preprint",
+            "doi": "https://doi.org/10.2139/ssrn.1311217",
+            "openalex_id": "https://openalex.org/W3123036202",
+            "cited_by_count": 0
+          }
+        ],
+        "search_url": "https://api.openalex.org/works?search=%22Infant+mortality+%28per+1%2C000+live+births%29%22+AND+%22Life+expectancy+at+birth+%28years%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "life_expectancy",
+        "urban_population"
+      ],
+      "labels": [
+        "Life expectancy at birth (years)",
+        "Urban population (% of total)"
+      ],
+      "research_question": "Does the association between Life expectancy at birth (years) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.9941,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.9703,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": 0.6332,
+        "years_analysed": 24,
+        "country_year_observations": 6360,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "infant_mortality",
+        "urban_population"
+      ],
+      "labels": [
+        "Infant mortality (per 1,000 live births)",
+        "Urban population (% of total)"
+      ],
+      "research_question": "Does the association between Infant mortality (per 1,000 live births) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.9892,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.9462,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": -0.6243,
+        "years_analysed": 24,
+        "country_year_observations": 5856,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "gdp_per_capita",
+        "health_spending"
+      ],
+      "labels": [
+        "GDP per capita (constant 2015 US$)",
+        "Current health expenditure per capita (US$)"
+      ],
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.9843,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.9217,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": 0.8864,
+        "years_analysed": 24,
+        "country_year_observations": 5641,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": 0,
+        "status": "few_indexed_matches_in_bounded_search",
+        "results": [],
+        "search_url": "https://api.openalex.org/works?search=%22GDP+per+capita+%28constant+2015+US%24%29%22+AND+%22Current+health+expenditure+per+capita+%28US%24%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "gdp_per_capita",
+        "urban_population"
+      ],
+      "labels": [
+        "GDP per capita (constant 2015 US$)",
+        "Urban population (% of total)"
+      ],
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.966,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.8301,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": 0.5847,
+        "years_analysed": 24,
+        "country_year_observations": 6112,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "infant_mortality",
+        "literacy"
+      ],
+      "labels": [
+        "Infant mortality (per 1,000 live births)",
+        "Adult literacy rate (%)"
+      ],
+      "research_question": "Does the association between Infant mortality (per 1,000 live births) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.9549,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.9783,
+        "temporal_coverage": 1.0,
+        "data_coverage": 0.5927,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": -0.8929,
+        "years_analysed": 24,
+        "country_year_observations": 1778,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": 16,
+        "status": "some_indexed_matches",
+        "results": [
+          {
+            "title": "Calculation of Flood Risk Index for Yeşilırmak Basin-Turkey",
+            "year": 2019,
+            "type": "article",
+            "doi": "https://doi.org/10.30897/ijegeo.661533",
+            "openalex_id": "https://openalex.org/W2996388701",
+            "cited_by_count": 20
+          },
+          {
+            "title": "Pakistan: Spending Needs for Reaching Sustainable Development Goals (SDGs)",
+            "year": 2021,
+            "type": "article",
+            "doi": "https://doi.org/10.5089/9781513582399.001",
+            "openalex_id": "https://openalex.org/W4251605660",
+            "cited_by_count": 46
+          },
+          {
+            "title": "Public Spending and Outcomes: Does Governance Matter?",
+            "year": 2002,
+            "type": "report",
+            "doi": "https://doi.org/10.1596/1813-9450-2840",
+            "openalex_id": "https://openalex.org/W3124544936",
+            "cited_by_count": 476
+          },
+          {
+            "title": "Cities, health and well-being: methodology for an international analysis",
+            "year": 2011,
+            "type": "conference-paper",
+            "doi": null,
+            "openalex_id": "https://openalex.org/W2288434922",
+            "cited_by_count": 4
+          },
+          {
+            "title": "Cambodia: An IEG Country Assistance Evaluation, 1999-2006",
+            "year": 2010,
+            "type": "book",
+            "doi": "https://doi.org/10.1596/978-1-60244-134-7",
+            "openalex_id": "https://openalex.org/W4409419255",
+            "cited_by_count": 1
+          }
+        ],
+        "search_url": "https://api.openalex.org/works?search=%22Infant+mortality+%28per+1%2C000+live+births%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "life_expectancy",
+        "literacy"
+      ],
+      "labels": [
+        "Life expectancy at birth (years)",
+        "Adult literacy rate (%)"
+      ],
+      "research_question": "Does the association between Life expectancy at birth (years) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.9542,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.973,
+        "temporal_coverage": 1.0,
+        "data_coverage": 0.596,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": 0.8118,
+        "years_analysed": 24,
+        "country_year_observations": 1788,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": 320,
+        "status": "substantial_indexed_literature",
+        "results": [
+          {
+            "title": "Guinea: Background Appendices",
+            "year": 1995,
+            "type": "article",
+            "doi": "https://doi.org/10.5089/9781451815887.002",
+            "openalex_id": "https://openalex.org/W4251447449",
+            "cited_by_count": 0
+          },
+          {
+            "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
+            "year": 2025,
+            "type": "article",
+            "doi": "https://doi.org/10.47895/amp.vi0.6790",
+            "openalex_id": "https://openalex.org/W4410047673",
+            "cited_by_count": 0
+          },
+          {
+            "title": "Social, Economic and Environmental Determinants of Life Expectancy in Nigeria",
+            "year": 2024,
+            "type": "article",
+            "doi": "https://doi.org/10.56279/ter.v14i1.175",
+            "openalex_id": "https://openalex.org/W4401018809",
+            "cited_by_count": 8
+          },
+          {
+            "title": "Human development index in a context of human development: Review on the western Balkans countries",
+            "year": 2020,
+            "type": "article",
+            "doi": "https://doi.org/10.1002/brb3.1755",
+            "openalex_id": "https://openalex.org/W3047671339",
+            "cited_by_count": 112
+          },
+          {
+            "title": "A re-assessment of indicators of national water scarcity",
+            "year": 2008,
+            "type": "article",
+            "doi": "https://doi.org/10.1080/02508060801927994",
+            "openalex_id": "https://openalex.org/W2081731603",
+            "cited_by_count": 65
+          }
+        ],
+        "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "literacy",
+        "urban_population"
+      ],
+      "labels": [
+        "Adult literacy rate (%)",
+        "Urban population (% of total)"
+      ],
+      "research_question": "Does the association between Adult literacy rate (%) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.9535,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.9696,
+        "temporal_coverage": 1.0,
+        "data_coverage": 0.596,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": 0.6668,
+        "years_analysed": 24,
+        "country_year_observations": 1788,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": 80,
+        "status": "substantial_indexed_literature",
+        "results": [
+          {
+            "title": "Socioeconomic Macro-Level Determinants of Hypertension: Ecological Analysis of 138 Low- and Middle-Income Countries",
+            "year": 2023,
+            "type": "article",
+            "doi": "https://doi.org/10.3390/jcdd10020057",
+            "openalex_id": "https://openalex.org/W4318612675",
+            "cited_by_count": 18
+          },
+          {
+            "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
+            "year": 2025,
+            "type": "article",
+            "doi": "https://doi.org/10.47895/amp.vi0.6790",
+            "openalex_id": "https://openalex.org/W4410047673",
+            "cited_by_count": 0
+          },
+          {
+            "title": "Valuing the joint effect of adult literacy and economic growth on renewable energy consumption in African zone",
+            "year": 2022,
+            "type": "article",
+            "doi": "https://doi.org/10.33445/sds.2022.12.1.12",
+            "openalex_id": "https://openalex.org/W4214774388",
+            "cited_by_count": 1
+          },
+          {
+            "title": "Trends of Urbanization in West Bengal: A District Level Study",
+            "year": 2023,
+            "type": "article",
+            "doi": "https://doi.org/10.48175/ijarsct-10419m",
+            "openalex_id": "https://openalex.org/W4393111855",
+            "cited_by_count": 0
+          },
+          {
+            "title": "The Little Data Book on Information and Communication Technology 2014",
+            "year": 2014,
+            "type": "book",
+            "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
+            "openalex_id": "https://openalex.org/W4235301359",
+            "cited_by_count": 20
+          }
+        ],
+        "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "gdp_per_capita",
+        "unemployment"
+      ],
+      "labels": [
+        "GDP per capita (constant 2015 US$)",
+        "Unemployment (% of labor force)"
+      ],
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.775,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 0.5,
+        "method_stability": 0.5,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": -0.1316,
+        "years_analysed": 24,
+        "country_year_observations": 5527,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "owid_co2_per_capita",
+        "owid_life_expectancy"
+      ],
+      "labels": [
+        "CO2 emissions per capita (OWID)",
+        "Life expectancy (OWID)"
+      ],
+      "research_question": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.775,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 0.5,
+        "method_stability": 0.5,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": 0.4922,
+        "years_analysed": 24,
+        "country_year_observations": 5472,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "unemployment",
+        "urban_population"
+      ],
+      "labels": [
+        "Unemployment (% of labor force)",
+        "Urban population (% of total)"
+      ],
+      "research_question": "Does the association between Unemployment (% of labor force) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.775,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 0.5,
+        "method_stability": 0.5,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": false
+      },
+      "evidence": {
+        "median_yearly_r": 0.129,
+        "years_analysed": 24,
+        "country_year_observations": 5636,
+        "sensitivity_warnings": []
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "health_spending",
+        "urban_population"
+      ],
+      "labels": [
+        "Current health expenditure per capita (US$)",
+        "Urban population (% of total)"
+      ],
+      "research_question": "Does the association between Current health expenditure per capita (US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.7644,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.7772,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": true
+      },
+      "evidence": {
+        "median_yearly_r": 0.5413,
+        "years_analysed": 24,
+        "country_year_observations": 5689,
+        "sensitivity_warnings": [
+          "Association strength is sensitive to the choice of estimator.",
+          "Association strength changes substantially after linear adjustment for GDP per capita."
+        ]
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "health_spending",
+        "life_expectancy"
+      ],
+      "labels": [
+        "Current health expenditure per capita (US$)",
+        "Life expectancy at birth (years)"
+      ],
+      "research_question": "Does the association between Current health expenditure per capita (US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.7594,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.7465,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": true
+      },
+      "evidence": {
+        "median_yearly_r": 0.5968,
+        "years_analysed": 24,
+        "country_year_observations": 5689,
+        "sensitivity_warnings": [
+          "Association strength is sensitive to the choice of estimator.",
+          "Association strength changes substantially after linear adjustment for GDP per capita."
+        ]
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "gdp_per_capita",
+        "life_expectancy"
+      ],
+      "labels": [
+        "GDP per capita (constant 2015 US$)",
+        "Life expectancy at birth (years)"
+      ],
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.7591,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.7441,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": true
+      },
+      "evidence": {
+        "median_yearly_r": 0.6075,
+        "years_analysed": 24,
+        "country_year_observations": 6112,
+        "sensitivity_warnings": [
+          "Association strength is sensitive to the choice of estimator."
+        ]
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    },
+    {
+      "variables": [
+        "gdp_per_capita",
+        "infant_mortality"
+      ],
+      "labels": [
+        "GDP per capita (constant 2015 US$)",
+        "Infant mortality (per 1,000 live births)"
+      ],
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Infant mortality (per 1,000 live births) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "priority_score": 0.7453,
+      "priority_components": {
+        "direction_consistency": 1.0,
+        "robustness_agreement": 1.0,
+        "method_stability": 0.6583,
+        "temporal_coverage": 1.0,
+        "data_coverage": 1.0,
+        "warning_penalty_applied": true
+      },
+      "evidence": {
+        "median_yearly_r": -0.5161,
+        "years_analysed": 24,
+        "country_year_observations": 5746,
+        "sensitivity_warnings": [
+          "Association strength is sensitive to the choice of estimator."
+        ]
+      },
+      "literature_context": {
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
+        "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
+      },
+      "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
+      "falsification_tests": [
+        "Repeat with an independently sourced measure of at least one variable.",
+        "Test plausible confounders and compare adjusted with unadjusted estimates.",
+        "Check whether earlier values predict later outcomes better than same-year values.",
+        "Use a negative-control variable that should not share the proposed mechanism."
+      ],
+      "status": "research_lead_not_a_discovery"
+    }
+  ],
+  "literature_screenings": [
+    {
+      "indexed_work_count": 26,
+      "results": [
+        {
+          "title": "Health Inequities, Environmental Insecurity and the Attainment of the Millennium Development Goals in Sub-Saharan Africa: The Case Study of Zambia",
+          "year": 2006,
+          "type": "article",
+          "doi": "https://doi.org/10.3390/ijerph2006030026",
+          "openalex_id": "https://openalex.org/W2151580544",
+          "cited_by_count": 31
+        },
+        {
+          "title": "Impact investing as a tool for achieving the targets for sustainable development of the region",
+          "year": 2023,
+          "type": "conference-paper",
+          "doi": "https://doi.org/10.1051/e3sconf/202345101016",
+          "openalex_id": "https://openalex.org/W4388936344",
+          "cited_by_count": 2
+        },
+        {
+          "title": "Air Pollution and Health Status in Sub-Sahara Africa (SSA)",
+          "year": 2019,
+          "type": "article",
+          "doi": "https://doi.org/10.7176/jesd/10-22-03",
+          "openalex_id": "https://openalex.org/W2992010826",
+          "cited_by_count": 10
+        },
+        {
+          "title": "DECOMPOSING WELL-BEING INDICATORS USING DISTRIBUTIONAL DATA",
+          "year": 2004,
+          "type": "preprint",
+          "doi": "https://doi.org/10.22004/ag.econ.20232",
+          "openalex_id": "https://openalex.org/W1601313619",
+          "cited_by_count": 0
+        },
+        {
+          "title": "Over the Border and Under the Radar: Should Illegal Migrants Be Active Citizens?",
+          "year": 2008,
+          "type": "preprint",
+          "doi": "https://doi.org/10.2139/ssrn.1311217",
+          "openalex_id": "https://openalex.org/W3123036202",
+          "cited_by_count": 0
+        }
+      ],
+      "search_url": "https://api.openalex.org/works?search=%22Infant+mortality+%28per+1%2C000+live+births%29%22+AND+%22Life+expectancy+at+birth+%28years%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+      "variables": [
+        "infant_mortality",
+        "life_expectancy"
+      ]
+    },
+    {
+      "indexed_work_count": 0,
+      "results": [],
+      "search_url": "https://api.openalex.org/works?search=%22GDP+per+capita+%28constant+2015+US%24%29%22+AND+%22Current+health+expenditure+per+capita+%28US%24%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+      "variables": [
+        "gdp_per_capita",
+        "health_spending"
+      ]
+    },
+    {
+      "indexed_work_count": 16,
+      "results": [
+        {
+          "title": "Calculation of Flood Risk Index for Yeşilırmak Basin-Turkey",
+          "year": 2019,
+          "type": "article",
+          "doi": "https://doi.org/10.30897/ijegeo.661533",
+          "openalex_id": "https://openalex.org/W2996388701",
+          "cited_by_count": 20
+        },
+        {
+          "title": "Pakistan: Spending Needs for Reaching Sustainable Development Goals (SDGs)",
+          "year": 2021,
+          "type": "article",
+          "doi": "https://doi.org/10.5089/9781513582399.001",
+          "openalex_id": "https://openalex.org/W4251605660",
+          "cited_by_count": 46
+        },
+        {
+          "title": "Public Spending and Outcomes: Does Governance Matter?",
+          "year": 2002,
+          "type": "report",
+          "doi": "https://doi.org/10.1596/1813-9450-2840",
+          "openalex_id": "https://openalex.org/W3124544936",
+          "cited_by_count": 476
+        },
+        {
+          "title": "Cities, health and well-being: methodology for an international analysis",
+          "year": 2011,
+          "type": "conference-paper",
+          "doi": null,
+          "openalex_id": "https://openalex.org/W2288434922",
+          "cited_by_count": 4
+        },
+        {
+          "title": "Cambodia: An IEG Country Assistance Evaluation, 1999-2006",
+          "year": 2010,
+          "type": "book",
+          "doi": "https://doi.org/10.1596/978-1-60244-134-7",
+          "openalex_id": "https://openalex.org/W4409419255",
+          "cited_by_count": 1
+        }
+      ],
+      "search_url": "https://api.openalex.org/works?search=%22Infant+mortality+%28per+1%2C000+live+births%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+      "variables": [
+        "infant_mortality",
+        "literacy"
+      ]
+    },
+    {
+      "indexed_work_count": 320,
+      "results": [
+        {
+          "title": "Guinea: Background Appendices",
+          "year": 1995,
+          "type": "article",
+          "doi": "https://doi.org/10.5089/9781451815887.002",
+          "openalex_id": "https://openalex.org/W4251447449",
+          "cited_by_count": 0
+        },
+        {
+          "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
+          "year": 2025,
+          "type": "article",
+          "doi": "https://doi.org/10.47895/amp.vi0.6790",
+          "openalex_id": "https://openalex.org/W4410047673",
+          "cited_by_count": 0
+        },
+        {
+          "title": "Social, Economic and Environmental Determinants of Life Expectancy in Nigeria",
+          "year": 2024,
+          "type": "article",
+          "doi": "https://doi.org/10.56279/ter.v14i1.175",
+          "openalex_id": "https://openalex.org/W4401018809",
+          "cited_by_count": 8
+        },
+        {
+          "title": "Human development index in a context of human development: Review on the western Balkans countries",
+          "year": 2020,
+          "type": "article",
+          "doi": "https://doi.org/10.1002/brb3.1755",
+          "openalex_id": "https://openalex.org/W3047671339",
+          "cited_by_count": 112
+        },
+        {
+          "title": "A re-assessment of indicators of national water scarcity",
+          "year": 2008,
+          "type": "article",
+          "doi": "https://doi.org/10.1080/02508060801927994",
+          "openalex_id": "https://openalex.org/W2081731603",
+          "cited_by_count": 65
+        }
+      ],
+      "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+      "variables": [
+        "life_expectancy",
+        "literacy"
+      ]
+    },
+    {
+      "indexed_work_count": 80,
+      "results": [
+        {
+          "title": "Socioeconomic Macro-Level Determinants of Hypertension: Ecological Analysis of 138 Low- and Middle-Income Countries",
+          "year": 2023,
+          "type": "article",
+          "doi": "https://doi.org/10.3390/jcdd10020057",
+          "openalex_id": "https://openalex.org/W4318612675",
+          "cited_by_count": 18
+        },
+        {
+          "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
+          "year": 2025,
+          "type": "article",
+          "doi": "https://doi.org/10.47895/amp.vi0.6790",
+          "openalex_id": "https://openalex.org/W4410047673",
+          "cited_by_count": 0
+        },
+        {
+          "title": "Valuing the joint effect of adult literacy and economic growth on renewable energy consumption in African zone",
+          "year": 2022,
+          "type": "article",
+          "doi": "https://doi.org/10.33445/sds.2022.12.1.12",
+          "openalex_id": "https://openalex.org/W4214774388",
+          "cited_by_count": 1
+        },
+        {
+          "title": "Trends of Urbanization in West Bengal: A District Level Study",
+          "year": 2023,
+          "type": "article",
+          "doi": "https://doi.org/10.48175/ijarsct-10419m",
+          "openalex_id": "https://openalex.org/W4393111855",
+          "cited_by_count": 0
+        },
+        {
+          "title": "The Little Data Book on Information and Communication Technology 2014",
+          "year": 2014,
+          "type": "book",
+          "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
+          "openalex_id": "https://openalex.org/W4235301359",
+          "cited_by_count": 20
+        }
+      ],
+      "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+      "variables": [
+        "literacy",
+        "urban_population"
+      ]
     }
   ],
   "adversarial_sensitivity_checks": [
@@ -6300,16 +7302,39 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "winsorized_pearson",
-      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
-      "path": "proposals/winsorized_pearson.py"
+      "method": "spearman_rank",
+      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
+      "path": "proposals/spearman_rank.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "What mechanisms or confounding factors could explain the observed association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
+    "query": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
+      {
+        "id": "openalex",
+        "name": "OpenAlex",
+        "domains": [
+          "all_sciences",
+          "physics",
+          "biology",
+          "psychology",
+          "economics",
+          "computer_science"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "scholarly articles",
+          "research papers",
+          "scientific literature"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.openalex.org/",
+        "auth_required": false,
+        "integration_status": "active_literature_only",
+        "notes": "Scholarly metadata search; not currently ingested as research observations."
+      },
       {
         "id": "world_bank_wdi",
         "name": "World Bank World Development Indicators",
@@ -6336,131 +7361,14 @@
         "auth_required": false,
         "integration_status": "active",
         "notes": "Country-level indicators; ecological and coverage limitations apply."
-      },
-      {
-        "id": "openalex",
-        "name": "OpenAlex",
-        "domains": [
-          "all_sciences",
-          "physics",
-          "biology",
-          "psychology",
-          "economics",
-          "computer_science"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "scholarly articles",
-          "research papers",
-          "scientific literature"
-        ],
-        "access": "public_api",
-        "endpoint": "https://api.openalex.org/",
-        "auth_required": false,
-        "integration_status": "active_literature_only",
-        "notes": "Scholarly metadata search; not currently ingested as research observations."
-      },
-      {
-        "id": "our_world_in_data",
-        "name": "Our World in Data",
-        "domains": [
-          "biology",
-          "public_health",
-          "climate",
-          "energy",
-          "economics",
-          "demography",
-          "agriculture"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "life expectancy",
-          "health",
-          "climate change",
-          "energy",
-          "agriculture",
-          "population",
-          "education"
-        ],
-        "access": "public_downloads_and_apis",
-        "endpoint": "https://ourworldindata.org/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Dataset-level licences and attribution requirements must be checked individually."
-      },
-      {
-        "id": "pubmed",
-        "name": "PubMed / NCBI E-utilities",
-        "domains": [
-          "biology",
-          "medicine",
-          "public_health",
-          "neuroscience",
-          "psychology"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "clinical",
-          "disease",
-          "health",
-          "medical",
-          "brain",
-          "mental health"
-        ],
-        "access": "public_api",
-        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
   },
   "literature_context": {
     "provider": "OpenAlex",
-    "query_url": "https://api.openalex.org/works?search=Current+health+expenditure+per+capita+%28US%24%29+Infant+mortality+%28per+1%2C000+live+births%29&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
-    "results": [
-      {
-        "title": "Public health determinants of life expectancy in Saudi Arabia: a multidimensional analysis of infant mortality, anemia, immunization, fertility, and health expenditure",
-        "year": 2026,
-        "type": "article",
-        "doi": "https://doi.org/10.1186/s12889-026-30121-5",
-        "openalex_id": "https://openalex.org/W7223907789",
-        "cited_by_count": 0
-      },
-      {
-        "title": "Inequality of Health Spending and Public Health Outcome in Countries of the WHO’s Eastern Mediterranean Regional Office (EMRO)",
-        "year": 2015,
-        "type": "article",
-        "doi": "https://doi.org/10.20286/ijtmgh-030479",
-        "openalex_id": "https://openalex.org/W2186893727",
-        "cited_by_count": 2
-      },
-      {
-        "title": "The State of the Physician Assistant Profession in Ghana",
-        "year": 2006,
-        "type": "article",
-        "doi": "https://doi.org/10.1097/01367895-200617010-00011",
-        "openalex_id": "https://openalex.org/W2316083124",
-        "cited_by_count": 2
-      },
-      {
-        "title": "Impact of sanitation, safe drinking water and health expenditure on infant mortality rate in developing economies",
-        "year": 2019,
-        "type": "article",
-        "doi": "https://doi.org/10.1111/1467-8454.12167",
-        "openalex_id": "https://openalex.org/W2996123363",
-        "cited_by_count": 47
-      },
-      {
-        "title": "El Sistema de Salud de Chile: una tarea pendiente",
-        "year": 2015,
-        "type": "article",
-        "doi": "https://doi.org/10.4067/s0034-98872015000600011",
-        "openalex_id": "https://openalex.org/W2171778592",
-        "cited_by_count": 146
-      }
-    ],
+    "query_url": null,
+    "results": [],
     "failure": null,
     "note": "Bibliographic leads only; these do not validate or falsify the statistical signal."
   },
@@ -6468,16 +7376,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "health_spending",
-        "infant_mortality"
+        "gdp_per_capita",
+        "unemployment"
       ],
+      "priority_score": 0.775,
       "selected_labels": [
-        "Current health expenditure per capita (US$)",
-        "Infant mortality (per 1,000 live births)"
+        "GDP per capita (constant 2015 US$)",
+        "Unemployment (% of labor force)"
       ],
-      "selection_score": 0.4956,
-      "reason": "Highest robustness-weighted candidate after discounting previously selected pairs.",
-      "research_question": "What mechanisms or confounding factors could explain the observed association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
+      "selection_score": 0.775,
+      "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -6486,9 +7395,9 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 13,
-    "next_question": "What mechanisms or confounding factors could explain the observed association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births), and does the pattern persist under alternative measures or datasets?",
-    "capability_note": "The agent autonomously selects follow-up questions, analyses World Bank and available OWID country-year datasets, retrieves a bounded GBIF annual occurrence-record summary, matches questions against a cross-disciplinary source catalogue, retrieves scholarly leads, and writes isolated candidate method code. Several scientific domains and source types still require additional connectors and domain-specific methods."
+    "cycles_completed": 14,
+    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "capability_note": "The agent screens a bounded shortlist against OpenAlex, ranks research opportunities by transparent evidence-quality heuristics, and attaches explicit falsification tests. It still uses a fixed starter indicator set and deterministic methods; literature hit counts do not establish novelty or consensus. Several scientific domains still require domain-specific datasets and methods."
   },
   "limitations": [
     "Exploratory associations are not causal effects.",
