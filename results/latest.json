@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T223659Z",
-  "started_at": "2026-11-23T22:36:49.238277+00:00",
-  "completed_at": "2026-11-23T22:36:59.220294+00:00",
+  "run_id": "20261123T223808Z",
+  "started_at": "2026-11-23T22:37:57.774036+00:00",
+  "completed_at": "2026-11-23T22:38:08.749274+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
+      "retrieved_at": "2026-11-23T22:37:57.774036+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
+      "retrieved_at": "2026-11-23T22:37:57.774036+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
+      "retrieved_at": "2026-11-23T22:37:57.774036+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
+      "retrieved_at": "2026-11-23T22:37:57.774036+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
+      "retrieved_at": "2026-11-23T22:37:57.774036+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
+      "retrieved_at": "2026-11-23T22:37:57.774036+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:36:49.238277+00:00",
+      "retrieved_at": "2026-11-23T22:37:57.774036+00:00",
       "provider": "World Bank"
     }
   },
@@ -3948,114 +3948,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 80,
+    "new_topics_in_sample": 79,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T13315",
-        "name": "Occupational Health and Safety in Workplaces",
-        "description": "This cluster of papers covers a wide range of topics related to occupational health and safety in workplaces, including ergonomics, teleworking, risk assessment, musculoskeletal disorders, and safety management systems. It also addresses health promotion, industrial hygiene, and relevant legislation. The papers discuss various aspects of creating healthy and safe work environments, identifying and mitigating workplace hazards, and promoting employee well-being.",
-        "works_count": 281821,
+        "id": "https://openalex.org/T11359",
+        "name": "Effects of Radiation Exposure",
+        "description": "This cluster of papers explores the biological and clinical effects of ionizing radiation, including topics such as radiation-induced bystander effects, hormesis, radioprotectors, genomic instability, normal tissue injury, oxidative stress, radiotherapy strategies, apoptosis, and fibrosis. The research encompasses a wide range of mechanisms and implications related to the exposure to ionizing radiation.",
+        "works_count": 163565,
         "field": "Medicine",
-        "subfield": "Public Health, Environmental and Occupational Health",
+        "subfield": "Radiology, Nuclear Medicine and Imaging",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12045",
-        "name": "Rice Cultivation and Yield Improvement",
-        "description": "This cluster of papers focuses on the management of water in rice cultivation to enhance productivity, with an emphasis on strategies for drought resistance, yield potential improvement, aerobic rice systems, QTL mapping for important traits, root characteristics, and the application of the System of Rice Intensification (SRI). It also explores nitrogen use efficiency and its impact on grain yield in rice production.",
-        "works_count": 310001,
+        "id": "https://openalex.org/T12234",
+        "name": "Mollusks and Parasites Studies",
+        "description": "This cluster of papers focuses on the parasitism of snails, particularly by the Angiostrongylus nematode, and the associated diseases such as eosinophilic meningitis. It also explores the impact of invasive snail species on ecosystems and biodiversity.",
+        "works_count": 599322,
         "field": "Agricultural and Biological Sciences",
-        "subfield": "Plant Science",
+        "subfield": "Animal Science and Zoology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10199",
-        "name": "Wildlife Ecology and Conservation",
-        "description": "This cluster of papers covers a wide range of topics in wildlife ecology and conservation biology, including estimating occupancy rates, analyzing animal movement patterns, trophic cascades, habitat selection, population dynamics of large herbivores and carnivores, human-wildlife conflict, camera trapping for wildlife monitoring, and strategies for conservation management. It also explores the impact of predation risk on prey species, global biodiversity loss, and the ecological implications of human-induced stress on animal behavior.",
-        "works_count": 320880,
-        "field": "Environmental Science",
-        "subfield": "Ecology",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T12586",
-        "name": "Folklore, Mythology, and Literature Studies",
-        "description": "This cluster of papers explores the pervasiveness and persistence of fairy tales in culture, focusing on their impact on gender roles, children's literature, and the transmission of cultural values. It delves into the social history, mythology, and feminist perspectives related to fairy tales and folklore, highlighting their significance as a form of oral tradition and literary analysis.",
-        "works_count": 470740,
-        "field": "Arts and Humanities",
-        "subfield": "Literature and Literary Theory",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11314",
-        "name": "Clinical Laboratory Practices and Quality Control",
-        "description": "This cluster of papers focuses on advancements in laboratory medicine and testing procedures, including the determination of reference intervals, management of preanalytical variables, establishment of quality indicators, utilization of point-of-care testing, understanding biological variation, development of clinical laboratory guidelines, identification and prevention of diagnostic errors, and implementation of laboratory quality management practices. The papers cover a wide range of topics related to improving the accuracy and reliability of laboratory testing in healthcare.",
-        "works_count": 192480,
-        "field": "Health Professions",
-        "subfield": "Medical Laboratory Technology",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10427",
-        "name": "Visual perception and processing mechanisms",
-        "description": "This cluster of papers explores the neural mechanisms underlying visual perception, including topics such as perceptual learning, cortical connectivity, sensory integration, retinotopic mapping, motion processing, binocular vision, neuronal adaptation, and psychophysical function.",
-        "works_count": 240473,
-        "field": "Neuroscience",
-        "subfield": "Cognitive Neuroscience",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11960",
-        "name": "Relativity and Gravitational Theory",
-        "description": "This cluster of papers explores the theory of relativity, including special and general relativity, unified field theories, spacetime geometry, gauge symmetry, and quantum gravity. It delves into Einstein's contributions, symmetries, and the implications of general covariance.",
-        "works_count": 175517,
+        "id": "https://openalex.org/T10002",
+        "name": "Advanced Chemical Physics Studies",
+        "description": "This cluster of papers represents advancements in density functional theory, including the development of dispersion correction methods, ab initio parametrization, wavefunction analyzers, and continuum solvation models. It also covers topics such as semiempirical methods, van der Waals interactions, hybrid density functionals, molecular simulations, and electronic structure calculations.",
+        "works_count": 336761,
         "field": "Physics and Astronomy",
-        "subfield": "Astronomy and Astrophysics",
+        "subfield": "Atomic and Molecular Physics, and Optics",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10316",
-        "name": "Sleep and related disorders",
-        "description": "This cluster of papers encompasses a wide range of research on sleep and insomnia, including topics such as the epidemiology of insomnia, the effects of sleep duration on health, cognitive behavioral therapy for insomnia, and the psychometric evaluation of sleep measures. It also covers the impact of sleep on various health outcomes, including cardiovascular disease, diabetes, obesity, and mental health. Additionally, the cluster includes studies on the role of circadian rhythms and sleep quality in overall well-being.",
-        "works_count": 148402,
-        "field": "Psychology",
-        "subfield": "Experimental and Cognitive Psychology",
+        "id": "https://openalex.org/T10102",
+        "name": "scientometrics and bibliometrics research",
+        "description": "This cluster of papers focuses on bibliometric analysis, research evaluation, and the assessment of scientific impact. It covers topics such as citation networks, collaboration patterns, open access publishing, social impact assessment, altmetrics, co-authorship networks, and interdisciplinary research.",
+        "works_count": 204757,
+        "field": "Social Sciences",
+        "subfield": "Library and Information Sciences",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T10307",
-        "name": "Head and Neck Cancer Studies",
-        "description": "This cluster of papers focuses on the epidemiology, treatment, and prognosis of head and neck cancer, with a particular emphasis on human papillomavirus (HPV)-related oropharyngeal cancer. It covers topics such as the impact of HPV infection, the role of radiotherapy and chemotherapy, survival outcomes, and the molecular landscape of head and neck squamous cell carcinomas.",
-        "works_count": 187274,
+        "id": "https://openalex.org/T10630",
+        "name": "Orthopedic Surgery and Rehabilitation",
+        "description": "This cluster of papers focuses on the treatment and outcomes of hand injuries, including distal radius fractures, flexor tendon repair, scaphoid nonunion, wrist arthroscopy, thumb osteoarthritis, epinephrine use in hand surgery, carpometacarpal joint arthritis, triangular fibrocartilage complex tears, wide awake hand surgery, and rock climbing injuries.",
+        "works_count": 124933,
         "field": "Medicine",
-        "subfield": "Otorhinolaryngology",
+        "subfield": "Surgery",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10494",
-        "name": "Plant Virus Research Studies",
-        "description": "This cluster of papers explores the mechanisms of viral RNA silencing, gene silencing, and plant immunity in response to virus infections. It delves into topics such as small RNAs, recombination analysis, virus transmission, and the role of RNA-dependent RNA polymerases in antiviral defense. The cluster also investigates the use of virus-induced gene silencing as a tool for studying gene function in plants.",
-        "works_count": 131711,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Plant Science",
+        "id": "https://openalex.org/T10268",
+        "name": "Developmental Biology and Gene Regulation",
+        "description": "This cluster of papers explores the Notch signaling pathway and its role in various aspects of development, including gene regulation, stem cell maintenance, embryonic development, and vertebrate origins. It also delves into the implications of Notch signaling in tumorigenesis and evolutionary biology.",
+        "works_count": 151001,
+        "field": "Biochemistry, Genetics and Molecular Biology",
+        "subfield": "Molecular Biology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10721",
-        "name": "Surfactants and Colloidal Systems",
-        "description": "This cluster of papers focuses on the aggregation, self-assembly, and interfacial behavior of surfactants, including topics such as micelle formation, wormlike micelles, ionic liquids, and microemulsions. It also covers the adsorption mechanisms of surfactants at air-water interfaces and the viscoelastic properties of surfactant solutions.",
-        "works_count": 160099,
-        "field": "Chemistry",
-        "subfield": "Physical and Theoretical Chemistry",
+        "id": "https://openalex.org/T10029",
+        "name": "Climate variability and models",
+        "description": "This cluster of papers encompasses a wide range of research on climate change, global warming, and variability, including studies on extreme events, climate modeling, precipitation extremes, ocean circulation, ENSO variability, Arctic amplification, and the hydrological cycle. It also addresses the impact of greenhouse gas emissions and the challenge of keeping global warming below 2°C.",
+        "works_count": 278930,
+        "field": "Environmental Science",
+        "subfield": "Global and Planetary Change",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10677",
-        "name": "Attachment and Relationship Dynamics",
-        "description": "This cluster of papers explores theoretical developments in attachment theory, focusing on the dynamics of adult attachment, parent-child attachment, marital quality, interpersonal processes, emotion regulation, and the role of social support in intimate relationships. It covers a wide range of topics related to attachment and relationships from infancy to adulthood.",
-        "works_count": 124477,
+        "id": "https://openalex.org/T10182",
+        "name": "Child and Adolescent Psychosocial and Emotional Development",
+        "description": "This cluster of papers explores the intricate relationship between emotion regulation, psychopathology, and developmental trajectories in children and adolescents. It delves into the impact of various factors such as parenting, anxiety disorders, depression, and behavioral problems on the mental health and well-being of young individuals.",
+        "works_count": 189307,
         "field": "Psychology",
-        "subfield": "Social Psychology",
+        "subfield": "Clinical Psychology",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10027",
+        "name": "Diabetes, Cardiovascular Risks, and Lipoproteins",
+        "description": "This cluster of papers focuses on the metabolic syndrome, its association with cardiovascular disease, diabetes, insulin resistance, obesity, and atherosclerosis. It includes studies on glucose metabolism, lifestyle interventions, and global prevalence of related conditions.",
+        "works_count": 118648,
+        "field": "Medicine",
+        "subfield": "Endocrinology, Diabetes and Metabolism",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12192",
+        "name": "Polysaccharides Composition and Applications",
+        "description": "This cluster of papers focuses on the production, properties, and applications of hydrocolloids, particularly in food and biomedical fields. It covers a wide range of hydrocolloids such as xanthan gum, guar gum, gellan gum, pullulan, konjac glucomannan, and locust bean gum. The papers discuss their rheological properties, microbial production, antioxidant activity, molecular structure, and various food and biomedical applications.",
+        "works_count": 76638,
+        "field": "Agricultural and Biological Sciences",
+        "subfield": "Food Science",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12191",
+        "name": "Physical Organic Chemistry and Reaction Kinetics",
+        "description": "This cluster of papers explores nucleophilic reactivity in organic chemistry, covering topics such as nucleophilicity scales, acidity scales, phosphate hydrolysis mechanisms, enzymatic mechanisms, superbases for organic synthesis, electrophilicity parameters, aminolysis reactions, transition state analysis, hydride transfer reactions, and their applications in organic synthesis.",
+        "works_count": 157400,
+        "field": "Chemistry",
+        "subfield": "Organic Chemistry",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T14190",
+        "name": "Military history and social perspectives",
+        "description": "This cluster of papers explores the cultural, societal, and historical transformations through a multidisciplinary lens, covering topics such as cultural representation, social movements, gender dynamics, economic systems, colonialism, globalization, ethnic identity, transportation history, religious movements, and societal power dynamics.",
+        "works_count": 187724,
+        "field": "Arts and Humanities",
+        "subfield": "History",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,310 +4069,340 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13315",
-            "name": "Occupational Health and Safety in Workplaces",
+            "id": "https://openalex.org/T10102",
+            "name": "scientometrics and bibliometrics research",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13976",
+            "name": "Web visibility and informetrics",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 7,
+        "example_work_ids": [
+          "https://openalex.org/W2150220236",
+          "https://openalex.org/W2755950973",
+          "https://openalex.org/W3160856016",
+          "https://openalex.org/W2128438887",
+          "https://openalex.org/W3125707221"
+        ],
+        "research_question": "How are scientometrics and bibliometrics research and Web visibility and informetrics connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between scientometrics and bibliometrics research and Web visibility and informetrics will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10102",
+            "name": "scientometrics and bibliometrics research",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13284",
+            "name": "Psychology Research and Bibliometrics",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W2755950973",
+          "https://openalex.org/W3160856016",
+          "https://openalex.org/W2128438887",
+          "https://openalex.org/W3125707221",
+          "https://openalex.org/W1767272795"
+        ],
+        "research_question": "How are scientometrics and bibliometrics research and Psychology Research and Bibliometrics connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between scientometrics and bibliometrics research and Psychology Research and Bibliometrics will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10002",
+            "name": "Advanced Chemical Physics Studies",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13645",
+            "name": "Thermodynamic and Structural Properties of Metals and Alloys",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 4,
+        "example_work_ids": [
+          "https://openalex.org/W1970127494",
+          "https://openalex.org/W1979544533",
+          "https://openalex.org/W2007395042",
+          "https://openalex.org/W2036113194"
+        ],
+        "research_question": "How are Advanced Chemical Physics Studies and Thermodynamic and Structural Properties of Metals and Alloys connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Advanced Chemical Physics Studies and Thermodynamic and Structural Properties of Metals and Alloys will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11359",
+            "name": "Effects of Radiation Exposure",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T14091",
-            "name": "Industrial and Mining Safety",
-            "field": "Engineering",
+            "id": "https://openalex.org/T11176",
+            "name": "Radiation Therapy and Dosimetry",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 4,
+        "example_work_ids": [
+          "https://openalex.org/W2132834292",
+          "https://openalex.org/W4252030004",
+          "https://openalex.org/W2103546044",
+          "https://openalex.org/W1520315220"
+        ],
+        "research_question": "How are Effects of Radiation Exposure and Radiation Therapy and Dosimetry connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Effects of Radiation Exposure and Radiation Therapy and Dosimetry will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10002",
+            "name": "Advanced Chemical Physics Studies",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12044",
+            "name": "Advanced Physical and Chemical Molecular Interactions",
+            "field": "Chemistry",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W4234152194",
-          "https://openalex.org/W1997960703",
-          "https://openalex.org/W4302413410"
+          "https://openalex.org/W1981368803",
+          "https://openalex.org/W2143981217",
+          "https://openalex.org/W2023271753"
         ],
-        "research_question": "How are Occupational Health and Safety in Workplaces and Industrial and Mining Safety connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Industrial and Mining Safety will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Advanced Chemical Physics Studies and Advanced Physical and Chemical Molecular Interactions connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Advanced Chemical Physics Studies and Advanced Physical and Chemical Molecular Interactions will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13315",
-            "name": "Occupational Health and Safety in Workplaces",
+            "id": "https://openalex.org/T11359",
+            "name": "Effects of Radiation Exposure",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T14168",
-            "name": "Occupational Health and Global Justice",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T10946",
+            "name": "Radioactivity and Radon Measurements",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W2033791981",
-          "https://openalex.org/W4234152194"
+          "https://openalex.org/W597283373",
+          "https://openalex.org/W3095914046",
+          "https://openalex.org/W2913285281"
         ],
-        "research_question": "How are Occupational Health and Safety in Workplaces and Occupational Health and Global Justice connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Occupational Health and Global Justice will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Effects of Radiation Exposure and Radioactivity and Radon Measurements connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Effects of Radiation Exposure and Radioactivity and Radon Measurements will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13315",
-            "name": "Occupational Health and Safety in Workplaces",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12006",
-            "name": "Ergonomics and Musculoskeletal Disorders",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 2,
-        "example_work_ids": [
-          "https://openalex.org/W2149552744",
-          "https://openalex.org/W2736493709"
-        ],
-        "research_question": "How are Occupational Health and Safety in Workplaces and Ergonomics and Musculoskeletal Disorders connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Ergonomics and Musculoskeletal Disorders will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T12045",
-            "name": "Rice Cultivation and Yield Improvement",
+            "id": "https://openalex.org/T12234",
+            "name": "Mollusks and Parasites Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T11468",
-            "name": "Genetic Mapping and Diversity in Plants and Animals",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T10765",
+            "name": "Marine Biology and Ecology Research",
+            "field": "Earth and Planetary Sciences",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W2076243827",
-          "https://openalex.org/W4295007161"
+          "https://openalex.org/W1632029941",
+          "https://openalex.org/W2781666580",
+          "https://openalex.org/W159652841"
         ],
-        "research_question": "How are Rice Cultivation and Yield Improvement and Genetic Mapping and Diversity in Plants and Animals connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Rice Cultivation and Yield Improvement and Genetic Mapping and Diversity in Plants and Animals will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Mollusks and Parasites Studies and Marine Biology and Ecology Research connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Mollusks and Parasites Studies and Marine Biology and Ecology Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10199",
-            "name": "Wildlife Ecology and Conservation",
+            "id": "https://openalex.org/T10002",
+            "name": "Advanced Chemical Physics Studies",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11948",
+            "name": "Machine Learning in Materials Science",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W1979544533",
+          "https://openalex.org/W2007395042"
+        ],
+        "research_question": "How are Advanced Chemical Physics Studies and Machine Learning in Materials Science connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Advanced Chemical Physics Studies and Machine Learning in Materials Science will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12234",
+            "name": "Mollusks and Parasites Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12097",
+            "name": "Aquatic Invertebrate Ecology and Behavior",
             "field": "Environmental Science",
             "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13546",
-            "name": "Census and Population Estimation",
-            "field": "Mathematics",
-            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2116665868",
-          "https://openalex.org/W2101348276"
+          "https://openalex.org/W2137284176",
+          "https://openalex.org/W1979120804"
         ],
-        "research_question": "How are Wildlife Ecology and Conservation and Census and Population Estimation connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Wildlife Ecology and Conservation and Census and Population Estimation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Mollusks and Parasites Studies and Aquatic Invertebrate Ecology and Behavior connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Mollusks and Parasites Studies and Aquatic Invertebrate Ecology and Behavior will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10199",
-            "name": "Wildlife Ecology and Conservation",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T12234",
+            "name": "Mollusks and Parasites Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10174",
-            "name": "Animal Behavior and Reproduction",
-            "field": "Agricultural and Biological Sciences",
+            "id": "https://openalex.org/T10695",
+            "name": "Parasites and Host Interactions",
+            "field": "Immunology and Microbiology",
             "domain": "Life Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2087369095",
-          "https://openalex.org/W1978939541"
+          "https://openalex.org/W2090617171",
+          "https://openalex.org/W4211019730"
         ],
-        "research_question": "How are Wildlife Ecology and Conservation and Animal Behavior and Reproduction connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Wildlife Ecology and Conservation and Animal Behavior and Reproduction will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Mollusks and Parasites Studies and Parasites and Host Interactions connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Mollusks and Parasites Studies and Parasites and Host Interactions will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12586",
-            "name": "Folklore, Mythology, and Literature Studies",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12882",
-            "name": "Jungian Analytical Psychology",
-            "field": "Psychology",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2321031999"
-        ],
-        "research_question": "How are Folklore, Mythology, and Literature Studies and Jungian Analytical Psychology connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Folklore, Mythology, and Literature Studies and Jungian Analytical Psychology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T12586",
-            "name": "Folklore, Mythology, and Literature Studies",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12864",
-            "name": "Psychoanalysis and Social Critique",
+            "id": "https://openalex.org/T10102",
+            "name": "scientometrics and bibliometrics research",
             "field": "Social Sciences",
             "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10799",
+            "name": "Data Visualization and Analytics",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 1,
+        "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2080610040"
+          "https://openalex.org/W2150220236",
+          "https://openalex.org/W4238591974"
         ],
-        "research_question": "How are Folklore, Mythology, and Literature Studies and Psychoanalysis and Social Critique connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Folklore, Mythology, and Literature Studies and Psychoanalysis and Social Critique will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are scientometrics and bibliometrics research and Data Visualization and Analytics connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between scientometrics and bibliometrics research and Data Visualization and Analytics will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13315",
-            "name": "Occupational Health and Safety in Workplaces",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10002",
+            "name": "Advanced Chemical Physics Studies",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T13604",
-            "name": "Adsorption, diffusion, and thermodynamic properties of materials",
-            "field": "Chemistry",
+            "id": "https://openalex.org/T10792",
+            "name": "Matrix Theory and Algorithms",
+            "field": "Computer Science",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1997960703"
+          "https://openalex.org/W2083222334"
         ],
-        "research_question": "How are Occupational Health and Safety in Workplaces and Adsorption, diffusion, and thermodynamic properties of materials connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Adsorption, diffusion, and thermodynamic properties of materials will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T13315",
-            "name": "Occupational Health and Safety in Workplaces",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13633",
-            "name": "Public Health and Social Inequalities",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W3208275537"
-        ],
-        "research_question": "How are Occupational Health and Safety in Workplaces and Public Health and Social Inequalities connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Public Health and Social Inequalities will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T13315",
-            "name": "Occupational Health and Safety in Workplaces",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13233",
-            "name": "Occupational Health and Safety Management",
-            "field": "Health Professions",
-            "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2149552744"
-        ],
-        "research_question": "How are Occupational Health and Safety in Workplaces and Occupational Health and Safety Management connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Occupational Health and Safety in Workplaces and Occupational Health and Safety Management will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T12045",
-            "name": "Rice Cultivation and Yield Improvement",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W616920926"
-        ],
-        "research_question": "How are Rice Cultivation and Yield Improvement and Food composition and properties connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Rice Cultivation and Yield Improvement and Food composition and properties will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Advanced Chemical Physics Studies and Matrix Theory and Algorithms connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Advanced Chemical Physics Studies and Matrix Theory and Algorithms will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
     ],
     "dataset_candidates": [
       {
-        "id": "24484542",
-        "title": "Patient Specific 3D Printable Mandibular Osteoma Model for Surgical Rehearsal and Preoperative Planning",
-        "description": "<p>This dataset provides a patient specific, 3D printable mandibular model reconstructed from cone-beam computed tomography (CBCT) images of a 25 years old male patient with a suspected peripheral osteoma of the right mandible.</p>\n<p>The anatomical model was generated using 3D Slicer and Blender and fabricated at a 1:1 scale using fused deposition modelling (FDM) technology and polylactic acid (PLA) filament.</p>\n<p>The model was used for preoperative surgical rehearsal, including osteoma resection simulation, evaluation of resection boundaries, and reconstruction plate planning.</p>\n<p>The S",
+        "id": "24468110",
+        "title": "The X-ray catalogue of FGK stars within 10 pc: The coronal temperature-brightness relation explained with the RTV scaling law",
+        "description": "",
         "publication_date": "2026-11-23",
-        "doi": "10.5281/zenodo.24484542",
+        "doi": "10.5281/zenodo.24468110",
         "resource_type": "dataset",
         "license": "cc-by-4.0",
         "url": null,
-        "matched_topic": "Occupational Health and Safety in Workplaces",
+        "matched_topic": "Effects of Radiation Exposure",
+        "source": "Zenodo",
+        "status": "metadata_candidate_not_yet_validated"
+      },
+      {
+        "id": "24484626",
+        "title": "Intracellular T. gondii in myeloid cells from CD11c-Tbx21 KO mice",
+        "description": "<p>This dataset contains flow cytometry and parasite burden data from CD11c-Tbx21 and Lyz2-Tbx21 KO mice infected with T. gondi and on day 5 post-infection intracellular parasite was assesed in myeloid cells.</p>",
+        "publication_date": "2026-11-23",
+        "doi": "10.5281/zenodo.24484626",
+        "resource_type": "dataset",
+        "license": "cc-by-4.0",
+        "url": null,
+        "matched_topic": "Mollusks and Parasites Studies",
         "source": "Zenodo",
         "status": "metadata_candidate_not_yet_validated"
       }
@@ -7742,16 +7772,39 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between GDP per capita (constant 2015 US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
+      {
+        "id": "openalex",
+        "name": "OpenAlex",
+        "domains": [
+          "all_sciences",
+          "physics",
+          "biology",
+          "psychology",
+          "economics",
+          "computer_science"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "scholarly articles",
+          "research papers",
+          "scientific literature"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.openalex.org/",
+        "auth_required": false,
+        "integration_status": "active_literature_only",
+        "notes": "Scholarly metadata search; not currently ingested as research observations."
+      },
       {
         "id": "world_bank_wdi",
         "name": "World Bank World Development Indicators",
@@ -7778,82 +7831,6 @@
         "auth_required": false,
         "integration_status": "active",
         "notes": "Country-level indicators; ecological and coverage limitations apply."
-      },
-      {
-        "id": "openalex",
-        "name": "OpenAlex",
-        "domains": [
-          "all_sciences",
-          "physics",
-          "biology",
-          "psychology",
-          "economics",
-          "computer_science"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "scholarly articles",
-          "research papers",
-          "scientific literature"
-        ],
-        "access": "public_api",
-        "endpoint": "https://api.openalex.org/",
-        "auth_required": false,
-        "integration_status": "active_literature_only",
-        "notes": "Scholarly metadata search; not currently ingested as research observations."
-      },
-      {
-        "id": "our_world_in_data",
-        "name": "Our World in Data",
-        "domains": [
-          "biology",
-          "public_health",
-          "climate",
-          "energy",
-          "economics",
-          "demography",
-          "agriculture"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "life expectancy",
-          "health",
-          "climate change",
-          "energy",
-          "agriculture",
-          "population",
-          "education"
-        ],
-        "access": "public_downloads_and_apis",
-        "endpoint": "https://ourworldindata.org/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Dataset-level licences and attribution requirements must be checked individually."
-      },
-      {
-        "id": "pubmed",
-        "name": "PubMed / NCBI E-utilities",
-        "domains": [
-          "biology",
-          "medicine",
-          "public_health",
-          "neuroscience",
-          "psychology"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "clinical",
-          "disease",
-          "health",
-          "medical",
-          "brain",
-          "mental health"
-        ],
-        "access": "public_api",
-        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
@@ -7869,17 +7846,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "health_spending",
+        "gdp_per_capita",
         "literacy"
       ],
-      "priority_score": 0.7337,
+      "priority_score": 0.718,
       "selected_labels": [
-        "Current health expenditure per capita (US$)",
+        "GDP per capita (constant 2015 US$)",
         "Adult literacy rate (%)"
       ],
-      "selection_score": 0.7337,
+      "selection_score": 0.718,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7888,8 +7865,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 18,
-    "next_question": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 19,
+    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex live multidisciplinary topics, identifies cross-field links in scholarly works, formulates literature-derived falsifiable leads, and searches Zenodo for candidate datasets. These are metadata leads, not validated discoveries; quantitative analysis still requires source-specific ingestion and validation."
   },
   "limitations": [
