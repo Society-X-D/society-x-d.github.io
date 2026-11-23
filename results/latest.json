@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T223429Z",
-  "started_at": "2026-11-23T22:34:25.368062+00:00",
-  "completed_at": "2026-11-23T22:34:29.814996+00:00",
+  "run_id": "20261123T223552Z",
+  "started_at": "2026-11-23T22:35:42.110640+00:00",
+  "completed_at": "2026-11-23T22:35:52.218610+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
+      "retrieved_at": "2026-11-23T22:35:42.110640+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
+      "retrieved_at": "2026-11-23T22:35:42.110640+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
+      "retrieved_at": "2026-11-23T22:35:42.110640+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
+      "retrieved_at": "2026-11-23T22:35:42.110640+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
+      "retrieved_at": "2026-11-23T22:35:42.110640+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
+      "retrieved_at": "2026-11-23T22:35:42.110640+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:34:25.368062+00:00",
+      "retrieved_at": "2026-11-23T22:35:42.110640+00:00",
       "provider": "World Bank"
     }
   },
@@ -3944,6 +3944,409 @@
       "status": "research_lead_not_a_discovery"
     }
   ],
+  "research_frontier": {
+    "provider": "OpenAlex Topics API",
+    "topics_sampled": 25,
+    "new_topics_this_cycle": 25,
+    "topics_discovered": [
+      {
+        "id": "https://openalex.org/T11956",
+        "name": "Sexual Differentiation and Disorders",
+        "description": "This cluster of papers explores the molecular biology, biochemistry, and physiology of human steroidogenesis, focusing on disorders such as Congenital Adrenal Hyperplasia and Intersex Disorders. It delves into topics like androgen receptor gene mutations, prenatal hormone effects on sexual differentiation, digit ratio as a marker for prenatal hormone action, and the influence of fetal testosterone on gender identity and behavior.",
+        "works_count": 46772,
+        "field": "Medicine",
+        "subfield": "Endocrinology, Diabetes and Metabolism",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11868",
+        "name": "Cancer and Skin Lesions",
+        "description": "This cluster of papers focuses on the study of cutaneous adnexal neoplasms, including topics such as extramammary Paget's disease, cylindromatosis gene mutations, Mohs micrographic surgery, and the use of immunohistochemistry in diagnosis. It also covers related syndromes and molecular markers associated with these neoplasms.",
+        "works_count": 33054,
+        "field": "Medicine",
+        "subfield": "Dermatology",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11991",
+        "name": "Soft tissue tumor case studies",
+        "description": "This cluster of papers focuses on the clinicopathologic characteristics, genetic mutations, and treatment strategies for fibrous tumors such as Solitary Fibrous Tumors and Desmoid Tumors. It discusses the identification of recurrent gene fusions, the distinction from histologic mimics, risk assessment models, and the efficacy of various treatments including surgery, radiation therapy, and targeted therapies.",
+        "works_count": 32557,
+        "field": "Medicine",
+        "subfield": "Oncology",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12904",
+        "name": "Diverse Educational Innovations Studies",
+        "description": "This cluster of papers focuses on agricultural education, school gardening, and experiential learning in the context of science achievement, career and technical education, youth leadership development, and STEM integration. It explores topics such as teacher preparation, student motivation, and the impact of school gardens on academic outcomes.",
+        "works_count": 47706,
+        "field": "Agricultural and Biological Sciences",
+        "subfield": "General Agricultural and Biological Sciences",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11468",
+        "name": "Genetic Mapping and Diversity in Plants and Animals",
+        "description": "This cluster of papers focuses on the genetic architecture of quantitative traits in crops such as rice and maize, covering topics such as quantitative trait loci (QTL) mapping, genome-wide association studies, genetic variation, crop improvement, and the genetic basis of heterosis. It also delves into the domestication of maize and rice, as well as the application of marker-assisted selection in plant breeding.",
+        "works_count": 88495,
+        "field": "Biochemistry, Genetics and Molecular Biology",
+        "subfield": "Genetics",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11111",
+        "name": "Spectroscopy and Laser Applications",
+        "description": "This cluster of papers focuses on molecular spectroscopic databases such as HITRAN, HITEMP, and GEISA, as well as the applications of various types of lasers in gas sensing, breath analysis, and high-temperature molecular spectroscopy. It covers topics such as terahertz quantum-cascade lasers, infrared laser absorption, photoacoustic spectroscopy, diode laser absorption, and cavity ring-down spectroscopy.",
+        "works_count": 79268,
+        "field": "Chemistry",
+        "subfield": "Spectroscopy",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10701",
+        "name": "Radical Photochemical Reactions",
+        "description": "This cluster of papers focuses on the applications of photoredox catalysis in organic synthesis, including visible light photoredox catalysis, electrochemical methods, and the use of transition metal complexes. It explores radical reactions, C–H functionalization, photochemical synthesis, and electrocatalysis, with an emphasis on arylation reactions and nitrogen-centered radicals.",
+        "works_count": 64143,
+        "field": "Chemistry",
+        "subfield": "Organic Chemistry",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12410",
+        "name": "Structural and Chemical Analysis of Organic and Inorganic Compounds",
+        "description": "This cluster of papers focuses on the advances in the synthesis and biological applications of various heterocyclic compounds, including oxadiazoles, thiadiazoles, and other related compounds. The research covers topics such as cycloaddition reactions, antimicrobial properties, fluorinated compounds, and conformational analysis.",
+        "works_count": 58232,
+        "field": "Chemistry",
+        "subfield": "Organic Chemistry",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T13674",
+        "name": "Computer Science and Engineering",
+        "description": "This cluster of papers covers topics related to digital image processing, artificial neural networks, and their applications in various fields such as cryptography, machine learning, computer vision, and data security. The use of MATLAB for digital image processing and the application of artificial neural networks for tasks like face recognition and traffic sign recognition are also prominent in this cluster.",
+        "works_count": 15895,
+        "field": "Computer Science",
+        "subfield": "Artificial Intelligence",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T14156",
+        "name": "Engineering Applied Research",
+        "description": "This cluster of papers focuses on the structural analysis, design optimization, and material properties in various engineering fields such as mechanical, marine, automotive, and aerospace. It includes topics like finite element method, fatigue analysis, numerical simulation, fluid dynamics, and failure analysis.",
+        "works_count": 98165,
+        "field": "Engineering",
+        "subfield": "Civil and Structural Engineering",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10879",
+        "name": "Robotic Locomotion and Control",
+        "description": "This cluster of papers explores the biomechanics and control strategies for bipedal locomotion in robots and animals. It covers topics such as dynamic walking, central pattern generators, passive-dynamic walkers, quadruped robots, humanoid robots, and the control of locomotion. The research aims to understand and replicate the complex mechanisms involved in bipedal movement.",
+        "works_count": 53006,
+        "field": "Engineering",
+        "subfield": "Control and Systems Engineering",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12451",
+        "name": "Smart Grid and Power Systems",
+        "description": "This cluster of papers focuses on the technology, development, and applications of smart grid systems, including topics such as cloud computing, big data, renewable energy integration, distribution automation, intelligent control, and reliability analysis in the context of electric power systems. The papers also discuss energy efficiency and the impact of advanced metering infrastructure (AMI) on power supply.",
+        "works_count": 49954,
+        "field": "Engineering",
+        "subfield": "Electrical and Electronic Engineering",
+        "domain": "Physical Sciences"
+      }
+    ],
+    "scientific_domains_represented": [
+      "Health Sciences",
+      "Life Sciences",
+      "Physical Sciences"
+    ],
+    "cross_disciplinary_hypotheses": [
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12904",
+            "name": "Diverse Educational Innovations Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12253",
+            "name": "Urban Agriculture and Sustainability",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 6,
+        "example_work_ids": [
+          "https://openalex.org/W2075780648",
+          "https://openalex.org/W2162043231",
+          "https://openalex.org/W2054759136",
+          "https://openalex.org/W2034196345",
+          "https://openalex.org/W2101561493"
+        ],
+        "research_question": "How are Diverse Educational Innovations Studies and Urban Agriculture and Sustainability connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Diverse Educational Innovations Studies and Urban Agriculture and Sustainability will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11956",
+            "name": "Sexual Differentiation and Disorders",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11077",
+            "name": "Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W2162109306",
+          "https://openalex.org/W1977873240",
+          "https://openalex.org/W4232753436",
+          "https://openalex.org/W2168152966",
+          "https://openalex.org/W2052435478"
+        ],
+        "research_question": "How are Sexual Differentiation and Disorders and Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Sexual Differentiation and Disorders and Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12904",
+            "name": "Diverse Educational Innovations Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12873",
+            "name": "Nutrition, Health and Food Behavior",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2054759136",
+          "https://openalex.org/W2034196345",
+          "https://openalex.org/W2101561493"
+        ],
+        "research_question": "How are Diverse Educational Innovations Studies and Nutrition, Health and Food Behavior connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Diverse Educational Innovations Studies and Nutrition, Health and Food Behavior will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11868",
+            "name": "Cancer and Skin Lesions",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12009",
+            "name": "Hedgehog Signaling Pathway Studies",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W1482000562"
+        ],
+        "research_question": "How are Cancer and Skin Lesions and Hedgehog Signaling Pathway Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Cancer and Skin Lesions and Hedgehog Signaling Pathway Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12904",
+            "name": "Diverse Educational Innovations Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13557",
+            "name": "Environmental and sustainability education",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2075780648"
+        ],
+        "research_question": "How are Diverse Educational Innovations Studies and Environmental and sustainability education connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Diverse Educational Innovations Studies and Environmental and sustainability education will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12904",
+            "name": "Diverse Educational Innovations Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12831",
+            "name": "School Health and Nursing Education",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2162043231"
+        ],
+        "research_question": "How are Diverse Educational Innovations Studies and School Health and Nursing Education connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Diverse Educational Innovations Studies and School Health and Nursing Education will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12904",
+            "name": "Diverse Educational Innovations Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10008",
+            "name": "Teacher Education and Leadership Studies",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W4386904877"
+        ],
+        "research_question": "How are Diverse Educational Innovations Studies and Teacher Education and Leadership Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Diverse Educational Innovations Studies and Teacher Education and Leadership Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12904",
+            "name": "Diverse Educational Innovations Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13853",
+            "name": "Teacher Education and Assessments",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W4386904877"
+        ],
+        "research_question": "How are Diverse Educational Innovations Studies and Teacher Education and Assessments connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Diverse Educational Innovations Studies and Teacher Education and Assessments will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11956",
+            "name": "Sexual Differentiation and Disorders",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10156",
+            "name": "LGBTQ Health, Identity, and Policy",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2156526029"
+        ],
+        "research_question": "How are Sexual Differentiation and Disorders and LGBTQ Health, Identity, and Policy connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Sexual Differentiation and Disorders and LGBTQ Health, Identity, and Policy will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11956",
+            "name": "Sexual Differentiation and Disorders",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11541",
+            "name": "Neuroendocrine regulation and behavior",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2162109306"
+        ],
+        "research_question": "How are Sexual Differentiation and Disorders and Neuroendocrine regulation and behavior connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Sexual Differentiation and Disorders and Neuroendocrine regulation and behavior will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11956",
+            "name": "Sexual Differentiation and Disorders",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11027",
+            "name": "Metabolism and Genetic Disorders",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2148614804"
+        ],
+        "research_question": "How are Sexual Differentiation and Disorders and Metabolism and Genetic Disorders connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Sexual Differentiation and Disorders and Metabolism and Genetic Disorders will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      }
+    ],
+    "dataset_candidates": [],
+    "metadata_only": true,
+    "interpretation": "Topics are sampled from OpenAlex's live multidisciplinary taxonomy. Cross-topic links are inferred from topics assigned together to indexed works. Candidate hypotheses are literature-derived leads, not original verified discoveries. Zenodo records are metadata candidates only; no files are downloaded or analysed.",
+    "source_failures": {
+      "topic_links": [],
+      "dataset_search": []
+    }
+  },
   "literature_screenings": [
     {
       "indexed_work_count": 26,
@@ -7302,44 +7705,16 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "winsorized_pearson",
-      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
-      "path": "proposals/winsorized_pearson.py"
+      "method": "spearman_rank",
+      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
+      "path": "proposals/spearman_rank.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between Unemployment (% of labor force) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
-      {
-        "id": "our_world_in_data",
-        "name": "Our World in Data",
-        "domains": [
-          "biology",
-          "public_health",
-          "climate",
-          "energy",
-          "economics",
-          "demography",
-          "agriculture"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "life expectancy",
-          "health",
-          "climate change",
-          "energy",
-          "agriculture",
-          "population",
-          "education"
-        ],
-        "access": "public_downloads_and_apis",
-        "endpoint": "https://ourworldindata.org/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Dataset-level licences and attribution requirements must be checked individually."
-      },
       {
         "id": "world_bank_wdi",
         "name": "World Bank World Development Indicators",
@@ -7368,29 +7743,6 @@
         "notes": "Country-level indicators; ecological and coverage limitations apply."
       },
       {
-        "id": "gbif",
-        "name": "Global Biodiversity Information Facility",
-        "domains": [
-          "biology",
-          "ecology",
-          "biodiversity",
-          "environment"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "species",
-          "occurrence",
-          "wildlife",
-          "plants",
-          "animals"
-        ],
-        "access": "public_api",
-        "endpoint": "https://api.gbif.org/v1/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Occurrence data; coordinate uncertainty, sampling bias, and record-level licences matter."
-      },
-      {
         "id": "openalex",
         "name": "OpenAlex",
         "domains": [
@@ -7412,6 +7764,34 @@
         "auth_required": false,
         "integration_status": "active_literature_only",
         "notes": "Scholarly metadata search; not currently ingested as research observations."
+      },
+      {
+        "id": "our_world_in_data",
+        "name": "Our World in Data",
+        "domains": [
+          "biology",
+          "public_health",
+          "climate",
+          "energy",
+          "economics",
+          "demography",
+          "agriculture"
+        ],
+        "kind": "quantitative_data",
+        "keywords": [
+          "life expectancy",
+          "health",
+          "climate change",
+          "energy",
+          "agriculture",
+          "population",
+          "education"
+        ],
+        "access": "public_downloads_and_apis",
+        "endpoint": "https://ourworldindata.org/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Dataset-level licences and attribution requirements must be checked individually."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
@@ -7427,17 +7807,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "owid_co2_per_capita",
-        "owid_life_expectancy"
+        "unemployment",
+        "urban_population"
       ],
       "priority_score": 0.775,
       "selected_labels": [
-        "CO2 emissions per capita (OWID)",
-        "Life expectancy (OWID)"
+        "Unemployment (% of labor force)",
+        "Urban population (% of total)"
       ],
       "selection_score": 0.775,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between Unemployment (% of labor force) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7446,9 +7826,9 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 15,
-    "next_question": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
-    "capability_note": "The agent screens a bounded shortlist against OpenAlex, ranks research opportunities by transparent evidence-quality heuristics, and attaches explicit falsification tests. It still uses a fixed starter indicator set and deterministic methods; literature hit counts do not establish novelty or consensus. Several scientific domains still require domain-specific datasets and methods."
+    "cycles_completed": 16,
+    "next_question": "Does the association between Unemployment (% of labor force) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "capability_note": "The agent samples OpenAlex live multidisciplinary topics, identifies cross-field links in scholarly works, formulates literature-derived falsifiable leads, and searches Zenodo for candidate datasets. These are metadata leads, not validated discoveries; quantitative analysis still requires source-specific ingestion and validation."
   },
   "limitations": [
     "Exploratory associations are not causal effects.",
