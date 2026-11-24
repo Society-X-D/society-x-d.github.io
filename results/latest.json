@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261124T110830Z",
-  "started_at": "2026-11-24T11:08:16.320922+00:00",
-  "completed_at": "2026-11-24T11:08:30.036169+00:00",
+  "run_id": "20261124T110901Z",
+  "started_at": "2026-11-24T11:08:45.448276+00:00",
+  "completed_at": "2026-11-24T11:09:01.640807+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:08:16.320922+00:00",
+      "retrieved_at": "2026-11-24T11:08:45.448276+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:08:16.320922+00:00",
+      "retrieved_at": "2026-11-24T11:08:45.448276+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:08:16.320922+00:00",
+      "retrieved_at": "2026-11-24T11:08:45.448276+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:08:16.320922+00:00",
+      "retrieved_at": "2026-11-24T11:08:45.448276+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:08:16.320922+00:00",
+      "retrieved_at": "2026-11-24T11:08:45.448276+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:08:16.320922+00:00",
+      "retrieved_at": "2026-11-24T11:08:45.448276+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:08:16.320922+00:00",
+      "retrieved_at": "2026-11-24T11:08:45.448276+00:00",
       "provider": "World Bank"
     }
   },
@@ -3951,111 +3951,111 @@
     "new_topics_in_sample": 78,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10094",
-        "name": "Epilepsy research and treatment",
-        "description": "This cluster of papers focuses on the diagnosis, classification, management, and neurobiological aspects of epilepsy and seizures. It covers topics such as antiepileptic drugs, status epilepticus, surgical therapy, inflammation, genetics, and drug resistance in epilepsy.",
-        "works_count": 268041,
-        "field": "Medicine",
-        "subfield": "Clinical Neurology",
+        "id": "https://openalex.org/T10359",
+        "name": "Dental Implant Techniques and Outcomes",
+        "description": "This cluster of papers focuses on advancements in dental implantology, with a particular emphasis on peri-implant diseases, bone regeneration, implant stability, ridge alterations, osseointegration, guided bone regeneration, and various implant complications. The papers also discuss esthetic outcomes and biological complications associated with dental implants.",
+        "works_count": 145964,
+        "field": "Dentistry",
+        "subfield": "Oral Surgery",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12132",
-        "name": "Hymenoptera taxonomy and phylogeny",
-        "description": "This cluster of papers explores the ecology, evolution, and interactions of gall-inducing insects, with a focus on parasitoid wasps, DNA barcoding, host specificity, plant-herbivore interactions, phylogeny, morphology, invasive species, and biological control. The research covers a wide range of topics related to the adaptive significance, diversity, and impact of gall-inducing insects in various ecosystems.",
-        "works_count": 247714,
+        "id": "https://openalex.org/T12618",
+        "name": "Botany and Plant Ecology Studies",
+        "description": "This cluster of papers covers a wide range of topics related to the diversity, distribution, and conservation of vascular plants in Central Europe. It includes studies on flora, vegetation types, climate change impacts, biodiversity hotspots, invasive species, and the ecological significance of different habitats. The research also addresses the effects of human activities on plant communities and the potential strategies for their conservation.",
+        "works_count": 4771540,
         "field": "Agricultural and Biological Sciences",
-        "subfield": "Ecology, Evolution, Behavior and Systematics",
+        "subfield": "Plant Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10089",
-        "name": "Avian ecology and behavior",
-        "description": "This cluster of papers focuses on the ecological impacts of climate change on avian populations, including migration patterns, population declines, phenological changes, and habitat selection. It also discusses model selection and multimodel inference in the context of avian ecology, as well as the effects of agricultural intensification and conservation actions on bird populations.",
-        "works_count": 855718,
-        "field": "Environmental Science",
-        "subfield": "Ecology",
+        "id": "https://openalex.org/T10396",
+        "name": "Fatigue and fracture mechanics",
+        "description": "This cluster of papers covers advances in fatigue mechanics and fracture analysis, including topics such as fatigue crack closure, multiaxial fatigue criterion, thermographic methodology for fatigue limit determination, microstructure-sensitive modeling of fatigue crack formation, and probabilistic fatigue life prediction. The research also delves into high-cycle fatigue behavior, stress intensity factors, crack propagation mechanisms, and the application of local approaches to fracture assessment.",
+        "works_count": 231191,
+        "field": "Engineering",
+        "subfield": "Mechanics of Materials",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T11391",
-        "name": "Theatre and Performance Studies",
-        "description": "This cluster of papers encompasses a wide range of topics related to theatrical performance, including theatre, performance art, drama education, audience experience, performativity, immersive theatre, globalization, and social transformation. It explores the interdisciplinary study of theatrical performance and theory in various cultural and historical contexts.",
-        "works_count": 606759,
-        "field": "Arts and Humanities",
-        "subfield": "Visual Arts and Performing Arts",
+        "id": "https://openalex.org/T10731",
+        "name": "Educational Games and Gamification",
+        "description": "This cluster of papers explores the use of gamification, game-based learning, and digital games to enhance education and learning outcomes. It covers topics such as motivation, student engagement, intrinsic motivation, and the impact of gamification on health. The research delves into the effectiveness of various game elements in educational contexts and their influence on learning and instructional design.",
+        "works_count": 190541,
+        "field": "Psychology",
+        "subfield": "Developmental and Educational Psychology",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T10134",
-        "name": "Inflammatory Bowel Disease",
-        "description": "This cluster of papers explores the genetics, epidemiology, pathogenesis, and treatment of inflammatory bowel diseases such as Crohn's disease and ulcerative colitis. It covers topics such as host-microbe interactions, genetic susceptibility loci, immune system involvement, therapeutic targets, and the global burden of these diseases.",
-        "works_count": 220088,
-        "field": "Medicine",
-        "subfield": "Gastroenterology",
+        "id": "https://openalex.org/T13111",
+        "name": "Nursing care and research",
+        "description": "This cluster of papers focuses on the role of family caregivers in providing care for individuals with chronic illnesses, emphasizing the importance of self-care, quality of life, and the burden experienced by caregivers. It explores nursing interventions, health promotion, and social support for family caregivers, particularly in the context of an aging population.",
+        "works_count": 95506,
+        "field": "Nursing",
+        "subfield": "Research and Theory",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10062",
-        "name": "MicroRNA in disease regulation",
-        "description": "This cluster of papers focuses on the role of microRNAs in gene expression regulation, particularly in the context of cancer development and progression. It covers topics such as microRNA biogenesis, targeting specificity, biomarker potential, and therapeutic applications in cancer treatment.",
-        "works_count": 119885,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Cancer Research",
+        "id": "https://openalex.org/T10450",
+        "name": "Aquaculture Nutrition and Growth",
+        "description": "This cluster of papers focuses on the metabolism and nutrition of aquaculture feeds, with an emphasis on sustainable sources of nutrients such as fish meal and fish oil replacements, utilization of plant proteins, carbohydrates, and biofloc technology. It also explores the impact of different dietary components on fish health and growth performance.",
+        "works_count": 148140,
+        "field": "Agricultural and Biological Sciences",
+        "subfield": "Aquatic Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10093",
-        "name": "Nuclear physics research studies",
-        "description": "This cluster of papers covers theoretical and experimental studies on nuclear structure, nuclear forces, nucleosynthesis, neutron radii, mean-field models, nuclear reactions, shell model, isospin physics, mass evaluation, and astrophysical reaction rates.",
-        "works_count": 365814,
-        "field": "Physics and Astronomy",
-        "subfield": "Nuclear and High Energy Physics",
+        "id": "https://openalex.org/T10100",
+        "name": "Metaheuristic Optimization Algorithms Research",
+        "description": "This cluster of papers focuses on swarm intelligence optimization algorithms, including Particle Swarm Optimization, Differential Evolution, Ant Colony Optimization, and Firefly Algorithm. These nature-inspired metaheuristic algorithms are used for global optimization and have applications in various fields.",
+        "works_count": 148448,
+        "field": "Computer Science",
+        "subfield": "Artificial Intelligence",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T12862",
-        "name": "Catholicism and Religious Studies",
-        "description": "This cluster of papers explores the history, influence, and challenges faced by the Catholic Church in America. It delves into topics such as Catholic identity, Vatican II, religious ethics, education, social justice, and the interplay between Catholicism and American culture. The papers also discuss the role of the church in historical events and its impact on various aspects of American society.",
-        "works_count": 487569,
-        "field": "Arts and Humanities",
-        "subfield": "Religious studies",
+        "id": "https://openalex.org/T11925",
+        "name": "Culinary Culture and Tourism",
+        "description": "This cluster of papers explores the intersection of food, tourism, and gastronomy, focusing on topics such as the tourist experience of local cuisine, destination marketing through food, sustainability of traditional foods, and the role of gastronomy in shaping regional identity. It delves into the motivations, behaviors, and perceptions of food tourists and the impact of culinary experiences on overall travel satisfaction.",
+        "works_count": 155631,
+        "field": "Business, Management and Accounting",
+        "subfield": "Tourism, Leisure and Hospitality Management",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T10378",
-        "name": "Advanced MRI Techniques and Applications",
-        "description": "This cluster of papers covers a wide range of applications and techniques related to magnetic resonance imaging (MRI) in the field of medicine. It includes topics such as perfusion imaging, spectroscopy, parallel imaging, susceptibility weighted imaging, deep learning applications, brain metabolites, functional MRI, quantitative susceptibility mapping, and cardiovascular MRI.",
-        "works_count": 158534,
+        "id": "https://openalex.org/T11135",
+        "name": "Virology and Viral Diseases",
+        "description": "This cluster of papers focuses on the epidemiology, pathogenesis, immune response, and zoonotic transmission of paramyxoviruses, including Nipah virus, measles virus, Hendra virus, and Newcastle disease virus. It also covers topics related to vaccine development and the global distribution of these viruses.",
+        "works_count": 90499,
         "field": "Medicine",
-        "subfield": "Radiology, Nuclear Medicine and Imaging",
+        "subfield": "Epidemiology",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10932",
-        "name": "Microbial Metabolic Engineering and Bioproduction",
-        "description": "This cluster of papers focuses on the field of metabolic engineering and synthetic biology, with an emphasis on genome-scale models, constraint-based models, and their application in biofuel production, microbial metabolism, pathway reconstruction, and biorefineries. The papers cover topics such as flux balance analysis, high-quality genome-scale metabolic reconstructions, programming cells for accelerated evolution, and the use of synthetic protein scaffolds to control metabolic flux.",
-        "works_count": 85065,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Molecular Biology",
+        "id": "https://openalex.org/T10486",
+        "name": "Salmonella and Campylobacter epidemiology",
+        "description": "This cluster of papers focuses on the global burden, epidemiology, antimicrobial resistance, and pathogenicity of foodborne pathogens, particularly Salmonella and Campylobacter. It covers topics such as genome sequencing, public health implications, zoonotic transmission, and the challenges posed by these pathogens to human health.",
+        "works_count": 142721,
+        "field": "Agricultural and Biological Sciences",
+        "subfield": "Food Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T11044",
-        "name": "Particle Detector Development and Performance",
-        "description": "This cluster of papers covers advancements in particle detector technology, including silicon detectors, photon counting, radiation hardness, time projection chambers, gaseous detectors, cosmic-ray muon imaging, X-ray imaging, and the performance of various types of detectors. The papers also discuss the application of CMOS technology in detector design and development.",
-        "works_count": 170464,
-        "field": "Physics and Astronomy",
-        "subfield": "Nuclear and High Energy Physics",
+        "id": "https://openalex.org/T10306",
+        "name": "Liquid Crystal Research Advancements",
+        "description": "This cluster of papers explores advancements in liquid crystal research, focusing on self-organized soft materials, photoinduced motions, functional liquid crystalline assemblies, optoelectronic applications, nanoparticles in liquid crystals, colloidal crystals, polymer-stabilized blue phases, chiral nematic phases, and nanostructured materials.",
+        "works_count": 128953,
+        "field": "Materials Science",
+        "subfield": "Electronic, Optical and Magnetic Materials",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T14388",
-        "name": "Medieval European History and Architecture",
-        "description": "This cluster of papers explores the evolution and influence of medieval architecture, particularly focusing on castle construction, Gothic art, church buildings, and the cultural heritage of the Baltic region. It delves into the architectural evolution and its significance in shaping medieval society, emphasizing the historical preservation of these structures.",
-        "works_count": 229818,
-        "field": "Arts and Humanities",
-        "subfield": "Archeology (arts and humanities)",
+        "id": "https://openalex.org/T12843",
+        "name": "Human Resource and Talent Management",
+        "description": "This cluster of papers explores the strategic management of talent on a global scale, encompassing topics such as talent identification, succession planning, employee engagement, and the impact of talent management on organizational performance. It delves into the challenges and opportunities faced by multinational enterprises in managing their workforce, and emphasizes the importance of talent management as a source of competitive advantage in today's dynamic business environment.",
+        "works_count": 135140,
+        "field": "Business, Management and Accounting",
+        "subfield": "Organizational Behavior and Human Resource Management",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,296 +4069,310 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10094",
-            "name": "Epilepsy research and treatment",
-            "field": "Medicine",
+            "id": "https://openalex.org/T10731",
+            "name": "Educational Games and Gamification",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11197",
+            "name": "Digital Games and Media",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 8,
+        "example_work_ids": [
+          "https://openalex.org/W2023718959",
+          "https://openalex.org/W1998933811",
+          "https://openalex.org/W48268975",
+          "https://openalex.org/W4292952947",
+          "https://openalex.org/W1980850924"
+        ],
+        "research_question": "How are Educational Games and Gamification and Digital Games and Media connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Educational Games and Gamification and Digital Games and Media will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12618",
+            "name": "Botany and Plant Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10005",
+            "name": "Ecology and Vegetation Dynamics Studies",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 7,
+        "example_work_ids": [
+          "https://openalex.org/W2077454220",
+          "https://openalex.org/W1544206333",
+          "https://openalex.org/W2123402141",
+          "https://openalex.org/W2745750801",
+          "https://openalex.org/W2121685929"
+        ],
+        "research_question": "How are Botany and Plant Ecology Studies and Ecology and Vegetation Dynamics Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Botany and Plant Ecology Studies and Ecology and Vegetation Dynamics Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10359",
+            "name": "Dental Implant Techniques and Outcomes",
+            "field": "Dentistry",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T12854",
-            "name": "Neurology and Historical Studies",
-            "field": "Neuroscience",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T10059",
+            "name": "Bone Tissue Engineering Materials",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 6,
         "example_work_ids": [
-          "https://openalex.org/W1978437325",
-          "https://openalex.org/W2103946141",
-          "https://openalex.org/W4239594659",
-          "https://openalex.org/W2592509339",
-          "https://openalex.org/W2099478180"
+          "https://openalex.org/W1575658306",
+          "https://openalex.org/W2131694872",
+          "https://openalex.org/W2151005356",
+          "https://openalex.org/W2056773589",
+          "https://openalex.org/W1975810455"
         ],
-        "research_question": "How are Epilepsy research and treatment and Neurology and Historical Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Epilepsy research and treatment and Neurology and Historical Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Dental Implant Techniques and Outcomes and Bone Tissue Engineering Materials connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Dental Implant Techniques and Outcomes and Bone Tissue Engineering Materials will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10089",
-            "name": "Avian ecology and behavior",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T10359",
+            "name": "Dental Implant Techniques and Outcomes",
+            "field": "Dentistry",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T12178",
-            "name": "Bird parasitology and diseases",
-            "field": "Immunology and Microbiology",
+            "id": "https://openalex.org/T10512",
+            "name": "Orthopaedic implants and arthroplasty",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W2071564049",
+          "https://openalex.org/W1575658306",
+          "https://openalex.org/W2131694872",
+          "https://openalex.org/W2151005356",
+          "https://openalex.org/W2245176866"
+        ],
+        "research_question": "How are Dental Implant Techniques and Outcomes and Orthopaedic implants and arthroplasty connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Dental Implant Techniques and Outcomes and Orthopaedic implants and arthroplasty will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12618",
+            "name": "Botany and Plant Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T14468",
+            "name": "Plant Ecology and Soil Science",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W1568226262",
-          "https://openalex.org/W2938463896",
-          "https://openalex.org/W1550095290"
+          "https://openalex.org/W1544206333",
+          "https://openalex.org/W2121685929",
+          "https://openalex.org/W2021831883"
         ],
-        "research_question": "How are Avian ecology and behavior and Bird parasitology and diseases connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Avian ecology and behavior and Bird parasitology and diseases will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Botany and Plant Ecology Studies and Plant Ecology and Soil Science connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Botany and Plant Ecology Studies and Plant Ecology and Soil Science will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10089",
-            "name": "Avian ecology and behavior",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T10731",
+            "name": "Educational Games and Gamification",
+            "field": "Psychology",
+            "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T10174",
-            "name": "Animal Behavior and Reproduction",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T10803",
+            "name": "Innovative Human-Technology Interaction",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2023718959",
+          "https://openalex.org/W1998933811",
+          "https://openalex.org/W10512124"
+        ],
+        "research_question": "How are Educational Games and Gamification and Innovative Human-Technology Interaction connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Educational Games and Gamification and Innovative Human-Technology Interaction will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10731",
+            "name": "Educational Games and Gamification",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11935",
+            "name": "Literacy, Media, and Education",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W1906551997",
-          "https://openalex.org/W1552856649"
+          "https://openalex.org/W4292952947",
+          "https://openalex.org/W1980850924"
         ],
-        "research_question": "How are Avian ecology and behavior and Animal Behavior and Reproduction connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Avian ecology and behavior and Animal Behavior and Reproduction will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Educational Games and Gamification and Literacy, Media, and Education connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Educational Games and Gamification and Literacy, Media, and Education will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10089",
-            "name": "Avian ecology and behavior",
-            "field": "Environmental Science",
+            "id": "https://openalex.org/T10396",
+            "name": "Fatigue and fracture mechanics",
+            "field": "Engineering",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T11665",
-            "name": "Animal Vocal Communication and Behavior",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T10736",
+            "name": "Hydrogen embrittlement and corrosion behaviors in metals",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W1552856649",
-          "https://openalex.org/W1550095290"
+          "https://openalex.org/W2062613656",
+          "https://openalex.org/W1566694159"
         ],
-        "research_question": "How are Avian ecology and behavior and Animal Vocal Communication and Behavior connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Avian ecology and behavior and Animal Vocal Communication and Behavior will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Fatigue and fracture mechanics and Hydrogen embrittlement and corrosion behaviors in metals connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Fatigue and fracture mechanics and Hydrogen embrittlement and corrosion behaviors in metals will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10089",
-            "name": "Avian ecology and behavior",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11974",
-            "name": "Lepidoptera: Biology and Taxonomy",
+            "id": "https://openalex.org/T12618",
+            "name": "Botany and Plant Ecology Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11913",
+            "name": "Animal Ecology and Behavior Studies",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1568226262"
+          "https://openalex.org/W2077454220"
         ],
-        "research_question": "How are Avian ecology and behavior and Lepidoptera: Biology and Taxonomy connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Avian ecology and behavior and Lepidoptera: Biology and Taxonomy will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Botany and Plant Ecology Studies and Animal Ecology and Behavior Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Botany and Plant Ecology Studies and Animal Ecology and Behavior Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10089",
-            "name": "Avian ecology and behavior",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12455",
-            "name": "Mediterranean and Iberian flora and fauna",
+            "id": "https://openalex.org/T12618",
+            "name": "Botany and Plant Ecology Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13801",
+            "name": "Urban Arborization and Environmental Studies",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2938463896"
+          "https://openalex.org/W1594647290"
         ],
-        "research_question": "How are Avian ecology and behavior and Mediterranean and Iberian flora and fauna connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Avian ecology and behavior and Mediterranean and Iberian flora and fauna will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Botany and Plant Ecology Studies and Urban Arborization and Environmental Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Botany and Plant Ecology Studies and Urban Arborization and Environmental Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10094",
-            "name": "Epilepsy research and treatment",
-            "field": "Medicine",
+            "id": "https://openalex.org/T10359",
+            "name": "Dental Implant Techniques and Outcomes",
+            "field": "Dentistry",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10448",
-            "name": "Memory and Neural Mechanisms",
-            "field": "Neuroscience",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2103946141"
-        ],
-        "research_question": "How are Epilepsy research and treatment and Memory and Neural Mechanisms connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Epilepsy research and treatment and Memory and Neural Mechanisms will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10094",
-            "name": "Epilepsy research and treatment",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10429",
-            "name": "EEG and Brain-Computer Interfaces",
-            "field": "Neuroscience",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W4248307879"
-        ],
-        "research_question": "How are Epilepsy research and treatment and EEG and Brain-Computer Interfaces connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Epilepsy research and treatment and EEG and Brain-Computer Interfaces will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T12132",
-            "name": "Hymenoptera taxonomy and phylogeny",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11354",
-            "name": "Evolution and Paleontology Studies",
-            "field": "Earth and Planetary Sciences",
+            "id": "https://openalex.org/T13470",
+            "name": "Surface Treatment and Coatings",
+            "field": "Engineering",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2159597448"
+          "https://openalex.org/W1975810455"
         ],
-        "research_question": "How are Hymenoptera taxonomy and phylogeny and Evolution and Paleontology Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Hymenoptera taxonomy and phylogeny and Evolution and Paleontology Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Dental Implant Techniques and Outcomes and Surface Treatment and Coatings connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Dental Implant Techniques and Outcomes and Surface Treatment and Coatings will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T11391",
-            "name": "Theatre and Performance Studies",
-            "field": "Arts and Humanities",
+            "id": "https://openalex.org/T10731",
+            "name": "Educational Games and Gamification",
+            "field": "Psychology",
             "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T12275",
-            "name": "Gender and Feminist Studies",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T11122",
+            "name": "Online Learning and Analytics",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W3142264321"
+          "https://openalex.org/W48268975"
         ],
-        "research_question": "How are Theatre and Performance Studies and Gender and Feminist Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Theatre and Performance Studies and Gender and Feminist Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T11391",
-            "name": "Theatre and Performance Studies",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12119",
-            "name": "Linguistics and Discourse Analysis",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W109677331"
-        ],
-        "research_question": "How are Theatre and Performance Studies and Linguistics and Discourse Analysis connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Theatre and Performance Studies and Linguistics and Discourse Analysis will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T11391",
-            "name": "Theatre and Performance Studies",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13716",
-            "name": "Interpersonal and Organizational Communication",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W109677331"
-        ],
-        "research_question": "How are Theatre and Performance Studies and Interpersonal and Organizational Communication connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Theatre and Performance Studies and Interpersonal and Organizational Communication will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Educational Games and Gamification and Online Learning and Analytics connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Educational Games and Gamification and Online Learning and Analytics will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -7729,14 +7743,14 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "winsorized_pearson",
-      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
-      "path": "proposals/winsorized_pearson.py"
+      "method": "spearman_rank",
+      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
+      "path": "proposals/spearman_rank.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Infant mortality (per 1,000 live births) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
@@ -7816,13 +7830,38 @@
         "auth_required": false,
         "integration_status": "catalogued",
         "notes": "Dataset-level licences and attribution requirements must be checked individually."
+      },
+      {
+        "id": "pubmed",
+        "name": "PubMed / NCBI E-utilities",
+        "domains": [
+          "biology",
+          "medicine",
+          "public_health",
+          "neuroscience",
+          "psychology"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "clinical",
+          "disease",
+          "health",
+          "medical",
+          "brain",
+          "mental health"
+        ],
+        "access": "public_api",
+        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
   },
   "literature_context": {
     "provider": "OpenAlex",
-    "query_url": null,
+    "query_url": "https://api.openalex.org/works?search=%22GDP+per+capita+%28constant+2015+US%24%29%22+AND+%22Current+health+expenditure+per+capita+%28US%24%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
     "results": [],
     "failure": null,
     "note": "Bibliographic leads only; these do not validate or falsify the statistical signal."
@@ -7831,17 +7870,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "infant_mortality",
-        "urban_population"
+        "gdp_per_capita",
+        "health_spending"
       ],
-      "priority_score": 0.9892,
+      "priority_score": 0.9843,
       "selected_labels": [
-        "Infant mortality (per 1,000 live births)",
-        "Urban population (% of total)"
+        "GDP per capita (constant 2015 US$)",
+        "Current health expenditure per capita (US$)"
       ],
-      "selection_score": 0.4946,
+      "selection_score": 0.49215,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Infant mortality (per 1,000 live births) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7850,8 +7889,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 25,
-    "next_question": "Does the association between Infant mortality (per 1,000 live births) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 26,
+    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex live multidisciplinary topics, identifies cross-field links in scholarly works, formulates literature-derived falsifiable leads, and searches Zenodo for candidate datasets. These are metadata leads, not validated discoveries; quantitative analysis still requires source-specific ingestion and validation."
   },
   "limitations": [
