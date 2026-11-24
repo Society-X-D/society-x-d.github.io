@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261123T224029Z",
-  "started_at": "2026-11-23T22:40:17.089135+00:00",
-  "completed_at": "2026-11-23T22:40:29.042654+00:00",
+  "run_id": "20261124T060627Z",
+  "started_at": "2026-11-24T06:05:49.472340+00:00",
+  "completed_at": "2026-11-24T06:06:27.368219+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:40:17.089135+00:00",
+      "retrieved_at": "2026-11-24T06:05:49.472340+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:40:17.089135+00:00",
+      "retrieved_at": "2026-11-24T06:05:49.472340+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:40:17.089135+00:00",
+      "retrieved_at": "2026-11-24T06:05:49.472340+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:40:17.089135+00:00",
+      "retrieved_at": "2026-11-24T06:05:49.472340+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:40:17.089135+00:00",
+      "retrieved_at": "2026-11-24T06:05:49.472340+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:40:17.089135+00:00",
+      "retrieved_at": "2026-11-24T06:05:49.472340+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-23T22:40:17.089135+00:00",
+      "retrieved_at": "2026-11-24T06:05:49.472340+00:00",
       "provider": "World Bank"
     }
   },
@@ -80,30 +80,30 @@
   },
   "biodiversity_observation": {
     "annual_coordinate_occurrence_record_counts": {
-      "2023": 289769132,
-      "2022": 253683292,
-      "2021": 241723353,
-      "2020": 214700090,
-      "2019": 186856176,
-      "2018": 160868422,
-      "2017": 154040594,
-      "2016": 141095124,
-      "2015": 114097765,
-      "2014": 106856201,
-      "2013": 91728649,
-      "2012": 83474346,
-      "2011": 71220201,
-      "2010": 65413639,
-      "2009": 56620208,
-      "2008": 49137894,
-      "2007": 45414803,
-      "2006": 40525859,
-      "2005": 38034206,
-      "2004": 34041988,
-      "2003": 30633666,
-      "2002": 28779623,
-      "2001": 26163678,
-      "2000": 25566752
+      "2023": 289769202,
+      "2022": 253683322,
+      "2021": 241723396,
+      "2020": 214700119,
+      "2019": 186856203,
+      "2018": 160868458,
+      "2017": 154040647,
+      "2016": 141095175,
+      "2015": 114097856,
+      "2014": 106856299,
+      "2013": 91728748,
+      "2012": 83474475,
+      "2011": 71220287,
+      "2010": 65413744,
+      "2009": 56620316,
+      "2008": 49137897,
+      "2007": 45414808,
+      "2006": 40525882,
+      "2005": 38034207,
+      "2004": 34041994,
+      "2003": 30633676,
+      "2002": 28779632,
+      "2001": 26163690,
+      "2000": 25566757
     },
     "provenance": {
       "provider": "Global Biodiversity Information Facility",
@@ -3948,114 +3948,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 77,
+    "new_topics_in_sample": 78,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10238",
-        "name": "Spine and Intervertebral Disc Pathology",
-        "description": "This cluster of papers focuses on the pathophysiology, treatment, and outcomes related to lumbar disc degeneration, including topics such as intervertebral disc biology, surgical interventions, low back pain, spinal fusion, and biological aging of the discs. It covers a wide range of research from clinical studies to basic science investigations.",
-        "works_count": 152706,
-        "field": "Medicine",
-        "subfield": "Orthopedics and Sports Medicine",
+        "id": "https://openalex.org/T12873",
+        "name": "Nutrition, Health and Food Behavior",
+        "description": "This cluster of papers explores the impact of nutrition, eating habits, and dietary behavior on the health and well-being of individuals. It covers a wide range of topics including food consumption, meal patterns, consumer preferences, body image perception, and the relationship between nutrition and various health conditions.",
+        "works_count": 159016,
+        "field": "Nursing",
+        "subfield": "Nutrition and Dietetics",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12834",
-        "name": "Flowering Plant Growth and Cultivation",
-        "description": "This cluster of papers explores the mechanisms and factors influencing plant growth regulation, including the effects of plant growth regulators, temperature control on flowering pathways, carbohydrate accumulation, orchid growth, bulb production, photosynthetic behavior, geophyte dormancy, and the marketing of native plants for ornamental purposes.",
-        "works_count": 135743,
+        "id": "https://openalex.org/T12447",
+        "name": "Spider Taxonomy and Behavior Studies",
+        "description": "This cluster of papers focuses on the phylogenetic analysis, evolutionary history, and taxonomic revision of spiders, utilizing molecular techniques such as DNA barcoding and phylogenomics. It explores the diversity, biogeography, and cryptic species within the Araneae order, shedding light on ancient vicariance patterns and evolutionary morphology.",
+        "works_count": 161263,
         "field": "Agricultural and Biological Sciences",
-        "subfield": "Plant Science",
+        "subfield": "Ecology, Evolution, Behavior and Systematics",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10224",
-        "name": "Quantum Chromodynamics and Particle Interactions",
-        "description": "This cluster of papers covers a wide range of topics in hadron physics and quantum chromodynamics (QCD), including the study of charmonium, mesons, baryons, parton distributions, exotic states, and the application of renormalization group techniques in lattice QCD. It also explores chiral dynamics, resonances, and the infrared behavior of QCD Green's functions.",
-        "works_count": 280961,
-        "field": "Physics and Astronomy",
-        "subfield": "Nuclear and High Energy Physics",
+        "id": "https://openalex.org/T10212",
+        "name": "Electrochemical sensors and biosensors",
+        "description": "This cluster of papers focuses on the advances in electrochemical biosensor technology, with a particular emphasis on the use of graphene, carbon nanotubes, and nanomaterials for developing glucose sensors, enzymatic biofuel cells, and non-enzymatic sensors. The research covers various aspects of electrochemistry and highlights the applications of biosensors in diverse fields.",
+        "works_count": 135248,
+        "field": "Chemistry",
+        "subfield": "Analytical Chemistry",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T12454",
-        "name": "European Political History Analysis",
-        "description": "This cluster of papers explores the transformation of European political thought, culture, and society during the eighteenth and nineteenth centuries. It delves into topics such as the French Revolution, Napoleonic Wars, European nationalism, cultural imperialism, religious revival, political ideologies, social movements, globalization, gender and society, and revolutionary historiography.",
-        "works_count": 429346,
+        "id": "https://openalex.org/T12444",
+        "name": "Art, Politics, and Modernism",
+        "description": "This cluster of papers explores the intersection of contemporary art, aesthetics theory, and cultural politics. It delves into topics such as relational aesthetics, activist art, globalization's impact on art, and the role of art in social engagement. The papers also discuss postmodernism, participatory art, and the evolving landscape of art theory in the context of contemporary society.",
+        "works_count": 301008,
         "field": "Arts and Humanities",
-        "subfield": "History",
+        "subfield": "Visual Arts and Performing Arts",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T11378",
-        "name": "Gastrointestinal Bleeding Diagnosis and Treatment",
-        "description": "This cluster of papers focuses on the diagnosis and management of gastrointestinal bleeding, with an emphasis on techniques such as capsule endoscopy and double-balloon enteroscopy. It covers topics such as the diagnostic yield of different modalities, risk scoring for predicting need for treatment, outcomes after endoscopic therapy, and the role of endoscopy in acute upper and lower gastrointestinal bleeding. The cluster also addresses specific conditions like peptic ulcers, obscure gastrointestinal bleeding, and angiodysplasia.",
-        "works_count": 104266,
+        "id": "https://openalex.org/T10401",
+        "name": "Diabetes Treatment and Management",
+        "description": "This cluster of papers focuses on the management of diabetes mellitus, with a particular emphasis on cardiovascular outcomes, glucose control, and the use of incretin hormones, SGLT2 inhibitors, and dipeptidyl peptidase-4 inhibitors. It also covers topics such as heart failure, glycemic control, insulin therapy, and clinical guidelines for the treatment of type 2 diabetes.",
+        "works_count": 126809,
         "field": "Medicine",
-        "subfield": "Gastroenterology",
+        "subfield": "Endocrinology, Diabetes and Metabolism",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12792",
-        "name": "Soil Management and Crop Yield",
-        "description": "This cluster of papers explores the effects of soil compaction on crop production, particularly in the context of no-till and integrated crop-livestock systems in subtropical regions. It investigates soil physical properties, soil degradation, gypsum and lime application, and their impact on root growth and overall soil quality.",
-        "works_count": 103486,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Soil Science",
+        "id": "https://openalex.org/T10261",
+        "name": "Genetic Associations and Epidemiology",
+        "description": "This cluster of papers encompasses a wide range of topics in genomic studies, including genome-wide association analyses, genetic variation, haplotype mapping, population genetics, Mendelian randomization, polygenic risk scores, gene expression, and the study of complex diseases. It explores methods for analyzing genetic data and understanding the genetic basis of various traits and diseases.",
+        "works_count": 153442,
+        "field": "Biochemistry, Genetics and Molecular Biology",
+        "subfield": "Genetics",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10088",
-        "name": "Thermochemical Biomass Conversion Processes",
-        "description": "This cluster of papers focuses on the pyrolysis and conversion of biomass into bio-oil, biochar, and renewable fuels using various technologies such as hydrothermal carbonization and gasification. It covers topics such as biomass composition, catalytic upgrading, thermochemical conversion, and the properties of resulting products.",
-        "works_count": 135081,
-        "field": "Energy",
-        "subfield": "Fuel Technology",
+        "id": "https://openalex.org/T10210",
+        "name": "Advanced oxidation water treatment",
+        "description": "This cluster of papers focuses on the application of Advanced Oxidation Processes (AOPs) for water and wastewater treatment, including topics such as oxidation kinetics, wastewater decontamination, peroxymonosulfate activation, Fenton reaction chemistry, electrochemical technologies, organic contaminant degradation, sulfate radical generation, and heterogeneous catalysis.",
+        "works_count": 119997,
+        "field": "Environmental Science",
+        "subfield": "Water Science and Technology",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T13575",
-        "name": "Travel Writing and Literature",
-        "description": "This cluster of papers explores the historical patterns, gender dynamics, and postcolonial perspectives in travel writing and exploration. It delves into the representation of culture, identity, and tourism, while also examining the intersection of literature and history in shaping narratives of travel and ethnography.",
-        "works_count": 397335,
-        "field": "Arts and Humanities",
-        "subfield": "History",
+        "id": "https://openalex.org/T13842",
+        "name": "Intellectual Property Law",
+        "description": "This cluster of papers covers a wide range of topics related to intellectual property law and policy analysis, including trademark law, copyright law, patents, fair use, design protection, international trade, consumer rights, and legal harmonization. The papers explore various legal mechanisms, case studies, and empirical analyses in the field of intellectual property law.",
+        "works_count": 299163,
+        "field": "Social Sciences",
+        "subfield": "Law",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T11467",
-        "name": "Trauma and Emergency Care Studies",
-        "description": "This cluster of papers focuses on the impact of trauma care systems, including trauma centers, prehospital care, and emergency surgery, on mortality and health outcomes. It also explores topics such as injury severity, geriatric trauma, transportation of critically ill patients, and triage criteria for trauma patients. The research aims to improve the quality of trauma care and reduce mortality rates.",
-        "works_count": 103115,
+        "id": "https://openalex.org/T10512",
+        "name": "Orthopaedic implants and arthroplasty",
+        "description": "This cluster of papers focuses on advancements in hip arthroplasty techniques and materials, including the use of metal-on-metal bearings, the impact of wear particles and osteolysis, implant failure and revision surgery, as well as the potential health effects of cobalt toxicity. It also explores minimally invasive approaches and the management of femoral fractures associated with hip replacements.",
+        "works_count": 107346,
         "field": "Medicine",
-        "subfield": "Emergency Medicine",
+        "subfield": "Surgery",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T14048",
-        "name": "Silkworms and Sericulture Research",
-        "description": "This cluster of papers focuses on the artificial diet rearing system for the silkworm Bombyx mori, including the effects of vitamin deprivation, evaluation of genetic potential, and the use of biochemical markers to study genetic diversity. It also explores the impact of various supplements and environmental factors on silkworm growth, cocoon production, and overall sericulture industry.",
-        "works_count": 36380,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Insect Science",
+        "id": "https://openalex.org/T10493",
+        "name": "Ion channel regulation and function",
+        "description": "This cluster of papers explores the molecular mechanisms, structure, regulation, and physiological roles of ion channels, with a focus on voltage-gated potassium and calcium channels. It covers topics such as channel structure, membrane proteins, neuronal function, and cell signaling.",
+        "works_count": 134264,
+        "field": "Biochemistry, Genetics and Molecular Biology",
+        "subfield": "Molecular Biology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10622",
-        "name": "Quantum Mechanics and Applications",
-        "description": "This cluster of papers explores the foundational aspects of quantum mechanics, including decoherence, Bell inequalities, quantum measurement, interpretations of quantum theory, weak values, entanglement, nonlocality, and the nature of quantum information. It delves into topics such as wave function collapse and quantum probabilities.",
-        "works_count": 123943,
-        "field": "Physics and Astronomy",
-        "subfield": "Atomic and Molecular Physics, and Optics",
+        "id": "https://openalex.org/T10663",
+        "name": "Battery Modeling and Management",
+        "description": "This cluster of papers focuses on the management, safety, and performance of lithium-ion batteries in electric vehicles. It covers topics such as aging mechanisms, thermal runaway, state of charge estimation, battery management systems, and cycle life modeling. The cluster also addresses the challenges and recommendations for battery management in electric vehicle applications.",
+        "works_count": 100839,
+        "field": "Engineering",
+        "subfield": "Automotive Engineering",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T11132",
-        "name": "Psychoanalysis and Psychopathology Research",
-        "description": "This cluster of papers covers a wide range of topics related to psychodynamic psychotherapy, developmental trauma, attachment, mental health, and the parent-infant relationship. It explores the intersection of neuroscience and psychoanalysis, as well as the concept of resilience in clinical practice. The papers also delve into the impact of childhood trauma on adult mental health and the role of group therapy in addressing developmental trauma.",
-        "works_count": 219405,
-        "field": "Psychology",
-        "subfield": "Clinical Psychology",
+        "id": "https://openalex.org/T11365",
+        "name": "Islamic Finance and Banking Studies",
+        "description": "This cluster of papers explores various aspects of Islamic banking and finance, including its business model, efficiency, stability, risk management, ethical identity, corporate governance, customer preferences, and performance analysis. The literature also delves into the impact of the global financial crisis on Islamic and conventional banks. It provides insights into the differences and similarities between Islamic and conventional banking systems, as well as the role of Islamic banking in economic growth.",
+        "works_count": 206673,
+        "field": "Business, Management and Accounting",
+        "subfield": "Accounting",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,223 +4069,302 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10238",
-            "name": "Spine and Intervertebral Disc Pathology",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10212",
+            "name": "Electrochemical sensors and biosensors",
+            "field": "Chemistry",
+            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10084",
-            "name": "Musculoskeletal pain and rehabilitation",
-            "field": "Health Professions",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10207",
+            "name": "Advanced biosensing and bioanalysis techniques",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
           }
         ],
-        "coassigned_work_count": 5,
+        "coassigned_work_count": 7,
         "example_work_ids": [
-          "https://openalex.org/W1966188170",
-          "https://openalex.org/W1986292114",
-          "https://openalex.org/W2338278742",
-          "https://openalex.org/W4293010689",
-          "https://openalex.org/W2152983876"
+          "https://openalex.org/W2055729674",
+          "https://openalex.org/W2121621337",
+          "https://openalex.org/W2057104805",
+          "https://openalex.org/W1982904490",
+          "https://openalex.org/W1623645098"
         ],
-        "research_question": "How are Spine and Intervertebral Disc Pathology and Musculoskeletal pain and rehabilitation connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Spine and Intervertebral Disc Pathology and Musculoskeletal pain and rehabilitation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Electrochemical sensors and biosensors and Advanced biosensing and bioanalysis techniques connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electrochemical sensors and biosensors and Advanced biosensing and bioanalysis techniques will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12454",
-            "name": "European Political History Analysis",
+            "id": "https://openalex.org/T12873",
+            "name": "Nutrition, Health and Food Behavior",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10010",
+            "name": "Obesity, Physical Activity, Diet",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W2134641594",
+          "https://openalex.org/W2107428639",
+          "https://openalex.org/W2100606004",
+          "https://openalex.org/W2074449425",
+          "https://openalex.org/W2807042617"
+        ],
+        "research_question": "How are Nutrition, Health and Food Behavior and Obesity, Physical Activity, Diet connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nutrition, Health and Food Behavior and Obesity, Physical Activity, Diet will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12444",
+            "name": "Art, Politics, and Modernism",
             "field": "Arts and Humanities",
             "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T11743",
-            "name": "Political Economy and Marxism",
+            "id": "https://openalex.org/T13421",
+            "name": "Contemporary art, education, critique",
             "field": "Social Sciences",
             "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W1994990033",
-          "https://openalex.org/W1485109404",
-          "https://openalex.org/W166705791"
+          "https://openalex.org/W1534227670",
+          "https://openalex.org/W2012256796",
+          "https://openalex.org/W1542961714"
         ],
-        "research_question": "How are European Political History Analysis and Political Economy and Marxism connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between European Political History Analysis and Political Economy and Marxism will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Art, Politics, and Modernism and Contemporary art, education, critique connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Art, Politics, and Modernism and Contemporary art, education, critique will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12454",
-            "name": "European Political History Analysis",
+            "id": "https://openalex.org/T12444",
+            "name": "Art, Politics, and Modernism",
             "field": "Arts and Humanities",
             "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T10070",
-            "name": "Political Conflict and Governance",
+            "id": "https://openalex.org/T13699",
+            "name": "Public Spaces through Art",
             "field": "Social Sciences",
             "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W1994990033",
-          "https://openalex.org/W166705791"
+          "https://openalex.org/W1534227670",
+          "https://openalex.org/W1542961714"
         ],
-        "research_question": "How are European Political History Analysis and Political Conflict and Governance connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between European Political History Analysis and Political Conflict and Governance will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Art, Politics, and Modernism and Public Spaces through Art connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Art, Politics, and Modernism and Public Spaces through Art will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12454",
-            "name": "European Political History Analysis",
+            "id": "https://openalex.org/T12873",
+            "name": "Nutrition, Health and Food Behavior",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12057",
+            "name": "Consumer Attitudes and Food Labeling",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2092090987",
+          "https://openalex.org/W2047950288"
+        ],
+        "research_question": "How are Nutrition, Health and Food Behavior and Consumer Attitudes and Food Labeling connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nutrition, Health and Food Behavior and Consumer Attitudes and Food Labeling will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12873",
+            "name": "Nutrition, Health and Food Behavior",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10263",
+            "name": "Eating Disorders and Behaviors",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2092090987",
+          "https://openalex.org/W2107428639"
+        ],
+        "research_question": "How are Nutrition, Health and Food Behavior and Eating Disorders and Behaviors connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nutrition, Health and Food Behavior and Eating Disorders and Behaviors will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12873",
+            "name": "Nutrition, Health and Food Behavior",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13393",
+            "name": "Child Nutrition and Feeding Issues",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2100606004",
+          "https://openalex.org/W2807042617"
+        ],
+        "research_question": "How are Nutrition, Health and Food Behavior and Child Nutrition and Feeding Issues connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nutrition, Health and Food Behavior and Child Nutrition and Feeding Issues will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12444",
+            "name": "Art, Politics, and Modernism",
             "field": "Arts and Humanities",
             "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T12686",
-            "name": "Central European national history",
+            "id": "https://openalex.org/T11895",
+            "name": "Cultural Capital and Social Class",
             "field": "Social Sciences",
             "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1607872650"
+          "https://openalex.org/W2267632560"
         ],
-        "research_question": "How are European Political History Analysis and Central European national history connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between European Political History Analysis and Central European national history will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Art, Politics, and Modernism and Cultural Capital and Social Class connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Art, Politics, and Modernism and Cultural Capital and Social Class will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12454",
-            "name": "European Political History Analysis",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T10212",
+            "name": "Electrochemical sensors and biosensors",
+            "field": "Chemistry",
+            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T13631",
-            "name": "Global History, Politics, and Ideology",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T11314",
+            "name": "Clinical Laboratory Practices and Quality Control",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1607872650"
+          "https://openalex.org/W1990089345"
         ],
-        "research_question": "How are European Political History Analysis and Global History, Politics, and Ideology connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between European Political History Analysis and Global History, Politics, and Ideology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Electrochemical sensors and biosensors and Clinical Laboratory Practices and Quality Control connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electrochemical sensors and biosensors and Clinical Laboratory Practices and Quality Control will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12454",
-            "name": "European Political History Analysis",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T10212",
+            "name": "Electrochemical sensors and biosensors",
+            "field": "Chemistry",
+            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T11982",
-            "name": "Rhetoric and Communication Studies",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W958735467"
-        ],
-        "research_question": "How are European Political History Analysis and Rhetoric and Communication Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between European Political History Analysis and Rhetoric and Communication Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T12454",
-            "name": "European Political History Analysis",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13196",
-            "name": "Political Theory and Influence",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W1595026308"
-        ],
-        "research_question": "How are European Political History Analysis and Political Theory and Influence connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between European Political History Analysis and Political Theory and Influence will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T12834",
-            "name": "Flowering Plant Growth and Cultivation",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11237",
-            "name": "Plant Gene Expression Analysis",
+            "id": "https://openalex.org/T10404",
+            "name": "Enzyme Catalysis and Immobilization",
             "field": "Biochemistry, Genetics and Molecular Biology",
             "domain": "Life Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2259643842"
+          "https://openalex.org/W1990089345"
         ],
-        "research_question": "How are Flowering Plant Growth and Cultivation and Plant Gene Expression Analysis connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Flowering Plant Growth and Cultivation and Plant Gene Expression Analysis will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Electrochemical sensors and biosensors and Enzyme Catalysis and Immobilization connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electrochemical sensors and biosensors and Enzyme Catalysis and Immobilization will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10238",
-            "name": "Spine and Intervertebral Disc Pathology",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10212",
+            "name": "Electrochemical sensors and biosensors",
+            "field": "Chemistry",
+            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10784",
-            "name": "Muscle activation and electromyography studies",
+            "id": "https://openalex.org/T11393",
+            "name": "Biosensors and Analytical Detection",
             "field": "Engineering",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1986292114"
+          "https://openalex.org/W3126951392"
         ],
-        "research_question": "How are Spine and Intervertebral Disc Pathology and Muscle activation and electromyography studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Spine and Intervertebral Disc Pathology and Muscle activation and electromyography studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Electrochemical sensors and biosensors and Biosensors and Analytical Detection connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electrochemical sensors and biosensors and Biosensors and Analytical Detection will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T12873",
+            "name": "Nutrition, Health and Food Behavior",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11610",
+            "name": "Food Security and Health in Diverse Populations",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2134641594"
+        ],
+        "research_question": "How are Nutrition, Health and Food Behavior and Food Security and Health in Diverse Populations connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Nutrition, Health and Food Behavior and Food Security and Health in Diverse Populations will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -7656,14 +7735,14 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Life expectancy at birth (years) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between Infant mortality (per 1,000 live births) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
@@ -7772,8 +7851,49 @@
   },
   "literature_context": {
     "provider": "OpenAlex",
-    "query_url": null,
-    "results": [],
+    "query_url": "https://api.openalex.org/works?search=%22Infant+mortality+%28per+1%2C000+live+births%29%22+AND+%22Life+expectancy+at+birth+%28years%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+    "results": [
+      {
+        "title": "Health Inequities, Environmental Insecurity and the Attainment of the Millennium Development Goals in Sub-Saharan Africa: The Case Study of Zambia",
+        "year": 2006,
+        "type": "article",
+        "doi": "https://doi.org/10.3390/ijerph2006030026",
+        "openalex_id": "https://openalex.org/W2151580544",
+        "cited_by_count": 31
+      },
+      {
+        "title": "Impact investing as a tool for achieving the targets for sustainable development of the region",
+        "year": 2023,
+        "type": "conference-paper",
+        "doi": "https://doi.org/10.1051/e3sconf/202345101016",
+        "openalex_id": "https://openalex.org/W4388936344",
+        "cited_by_count": 2
+      },
+      {
+        "title": "Air Pollution and Health Status in Sub-Sahara Africa (SSA)",
+        "year": 2019,
+        "type": "article",
+        "doi": "https://doi.org/10.7176/jesd/10-22-03",
+        "openalex_id": "https://openalex.org/W2992010826",
+        "cited_by_count": 10
+      },
+      {
+        "title": "DECOMPOSING WELL-BEING INDICATORS USING DISTRIBUTIONAL DATA",
+        "year": 2004,
+        "type": "preprint",
+        "doi": "https://doi.org/10.22004/ag.econ.20232",
+        "openalex_id": "https://openalex.org/W1601313619",
+        "cited_by_count": 0
+      },
+      {
+        "title": "Over the Border and Under the Radar: Should Illegal Migrants Be Active Citizens?",
+        "year": 2008,
+        "type": "preprint",
+        "doi": "https://doi.org/10.2139/ssrn.1311217",
+        "openalex_id": "https://openalex.org/W3123036202",
+        "cited_by_count": 0
+      }
+    ],
     "failure": null,
     "note": "Bibliographic leads only; these do not validate or falsify the statistical signal."
   },
@@ -7781,17 +7901,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "life_expectancy",
-        "unemployment"
+        "infant_mortality",
+        "life_expectancy"
       ],
-      "priority_score": 0.6499,
+      "priority_score": 0.9969,
       "selected_labels": [
-        "Life expectancy at birth (years)",
-        "Unemployment (% of labor force)"
+        "Infant mortality (per 1,000 live births)",
+        "Life expectancy at birth (years)"
       ],
-      "selection_score": 0.6499,
+      "selection_score": 0.49845,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Life expectancy at birth (years) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between Infant mortality (per 1,000 live births) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7800,8 +7920,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 22,
-    "next_question": "Does the association between Life expectancy at birth (years) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 23,
+    "next_question": "Does the association between Infant mortality (per 1,000 live births) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex live multidisciplinary topics, identifies cross-field links in scholarly works, formulates literature-derived falsifiable leads, and searches Zenodo for candidate datasets. These are metadata leads, not validated discoveries; quantitative analysis still requires source-specific ingestion and validation."
   },
   "limitations": [
