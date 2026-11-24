@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261124T110931Z",
-  "started_at": "2026-11-24T11:09:19.558395+00:00",
-  "completed_at": "2026-11-24T11:09:31.243602+00:00",
+  "run_id": "20261124T111010Z",
+  "started_at": "2026-11-24T11:09:55.989551+00:00",
+  "completed_at": "2026-11-24T11:10:10.159731+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:09:19.558395+00:00",
+      "retrieved_at": "2026-11-24T11:09:55.989551+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:09:19.558395+00:00",
+      "retrieved_at": "2026-11-24T11:09:55.989551+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:09:19.558395+00:00",
+      "retrieved_at": "2026-11-24T11:09:55.989551+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:09:19.558395+00:00",
+      "retrieved_at": "2026-11-24T11:09:55.989551+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:09:19.558395+00:00",
+      "retrieved_at": "2026-11-24T11:09:55.989551+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:09:19.558395+00:00",
+      "retrieved_at": "2026-11-24T11:09:55.989551+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-24T11:09:19.558395+00:00",
+      "retrieved_at": "2026-11-24T11:09:55.989551+00:00",
       "provider": "World Bank"
     }
   },
@@ -3948,114 +3948,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 77,
+    "new_topics_in_sample": 79,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10658",
-        "name": "Bone fractures and treatments",
-        "description": "This cluster of papers covers the epidemiology, classification, treatment, and complications of bone fractures, with a focus on fracture healing, internal fixation techniques, nonunion, infection prevention, biomechanics, pediatric fractures, and soft tissue management. It provides insights into the molecular, spatial, and temporal aspects of fracture healing and the impact of factors such as smoking and inflammation. The cluster also explores limb reconstruction techniques and the economic burden associated with nonunions.",
-        "works_count": 170183,
-        "field": "Medicine",
-        "subfield": "Orthopedics and Sports Medicine",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10141",
-        "name": "Probiotics and Fermented Foods",
-        "description": "This cluster of papers focuses on the research and applications of probiotics and prebiotics, particularly in the context of gut health, immune modulation, and the role of lactic acid bacteria. It covers topics such as the effects of probiotics on atopic diseases, microbiota modulation, food preservation, and the use of probiotics in clinical trials.",
-        "works_count": 190628,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Food Science",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11108",
-        "name": "Municipal Solid Waste Management",
-        "description": "This cluster of papers focuses on the challenges and practices in solid waste management, particularly in developing countries. It covers topics such as municipal solid waste, recycling, landfill, life cycle assessment, renewable energy, waste-to-energy, environmental impact, and sustainability.",
-        "works_count": 157348,
-        "field": "Environmental Science",
-        "subfield": "Waste Management and Disposal",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T13347",
-        "name": "Christian Theology and Mission",
-        "description": "This cluster of papers explores the transformation of global Christianity since 1945, focusing on topics such as the impact of short-term missions, the role of religious experience, migration and mission, public theology, African Christianity, missionary movements, ecological crisis, and the church in global cities. It delves into the changing landscape of Christian mission and the diverse challenges and opportunities it faces in a rapidly evolving world.",
-        "works_count": 221492,
-        "field": "Arts and Humanities",
-        "subfield": "Religious studies",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10654",
-        "name": "Pneumonia and Respiratory Infections",
-        "description": "This cluster of papers focuses on the management, epidemiology, and vaccination strategies for pneumonia, with a specific emphasis on community-acquired pneumonia and the role of Streptococcus pneumoniae. It covers topics such as the efficacy and safety of pneumococcal conjugate vaccines, burden of disease in children, antimicrobial resistance, and global estimates of morbidity and mortality due to lower respiratory infections.",
-        "works_count": 109033,
-        "field": "Medicine",
-        "subfield": "Epidemiology",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T13165",
-        "name": "Agricultural safety and regulations",
-        "description": "This cluster of papers focuses on the safety assessment of feed additives, pesticides, and other substances related to food and environmental safety. It includes topics such as toxicological assessment, environmental risk assessment, residue levels, and EFSA guidance for safety evaluation.",
-        "works_count": 65204,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Food Science",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10262",
-        "name": "Microwave Engineering and Waveguides",
-        "description": "This cluster of papers covers advances in microwave engineering, with a focus on substrate integrated waveguide, planar circuits, microstrip antennas, leaky-wave structures, and bandpass filters. It explores topics such as dual-band design, artificial neural networks in RF and microwave design, and applications in millimeter-wave technologies. The research also delves into space mapping techniques for engineering optimization.",
-        "works_count": 138837,
-        "field": "Engineering",
-        "subfield": "Electrical and Electronic Engineering",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10403",
-        "name": "Phonetics and Phonology Research",
-        "description": "This cluster of papers covers a wide range of topics related to speech perception, phonetics, second language learning, prosody, perceptual learning, acoustic and articulatory phonetics, intonation, speech production, and language acquisition.",
-        "works_count": 216413,
-        "field": "Psychology",
-        "subfield": "Experimental and Cognitive Psychology",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10786",
-        "name": "Maternal Mental Health During Pregnancy and Postpartum",
-        "description": "This cluster of papers focuses on the impact of maternal mental health, including perinatal depression, prenatal stress, and antenatal anxiety, on offspring's development and well-being. It explores various aspects such as child psychopathology, neurodevelopment, cognitive and behavioral outcomes, as well as the effects of psychological interventions and postpartum psychiatric disorders. The research also delves into the association between parental depression and infant outcomes, emphasizing the significance of maternal mental health during pregnancy and postpartum period.",
-        "works_count": 93865,
+        "id": "https://openalex.org/T10166",
+        "name": "Mosquito-borne diseases and control",
+        "description": "This cluster of papers focuses on the global impact of arboviral diseases, particularly Zika virus and dengue. It covers epidemiology, neurological manifestations such as microcephaly and Guillain-Barré Syndrome, vaccine development, and strategies for vector control.",
+        "works_count": 204061,
         "field": "Medicine",
         "subfield": "Public Health, Environmental and Occupational Health",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T11289",
-        "name": "Single-cell and spatial transcriptomics",
-        "description": "This cluster of papers focuses on the comprehensive integration and analysis of single-cell transcriptomic data, covering topics such as cell types, spatial profiling, lineage tracking, data integration, gene expression, and cell heterogeneity. The research explores various technologies and computational methods to study the transcriptomic landscape at the single-cell level.",
-        "works_count": 64146,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Molecular Biology",
+        "id": "https://openalex.org/T10375",
+        "name": "Pharmacogenetics and Drug Metabolism",
+        "description": "This cluster of papers focuses on the study of drug metabolism, particularly the role of Cytochrome P450 enzymes, genetic variations impacting enzyme activities, pharmacogenetics, personalized medicine, and the influence of polymorphisms on drug response and pharmacokinetics. It also explores the impact of these factors on warfarin dose estimation and xenobiotic metabolism.",
+        "works_count": 190209,
+        "field": "Pharmacology, Toxicology and Pharmaceutics",
+        "subfield": "Pharmacology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10835",
-        "name": "Carbohydrate Chemistry and Synthesis",
-        "description": "This cluster of papers explores the chemical glycobiology, focusing on glycosidase inhibitors, oligosaccharide synthesis, carbohydrate vaccines, glycoprotein synthesis, iminosugars, enzymatic glycoside synthesis, glycosylation mechanisms, carbohydrate-based drug design, automated synthesis, and anticancer vaccines.",
-        "works_count": 119427,
-        "field": "Chemistry",
-        "subfield": "Organic Chemistry",
+        "id": "https://openalex.org/T10121",
+        "name": "Building Energy and Comfort Optimization",
+        "description": "This cluster of papers focuses on building energy efficiency, thermal comfort optimization, and the impact of occupant behavior and climate change on energy consumption. It covers topics such as energy simulation, model predictive control, sustainable buildings, occupant behavior modeling, and the use of artificial neural networks for predicting building energy consumption.",
+        "works_count": 240327,
+        "field": "Engineering",
+        "subfield": "Building and Construction",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10133",
-        "name": "News Media Framing and Political Communication",
-        "description": "This cluster of papers explores the concepts of media framing, agenda setting, and mediatization within the field of communication research. It delves into the influence of news media on public perceptions, the role of journalism culture, and the analysis of content in mass communication. The cluster also examines the impact of digital journalism and cultural production on shaping news narratives and political communication.",
-        "works_count": 209322,
-        "field": "Social Sciences",
-        "subfield": "Communication",
+        "id": "https://openalex.org/T10007",
+        "name": "Monetary Policy and Economic Impact",
+        "description": "This cluster of papers covers a wide range of topics in macroeconomic analysis, including monetary and fiscal policy, economic growth, financial development, business cycles, panel data analysis, interest rates, exchange rates, inflation dynamics, and structural change. The papers provide insights into the empirical and theoretical aspects of these macroeconomic phenomena and their implications for policy making.",
+        "works_count": 439540,
+        "field": "Economics, Econometrics and Finance",
+        "subfield": "General Economics, Econometrics and Finance",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10671",
+        "name": "Gastroesophageal reflux and treatments",
+        "description": "This cluster of papers focuses on the diagnosis, management, epidemiology, and complications of gastroesophageal reflux disease (GERD), including topics such as esophageal motility disorders, proton pump inhibitors, achalasia, hiatal hernia, laryngopharyngeal reflux, pediatric guidelines, and ambulatory monitoring.",
+        "works_count": 94950,
+        "field": "Medicine",
+        "subfield": "Gastroenterology",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10814",
+        "name": "Neuropeptides and Animal Physiology",
+        "description": "This cluster of papers explores the role of neuropeptides and their receptors in various physiological processes and disease states, including stress, anxiety, depression, immune modulation, and cardiovascular function. It covers a wide range of neuropeptides such as opioid receptors, calcitonin gene-related peptide, pituitary adenylate cyclase-activating polypeptide, and vasoactive intestinal peptide.",
+        "works_count": 120522,
+        "field": "Neuroscience",
+        "subfield": "Cellular and Molecular Neuroscience",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10477",
+        "name": "Astrophysics and Star Formation Studies",
+        "description": "This cluster of papers covers a wide range of topics related to star formation, including the formation of stars in molecular clouds, the evolution of protoplanetary disks, the role of interstellar dust and turbulence, astrochemistry, and the influence of magnetic fields on the process. It also explores the characteristics of young stellar objects and accretion disks in various stages of star formation.",
+        "works_count": 141242,
+        "field": "Physics and Astronomy",
+        "subfield": "Astronomy and Astrophysics",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11462",
+        "name": "Museums and Cultural Heritage",
+        "description": "This cluster of papers focuses on informal learning in museums and science centers, exploring topics such as visitor experience, family engagement, free-choice learning, and the impact of digital engagement. It also delves into the role of school field trips, interactive exhibits, and cultural sustainability in enhancing museum learning experiences.",
+        "works_count": 226294,
+        "field": "Arts and Humanities",
+        "subfield": "Museology",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11968",
+        "name": "High Altitude and Hypoxia",
+        "description": "This cluster of papers explores the genetic and physiological adaptations of humans and other vertebrates to high-altitude environments, focusing on topics such as hypoxia, acute mountain sickness, erythropoietin response, oxidative stress, pulmonary edema, and the effects of endurance training. The research covers a wide range of aspects including molecular, systemic, and cellular responses to high-altitude conditions.",
+        "works_count": 45809,
+        "field": "Medicine",
+        "subfield": "Physiology (medical)",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11155",
+        "name": "Toxoplasma gondii Research Studies",
+        "description": "This cluster of papers focuses on the research related to Toxoplasma gondii and Neospora caninum, including epidemiology, diagnosis, prevention, zoonotic transmission, host-pathogen interactions, virulence factors, genetic diversity, and immune response. The papers cover a wide range of topics from molecular biology to clinical aspects of toxoplasmosis and neosporosis.",
+        "works_count": 99978,
+        "field": "Immunology and Microbiology",
+        "subfield": "Parasitology",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10792",
+        "name": "Matrix Theory and Algorithms",
+        "description": "This cluster of papers focuses on matrix algorithms, iterative methods, and numerical techniques for solving eigenvalue problems, preconditioning sparse linear systems, and addressing saddle point problems. It covers topics such as Krylov subspace methods, structured preconditioners, parallel computing, and numerical linear algebra.",
+        "works_count": 133990,
+        "field": "Computer Science",
+        "subfield": "Computational Theory and Mathematics",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10517",
+        "name": "Financial Literacy, Pension, Retirement Analysis",
+        "description": "This cluster of papers explores the importance of financial literacy, retirement planning, and household finance. It delves into topics such as consumer behavior, wealth inequality, investment decisions, asset allocation, income inequality, and the influence of behavioral economics on savings behavior.",
+        "works_count": 171383,
+        "field": "Economics, Econometrics and Finance",
+        "subfield": "Finance",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,300 +4069,298 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T11108",
-            "name": "Municipal Solid Waste Management",
-            "field": "Environmental Science",
+            "id": "https://openalex.org/T10121",
+            "name": "Building Energy and Comfort Optimization",
+            "field": "Engineering",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T12920",
-            "name": "Healthcare and Environmental Waste Management",
+            "id": "https://openalex.org/T11109",
+            "name": "Thermoregulation and physiological responses",
             "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 4,
-        "example_work_ids": [
-          "https://openalex.org/W2890522215",
-          "https://openalex.org/W1665009454",
-          "https://openalex.org/W2923879367",
-          "https://openalex.org/W1975325122"
-        ],
-        "research_question": "How are Municipal Solid Waste Management and Healthcare and Environmental Waste Management connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Municipal Solid Waste Management and Healthcare and Environmental Waste Management will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10141",
-            "name": "Probiotics and Fermented Foods",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10066",
-            "name": "Gut microbiota and health",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 4,
-        "example_work_ids": [
-          "https://openalex.org/W2149074973",
-          "https://openalex.org/W4292994528",
-          "https://openalex.org/W2164342861",
-          "https://openalex.org/W2755198076"
-        ],
-        "research_question": "How are Probiotics and Fermented Foods and Gut microbiota and health connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Probiotics and Fermented Foods and Gut microbiota and health will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10141",
-            "name": "Probiotics and Fermented Foods",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11294",
-            "name": "Infant Nutrition and Health",
-            "field": "Nursing",
             "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W2149074973",
-          "https://openalex.org/W2061799513",
-          "https://openalex.org/W4205948442"
+          "https://openalex.org/W2980797340",
+          "https://openalex.org/W2166681263",
+          "https://openalex.org/W1628021677"
         ],
-        "research_question": "How are Probiotics and Fermented Foods and Infant Nutrition and Health connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Probiotics and Fermented Foods and Infant Nutrition and Health will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Building Energy and Comfort Optimization and Thermoregulation and physiological responses connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Building Energy and Comfort Optimization and Thermoregulation and physiological responses will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10658",
-            "name": "Bone fractures and treatments",
+            "id": "https://openalex.org/T10121",
+            "name": "Building Energy and Comfort Optimization",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10766",
+            "name": "Urban Heat Island Mitigation",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2166681263",
+          "https://openalex.org/W1628021677",
+          "https://openalex.org/W2074787411"
+        ],
+        "research_question": "How are Building Energy and Comfort Optimization and Urban Heat Island Mitigation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Building Energy and Comfort Optimization and Urban Heat Island Mitigation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10375",
+            "name": "Pharmacogenetics and Drug Metabolism",
+            "field": "Pharmacology, Toxicology and Pharmaceutics",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10570",
+            "name": "Drug Transport and Resistance Mechanisms",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2010427019",
+          "https://openalex.org/W4244098017",
+          "https://openalex.org/W2105902511"
+        ],
+        "research_question": "How are Pharmacogenetics and Drug Metabolism and Drug Transport and Resistance Mechanisms connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Pharmacogenetics and Drug Metabolism and Drug Transport and Resistance Mechanisms will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10375",
+            "name": "Pharmacogenetics and Drug Metabolism",
+            "field": "Pharmacology, Toxicology and Pharmaceutics",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10261",
+            "name": "Genetic Associations and Epidemiology",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2024913341",
+          "https://openalex.org/W2105902511",
+          "https://openalex.org/W2093065590"
+        ],
+        "research_question": "How are Pharmacogenetics and Drug Metabolism and Genetic Associations and Epidemiology connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Pharmacogenetics and Drug Metabolism and Genetic Associations and Epidemiology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10007",
+            "name": "Monetary Policy and Economic Impact",
+            "field": "Economics, Econometrics and Finance",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12205",
+            "name": "Time Series Analysis and Forecasting",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W1975994995",
+          "https://openalex.org/W2095364399"
+        ],
+        "research_question": "How are Monetary Policy and Economic Impact and Time Series Analysis and Forecasting connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Monetary Policy and Economic Impact and Time Series Analysis and Forecasting will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10166",
+            "name": "Mosquito-borne diseases and control",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10059",
-            "name": "Bone Tissue Engineering Materials",
+            "id": "https://openalex.org/T14378",
+            "name": "Entomological Studies and Ecology",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2083781593",
+          "https://openalex.org/W1551467849"
+        ],
+        "research_question": "How are Mosquito-borne diseases and control and Entomological Studies and Ecology connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Mosquito-borne diseases and control and Entomological Studies and Ecology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10121",
+            "name": "Building Energy and Comfort Optimization",
             "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11954",
+            "name": "Energy Efficiency and Management",
+            "field": "Energy",
             "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2137305295",
-          "https://openalex.org/W2036557984"
+          "https://openalex.org/W2163121678"
         ],
-        "research_question": "How are Bone fractures and treatments and Bone Tissue Engineering Materials connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Bone fractures and treatments and Bone Tissue Engineering Materials will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Building Energy and Comfort Optimization and Energy Efficiency and Management connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Building Energy and Comfort Optimization and Energy Efficiency and Management will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13347",
-            "name": "Christian Theology and Mission",
-            "field": "Arts and Humanities",
+            "id": "https://openalex.org/T10121",
+            "name": "Building Energy and Comfort Optimization",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11002",
+            "name": "Indoor Air Quality and Microbial Exposure",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2980797340"
+        ],
+        "research_question": "How are Building Energy and Comfort Optimization and Indoor Air Quality and Microbial Exposure connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Building Energy and Comfort Optimization and Indoor Air Quality and Microbial Exposure will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10007",
+            "name": "Monetary Policy and Economic Impact",
+            "field": "Economics, Econometrics and Finance",
             "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T11507",
-            "name": "Religion and Society Interactions",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T13487",
+            "name": "Statistical and numerical algorithms",
+            "field": "Mathematics",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2488345062",
-          "https://openalex.org/W1601991168"
+          "https://openalex.org/W2153562738"
         ],
-        "research_question": "How are Christian Theology and Mission and Religion and Society Interactions connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Christian Theology and Mission and Religion and Society Interactions will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Monetary Policy and Economic Impact and Statistical and numerical algorithms connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Monetary Policy and Economic Impact and Statistical and numerical algorithms will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10141",
-            "name": "Probiotics and Fermented Foods",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10428",
-            "name": "Reproductive tract infections research",
-            "field": "Immunology and Microbiology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 2,
-        "example_work_ids": [
-          "https://openalex.org/W2061799513",
-          "https://openalex.org/W3016016792"
-        ],
-        "research_question": "How are Probiotics and Fermented Foods and Reproductive tract infections research connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Probiotics and Fermented Foods and Reproductive tract infections research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10141",
-            "name": "Probiotics and Fermented Foods",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12489",
-            "name": "Microbial Metabolites in Food Biotechnology",
-            "field": "Nursing",
+            "id": "https://openalex.org/T10166",
+            "name": "Mosquito-borne diseases and control",
+            "field": "Medicine",
             "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 2,
-        "example_work_ids": [
-          "https://openalex.org/W4205948442",
-          "https://openalex.org/W2755198076"
-        ],
-        "research_question": "How are Probiotics and Fermented Foods and Microbial Metabolites in Food Biotechnology connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Probiotics and Fermented Foods and Microbial Metabolites in Food Biotechnology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T13347",
-            "name": "Christian Theology and Mission",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T13456",
-            "name": "Religion, Society, and Development",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W1487463987"
-        ],
-        "research_question": "How are Christian Theology and Mission and Religion, Society, and Development connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Christian Theology and Mission and Religion, Society, and Development will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T13347",
-            "name": "Christian Theology and Mission",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10907",
-            "name": "International Student and Expatriate Challenges",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W1487463987"
-        ],
-        "research_question": "How are Christian Theology and Mission and International Student and Expatriate Challenges connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Christian Theology and Mission and International Student and Expatriate Challenges will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T13347",
-            "name": "Christian Theology and Mission",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13864",
-            "name": "Indigenous Cultures and History",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W647344260"
-        ],
-        "research_question": "How are Christian Theology and Mission and Indigenous Cultures and History connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Christian Theology and Mission and Indigenous Cultures and History will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T11108",
-            "name": "Municipal Solid Waste Management",
+            "id": "https://openalex.org/T11244",
+            "name": "Climate Change and Health Impacts",
             "field": "Environmental Science",
             "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2131222241"
+        ],
+        "research_question": "How are Mosquito-borne diseases and control and Climate Change and Health Impacts connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Mosquito-borne diseases and control and Climate Change and Health Impacts will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10166",
+            "name": "Mosquito-borne diseases and control",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T11275",
-            "name": "Composting and Vermicomposting Techniques",
+            "id": "https://openalex.org/T14475",
+            "name": "History of Science and Medicine",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2083781593"
+        ],
+        "research_question": "How are Mosquito-borne diseases and control and History of Science and Medicine connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Mosquito-borne diseases and control and History of Science and Medicine will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10166",
+            "name": "Mosquito-borne diseases and control",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10702",
+            "name": "Insect and Arachnid Ecology and Behavior",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2891799885"
+          "https://openalex.org/W1551467849"
         ],
-        "research_question": "How are Municipal Solid Waste Management and Composting and Vermicomposting Techniques connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Municipal Solid Waste Management and Composting and Vermicomposting Techniques will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T11108",
-            "name": "Municipal Solid Waste Management",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11672",
-            "name": "Recycling and utilization of industrial and municipal waste in materials production",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2338844091"
-        ],
-        "research_question": "How are Municipal Solid Waste Management and Recycling and utilization of industrial and municipal waste in materials production connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Municipal Solid Waste Management and Recycling and utilization of industrial and municipal waste in materials production will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Mosquito-borne diseases and control and Insect and Arachnid Ecology and Behavior connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Mosquito-borne diseases and control and Insect and Arachnid Ecology and Behavior will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -4374,6 +4372,668 @@
       "topic_links": [],
       "dataset_search": []
     }
+  },
+  "autonomous_research": {
+    "mode": "deterministic_multi_role_research_planning",
+    "roles_executed": [
+      "explorer",
+      "hypothesis",
+      "skeptic",
+      "experimenter",
+      "reviewer"
+    ],
+    "candidate_leads_generated": 22,
+    "new_candidate_leads": 12,
+    "selected_next_investigation": {
+      "id": "lead-3e14a4e9596d428d",
+      "key": "https://openalex.org/T10121|https://openalex.org/T11109",
+      "topics": [
+        {
+          "id": "https://openalex.org/T10121",
+          "name": "Building Energy and Comfort Optimization",
+          "field": "Engineering",
+          "domain": "Physical Sciences"
+        },
+        {
+          "id": "https://openalex.org/T11109",
+          "name": "Thermoregulation and physiological responses",
+          "field": "Medicine",
+          "domain": "Health Sciences"
+        }
+      ],
+      "research_question": "Under what measurable conditions, if any, are Building Energy and Comfort Optimization and Thermoregulation and physiological responses associated in independent empirical data?",
+      "candidate_hypothesis": "At least one measurable relationship may exist between Building Energy and Comfort Optimization and Thermoregulation and physiological responses; its direction, mechanism and generality are unknown.",
+      "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+      "literature_signal": {
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2980797340",
+          "https://openalex.org/W2166681263",
+          "https://openalex.org/W1628021677"
+        ],
+        "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+      },
+      "dataset_leads": [],
+      "cross_domain": true,
+      "status": "unvalidated_research_lead",
+      "priority_score": 0.7411,
+      "priority_components": {
+        "novelty_to_agent_memory": 1.0,
+        "literature_signal": 0.455,
+        "falsifiability": 0.85,
+        "dataset_lead_availability": 0.25,
+        "cross_domain_breadth": 1.0
+      },
+      "skeptic_review": {
+        "alternative_explanations": [
+          "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+          "A third variable may explain any apparent association.",
+          "The apparent link may be driven by a narrow set of studies, locations or time periods."
+        ],
+        "falsification_tests": [
+          "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+          "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+          "Use negative controls and time-lag tests where the domain supports them.",
+          "Attempt replication in a different population, setting or data collection process.",
+          "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+        ]
+      },
+      "experiment_plan": {
+        "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+        "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+        "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+        "stage_4": "Run falsification, robustness and independent replication checks.",
+        "execution_status": "plan_only_no_external_dataset_download_or_execution"
+      },
+      "reviewer_assessment": {
+        "status": "lead_only_not_a_discovery",
+        "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+        "limitations": [
+          "No causal conclusion is supported.",
+          "Novelty has not been established by a systematic literature review.",
+          "Dataset metadata candidates have not been downloaded, licensed or validated.",
+          "Human domain review and independent replication are required before strong claims."
+        ]
+      }
+    },
+    "ranked_leads": [
+      {
+        "id": "lead-3e14a4e9596d428d",
+        "key": "https://openalex.org/T10121|https://openalex.org/T11109",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10121",
+            "name": "Building Energy and Comfort Optimization",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11109",
+            "name": "Thermoregulation and physiological responses",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Building Energy and Comfort Optimization and Thermoregulation and physiological responses associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Building Energy and Comfort Optimization and Thermoregulation and physiological responses; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W2980797340",
+            "https://openalex.org/W2166681263",
+            "https://openalex.org/W1628021677"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7411,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-d4672612de4bc942",
+        "key": "https://openalex.org/T10375|https://openalex.org/T10570",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10375",
+            "name": "Pharmacogenetics and Drug Metabolism",
+            "field": "Pharmacology, Toxicology and Pharmaceutics",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10570",
+            "name": "Drug Transport and Resistance Mechanisms",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Pharmacogenetics and Drug Metabolism and Drug Transport and Resistance Mechanisms associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Pharmacogenetics and Drug Metabolism and Drug Transport and Resistance Mechanisms; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W2010427019",
+            "https://openalex.org/W4244098017",
+            "https://openalex.org/W2105902511"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7411,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-845d054803a0fba0",
+        "key": "https://openalex.org/T10007|https://openalex.org/T12205",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10007",
+            "name": "Monetary Policy and Economic Impact",
+            "field": "Economics, Econometrics and Finance",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12205",
+            "name": "Time Series Analysis and Forecasting",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Monetary Policy and Economic Impact and Time Series Analysis and Forecasting associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Monetary Policy and Economic Impact and Time Series Analysis and Forecasting; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 2,
+          "example_work_ids": [
+            "https://openalex.org/W1975994995",
+            "https://openalex.org/W2095364399"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7222,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.361,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-2f0d2134ae11d880",
+        "key": "https://openalex.org/T10166|https://openalex.org/T14378",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10166",
+            "name": "Mosquito-borne diseases and control",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T14378",
+            "name": "Entomological Studies and Ecology",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Mosquito-borne diseases and control and Entomological Studies and Ecology associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Mosquito-borne diseases and control and Entomological Studies and Ecology; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 2,
+          "example_work_ids": [
+            "https://openalex.org/W2083781593",
+            "https://openalex.org/W1551467849"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7222,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.361,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-a173bfab807a83e5",
+        "key": "https://openalex.org/T10121|https://openalex.org/T10766",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10121",
+            "name": "Building Energy and Comfort Optimization",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10766",
+            "name": "Urban Heat Island Mitigation",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Building Energy and Comfort Optimization and Urban Heat Island Mitigation associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Building Energy and Comfort Optimization and Urban Heat Island Mitigation; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W2166681263",
+            "https://openalex.org/W1628021677",
+            "https://openalex.org/W2074787411"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6961,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-8b5c720b930a2ce5",
+        "key": "https://openalex.org/T10261|https://openalex.org/T10375",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10375",
+            "name": "Pharmacogenetics and Drug Metabolism",
+            "field": "Pharmacology, Toxicology and Pharmaceutics",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10261",
+            "name": "Genetic Associations and Epidemiology",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Pharmacogenetics and Drug Metabolism and Genetic Associations and Epidemiology associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Pharmacogenetics and Drug Metabolism and Genetic Associations and Epidemiology; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W2024913341",
+            "https://openalex.org/W2105902511",
+            "https://openalex.org/W2093065590"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6961,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-b4247282a4db6ed2",
+        "key": "https://openalex.org/T10007|https://openalex.org/T13487",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10007",
+            "name": "Monetary Policy and Economic Impact",
+            "field": "Economics, Econometrics and Finance",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13487",
+            "name": "Statistical and numerical algorithms",
+            "field": "Mathematics",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Monetary Policy and Economic Impact and Statistical and numerical algorithms associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Monetary Policy and Economic Impact and Statistical and numerical algorithms; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W2153562738"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-e83c7439e7867788",
+        "key": "https://openalex.org/T10166|https://openalex.org/T10702",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10166",
+            "name": "Mosquito-borne diseases and control",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10702",
+            "name": "Insect and Arachnid Ecology and Behavior",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Mosquito-borne diseases and control and Insect and Arachnid Ecology and Behavior associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Mosquito-borne diseases and control and Insect and Arachnid Ecology and Behavior; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W1551467849"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      }
+    ],
+    "memory": {
+      "cycles_completed": 3,
+      "distinct_hypothesis_keys_seen": 46,
+      "purpose": "Avoid repeatedly presenting the same leads and retain an auditable exploration history."
+    },
+    "capability_boundary": "This cycle uses deterministic role functions, not a general reasoning model. It generates and evaluates research plans; it does not autonomously validate scientific discoveries or alter its own permissions or production code."
   },
   "literature_screenings": [
     {
@@ -7733,43 +8393,16 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between GDP per capita (constant 2015 US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
-      {
-        "id": "world_bank_wdi",
-        "name": "World Bank World Development Indicators",
-        "domains": [
-          "economics",
-          "demography",
-          "public_health",
-          "environment",
-          "development"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "life expectancy",
-          "literacy",
-          "gross domestic product",
-          "mortality",
-          "unemployment",
-          "health expenditure",
-          "urbanization",
-          "country indicators"
-        ],
-        "access": "public_api",
-        "endpoint": "https://api.worldbank.org/v2/",
-        "auth_required": false,
-        "integration_status": "active",
-        "notes": "Country-level indicators; ecological and coverage limitations apply."
-      },
       {
         "id": "openalex",
         "name": "OpenAlex",
@@ -7822,36 +8455,38 @@
         "notes": "Dataset-level licences and attribution requirements must be checked individually."
       },
       {
-        "id": "pubmed",
-        "name": "PubMed / NCBI E-utilities",
+        "id": "world_bank_wdi",
+        "name": "World Bank World Development Indicators",
         "domains": [
-          "biology",
-          "medicine",
+          "economics",
+          "demography",
           "public_health",
-          "neuroscience",
-          "psychology"
+          "environment",
+          "development"
         ],
-        "kind": "literature",
+        "kind": "quantitative_data",
         "keywords": [
-          "clinical",
-          "disease",
-          "health",
-          "medical",
-          "brain",
-          "mental health"
+          "life expectancy",
+          "literacy",
+          "gross domestic product",
+          "mortality",
+          "unemployment",
+          "health expenditure",
+          "urbanization",
+          "country indicators"
         ],
         "access": "public_api",
-        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "endpoint": "https://api.worldbank.org/v2/",
         "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
+        "integration_status": "active",
+        "notes": "Country-level indicators; ecological and coverage limitations apply."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
   },
   "literature_context": {
     "provider": "OpenAlex",
-    "query_url": "https://api.openalex.org/works?search=%22GDP+per+capita+%28constant+2015+US%24%29%22+AND+%22Current+health+expenditure+per+capita+%28US%24%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+    "query_url": null,
     "results": [],
     "failure": null,
     "note": "Bibliographic leads only; these do not validate or falsify the statistical signal."
@@ -7861,16 +8496,16 @@
     "research_plan": {
       "selected_pair": [
         "gdp_per_capita",
-        "health_spending"
+        "urban_population"
       ],
-      "priority_score": 0.9843,
+      "priority_score": 0.966,
       "selected_labels": [
         "GDP per capita (constant 2015 US$)",
-        "Current health expenditure per capita (US$)"
+        "Urban population (% of total)"
       ],
-      "selection_score": 0.49215,
+      "selection_score": 0.483,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -7879,8 +8514,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 26,
-    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 27,
+    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex live multidisciplinary topics, identifies cross-field links in scholarly works, formulates literature-derived falsifiable leads, and searches Zenodo for candidate datasets. These are metadata leads, not validated discoveries; quantitative analysis still requires source-specific ingestion and validation."
   },
   "limitations": [
