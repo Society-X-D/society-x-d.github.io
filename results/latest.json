@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261125T023252Z",
-  "started_at": "2026-11-25T02:32:38.230846+00:00",
-  "completed_at": "2026-11-25T02:32:52.902912+00:00",
+  "run_id": "20261125T130041Z",
+  "started_at": "2026-11-25T13:00:23.009551+00:00",
+  "completed_at": "2026-11-25T13:00:41.464207+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-25T02:32:38.230846+00:00",
+      "retrieved_at": "2026-11-25T13:00:23.009551+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-25T02:32:38.230846+00:00",
+      "retrieved_at": "2026-11-25T13:00:23.009551+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-25T02:32:38.230846+00:00",
+      "retrieved_at": "2026-11-25T13:00:23.009551+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-25T02:32:38.230846+00:00",
+      "retrieved_at": "2026-11-25T13:00:23.009551+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-25T02:32:38.230846+00:00",
+      "retrieved_at": "2026-11-25T13:00:23.009551+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-25T02:32:38.230846+00:00",
+      "retrieved_at": "2026-11-25T13:00:23.009551+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-25T02:32:38.230846+00:00",
+      "retrieved_at": "2026-11-25T13:00:23.009551+00:00",
       "provider": "World Bank"
     }
   },
@@ -80,30 +80,30 @@
   },
   "biodiversity_observation": {
     "annual_coordinate_occurrence_record_counts": {
-      "2023": 289775695,
-      "2022": 253686480,
-      "2021": 241726981,
-      "2020": 214701568,
-      "2019": 186857220,
-      "2018": 160871251,
-      "2017": 154041655,
-      "2016": 141096053,
-      "2015": 114098607,
-      "2014": 106857161,
-      "2013": 91730515,
-      "2012": 83474721,
-      "2011": 71220525,
-      "2010": 65413822,
-      "2009": 56620375,
-      "2008": 49138026,
-      "2007": 45414912,
-      "2006": 40526002,
-      "2005": 38034279,
-      "2004": 34042145,
-      "2003": 30633742,
-      "2002": 28779643,
-      "2001": 26163718,
-      "2000": 25566794
+      "2023": 289776405,
+      "2022": 253706052,
+      "2021": 241727150,
+      "2020": 214701818,
+      "2019": 186857603,
+      "2018": 160871319,
+      "2017": 154041713,
+      "2016": 141096657,
+      "2015": 114099149,
+      "2014": 106857272,
+      "2013": 91730519,
+      "2012": 83475205,
+      "2011": 71220467,
+      "2010": 65413842,
+      "2009": 56620467,
+      "2008": 49138225,
+      "2007": 45414954,
+      "2006": 40526141,
+      "2005": 38034469,
+      "2004": 34042370,
+      "2003": 30633769,
+      "2002": 28779656,
+      "2001": 26163763,
+      "2000": 25566851
     },
     "provenance": {
       "provider": "Global Biodiversity Information Facility",
@@ -3180,7 +3180,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 26,
+        "indexed_work_count": 29,
         "status": "some_indexed_matches",
         "results": [
           {
@@ -3208,12 +3208,12 @@
             "cited_by_count": 10
           },
           {
-            "title": "Over the Border and Under the Radar: Should Illegal Migrants Be Active Citizens?",
-            "year": 2008,
-            "type": "preprint",
-            "doi": "https://doi.org/10.2139/ssrn.1311217",
-            "openalex_id": "https://openalex.org/W3123036202",
-            "cited_by_count": 0
+            "title": "Predictors of (in)efficiencies of Healthcare Expenditure Among the Leading Asian Economies – Comparison of OECD and Non-OECD Nations",
+            "year": 2020,
+            "type": "article",
+            "doi": "https://doi.org/10.2147/rmhp.s266386",
+            "openalex_id": "https://openalex.org/W3093653455",
+            "cited_by_count": 142
           },
           {
             "title": "DECOMPOSING WELL-BEING INDICATORS USING DISTRIBUTIONAL DATA",
@@ -3426,7 +3426,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 16,
+        "indexed_work_count": 17,
         "status": "some_indexed_matches",
         "results": [
           {
@@ -3443,15 +3443,7 @@
             "type": "article",
             "doi": "https://doi.org/10.5089/9781513582399.001",
             "openalex_id": "https://openalex.org/W4251605660",
-            "cited_by_count": 46
-          },
-          {
-            "title": "Public Spending and Outcomes: Does Governance Matter?",
-            "year": 2002,
-            "type": "report",
-            "doi": "https://doi.org/10.1596/1813-9450-2840",
-            "openalex_id": "https://openalex.org/W3124544936",
-            "cited_by_count": 481
+            "cited_by_count": 45
           },
           {
             "title": "Cities, health and well-being: methodology for an international analysis",
@@ -3459,7 +3451,15 @@
             "type": "conference-paper",
             "doi": null,
             "openalex_id": "https://openalex.org/W2288434922",
-            "cited_by_count": 4
+            "cited_by_count": 3
+          },
+          {
+            "title": "Public Spending and Outcomes: Does Governance Matter?",
+            "year": 2002,
+            "type": "report",
+            "doi": "https://doi.org/10.1596/1813-9450-2840",
+            "openalex_id": "https://openalex.org/W3124544936",
+            "cited_by_count": 173
           },
           {
             "title": "Cambodia: An IEG Country Assistance Evaluation, 1999-2006",
@@ -3508,7 +3508,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 321,
+        "indexed_work_count": 331,
         "status": "substantial_indexed_literature",
         "results": [
           {
@@ -3549,7 +3549,7 @@
             "type": "article",
             "doi": "https://doi.org/10.1080/02508060801927994",
             "openalex_id": "https://openalex.org/W2081731603",
-            "cited_by_count": 66
+            "cited_by_count": 64
           }
         ],
         "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -3590,7 +3590,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 80,
+        "indexed_work_count": 86,
         "status": "substantial_indexed_literature",
         "results": [
           {
@@ -3631,7 +3631,7 @@
             "type": "book",
             "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
             "openalex_id": "https://openalex.org/W4235301359",
-            "cited_by_count": 21
+            "cited_by_count": 18
           }
         ],
         "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -3951,111 +3951,111 @@
     "new_topics_in_sample": 77,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10257",
-        "name": "Oral microbiology and periodontitis research",
-        "description": "This cluster of papers focuses on the study of periodontal diseases, oral microbiome, bacterial diversity in gingival plaque, and their systemic impact. It explores the relationship between periodontitis and systemic inflammation, diabetes mellitus, cardiovascular diseases, and pregnancy outcomes. The research also delves into the microbial ecology of the oral cavity, host-microbe interactions, and the role of inflammatory pathways in periodontal tissue destruction.",
-        "works_count": 197559,
-        "field": "Dentistry",
-        "subfield": "Periodontics",
+        "id": "https://openalex.org/T10350",
+        "name": "Electronic Health Records Systems",
+        "description": "This cluster of papers focuses on the impact of health information technology (HIT) in healthcare, covering topics such as electronic health records, clinical decision support systems, patient portals, usability engineering, medication errors, data quality assessment, physician burnout, genomic studies, and adoption barriers. The papers discuss the benefits, challenges, and implications of implementing HIT to improve the quality, efficiency, and safety of medical care.",
+        "works_count": 180447,
+        "field": "Health Professions",
+        "subfield": "Health Information Management",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10515",
-        "name": "Cancer-related molecular mechanisms research",
-        "description": "This cluster of papers explores the role of long noncoding RNAs (lncRNAs) in cancer, development, and genome regulation. It covers topics such as the transcriptional landscape, epigenetic regulation, chromatin modification, competing endogenous RNA networks, and the impact of lncRNAs on cell differentiation. The papers also delve into the functional classification and molecular mechanisms of lncRNAs, highlighting their significance in human diseases.",
-        "works_count": 60732,
+        "id": "https://openalex.org/T10222",
+        "name": "Genomics and Chromatin Dynamics",
+        "description": "This cluster of papers focuses on the regulation of chromatin structure and function, including topics such as histone modifications, transcriptional regulation, enhancers, DNA elements, 3D genome organization, and nucleosome positioning. The research covers a wide range of molecular mechanisms involved in controlling gene expression and epigenetic processes.",
+        "works_count": 696314,
         "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Cancer Research",
+        "subfield": "Molecular Biology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10360",
-        "name": "Fluid Dynamics and Turbulent Flows",
-        "description": "This cluster of papers focuses on the dynamics and characteristics of turbulent flows, including boundary layer transition, heat transfer, large-eddy simulation, vortex dynamics, and Reynolds number scaling. It also explores topics such as particle image velocimetry, coherent structures, and hydrodynamic turbulence.",
-        "works_count": 248731,
-        "field": "Engineering",
-        "subfield": "Computational Mechanics",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11070",
-        "name": "Soviet and Russian History",
-        "description": "This cluster of papers explores the formation, impact, and legacy of the Soviet Empire, focusing on topics such as Stalinism, national identity, colonialism in Central Asia, cultural diplomacy, ethnic cleansing, and post-Soviet politics. It delves into the complexities of the Soviet Union's ethnographic knowledge, architecture, gender dynamics, and the interplay between various ethnicities within the empire.",
-        "works_count": 428893,
-        "field": "Social Sciences",
-        "subfield": "Political Science and International Relations",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10322",
-        "name": "Respiratory Support and Mechanisms",
-        "description": "This cluster of papers focuses on mechanical ventilation strategies, including lower tidal volumes, positive end-expiratory pressure, and prone positioning, for the management of acute lung injury and acute respiratory distress syndrome (ARDS). It also covers topics such as noninvasive ventilation, high-flow oxygen therapy, and diaphragm dysfunction in the context of respiratory failure.",
-        "works_count": 174221,
-        "field": "Medicine",
-        "subfield": "Pulmonary and Respiratory Medicine",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10631",
-        "name": "Cancer, Hypoxia, and Metabolism",
-        "description": "This cluster of papers explores the metabolic reprogramming in cancer cells, focusing on the role of hypoxia-inducible factor 1 (HIF-1), the Warburg effect, tumor hypoxia, glutamine metabolism, and the impact of the tumor microenvironment on cancer cell metabolism. It also delves into oxygen sensing, mitochondrial metabolism, glycolysis inhibition, and the role of hexokinase II in cancer progression.",
-        "works_count": 59332,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Cancer Research",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10302",
-        "name": "Fish Ecology and Management Studies",
-        "description": "This cluster of papers focuses on the importance, threats, status, and conservation challenges related to freshwater biodiversity. It covers topics such as flow regulation, hydropower dam construction, environmental flows, invasive species, climate change impacts, fisheries sustainability, and habitat fragmentation in river ecosystems.",
-        "works_count": 165626,
+        "id": "https://openalex.org/T11004",
+        "name": "Crustacean biology and ecology",
+        "description": "This cluster of papers explores the ecological impact of crayfish invasions on freshwater ecosystems, focusing on biodiversity loss, physiological adaptation, DNA barcoding for identification, and conservation challenges. It also delves into the global distribution and predation effects of invasive crayfish species.",
+        "works_count": 357688,
         "field": "Environmental Science",
-        "subfield": "Nature and Landscape Conservation",
+        "subfield": "Ecology",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T14185",
-        "name": "Research, Science, and Academia",
-        "description": "This cluster of papers covers a wide range of topics related to science policy, innovation management, research administration, technology transfer, and the role of higher education in fostering economic development. It explores the importance of basic research, grant writing, and interdisciplinary research in knowledge creation and highlights the challenges and opportunities in these areas. The cluster also delves into the impact of digital information technology on improving the competitiveness of high-tech enterprises and the influence of human activity on climate in the Arctic.",
-        "works_count": 357482,
-        "field": "Business, Management and Accounting",
-        "subfield": "Management of Technology and Innovation",
+        "id": "https://openalex.org/T13704",
+        "name": "French Literature and Poetry",
+        "description": "This cluster of papers covers a wide range of topics related to French literature and culture studies, with a focus on the 19th century. It includes discussions on Baudelaire, soundscapes of Paris, French salons, cultural heritage, refugee experiences, ethnic discrimination, and indigenous peoples. Additionally, it explores the challenges of literary translation and the impact of political events on French literature.",
+        "works_count": 236184,
+        "field": "Arts and Humanities",
+        "subfield": "Literature and Literary Theory",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T11531",
-        "name": "Healthcare Systems and Reforms",
-        "description": "This cluster of papers explores the financing of health care systems, with a focus on addressing catastrophic health expenditure, achieving universal coverage, and promoting equity in access to health services. It delves into the challenges and opportunities in low- and middle-income countries, the impact of health insurance schemes, and the implications of out-of-pocket payments. The cluster also discusses health system reforms, social health insurance, and strategies to improve access to care.",
-        "works_count": 133192,
+        "id": "https://openalex.org/T10276",
+        "name": "Helicobacter pylori-related gastroenterology studies",
+        "description": "This cluster of papers focuses on the relationship between Helicobacter pylori infection and the development of gastric cancer. It covers topics such as the pathogenesis of H. pylori infection, management strategies, antibiotic resistance, inflammatory mechanisms, and genetic polymorphisms associated with increased risk of gastric cancer. Additionally, it explores the potential for eradication therapy and preventive measures.",
+        "works_count": 144795,
         "field": "Medicine",
-        "subfield": "Public Health, Environmental and Occupational Health",
+        "subfield": "Gastroenterology",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12436",
-        "name": "Agronomic Practices and Intercropping Systems",
-        "description": "This cluster of papers explores the practice of intercropping, where two or more crops are cultivated together in the same space, and its impact on agricultural productivity, soil nutrient management, crop diversity, and sustainability. The research emphasizes the role of rhizosphere interactions, nitrogen fixation, and resource use efficiency in enhancing crop yield stability and promoting agroecological practices.",
-        "works_count": 54746,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Agronomy and Crop Science",
+        "id": "https://openalex.org/T10521",
+        "name": "RNA and protein synthesis mechanisms",
+        "description": "This cluster of papers focuses on the structure of ribosomes, mechanisms of translation, RNA secondary structure prediction, genetic code expansion, codon usage, tRNA dynamics, and riboswitches. It explores the molecular mechanisms underlying protein synthesis and the role of RNA in regulating translation. The research also delves into the impact of ribosome structure on cellular processes and the potential applications in synthetic biology.",
+        "works_count": 151239,
+        "field": "Biochemistry, Genetics and Molecular Biology",
+        "subfield": "Molecular Biology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10734",
-        "name": "Information and Cyber Security",
-        "description": "This cluster of papers focuses on information security policy compliance, awareness, and behavioral intentions in organizations. It covers topics such as deterrence, attack graphs, risk management, insider threats, game theory, and cybersecurity. The papers explore the influence of rationality-based beliefs, fear appeals, and protection motivation on security behaviors, as well as the role of top management and organizational culture in improving compliance with information security policies.",
-        "works_count": 157759,
-        "field": "Computer Science",
-        "subfield": "Information Systems",
+        "id": "https://openalex.org/T10644",
+        "name": "Cryospheric studies and observations",
+        "description": "This cluster of papers focuses on the impacts of climate change on glaciers, ice sheets, and water availability in regions such as the Himalayas and Antarctica. It explores topics such as glacier mass balance, sea level rise, snow cover monitoring, and hydrological responses to glacier melt.",
+        "works_count": 177712,
+        "field": "Earth and Planetary Sciences",
+        "subfield": "Atmospheric Science",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10698",
-        "name": "Transportation Planning and Optimization",
-        "description": "This cluster of papers focuses on understanding attitudes towards public transport, travel behavior, service quality, route choice, congestion pricing, transit network design, travel time reliability, user satisfaction, traffic assignment, and urban mobility.",
-        "works_count": 255162,
-        "field": "Social Sciences",
-        "subfield": "Transportation",
+        "id": "https://openalex.org/T14244",
+        "name": "Consumer Behavior and Marketing Influence",
+        "description": "This cluster of papers focuses on consumer behavior, purchase decision making, and the factors influencing consumer choices in various industries such as retail, hospitality, and e-commerce. It explores the impact of brand image, service quality, customer satisfaction, e-wallet usage, online shopping, marketing mix elements, product quality, and trust on consumer preferences and decisions.",
+        "works_count": 187244,
+        "field": "Business, Management and Accounting",
+        "subfield": "Marketing",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12207",
+        "name": "Assistive Technology in Communication and Mobility",
+        "description": "This cluster of papers focuses on the impact of assistive technology, particularly augmentative and alternative communication (AAC), on individuals with disabilities. It covers topics such as the usability and accessibility of AAC devices, the role of the home environment in aging in place, and the effects of mobility devices on quality of life for individuals with disabilities.",
+        "works_count": 104530,
+        "field": "Health Professions",
+        "subfield": "Occupational Therapy",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10699",
+        "name": "Primate Behavior and Ecology",
+        "description": "This cluster of papers explores the evolution of social behavior, intelligence, and cognition in primates. It covers topics such as altruism, empathy, social bonds, tool use, brain size, cooperation, and communication among various primate species.",
+        "works_count": 119121,
+        "field": "Agricultural and Biological Sciences",
+        "subfield": "Ecology, Evolution, Behavior and Systematics",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10192",
+        "name": "Catalytic Processes in Materials Science",
+        "description": "This cluster of papers covers advances in the research of catalytic nanomaterials, particularly focusing on the catalytic properties of nanoparticles, metal-support interactions, low-temperature oxidation reactions, selective oxidation processes, NOx reduction, and methane activation. The studies explore the use of various materials such as ceria and gold in catalysis, with a strong emphasis on understanding the mechanisms and optimizing the performance of these nanomaterials.",
+        "works_count": 136782,
+        "field": "Materials Science",
+        "subfield": "Materials Chemistry",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10853",
+        "name": "Anxiety, Depression, Psychometrics, Treatment, Cognitive Processes",
+        "description": "This cluster of papers focuses on the cognitive mechanisms underlying anxiety disorders, including attentional bias, rumination, and emotion regulation. It also explores the efficacy of cognitive-behavioral therapy and the neurobiological correlates of anxiety and depression. The papers cover a wide range of topics related to anxiety disorders, such as social phobia, generalized anxiety disorder, and depressive symptoms.",
+        "works_count": 128527,
+        "field": "Psychology",
+        "subfield": "Experimental and Cognitive Psychology",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,145 +4069,301 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10940",
-            "name": "Navier-Stokes equation solutions",
-            "field": "Mathematics",
+            "id": "https://openalex.org/T10765",
+            "name": "Marine Biology and Ecology Research",
+            "field": "Earth and Planetary Sciences",
             "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 6,
+        "example_work_ids": [
+          "https://openalex.org/W2237903454",
+          "https://openalex.org/W2100285444",
+          "https://openalex.org/W167996176",
+          "https://openalex.org/W363007323",
+          "https://openalex.org/W104342516"
+        ],
+        "research_question": "How are Crustacean biology and ecology and Marine Biology and Ecology Research connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Crustacean biology and ecology and Marine Biology and Ecology Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T14399",
+            "name": "Invertebrate Taxonomy and Ecology",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W2237903454",
+          "https://openalex.org/W2174284646",
+          "https://openalex.org/W3120956112",
+          "https://openalex.org/W104342516",
+          "https://openalex.org/W1586553371"
+        ],
+        "research_question": "How are Crustacean biology and ecology and Invertebrate Taxonomy and Ecology connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Crustacean biology and ecology and Invertebrate Taxonomy and Ecology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11636",
+            "name": "Artificial Intelligence in Healthcare and Education",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W3004612364",
+          "https://openalex.org/W2069340802",
+          "https://openalex.org/W2115441252"
+        ],
+        "research_question": "How are Electronic Health Records Systems and Artificial Intelligence in Healthcare and Education connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electronic Health Records Systems and Artificial Intelligence in Healthcare and Education will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T14512",
+            "name": "Technology and Human Factors in Education and Health",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2991415348",
-          "https://openalex.org/W2979559266"
+          "https://openalex.org/W3004612364",
+          "https://openalex.org/W2104026855"
         ],
-        "research_question": "How are Fluid Dynamics and Turbulent Flows and Navier-Stokes equation solutions connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fluid Dynamics and Turbulent Flows and Navier-Stokes equation solutions will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Electronic Health Records Systems and Technology and Human Factors in Education and Health connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electronic Health Records Systems and Technology and Human Factors in Education and Health will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12350",
-            "name": "Particle Dynamics in Fluid Flows",
-            "field": "Chemical Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W323536346"
-        ],
-        "research_question": "How are Fluid Dynamics and Turbulent Flows and Particle Dynamics in Fluid Flows connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fluid Dynamics and Turbulent Flows and Particle Dynamics in Fluid Flows will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10553",
-            "name": "Combustion and flame dynamics",
-            "field": "Chemical Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2074447412"
-        ],
-        "research_question": "How are Fluid Dynamics and Turbulent Flows and Combustion and flame dynamics connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fluid Dynamics and Turbulent Flows and Combustion and flame dynamics will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10255",
-            "name": "Oceanographic and Atmospheric Processes",
-            "field": "Earth and Planetary Sciences",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2038742869"
-        ],
-        "research_question": "How are Fluid Dynamics and Turbulent Flows and Oceanographic and Atmospheric Processes connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fluid Dynamics and Turbulent Flows and Oceanographic and Atmospheric Processes will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10466",
-            "name": "Meteorological Phenomena and Simulations",
-            "field": "Earth and Planetary Sciences",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2038742869"
-        ],
-        "research_question": "How are Fluid Dynamics and Turbulent Flows and Meteorological Phenomena and Simulations connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fluid Dynamics and Turbulent Flows and Meteorological Phenomena and Simulations will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10257",
-            "name": "Oral microbiology and periodontitis research",
-            "field": "Dentistry",
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10066",
-            "name": "Gut microbiota and health",
-            "field": "Biochemistry, Genetics and Molecular Biology",
+            "id": "https://openalex.org/T10508",
+            "name": "Patient Safety and Medication Errors",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2162190913",
+          "https://openalex.org/W1787211267"
+        ],
+        "research_question": "How are Electronic Health Records Systems and Patient Safety and Medication Errors connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electronic Health Records Systems and Patient Safety and Medication Errors will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T13704",
+            "name": "French Literature and Poetry",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13455",
+            "name": "Decadence, Literature, and Society",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W1603386045",
+          "https://openalex.org/W595328067"
+        ],
+        "research_question": "How are French Literature and Poetry and Decadence, Literature, and Society connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between French Literature and Poetry and Decadence, Literature, and Society will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12471",
+            "name": "History of Science and Natural History",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2174284646"
+        ],
+        "research_question": "How are Crustacean biology and ecology and History of Science and Natural History connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Crustacean biology and ecology and History of Science and Natural History will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10815",
+            "name": "Parasite Biology and Host Interactions",
+            "field": "Immunology and Microbiology",
             "domain": "Life Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2157107389"
+          "https://openalex.org/W2100285444"
         ],
-        "research_question": "How are Oral microbiology and periodontitis research and Gut microbiota and health connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Oral microbiology and periodontitis research and Gut microbiota and health will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Crustacean biology and ecology and Parasite Biology and Host Interactions connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Crustacean biology and ecology and Parasite Biology and Host Interactions will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12234",
+            "name": "Mollusks and Parasites Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W3120956112"
+        ],
+        "research_question": "How are Crustacean biology and ecology and Mollusks and Parasites Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Crustacean biology and ecology and Mollusks and Parasites Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12319",
+            "name": "Fish Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W167996176"
+        ],
+        "research_question": "How are Crustacean biology and ecology and Fish Biology and Ecology Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Crustacean biology and ecology and Fish Biology and Ecology Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12574",
+            "name": "Clinical Reasoning and Diagnostic Skills",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2069340802"
+        ],
+        "research_question": "How are Electronic Health Records Systems and Clinical Reasoning and Diagnostic Skills connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electronic Health Records Systems and Clinical Reasoning and Diagnostic Skills will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12664",
+            "name": "Clinical practice guidelines implementation",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2115441252"
+        ],
+        "research_question": "How are Electronic Health Records Systems and Clinical practice guidelines implementation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Electronic Health Records Systems and Clinical practice guidelines implementation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -4229,42 +4385,46 @@
       "experimenter",
       "reviewer"
     ],
-    "candidate_leads_generated": 16,
-    "new_candidate_leads": 6,
+    "candidate_leads_generated": 22,
+    "new_candidate_leads": 12,
     "selected_next_investigation": {
-      "id": "lead-2a3466f5e783bc06",
-      "key": "https://openalex.org/T10066|https://openalex.org/T10257",
+      "id": "lead-c987bf2d7f0cb41f",
+      "key": "https://openalex.org/T11004|https://openalex.org/T14399",
       "topics": [
         {
-          "id": "https://openalex.org/T10257",
-          "name": "Oral microbiology and periodontitis research",
-          "field": "Dentistry",
-          "domain": "Health Sciences"
+          "id": "https://openalex.org/T11004",
+          "name": "Crustacean biology and ecology",
+          "field": "Environmental Science",
+          "domain": "Physical Sciences"
         },
         {
-          "id": "https://openalex.org/T10066",
-          "name": "Gut microbiota and health",
-          "field": "Biochemistry, Genetics and Molecular Biology",
+          "id": "https://openalex.org/T14399",
+          "name": "Invertebrate Taxonomy and Ecology",
+          "field": "Agricultural and Biological Sciences",
           "domain": "Life Sciences"
         }
       ],
-      "research_question": "Under what measurable conditions, if any, are Oral microbiology and periodontitis research and Gut microbiota and health associated in independent empirical data?",
-      "candidate_hypothesis": "At least one measurable relationship may exist between Oral microbiology and periodontitis research and Gut microbiota and health; its direction, mechanism and generality are unknown.",
+      "research_question": "Under what measurable conditions, if any, are Crustacean biology and ecology and Invertebrate Taxonomy and Ecology associated in independent empirical data?",
+      "candidate_hypothesis": "At least one measurable relationship may exist between Crustacean biology and ecology and Invertebrate Taxonomy and Ecology; its direction, mechanism and generality are unknown.",
       "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
       "literature_signal": {
-        "coassigned_work_count": 1,
+        "coassigned_work_count": 5,
         "example_work_ids": [
-          "https://openalex.org/W2157107389"
+          "https://openalex.org/W2237903454",
+          "https://openalex.org/W2174284646",
+          "https://openalex.org/W3120956112",
+          "https://openalex.org/W104342516",
+          "https://openalex.org/W1586553371"
         ],
         "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
       },
       "dataset_leads": [],
       "cross_domain": true,
       "status": "unvalidated_research_lead",
-      "priority_score": 0.6955,
+      "priority_score": 0.7677,
       "priority_components": {
         "novelty_to_agent_memory": 1.0,
-        "literature_signal": 0.228,
+        "literature_signal": 0.589,
         "falsifiability": 0.85,
         "dataset_lead_availability": 0.25,
         "cross_domain_breadth": 1.0
@@ -4303,29 +4463,249 @@
     },
     "ranked_leads": [
       {
-        "id": "lead-2a3466f5e783bc06",
-        "key": "https://openalex.org/T10066|https://openalex.org/T10257",
+        "id": "lead-c987bf2d7f0cb41f",
+        "key": "https://openalex.org/T11004|https://openalex.org/T14399",
         "topics": [
           {
-            "id": "https://openalex.org/T10257",
-            "name": "Oral microbiology and periodontitis research",
-            "field": "Dentistry",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10066",
-            "name": "Gut microbiota and health",
-            "field": "Biochemistry, Genetics and Molecular Biology",
+            "id": "https://openalex.org/T14399",
+            "name": "Invertebrate Taxonomy and Ecology",
+            "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Oral microbiology and periodontitis research and Gut microbiota and health associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Oral microbiology and periodontitis research and Gut microbiota and health; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Crustacean biology and ecology and Invertebrate Taxonomy and Ecology associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Crustacean biology and ecology and Invertebrate Taxonomy and Ecology; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 5,
+          "example_work_ids": [
+            "https://openalex.org/W2237903454",
+            "https://openalex.org/W2174284646",
+            "https://openalex.org/W3120956112",
+            "https://openalex.org/W104342516",
+            "https://openalex.org/W1586553371"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7677,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.589,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-1426d2808ec63653",
+        "key": "https://openalex.org/T10765|https://openalex.org/T11004",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10765",
+            "name": "Marine Biology and Ecology Research",
+            "field": "Earth and Planetary Sciences",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Crustacean biology and ecology and Marine Biology and Ecology Research associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Crustacean biology and ecology and Marine Biology and Ecology Research; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 6,
+          "example_work_ids": [
+            "https://openalex.org/W2237903454",
+            "https://openalex.org/W2100285444",
+            "https://openalex.org/W167996176",
+            "https://openalex.org/W363007323",
+            "https://openalex.org/W104342516"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7328,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.639,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-a85fffb117de82e0",
+        "key": "https://openalex.org/T10350|https://openalex.org/T11636",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11636",
+            "name": "Artificial Intelligence in Healthcare and Education",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Electronic Health Records Systems and Artificial Intelligence in Healthcare and Education associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Electronic Health Records Systems and Artificial Intelligence in Healthcare and Education; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W3004612364",
+            "https://openalex.org/W2069340802",
+            "https://openalex.org/W2115441252"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6961,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-97d23dbcf3e02c1d",
+        "key": "https://openalex.org/T10815|https://openalex.org/T11004",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10815",
+            "name": "Parasite Biology and Host Interactions",
+            "field": "Immunology and Microbiology",
+            "domain": "Life Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Crustacean biology and ecology and Parasite Biology and Host Interactions associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Crustacean biology and ecology and Parasite Biology and Host Interactions; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W2157107389"
+            "https://openalex.org/W2100285444"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4373,30 +4753,240 @@
         }
       },
       {
-        "id": "lead-78ff7d01f522b5ee",
-        "key": "https://openalex.org/T10360|https://openalex.org/T10940",
+        "id": "lead-a204992b11d8b290",
+        "key": "https://openalex.org/T11004|https://openalex.org/T12234",
         "topics": [
           {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10940",
-            "name": "Navier-Stokes equation solutions",
-            "field": "Mathematics",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T12234",
+            "name": "Mollusks and Parasites Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Fluid Dynamics and Turbulent Flows and Navier-Stokes equation solutions associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fluid Dynamics and Turbulent Flows and Navier-Stokes equation solutions; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Crustacean biology and ecology and Mollusks and Parasites Studies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Crustacean biology and ecology and Mollusks and Parasites Studies; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W3120956112"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-9437df775c9795e1",
+        "key": "https://openalex.org/T11004|https://openalex.org/T12319",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12319",
+            "name": "Fish Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Crustacean biology and ecology and Fish Biology and Ecology Studies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Crustacean biology and ecology and Fish Biology and Ecology Studies; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W167996176"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-4ca973a60f21b6a7",
+        "key": "https://openalex.org/T11004|https://openalex.org/T12471",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11004",
+            "name": "Crustacean biology and ecology",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12471",
+            "name": "History of Science and Natural History",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Crustacean biology and ecology and History of Science and Natural History associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Crustacean biology and ecology and History of Science and Natural History; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W2174284646"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-03bc1d340f6d6b4d",
+        "key": "https://openalex.org/T10350|https://openalex.org/T10508",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10508",
+            "name": "Patient Safety and Medication Errors",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Electronic Health Records Systems and Patient Safety and Medication Errors associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Electronic Health Records Systems and Patient Safety and Medication Errors; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 2,
           "example_work_ids": [
-            "https://openalex.org/W2991415348",
-            "https://openalex.org/W2979559266"
+            "https://openalex.org/W2162190913",
+            "https://openalex.org/W1787211267"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4442,423 +5032,11 @@
             "Human domain review and independent replication are required before strong claims."
           ]
         }
-      },
-      {
-        "id": "lead-3048f8593c521957",
-        "key": "https://openalex.org/T10255|https://openalex.org/T10360",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10255",
-            "name": "Oceanographic and Atmospheric Processes",
-            "field": "Earth and Planetary Sciences",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Fluid Dynamics and Turbulent Flows and Oceanographic and Atmospheric Processes associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fluid Dynamics and Turbulent Flows and Oceanographic and Atmospheric Processes; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2038742869"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-50f94a93147c9901",
-        "key": "https://openalex.org/T10360|https://openalex.org/T10466",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10466",
-            "name": "Meteorological Phenomena and Simulations",
-            "field": "Earth and Planetary Sciences",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Fluid Dynamics and Turbulent Flows and Meteorological Phenomena and Simulations associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fluid Dynamics and Turbulent Flows and Meteorological Phenomena and Simulations; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2038742869"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-f92eda642cafc63d",
-        "key": "https://openalex.org/T10360|https://openalex.org/T10553",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10553",
-            "name": "Combustion and flame dynamics",
-            "field": "Chemical Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Fluid Dynamics and Turbulent Flows and Combustion and flame dynamics associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fluid Dynamics and Turbulent Flows and Combustion and flame dynamics; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2074447412"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-934cc10e525f78db",
-        "key": "https://openalex.org/T10360|https://openalex.org/T12350",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10360",
-            "name": "Fluid Dynamics and Turbulent Flows",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12350",
-            "name": "Particle Dynamics in Fluid Flows",
-            "field": "Chemical Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Fluid Dynamics and Turbulent Flows and Particle Dynamics in Fluid Flows associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fluid Dynamics and Turbulent Flows and Particle Dynamics in Fluid Flows; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W323536346"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "quant-96f51a764b8910f5",
-        "key": "quant:gdp_per_capita|health_spending",
-        "topics": [
-          {
-            "name": "GDP per capita (constant 2015 US$)",
-            "field": "Existing quantitative analysis",
-            "domain": "Cross-country indicators"
-          },
-          {
-            "name": "Current health expenditure per capita (US$)",
-            "field": "Existing quantitative analysis",
-            "domain": "Cross-country indicators"
-          }
-        ],
-        "research_question": "Does the association between GDP per capita (constant 2015 US$) and Current health expenditure per capita (US$) persist when tested with alternative measures, time lags, and plausible confounders?",
-        "candidate_hypothesis": "The observed association may persist under alternative measures, time lags and plausible confounder controls.",
-        "null_hypothesis": "The observed association is not robust to reasonable alternative specifications.",
-        "literature_signal": {
-          "coassigned_work_count": 0,
-          "example_work_ids": [],
-          "interpretation": "Quantitative lead from the existing exploratory pipeline."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "quantitative_research_lead_not_causal",
-        "priority_score": 0.35,
-        "priority_components": {
-          "novelty_to_agent_memory": 0.15,
-          "literature_signal": 0.0,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "quant-45103382eaa5fdcc",
-        "key": "quant:gdp_per_capita|unemployment",
-        "topics": [
-          {
-            "name": "GDP per capita (constant 2015 US$)",
-            "field": "Existing quantitative analysis",
-            "domain": "Cross-country indicators"
-          },
-          {
-            "name": "Unemployment (% of labor force)",
-            "field": "Existing quantitative analysis",
-            "domain": "Cross-country indicators"
-          }
-        ],
-        "research_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
-        "candidate_hypothesis": "The observed association may persist under alternative measures, time lags and plausible confounder controls.",
-        "null_hypothesis": "The observed association is not robust to reasonable alternative specifications.",
-        "literature_signal": {
-          "coassigned_work_count": 0,
-          "example_work_ids": [],
-          "interpretation": "Quantitative lead from the existing exploratory pipeline."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "quantitative_research_lead_not_causal",
-        "priority_score": 0.35,
-        "priority_components": {
-          "novelty_to_agent_memory": 0.15,
-          "literature_signal": 0.0,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
       }
     ],
     "memory": {
-      "cycles_completed": 7,
-      "distinct_hypothesis_keys_seen": 106,
+      "cycles_completed": 8,
+      "distinct_hypothesis_keys_seen": 118,
       "purpose": "Avoid repeatedly presenting the same leads and retain an auditable exploration history."
     },
     "capability_boundary": "This cycle uses deterministic role functions, not a general reasoning model. It generates and evaluates research plans; it does not autonomously validate scientific discoveries or alter its own permissions or production code.",
@@ -4891,7 +5069,7 @@
   },
   "literature_screenings": [
     {
-      "indexed_work_count": 26,
+      "indexed_work_count": 29,
       "results": [
         {
           "title": "Health Inequities, Environmental Insecurity and the Attainment of the Millennium Development Goals in Sub-Saharan Africa: The Case Study of Zambia",
@@ -4918,12 +5096,12 @@
           "cited_by_count": 10
         },
         {
-          "title": "Over the Border and Under the Radar: Should Illegal Migrants Be Active Citizens?",
-          "year": 2008,
-          "type": "preprint",
-          "doi": "https://doi.org/10.2139/ssrn.1311217",
-          "openalex_id": "https://openalex.org/W3123036202",
-          "cited_by_count": 0
+          "title": "Predictors of (in)efficiencies of Healthcare Expenditure Among the Leading Asian Economies – Comparison of OECD and Non-OECD Nations",
+          "year": 2020,
+          "type": "article",
+          "doi": "https://doi.org/10.2147/rmhp.s266386",
+          "openalex_id": "https://openalex.org/W3093653455",
+          "cited_by_count": 142
         },
         {
           "title": "DECOMPOSING WELL-BEING INDICATORS USING DISTRIBUTIONAL DATA",
@@ -4950,7 +5128,7 @@
       ]
     },
     {
-      "indexed_work_count": 16,
+      "indexed_work_count": 17,
       "results": [
         {
           "title": "Calculation of Flood Risk Index for Yeşilırmak Basin-Turkey",
@@ -4966,15 +5144,7 @@
           "type": "article",
           "doi": "https://doi.org/10.5089/9781513582399.001",
           "openalex_id": "https://openalex.org/W4251605660",
-          "cited_by_count": 46
-        },
-        {
-          "title": "Public Spending and Outcomes: Does Governance Matter?",
-          "year": 2002,
-          "type": "report",
-          "doi": "https://doi.org/10.1596/1813-9450-2840",
-          "openalex_id": "https://openalex.org/W3124544936",
-          "cited_by_count": 481
+          "cited_by_count": 45
         },
         {
           "title": "Cities, health and well-being: methodology for an international analysis",
@@ -4982,7 +5152,15 @@
           "type": "conference-paper",
           "doi": null,
           "openalex_id": "https://openalex.org/W2288434922",
-          "cited_by_count": 4
+          "cited_by_count": 3
+        },
+        {
+          "title": "Public Spending and Outcomes: Does Governance Matter?",
+          "year": 2002,
+          "type": "report",
+          "doi": "https://doi.org/10.1596/1813-9450-2840",
+          "openalex_id": "https://openalex.org/W3124544936",
+          "cited_by_count": 173
         },
         {
           "title": "Cambodia: An IEG Country Assistance Evaluation, 1999-2006",
@@ -5000,7 +5178,7 @@
       ]
     },
     {
-      "indexed_work_count": 321,
+      "indexed_work_count": 331,
       "results": [
         {
           "title": "Guinea: Background Appendices",
@@ -5040,7 +5218,7 @@
           "type": "article",
           "doi": "https://doi.org/10.1080/02508060801927994",
           "openalex_id": "https://openalex.org/W2081731603",
-          "cited_by_count": 66
+          "cited_by_count": 64
         }
       ],
       "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -5050,7 +5228,7 @@
       ]
     },
     {
-      "indexed_work_count": 80,
+      "indexed_work_count": 86,
       "results": [
         {
           "title": "Socioeconomic Macro-Level Determinants of Hypertension: Ecological Analysis of 138 Low- and Middle-Income Countries",
@@ -5090,7 +5268,7 @@
           "type": "book",
           "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
           "openalex_id": "https://openalex.org/W4235301359",
-          "cited_by_count": 21
+          "cited_by_count": 18
         }
       ],
       "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -8247,38 +8425,43 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "winsorized_pearson",
-      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
-      "path": "proposals/winsorized_pearson.py"
+      "method": "spearman_rank",
+      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
+      "path": "proposals/spearman_rank.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
-        "id": "openalex",
-        "name": "OpenAlex",
+        "id": "our_world_in_data",
+        "name": "Our World in Data",
         "domains": [
-          "all_sciences",
-          "physics",
           "biology",
-          "psychology",
+          "public_health",
+          "climate",
+          "energy",
           "economics",
-          "computer_science"
+          "demography",
+          "agriculture"
         ],
-        "kind": "literature",
+        "kind": "quantitative_data",
         "keywords": [
-          "scholarly articles",
-          "research papers",
-          "scientific literature"
+          "life expectancy",
+          "health",
+          "climate change",
+          "energy",
+          "agriculture",
+          "population",
+          "education"
         ],
-        "access": "public_api",
-        "endpoint": "https://api.openalex.org/",
+        "access": "public_downloads_and_apis",
+        "endpoint": "https://ourworldindata.org/",
         "auth_required": false,
-        "integration_status": "active_literature_only",
-        "notes": "Scholarly metadata search; not currently ingested as research observations."
+        "integration_status": "catalogued",
+        "notes": "Dataset-level licences and attribution requirements must be checked individually."
       },
       {
         "id": "world_bank_wdi",
@@ -8306,6 +8489,52 @@
         "auth_required": false,
         "integration_status": "active",
         "notes": "Country-level indicators; ecological and coverage limitations apply."
+      },
+      {
+        "id": "gbif",
+        "name": "Global Biodiversity Information Facility",
+        "domains": [
+          "biology",
+          "ecology",
+          "biodiversity",
+          "environment"
+        ],
+        "kind": "quantitative_data",
+        "keywords": [
+          "species",
+          "occurrence",
+          "wildlife",
+          "plants",
+          "animals"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.gbif.org/v1/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Occurrence data; coordinate uncertainty, sampling bias, and record-level licences matter."
+      },
+      {
+        "id": "openalex",
+        "name": "OpenAlex",
+        "domains": [
+          "all_sciences",
+          "physics",
+          "biology",
+          "psychology",
+          "economics",
+          "computer_science"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "scholarly articles",
+          "research papers",
+          "scientific literature"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.openalex.org/",
+        "auth_required": false,
+        "integration_status": "active_literature_only",
+        "notes": "Scholarly metadata search; not currently ingested as research observations."
       },
       {
         "id": "zenodo",
@@ -8348,17 +8577,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "gdp_per_capita",
-        "unemployment"
+        "owid_co2_per_capita",
+        "owid_life_expectancy"
       ],
       "priority_score": 0.775,
       "selected_labels": [
-        "GDP per capita (constant 2015 US$)",
-        "Unemployment (% of labor force)"
+        "CO2 emissions per capita (OWID)",
+        "Life expectancy (OWID)"
       ],
       "selection_score": 0.3875,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -8367,8 +8596,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 31,
-    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 32,
+    "next_question": "Does the association between CO2 emissions per capita (OWID) and Life expectancy (OWID) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex topics, formulates falsifiable leads, and screens up to three small Zenodo CSV/TSV datasets per cycle where record metadata confirms an allowlisted open licence. Automated numeric associations are exploratory screens, not validated discoveries or independent replication."
   },
   "limitations": [
