@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261126T050806Z",
-  "started_at": "2026-11-26T05:07:48.919755+00:00",
-  "completed_at": "2026-11-26T05:08:06.676476+00:00",
+  "run_id": "20261126T152231Z",
+  "started_at": "2026-11-26T15:21:53.811818+00:00",
+  "completed_at": "2026-11-26T15:22:31.223967+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-26T05:07:48.919755+00:00",
+      "retrieved_at": "2026-11-26T15:21:53.811818+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-26T05:07:48.919755+00:00",
+      "retrieved_at": "2026-11-26T15:21:53.811818+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-26T05:07:48.919755+00:00",
+      "retrieved_at": "2026-11-26T15:21:53.811818+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-26T05:07:48.919755+00:00",
+      "retrieved_at": "2026-11-26T15:21:53.811818+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-26T05:07:48.919755+00:00",
+      "retrieved_at": "2026-11-26T15:21:53.811818+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-26T05:07:48.919755+00:00",
+      "retrieved_at": "2026-11-26T15:21:53.811818+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-26T05:07:48.919755+00:00",
+      "retrieved_at": "2026-11-26T15:21:53.811818+00:00",
       "provider": "World Bank"
     }
   },
@@ -80,30 +80,30 @@
   },
   "biodiversity_observation": {
     "annual_coordinate_occurrence_record_counts": {
-      "2023": 289801643,
-      "2022": 253747236,
-      "2021": 241777570,
-      "2020": 214743287,
-      "2019": 186900841,
-      "2018": 160927879,
-      "2017": 154055227,
-      "2016": 141117684,
-      "2015": 114112951,
-      "2014": 106877315,
-      "2013": 91759730,
-      "2012": 83493888,
-      "2011": 71246316,
-      "2010": 65436214,
-      "2009": 56646619,
-      "2008": 49160438,
-      "2007": 45442115,
-      "2006": 40541018,
-      "2005": 38053083,
-      "2004": 34058453,
-      "2003": 30649056,
-      "2002": 28798172,
-      "2001": 26177082,
-      "2000": 25583560
+      "2023": 289849142,
+      "2022": 253772396,
+      "2021": 241787466,
+      "2020": 214751347,
+      "2019": 186907817,
+      "2018": 160933535,
+      "2017": 154058436,
+      "2016": 141120525,
+      "2015": 114127829,
+      "2014": 106904757,
+      "2013": 91773475,
+      "2012": 83521877,
+      "2011": 71262973,
+      "2010": 65446221,
+      "2009": 56666487,
+      "2008": 49173061,
+      "2007": 45464075,
+      "2006": 40564669,
+      "2005": 38053301,
+      "2004": 34058536,
+      "2003": 30649148,
+      "2002": 28797745,
+      "2001": 26176536,
+      "2000": 25583759
     },
     "provenance": {
       "provider": "Global Biodiversity Information Facility",
@@ -3180,7 +3180,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 30,
+        "indexed_work_count": 31,
         "status": "some_indexed_matches",
         "results": [
           {
@@ -3435,7 +3435,7 @@
             "type": "article",
             "doi": "https://doi.org/10.30897/ijegeo.661533",
             "openalex_id": "https://openalex.org/W2996388701",
-            "cited_by_count": 20
+            "cited_by_count": 25
           },
           {
             "title": "Pakistan: Spending Needs for Reaching Sustainable Development Goals (SDGs)",
@@ -3459,7 +3459,7 @@
             "type": "report",
             "doi": "https://doi.org/10.1596/1813-9450-2840",
             "openalex_id": "https://openalex.org/W3124544936",
-            "cited_by_count": 173
+            "cited_by_count": 171
           },
           {
             "title": "Cambodia: An IEG Country Assistance Evaluation, 1999-2006",
@@ -3508,7 +3508,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 335,
+        "indexed_work_count": 339,
         "status": "substantial_indexed_literature",
         "results": [
           {
@@ -3518,6 +3518,14 @@
             "doi": "https://doi.org/10.5089/9781451815887.002",
             "openalex_id": "https://openalex.org/W4251447449",
             "cited_by_count": 0
+          },
+          {
+            "title": "Is Human Development Index (HDI) a reflector of quality of air? a comparative study on developed and developing countries",
+            "year": 2014,
+            "type": "preprint",
+            "doi": null,
+            "openalex_id": "https://openalex.org/W1495062917",
+            "cited_by_count": 5
           },
           {
             "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
@@ -3542,14 +3550,6 @@
             "doi": "https://doi.org/10.1002/brb3.1755",
             "openalex_id": "https://openalex.org/W3047671339",
             "cited_by_count": 114
-          },
-          {
-            "title": "A re-assessment of indicators of national water scarcity",
-            "year": 2008,
-            "type": "article",
-            "doi": "https://doi.org/10.1080/02508060801927994",
-            "openalex_id": "https://openalex.org/W2081731603",
-            "cited_by_count": 64
           }
         ],
         "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -3590,7 +3590,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 87,
+        "indexed_work_count": 89,
         "status": "substantial_indexed_literature",
         "results": [
           {
@@ -3626,12 +3626,12 @@
             "cited_by_count": 0
           },
           {
-            "title": "The Little Data Book on Information and Communication Technology 2015",
-            "year": 2015,
+            "title": "The Little Data Book on Information and Communication Technology 2014",
+            "year": 2014,
             "type": "book",
-            "doi": "https://doi.org/10.1596/978-1-4648-0558-5",
-            "openalex_id": "https://openalex.org/W4235208352",
-            "cited_by_count": 16
+            "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
+            "openalex_id": "https://openalex.org/W4235301359",
+            "cited_by_count": 18
           }
         ],
         "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -3948,114 +3948,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 77,
+    "new_topics_in_sample": 74,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10091",
-        "name": "Malaria Research and Control",
-        "description": "This cluster of papers covers a wide range of topics related to malaria, including the genome sequences of malaria parasites, drug resistance, mosquito vectors, vaccine development, epidemiology, and the global burden of the disease. It also explores the impact of environmental changes on malaria transmission and the development of new antimalarial drugs.",
-        "works_count": 206237,
+        "id": "https://openalex.org/T10105",
+        "name": "Osteoarthritis Treatment and Mechanisms",
+        "description": "This cluster of papers focuses on the pathophysiology of osteoarthritis, with an emphasis on cartilage degradation, inflammation, joint mechanics, and potential therapeutic approaches such as cartilage regeneration using mesenchymal stem cells. It also covers the role of chondrocytes, matrix metalloproteinases, and synovitis in the development and progression of osteoarthritis.",
+        "works_count": 155758,
         "field": "Medicine",
-        "subfield": "Public Health, Environmental and Occupational Health",
+        "subfield": "Rheumatology",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10750",
-        "name": "Fermentation and Sensory Analysis",
-        "description": "This cluster of papers explores the intricate microbial interactions, genetic diversity, and metabolic processes involved in wine production, with a focus on yeast strains, aroma compounds, polyphenols, and fermentation dynamics. It delves into the impact of grape metabolism, microbial terroir, and biogenic amines on the flavor profile of wines.",
-        "works_count": 104851,
+        "id": "https://openalex.org/T11228",
+        "name": "Bat Biology and Ecology Studies",
+        "description": "This cluster of papers explores the ecology, behavior, physiology, and conservation of bats, with a focus on topics such as hibernation, echolocation, white-nose syndrome, metabolic rate, molecular phylogeny, and the impact of climate change. The papers also discuss the role of bats in ecosystems, their importance as bioindicators, and their potential as reservoirs for zoonotic pathogens.",
+        "works_count": 114335,
         "field": "Agricultural and Biological Sciences",
-        "subfield": "Food Science",
+        "subfield": "Ecology, Evolution, Behavior and Systematics",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T12917",
-        "name": "Astronomy and Astrophysical Research",
-        "description": "This cluster of papers covers advancements in astronomical instrumentation, spectroscopy, and data reduction software, focusing on topics such as telescope design, construction, and performance, fiber optics for integral field units and multi-object spectroscopy, as well as the development of data reduction software for processing astronomical data. The cluster also includes discussions on wide-field spectroscopy, optical fibers at cryogenic temperatures, and the design and performance of various spectrographs for ground-based telescopes.",
-        "works_count": 262407,
-        "field": "Physics and Astronomy",
-        "subfield": "Instrumentation",
+        "id": "https://openalex.org/T10001",
+        "name": "Geological and Geochemical Analysis",
+        "description": "This cluster of papers focuses on the tectonic evolution and geochronological analysis of orogenic processes, with a particular emphasis on zircon geochemistry, isotopic composition, and thermodynamic modeling. It covers topics such as subduction zones, mantle evolution, plate tectonics, and the growth of continental crust.",
+        "works_count": 806986,
+        "field": "Earth and Planetary Sciences",
+        "subfield": "Geochemistry and Petrology",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T11971",
-        "name": "World Wars: History, Literature, and Impact",
-        "description": "This cluster of papers covers a wide range of topics related to the global impact of World Wars, international relations, League of Nations, cultural memory, military history, colonialism, humanitarianism, gender roles, and psychological trauma. It explores the interconnectedness of these themes and their significance in shaping the modern world.",
-        "works_count": 528492,
-        "field": "Social Sciences",
-        "subfield": "Political Science and International Relations",
+        "id": "https://openalex.org/T14309",
+        "name": "Employee Performance and Management",
+        "description": "This cluster of papers explores the various factors influencing employee performance, including job satisfaction, organizational culture, leadership style, work-life balance, and organizational commitment. It also delves into the mediating roles of employee engagement, perceived organizational support, and training and development in enhancing employee performance.",
+        "works_count": 318416,
+        "field": "Business, Management and Accounting",
+        "subfield": "Organizational Behavior and Human Resource Management",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T12167",
-        "name": "Bacterial Identification and Susceptibility Testing",
-        "description": "This cluster of papers focuses on the advancements in microbial identification and diagnosis, particularly through the use of Matrix-Assisted Laser Desorption Ionization-Time of Flight Mass Spectrometry (MALDI-TOF MS) and rapid diagnostic testing. It covers topics such as blood culture, antimicrobial susceptibility testing, bacterial identification, and molecular diagnosis in clinical microbiology, with a specific emphasis on bacteremia.",
-        "works_count": 67458,
+        "id": "https://openalex.org/T10397",
+        "name": "Nutrition and Health in Aging",
+        "description": "This cluster of papers explores the definition, diagnosis, and implications of sarcopenia, focusing on its association with cancer cachexia, aging, inflammation, and nutritional status. It discusses the impact of muscle mass and body composition on physical function and prognosis in various populations, including older adults and patients with cancer.",
+        "works_count": 92171,
         "field": "Medicine",
-        "subfield": "Microbiology (medical)",
+        "subfield": "Physiology (medical)",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10613",
-        "name": "Virus-based gene therapy research",
-        "description": "This cluster of papers covers a wide range of topics related to gene therapy, including the use of viral vectors such as AAV and adenovirus, advancements in oncolytic virus therapy, hematopoietic stem cell gene therapy, immunodeficiency treatments, lentiviral vector applications, transgene expression, and genomic integration. The research reflects the ongoing progress and challenges in the field of gene therapy.",
-        "works_count": 89578,
+        "id": "https://openalex.org/T11226",
+        "name": "Milk Quality and Mastitis in Dairy Cows",
+        "description": "This cluster of papers focuses on the research related to bovine mastitis, milk quality, and dairy farming. It covers topics such as intramammary infection, somatic cell count, antimicrobial resistance, and innate immune response in the context of bovine mastitis. The research also delves into the impact of mastitis on milk composition and quality, as well as management strategies for mastitis in dairy farming.",
+        "works_count": 71559,
+        "field": "Agricultural and Biological Sciences",
+        "subfield": "Animal Science and Zoology",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10188",
+        "name": "Advanced machining processes and optimization",
+        "description": "This cluster of papers focuses on advanced monitoring and optimization of machining operations, including topics such as surface integrity, tool wear, cutting parameters, chatter vibration, minimum quantity lubrication, and high speed machining. It also covers the machining of composite materials and the control of surface roughness in various machining processes.",
+        "works_count": 191621,
+        "field": "Engineering",
+        "subfield": "Mechanical Engineering",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10081",
+        "name": "Auditing, Earnings Management, Governance",
+        "description": "This cluster of papers focuses on financial reporting, earnings management, audit committee characteristics, accounting quality, corporate governance, and the impact of information asymmetry. It also explores the implications of International Financial Reporting Standards (IFRS) adoption and the role of analyst forecasts and disclosure practices in the context of financial reporting.",
+        "works_count": 240126,
+        "field": "Business, Management and Accounting",
+        "subfield": "Accounting",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11036",
+        "name": "Antibiotics Pharmacokinetics and Efficacy",
+        "description": "This cluster of papers focuses on the pharmacokinetics of antibiotics, particularly in critically ill patients. It covers topics such as drug dosing, antimicrobial resistance, therapeutic drug monitoring, and the impact of factors like augmented renal clearance on antibiotic levels in the body.",
+        "works_count": 84903,
+        "field": "Medicine",
+        "subfield": "Pharmacology (medical)",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11077",
+        "name": "Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities",
+        "description": "This cluster of papers explores the genetic, physiological, and environmental influences on sex determination and differentiation in various organisms. It covers topics such as X chromosome inactivation, Y chromosome degeneration, gonadal development, sexually dimorphic gene expression, Turner syndrome, SRY gene function, aromatase expression, Wnt signaling pathway, and temperature-dependent sex determination.",
+        "works_count": 47173,
         "field": "Biochemistry, Genetics and Molecular Biology",
         "subfield": "Genetics",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T11022",
-        "name": "Spectral Theory in Mathematical Physics",
-        "description": "This cluster of papers focuses on the spectral theory and properties of differential operators, particularly Schrödinger operators, on various structures such as quantum graphs and thin manifolds. It explores topics such as localization, inverse spectral problems, Anderson localization, scattering theory, and Weyl–Titchmarsh theory. The papers also delve into eigenvalue estimates and applications to quantum chaos and universal spectral statistics.",
-        "works_count": 93290,
-        "field": "Mathematics",
-        "subfield": "Mathematical Physics",
+        "id": "https://openalex.org/T10781",
+        "name": "Low-Pressure Plasma Processing and Diagnostics",
+        "description": "This cluster of papers covers a wide range of topics related to plasma physics and its applications in the semiconductor industry, including plasma etching techniques, atomic layer etching, Hall thrusters for spacecraft propulsion, electron energy distribution function measurements, and ion-molecule collisions. It also explores the use of plasmas in electric propulsion for satellites and spacecraft.",
+        "works_count": 131287,
+        "field": "Engineering",
+        "subfield": "Electrical and Electronic Engineering",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T11846",
-        "name": "Cultural Heritage Management and Preservation",
-        "description": "This cluster of papers explores the temporal, spatial, and social aspects of cultural heritage studies, focusing on topics such as adaptive reuse, intangible heritage, sustainable development, community participation, heritage conservation, urban development, UNESCO World Heritage sites, cultural sustainability, historic buildings, and social value. The papers critically examine the recognition and misrecognition of community heritage, the challenges and opportunities in adaptive reuse of heritage buildings for sustainable urban development, and the role of cultural diversity and human rights in heritage management.",
-        "works_count": 343683,
+        "id": "https://openalex.org/T12555",
+        "name": "Ancient Egypt and Archaeology",
+        "description": "This cluster of papers covers a wide range of topics related to Ancient Egypt, including linguistics, archaeology, chronology, religious beliefs, and cultural entanglement. It explores the language, culture, and society of ancient Egyptians, as well as their interactions with neighboring civilizations. The papers delve into the linguistic diversity, material culture, and social organization of ancient Egypt.",
+        "works_count": 237990,
         "field": "Arts and Humanities",
         "subfield": "Archeology (arts and humanities)",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11149",
-        "name": "Veterinary Oncology Research",
-        "description": "This cluster of papers focuses on the use of pet dogs as models for human cancer research, particularly in the areas of comparative oncology, translational research, and molecular pathology. It includes studies on canine tumor models, genomic analysis, histological grading systems, immunotherapy, and the transmission dynamics of transmissible cancers in animals. The research also explores the potential for translating new cancer treatments and diagnostic methods from pet dogs to humans.",
-        "works_count": 58518,
-        "field": "Veterinary",
-        "subfield": "Small Animals",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11219",
-        "name": "Bone Metabolism and Diseases",
-        "description": "This cluster of papers explores the molecular mechanisms underlying osteoclast differentiation, bone resorption, and the regulation of bone homeostasis. It delves into the signaling pathways, transcription factors, and cytokines involved in osteoclast and osteoblast differentiation, as well as the interplay between the immune system and bone metabolism. Additionally, it investigates the impact of oxidative stress and inflammatory cytokines on bone remodeling.",
-        "works_count": 76435,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Molecular Biology",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10784",
-        "name": "Muscle activation and electromyography studies",
-        "description": "This cluster of papers focuses on the analysis of electromyography (EMG) signal processing, including topics such as muscle fatigue, prosthetic control using EMG signals, musculoskeletal modeling, neural strategies extraction, surface EMG applications, myoelectric control systems, motor unit recruitment, sensory feedback in prosthetics, and gait analysis.",
-        "works_count": 88062,
-        "field": "Engineering",
-        "subfield": "Biomedical Engineering",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T12275",
-        "name": "Gender and Feminist Studies",
-        "description": "This cluster of papers explores a wide range of topics related to gender studies, including gender identity, sexuality, feminism, masculinity, family dynamics, and social inequality. It encompasses feminist perspectives, queer theory, and the impact of sexism on various aspects of society.",
-        "works_count": 329501,
-        "field": "Social Sciences",
-        "subfield": "Gender Studies",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,295 +4069,296 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10091",
-            "name": "Malaria Research and Control",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12178",
-            "name": "Bird parasitology and diseases",
-            "field": "Immunology and Microbiology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 4,
-        "example_work_ids": [
-          "https://openalex.org/W1969503178",
-          "https://openalex.org/W2019851585",
-          "https://openalex.org/W2020251171",
-          "https://openalex.org/W1729017034"
-        ],
-        "research_question": "How are Malaria Research and Control and Bird parasitology and diseases connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Malaria Research and Control and Bird parasitology and diseases will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10035",
-            "name": "Phytochemicals and Antioxidant Activities",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10199",
+            "name": "Wildlife Ecology and Conservation",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 5,
         "example_work_ids": [
-          "https://openalex.org/W4365388753",
-          "https://openalex.org/W2158326940"
+          "https://openalex.org/W2037428143",
+          "https://openalex.org/W2605840304",
+          "https://openalex.org/W2256597391",
+          "https://openalex.org/W2094684530",
+          "https://openalex.org/W2014562034"
         ],
-        "research_question": "How are Fermentation and Sensory Analysis and Phytochemicals and Antioxidant Activities connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fermentation and Sensory Analysis and Phytochemicals and Antioxidant Activities will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Bat Biology and Ecology Studies and Wildlife Ecology and Conservation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Bat Biology and Ecology Studies and Wildlife Ecology and Conservation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
+            "id": "https://openalex.org/T10105",
+            "name": "Osteoarthritis Treatment and Mechanisms",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10084",
+            "name": "Musculoskeletal pain and rehabilitation",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W2058147305",
+          "https://openalex.org/W4211067786",
+          "https://openalex.org/W2955666772",
+          "https://openalex.org/W4211069396",
+          "https://openalex.org/W2161736885"
+        ],
+        "research_question": "How are Osteoarthritis Treatment and Mechanisms and Musculoskeletal pain and rehabilitation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Osteoarthritis Treatment and Mechanisms and Musculoskeletal pain and rehabilitation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T12668",
-            "name": "Yeasts and Rust Fungi Studies",
-            "field": "Immunology and Microbiology",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T11170",
+            "name": "Biomimetic flight and propulsion mechanisms",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2149342156",
-          "https://openalex.org/W2009604447"
+          "https://openalex.org/W2037428143"
         ],
-        "research_question": "How are Fermentation and Sensory Analysis and Yeasts and Rust Fungi Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fermentation and Sensory Analysis and Yeasts and Rust Fungi Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Bat Biology and Ecology Studies and Biomimetic flight and propulsion mechanisms connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Bat Biology and Ecology Studies and Biomimetic flight and propulsion mechanisms will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10091",
-            "name": "Malaria Research and Control",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T12685",
-            "name": "Phytochemical compounds biological activities",
-            "field": "Pharmacology, Toxicology and Pharmaceutics",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T11354",
+            "name": "Evolution and Paleontology Studies",
+            "field": "Earth and Planetary Sciences",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2161311583",
-          "https://openalex.org/W2105668259"
+          "https://openalex.org/W1997655974"
         ],
-        "research_question": "How are Malaria Research and Control and Phytochemical compounds biological activities connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Malaria Research and Control and Phytochemical compounds biological activities will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Bat Biology and Ecology Studies and Evolution and Paleontology Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Bat Biology and Ecology Studies and Evolution and Paleontology Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10091",
-            "name": "Malaria Research and Control",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T12778",
-            "name": "History of Medicine and Tropical Health",
-            "field": "Arts and Humanities",
+            "id": "https://openalex.org/T11037",
+            "name": "Fungal Infections and Studies",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2169687789"
+        ],
+        "research_question": "How are Bat Biology and Ecology Studies and Fungal Infections and Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Bat Biology and Ecology Studies and Fungal Infections and Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10659",
+            "name": "Marine animal studies overview",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2256597391"
+        ],
+        "research_question": "How are Bat Biology and Ecology Studies and Marine animal studies overview connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Bat Biology and Ecology Studies and Marine animal studies overview will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T14309",
+            "name": "Employee Performance and Management",
+            "field": "Business, Management and Accounting",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12787",
+            "name": "Human Behavior and Motivation",
+            "field": "Psychology",
             "domain": "Social Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1729017034",
-          "https://openalex.org/W2067428749"
+          "https://openalex.org/W2980110915"
         ],
-        "research_question": "How are Malaria Research and Control and History of Medicine and Tropical Health connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Malaria Research and Control and History of Medicine and Tropical Health will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Employee Performance and Management and Human Behavior and Motivation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Employee Performance and Management and Human Behavior and Motivation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12917",
-            "name": "Astronomy and Astrophysical Research",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T14309",
+            "name": "Employee Performance and Management",
+            "field": "Business, Management and Accounting",
+            "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T11637",
-            "name": "Advanced Semiconductor Detectors and Materials",
+            "id": "https://openalex.org/T12244",
+            "name": "Healthcare Education and Workforce Issues",
+            "field": "Nursing",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2321455742"
+        ],
+        "research_question": "How are Employee Performance and Management and Healthcare Education and Workforce Issues connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Employee Performance and Management and Healthcare Education and Workforce Issues will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T14309",
+            "name": "Employee Performance and Management",
+            "field": "Business, Management and Accounting",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12256",
+            "name": "Facilities and Workplace Management",
             "field": "Engineering",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2148804397"
+          "https://openalex.org/W950199991"
         ],
-        "research_question": "How are Astronomy and Astrophysical Research and Advanced Semiconductor Detectors and Materials connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Astronomy and Astrophysical Research and Advanced Semiconductor Detectors and Materials will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Employee Performance and Management and Facilities and Workplace Management connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Employee Performance and Management and Facilities and Workplace Management will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12917",
-            "name": "Astronomy and Astrophysical Research",
-            "field": "Physics and Astronomy",
+            "id": "https://openalex.org/T10001",
+            "name": "Geological and Geochemical Analysis",
+            "field": "Earth and Planetary Sciences",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10968",
-            "name": "Statistical Distribution Estimation and Applications",
-            "field": "Mathematics",
+            "id": "https://openalex.org/T13414",
+            "name": "Radioactive Decay and Measurement Techniques",
+            "field": "Physics and Astronomy",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1987319691"
+          "https://openalex.org/W2145604970"
         ],
-        "research_question": "How are Astronomy and Astrophysical Research and Statistical Distribution Estimation and Applications connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Astronomy and Astrophysical Research and Statistical Distribution Estimation and Applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Geological and Geochemical Analysis and Radioactive Decay and Measurement Techniques connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Geological and Geochemical Analysis and Radioactive Decay and Measurement Techniques will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12917",
-            "name": "Astronomy and Astrophysical Research",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T10105",
+            "name": "Osteoarthritis Treatment and Mechanisms",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10243",
-            "name": "Statistical Methods and Bayesian Inference",
-            "field": "Mathematics",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T11570",
+            "name": "Periodontal Regeneration and Treatments",
+            "field": "Dentistry",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1987319691"
+          "https://openalex.org/W1988592246"
         ],
-        "research_question": "How are Astronomy and Astrophysical Research and Statistical Methods and Bayesian Inference connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Astronomy and Astrophysical Research and Statistical Methods and Bayesian Inference will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Osteoarthritis Treatment and Mechanisms and Periodontal Regeneration and Treatments connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Osteoarthritis Treatment and Mechanisms and Periodontal Regeneration and Treatments will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12917",
-            "name": "Astronomy and Astrophysical Research",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T10105",
+            "name": "Osteoarthritis Treatment and Mechanisms",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T11803",
-            "name": "Superconducting and THz Device Technology",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W4293003757"
-        ],
-        "research_question": "How are Astronomy and Astrophysical Research and Superconducting and THz Device Technology connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Astronomy and Astrophysical Research and Superconducting and THz Device Technology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10497",
-            "name": "Fungal and yeast genetics research",
+            "id": "https://openalex.org/T11131",
+            "name": "Proteoglycans and glycosaminoglycans research",
             "field": "Biochemistry, Genetics and Molecular Biology",
             "domain": "Life Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2164904971"
+          "https://openalex.org/W2011038175"
         ],
-        "research_question": "How are Fermentation and Sensory Analysis and Fungal and yeast genetics research connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fermentation and Sensory Analysis and Fungal and yeast genetics research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10932",
-            "name": "Microbial Metabolic Engineering and Bioproduction",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2164904971"
-        ],
-        "research_question": "How are Fermentation and Sensory Analysis and Microbial Metabolic Engineering and Bioproduction connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fermentation and Sensory Analysis and Microbial Metabolic Engineering and Bioproduction will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11455",
-            "name": "Microbial Inactivation Methods",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2494045883"
-        ],
-        "research_question": "How are Fermentation and Sensory Analysis and Microbial Inactivation Methods connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Fermentation and Sensory Analysis and Microbial Inactivation Methods will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Osteoarthritis Treatment and Mechanisms and Proteoglycans and glycosaminoglycans research connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Osteoarthritis Treatment and Mechanisms and Proteoglycans and glycosaminoglycans research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -4382,42 +4383,43 @@
     "candidate_leads_generated": 22,
     "new_candidate_leads": 12,
     "selected_next_investigation": {
-      "id": "lead-c3a4f67798680033",
-      "key": "https://openalex.org/T10091|https://openalex.org/T12178",
+      "id": "lead-e1a62b8a2d58391f",
+      "key": "https://openalex.org/T10199|https://openalex.org/T11228",
       "topics": [
         {
-          "id": "https://openalex.org/T10091",
-          "name": "Malaria Research and Control",
-          "field": "Medicine",
-          "domain": "Health Sciences"
+          "id": "https://openalex.org/T11228",
+          "name": "Bat Biology and Ecology Studies",
+          "field": "Agricultural and Biological Sciences",
+          "domain": "Life Sciences"
         },
         {
-          "id": "https://openalex.org/T12178",
-          "name": "Bird parasitology and diseases",
-          "field": "Immunology and Microbiology",
-          "domain": "Life Sciences"
+          "id": "https://openalex.org/T10199",
+          "name": "Wildlife Ecology and Conservation",
+          "field": "Environmental Science",
+          "domain": "Physical Sciences"
         }
       ],
-      "research_question": "Under what measurable conditions, if any, are Malaria Research and Control and Bird parasitology and diseases associated in independent empirical data?",
-      "candidate_hypothesis": "At least one measurable relationship may exist between Malaria Research and Control and Bird parasitology and diseases; its direction, mechanism and generality are unknown.",
+      "research_question": "Under what measurable conditions, if any, are Bat Biology and Ecology Studies and Wildlife Ecology and Conservation associated in independent empirical data?",
+      "candidate_hypothesis": "At least one measurable relationship may exist between Bat Biology and Ecology Studies and Wildlife Ecology and Conservation; its direction, mechanism and generality are unknown.",
       "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
       "literature_signal": {
-        "coassigned_work_count": 4,
+        "coassigned_work_count": 5,
         "example_work_ids": [
-          "https://openalex.org/W1969503178",
-          "https://openalex.org/W2019851585",
-          "https://openalex.org/W2020251171",
-          "https://openalex.org/W1729017034"
+          "https://openalex.org/W2037428143",
+          "https://openalex.org/W2605840304",
+          "https://openalex.org/W2256597391",
+          "https://openalex.org/W2094684530",
+          "https://openalex.org/W2014562034"
         ],
         "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
       },
       "dataset_leads": [],
       "cross_domain": true,
       "status": "unvalidated_research_lead",
-      "priority_score": 0.7557,
+      "priority_score": 0.7677,
       "priority_components": {
         "novelty_to_agent_memory": 1.0,
-        "literature_signal": 0.529,
+        "literature_signal": 0.589,
         "falsifiability": 0.85,
         "dataset_lead_availability": 0.25,
         "cross_domain_breadth": 1.0
@@ -4456,113 +4458,43 @@
     },
     "ranked_leads": [
       {
-        "id": "lead-c3a4f67798680033",
-        "key": "https://openalex.org/T10091|https://openalex.org/T12178",
+        "id": "lead-e1a62b8a2d58391f",
+        "key": "https://openalex.org/T10199|https://openalex.org/T11228",
         "topics": [
           {
-            "id": "https://openalex.org/T10091",
-            "name": "Malaria Research and Control",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12178",
-            "name": "Bird parasitology and diseases",
-            "field": "Immunology and Microbiology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Malaria Research and Control and Bird parasitology and diseases associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Malaria Research and Control and Bird parasitology and diseases; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 4,
-          "example_work_ids": [
-            "https://openalex.org/W1969503178",
-            "https://openalex.org/W2019851585",
-            "https://openalex.org/W2020251171",
-            "https://openalex.org/W1729017034"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.7557,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.529,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-cdb1c08390260d0a",
-        "key": "https://openalex.org/T10035|https://openalex.org/T10750",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10035",
-            "name": "Phytochemicals and Antioxidant Activities",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10199",
+            "name": "Wildlife Ecology and Conservation",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Fermentation and Sensory Analysis and Phytochemicals and Antioxidant Activities associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fermentation and Sensory Analysis and Phytochemicals and Antioxidant Activities; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Bat Biology and Ecology Studies and Wildlife Ecology and Conservation associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Bat Biology and Ecology Studies and Wildlife Ecology and Conservation; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
-          "coassigned_work_count": 2,
+          "coassigned_work_count": 5,
           "example_work_ids": [
-            "https://openalex.org/W4365388753",
-            "https://openalex.org/W2158326940"
+            "https://openalex.org/W2037428143",
+            "https://openalex.org/W2605840304",
+            "https://openalex.org/W2256597391",
+            "https://openalex.org/W2094684530",
+            "https://openalex.org/W2014562034"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
         "cross_domain": true,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.7222,
+        "priority_score": 0.7677,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.361,
+          "literature_signal": 0.589,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
           "cross_domain_breadth": 1.0
@@ -4600,40 +4532,113 @@
         }
       },
       {
-        "id": "lead-3cd0c6ca8a6b359c",
-        "key": "https://openalex.org/T10091|https://openalex.org/T12685",
+        "id": "lead-f9e615be09874896",
+        "key": "https://openalex.org/T10084|https://openalex.org/T10105",
         "topics": [
           {
-            "id": "https://openalex.org/T10091",
-            "name": "Malaria Research and Control",
+            "id": "https://openalex.org/T10105",
+            "name": "Osteoarthritis Treatment and Mechanisms",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T12685",
-            "name": "Phytochemical compounds biological activities",
-            "field": "Pharmacology, Toxicology and Pharmaceutics",
+            "id": "https://openalex.org/T10084",
+            "name": "Musculoskeletal pain and rehabilitation",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Osteoarthritis Treatment and Mechanisms and Musculoskeletal pain and rehabilitation associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Osteoarthritis Treatment and Mechanisms and Musculoskeletal pain and rehabilitation; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 5,
+          "example_work_ids": [
+            "https://openalex.org/W2058147305",
+            "https://openalex.org/W4211067786",
+            "https://openalex.org/W2955666772",
+            "https://openalex.org/W4211069396",
+            "https://openalex.org/W2161736885"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7227,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.589,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-01c94b5adf95847d",
+        "key": "https://openalex.org/T10105|https://openalex.org/T11131",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10105",
+            "name": "Osteoarthritis Treatment and Mechanisms",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11131",
+            "name": "Proteoglycans and glycosaminoglycans research",
+            "field": "Biochemistry, Genetics and Molecular Biology",
             "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Malaria Research and Control and Phytochemical compounds biological activities associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Malaria Research and Control and Phytochemical compounds biological activities; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Osteoarthritis Treatment and Mechanisms and Proteoglycans and glycosaminoglycans research associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Osteoarthritis Treatment and Mechanisms and Proteoglycans and glycosaminoglycans research; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
-          "coassigned_work_count": 2,
+          "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W2161311583",
-            "https://openalex.org/W2105668259"
+            "https://openalex.org/W2011038175"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
         "cross_domain": true,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.7222,
+        "priority_score": 0.6955,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.361,
+          "literature_signal": 0.228,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
           "cross_domain_breadth": 1.0
@@ -4671,324 +4676,322 @@
         }
       },
       {
-        "id": "lead-b1fcbda667018b29",
-        "key": "https://openalex.org/T10091|https://openalex.org/T12778",
+        "id": "lead-46a7f5c0cd624258",
+        "key": "https://openalex.org/T10659|https://openalex.org/T11228",
         "topics": [
           {
-            "id": "https://openalex.org/T10091",
-            "name": "Malaria Research and Control",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T12778",
-            "name": "History of Medicine and Tropical Health",
-            "field": "Arts and Humanities",
+            "id": "https://openalex.org/T10659",
+            "name": "Marine animal studies overview",
+            "field": "Environmental Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Bat Biology and Ecology Studies and Marine animal studies overview associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Bat Biology and Ecology Studies and Marine animal studies overview; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W2256597391"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-ded5b75b5718b02f",
+        "key": "https://openalex.org/T11037|https://openalex.org/T11228",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11037",
+            "name": "Fungal Infections and Studies",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Bat Biology and Ecology Studies and Fungal Infections and Studies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Bat Biology and Ecology Studies and Fungal Infections and Studies; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W2169687789"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-3c27f8f1ef885397",
+        "key": "https://openalex.org/T11170|https://openalex.org/T11228",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11170",
+            "name": "Biomimetic flight and propulsion mechanisms",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Bat Biology and Ecology Studies and Biomimetic flight and propulsion mechanisms associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Bat Biology and Ecology Studies and Biomimetic flight and propulsion mechanisms; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W2037428143"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-b579d971fb3c55dd",
+        "key": "https://openalex.org/T11228|https://openalex.org/T11354",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11228",
+            "name": "Bat Biology and Ecology Studies",
+            "field": "Agricultural and Biological Sciences",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11354",
+            "name": "Evolution and Paleontology Studies",
+            "field": "Earth and Planetary Sciences",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Bat Biology and Ecology Studies and Evolution and Paleontology Studies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Bat Biology and Ecology Studies and Evolution and Paleontology Studies; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W1997655974"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.228,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-fd8596cb0e89867a",
+        "key": "https://openalex.org/T12244|https://openalex.org/T14309",
+        "topics": [
+          {
+            "id": "https://openalex.org/T14309",
+            "name": "Employee Performance and Management",
+            "field": "Business, Management and Accounting",
             "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12244",
+            "name": "Healthcare Education and Workforce Issues",
+            "field": "Nursing",
+            "domain": "Health Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Malaria Research and Control and History of Medicine and Tropical Health associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Malaria Research and Control and History of Medicine and Tropical Health; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Employee Performance and Management and Healthcare Education and Workforce Issues associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Employee Performance and Management and Healthcare Education and Workforce Issues; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
-          "coassigned_work_count": 2,
+          "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W1729017034",
-            "https://openalex.org/W2067428749"
+            "https://openalex.org/W2321455742"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
         "cross_domain": true,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.7222,
+        "priority_score": 0.6955,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.361,
+          "literature_signal": 0.228,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
           "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-3e6eca0c20621aaf",
-        "key": "https://openalex.org/T10750|https://openalex.org/T12668",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12668",
-            "name": "Yeasts and Rust Fungi Studies",
-            "field": "Immunology and Microbiology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Fermentation and Sensory Analysis and Yeasts and Rust Fungi Studies associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fermentation and Sensory Analysis and Yeasts and Rust Fungi Studies; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 2,
-          "example_work_ids": [
-            "https://openalex.org/W2149342156",
-            "https://openalex.org/W2009604447"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6772,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.361,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-226ca7a9084e7e23",
-        "key": "https://openalex.org/T10243|https://openalex.org/T12917",
-        "topics": [
-          {
-            "id": "https://openalex.org/T12917",
-            "name": "Astronomy and Astrophysical Research",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10243",
-            "name": "Statistical Methods and Bayesian Inference",
-            "field": "Mathematics",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Astronomy and Astrophysical Research and Statistical Methods and Bayesian Inference associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Astronomy and Astrophysical Research and Statistical Methods and Bayesian Inference; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W1987319691"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-649af8e20b85ccc0",
-        "key": "https://openalex.org/T10497|https://openalex.org/T10750",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10497",
-            "name": "Fungal and yeast genetics research",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Fermentation and Sensory Analysis and Fungal and yeast genetics research associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fermentation and Sensory Analysis and Fungal and yeast genetics research; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2164904971"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-3db001b371bbb3f1",
-        "key": "https://openalex.org/T10750|https://openalex.org/T10932",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10750",
-            "name": "Fermentation and Sensory Analysis",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10932",
-            "name": "Microbial Metabolic Engineering and Bioproduction",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Fermentation and Sensory Analysis and Microbial Metabolic Engineering and Bioproduction associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Fermentation and Sensory Analysis and Microbial Metabolic Engineering and Bioproduction; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2164904971"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
         },
         "skeptic_review": {
           "alternative_explanations": [
@@ -5024,8 +5027,8 @@
       }
     ],
     "memory": {
-      "cycles_completed": 10,
-      "distinct_hypothesis_keys_seen": 142,
+      "cycles_completed": 11,
+      "distinct_hypothesis_keys_seen": 154,
       "purpose": "Avoid repeatedly presenting the same leads and retain an auditable exploration history."
     },
     "capability_boundary": "This cycle uses deterministic role functions, not a general reasoning model. It generates and evaluates research plans; it does not autonomously validate scientific discoveries or alter its own permissions or production code.",
@@ -5058,7 +5061,7 @@
   },
   "literature_screenings": [
     {
-      "indexed_work_count": 30,
+      "indexed_work_count": 31,
       "results": [
         {
           "title": "Health Inequities, Environmental Insecurity and the Attainment of the Millennium Development Goals in Sub-Saharan Africa: The Case Study of Zambia",
@@ -5125,7 +5128,7 @@
           "type": "article",
           "doi": "https://doi.org/10.30897/ijegeo.661533",
           "openalex_id": "https://openalex.org/W2996388701",
-          "cited_by_count": 20
+          "cited_by_count": 25
         },
         {
           "title": "Pakistan: Spending Needs for Reaching Sustainable Development Goals (SDGs)",
@@ -5149,7 +5152,7 @@
           "type": "report",
           "doi": "https://doi.org/10.1596/1813-9450-2840",
           "openalex_id": "https://openalex.org/W3124544936",
-          "cited_by_count": 173
+          "cited_by_count": 171
         },
         {
           "title": "Cambodia: An IEG Country Assistance Evaluation, 1999-2006",
@@ -5167,7 +5170,7 @@
       ]
     },
     {
-      "indexed_work_count": 335,
+      "indexed_work_count": 339,
       "results": [
         {
           "title": "Guinea: Background Appendices",
@@ -5176,6 +5179,14 @@
           "doi": "https://doi.org/10.5089/9781451815887.002",
           "openalex_id": "https://openalex.org/W4251447449",
           "cited_by_count": 0
+        },
+        {
+          "title": "Is Human Development Index (HDI) a reflector of quality of air? a comparative study on developed and developing countries",
+          "year": 2014,
+          "type": "preprint",
+          "doi": null,
+          "openalex_id": "https://openalex.org/W1495062917",
+          "cited_by_count": 5
         },
         {
           "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
@@ -5200,14 +5211,6 @@
           "doi": "https://doi.org/10.1002/brb3.1755",
           "openalex_id": "https://openalex.org/W3047671339",
           "cited_by_count": 114
-        },
-        {
-          "title": "A re-assessment of indicators of national water scarcity",
-          "year": 2008,
-          "type": "article",
-          "doi": "https://doi.org/10.1080/02508060801927994",
-          "openalex_id": "https://openalex.org/W2081731603",
-          "cited_by_count": 64
         }
       ],
       "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -5217,7 +5220,7 @@
       ]
     },
     {
-      "indexed_work_count": 87,
+      "indexed_work_count": 89,
       "results": [
         {
           "title": "Socioeconomic Macro-Level Determinants of Hypertension: Ecological Analysis of 138 Low- and Middle-Income Countries",
@@ -5252,12 +5255,12 @@
           "cited_by_count": 0
         },
         {
-          "title": "The Little Data Book on Information and Communication Technology 2015",
-          "year": 2015,
+          "title": "The Little Data Book on Information and Communication Technology 2014",
+          "year": 2014,
           "type": "book",
-          "doi": "https://doi.org/10.1596/978-1-4648-0558-5",
-          "openalex_id": "https://openalex.org/W4235208352",
-          "cited_by_count": 16
+          "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
+          "openalex_id": "https://openalex.org/W4235301359",
+          "cited_by_count": 18
         }
       ],
       "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
@@ -8414,14 +8417,14 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Current health expenditure per capita (US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between Current health expenditure per capita (US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
@@ -8480,6 +8483,29 @@
         "notes": "Dataset-level licences and attribution requirements must be checked individually."
       },
       {
+        "id": "gbif",
+        "name": "Global Biodiversity Information Facility",
+        "domains": [
+          "biology",
+          "ecology",
+          "biodiversity",
+          "environment"
+        ],
+        "kind": "quantitative_data",
+        "keywords": [
+          "species",
+          "occurrence",
+          "wildlife",
+          "plants",
+          "animals"
+        ],
+        "access": "public_api",
+        "endpoint": "https://api.gbif.org/v1/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Occurrence data; coordinate uncertainty, sampling bias, and record-level licences matter."
+      },
+      {
         "id": "openalex",
         "name": "OpenAlex",
         "domains": [
@@ -8526,33 +8552,6 @@
         "auth_required": false,
         "integration_status": "catalogued",
         "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
-      },
-      {
-        "id": "zenodo",
-        "name": "Zenodo Open Research Data",
-        "domains": [
-          "all_sciences",
-          "biology",
-          "physics",
-          "climate",
-          "social_sciences",
-          "engineering",
-          "medicine"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "open datasets",
-          "research data",
-          "csv",
-          "measurements",
-          "observations",
-          "experimental data"
-        ],
-        "access": "public_api_and_record_files",
-        "endpoint": "https://zenodo.org/api/records/",
-        "auth_required": false,
-        "integration_status": "active_bounded_csv_tsv_screening",
-        "notes": "Only explicitly allowlisted open licences and small CSV/TSV files are screened. Automated correlations are exploratory; possible personal-data columns trigger rejection."
       }
     ],
     "note": "Catalogue matches are discovery leads only. A source-specific connector, licence/terms review, and schema validation are required before quantitative ingestion."
@@ -8569,16 +8568,16 @@
     "research_plan": {
       "selected_pair": [
         "health_spending",
-        "urban_population"
+        "life_expectancy"
       ],
-      "priority_score": 0.7644,
+      "priority_score": 0.7594,
       "selected_labels": [
         "Current health expenditure per capita (US$)",
-        "Urban population (% of total)"
+        "Life expectancy at birth (years)"
       ],
-      "selection_score": 0.3822,
+      "selection_score": 0.3797,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Current health expenditure per capita (US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between Current health expenditure per capita (US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -8587,8 +8586,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 34,
-    "next_question": "Does the association between Current health expenditure per capita (US$) and Urban population (% of total) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 35,
+    "next_question": "Does the association between Current health expenditure per capita (US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex topics, formulates falsifiable leads, and screens up to three small Zenodo CSV/TSV datasets per cycle where record metadata confirms an allowlisted open licence. Automated numeric associations are exploratory screens, not validated discoveries or independent replication."
   },
   "limitations": [
