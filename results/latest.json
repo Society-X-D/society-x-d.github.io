@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261127T003750Z",
-  "started_at": "2026-11-27T00:37:31.066883+00:00",
-  "completed_at": "2026-11-27T00:37:50.110843+00:00",
+  "run_id": "20261127T094237Z",
+  "started_at": "2026-11-27T09:42:22.013341+00:00",
+  "completed_at": "2026-11-27T09:42:37.209112+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T00:37:31.066883+00:00",
+      "retrieved_at": "2026-11-27T09:42:22.013341+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T00:37:31.066883+00:00",
+      "retrieved_at": "2026-11-27T09:42:22.013341+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T00:37:31.066883+00:00",
+      "retrieved_at": "2026-11-27T09:42:22.013341+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T00:37:31.066883+00:00",
+      "retrieved_at": "2026-11-27T09:42:22.013341+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T00:37:31.066883+00:00",
+      "retrieved_at": "2026-11-27T09:42:22.013341+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T00:37:31.066883+00:00",
+      "retrieved_at": "2026-11-27T09:42:22.013341+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T00:37:31.066883+00:00",
+      "retrieved_at": "2026-11-27T09:42:22.013341+00:00",
       "provider": "World Bank"
     }
   },
@@ -80,30 +80,30 @@
   },
   "biodiversity_observation": {
     "annual_coordinate_occurrence_record_counts": {
-      "2023": 289849480,
-      "2022": 253773020,
-      "2021": 241788071,
-      "2020": 214751796,
-      "2019": 186908084,
-      "2018": 160933660,
-      "2017": 154058565,
-      "2016": 141120574,
-      "2015": 114127877,
-      "2014": 106904772,
-      "2013": 91773541,
-      "2012": 83521964,
-      "2011": 71263015,
-      "2010": 65446256,
-      "2009": 56666559,
-      "2008": 49307285,
-      "2007": 45494691,
-      "2006": 40564764,
-      "2005": 38053389,
-      "2004": 34058570,
-      "2003": 30649149,
-      "2002": 28797747,
-      "2001": 26176544,
-      "2000": 25583769
+      "2023": 289850748,
+      "2022": 253773735,
+      "2021": 241792542,
+      "2020": 214753229,
+      "2019": 186908269,
+      "2018": 160933876,
+      "2017": 154059150,
+      "2016": 141120872,
+      "2015": 114128331,
+      "2014": 106907587,
+      "2013": 91775306,
+      "2012": 83523119,
+      "2011": 71264280,
+      "2010": 65448979,
+      "2009": 56670404,
+      "2008": 49309292,
+      "2007": 45495973,
+      "2006": 40566618,
+      "2005": 38058796,
+      "2004": 34059828,
+      "2003": 30649962,
+      "2002": 28798981,
+      "2001": 26178457,
+      "2000": 25584596
     },
     "provenance": {
       "provider": "Global Biodiversity Information Facility",
@@ -3948,114 +3948,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 77,
+    "new_topics_in_sample": 78,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10453",
-        "name": "Maternal and Perinatal Health Interventions",
-        "description": "This cluster of papers explores the maternal and neonatal outcomes associated with cesarean section delivery, including its comparison with vaginal birth, the impact of labor induction, the influence of maternal age, and the experiences of childbirth. It also delves into post-traumatic stress disorder following childbirth, the role of midwifery care, and global trends in cesarean section rates.",
-        "works_count": 222221,
+        "id": "https://openalex.org/T10510",
+        "name": "Stroke Rehabilitation and Recovery",
+        "description": "This cluster of papers focuses on principles and interventions in stroke rehabilitation, including topics such as neural plasticity, motor recovery, constraint-induced therapy, robot-assisted therapy, post-stroke depression, virtual reality rehabilitation, gait performance, functional recovery, upper limb function, and various rehabilitation techniques.",
+        "works_count": 134190,
         "field": "Medicine",
-        "subfield": "Obstetrics and Gynecology",
+        "subfield": "Rehabilitation",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12455",
-        "name": "Mediterranean and Iberian flora and fauna",
-        "description": "This cluster of papers focuses on the vascular flora, particularly of Mediterranean Europe and North Africa, covering topics such as taxonomy, phylogeny, biogeography, endemism, conservation, and invasive species within the families Chenopodiaceae and Amaranthaceae.",
-        "works_count": 339754,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Plant Science",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10683",
-        "name": "Mass Spectrometry Techniques and Applications",
-        "description": "This cluster of papers covers advancements in mass spectrometry techniques, including ionization methods such as electrospray and MALDI, analysis of proteins and peptides, imaging mass spectrometry, and applications under ambient conditions. It also explores ion mobility and its role in proteomics and structural biology.",
-        "works_count": 131222,
-        "field": "Chemistry",
-        "subfield": "Spectroscopy",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T13291",
-        "name": "Political Theory and Democracy",
-        "description": "This cluster of papers covers a wide range of topics related to democratic theory, including deliberative democracy, political participation, global governance, civil society, democratic crisis, and democratization. It explores the challenges and prospects for democracy in various contexts and provides insights into the evolution of democratic theory and practice.",
-        "works_count": 201913,
-        "field": "Social Sciences",
-        "subfield": "Political Science and International Relations",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10227",
-        "name": "Acute Ischemic Stroke Management",
-        "description": "This cluster of papers focuses on the epidemiology, management, and treatment of stroke, with an emphasis on ischemic stroke. It covers topics such as thrombolysis, endovascular therapy, risk factors, prevention guidelines, clinical outcomes, neuroprotection, infarction treatment, revascularization, and the global burden of stroke.",
-        "works_count": 205184,
-        "field": "Medicine",
-        "subfield": "Clinical Neurology",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10411",
-        "name": "Proteins in Food Systems",
-        "description": "This cluster of papers focuses on the formation, stability, properties, and applications of nanoemulsions in food, particularly their interaction with proteins, hydrocolloids, and nanoparticles. It also explores the impact of nanoemulsions on digestion, lipid oxidation, and the potential use of biopolymer gels for nutraceutical delivery.",
-        "works_count": 92893,
-        "field": "Agricultural and Biological Sciences",
-        "subfield": "Food Science",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10659",
-        "name": "Marine animal studies overview",
-        "description": "This cluster of papers explores the ecology, behavior, and conservation of marine mammals, with a focus on the impacts of anthropogenic noise, habitat change, and climate change on cetaceans. It also delves into predator-prey interactions, acoustic communication, and the role of marine mammals as indicators of ecosystem health. The research emphasizes the need for conservation efforts to mitigate human-induced threats to these animals.",
-        "works_count": 129907,
-        "field": "Environmental Science",
-        "subfield": "Ecology",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T12123",
-        "name": "Financial Analysis and Corporate Governance",
-        "description": "This cluster of papers covers a wide range of topics related to financial analysis, investment strategies, portfolio management, corporate finance, accounting standards, market analysis, capital structure, profitability, and corporate governance. The papers explore various factors influencing firm value, stock returns, and financial performance in different industries and markets.",
-        "works_count": 200937,
-        "field": "Business, Management and Accounting",
-        "subfield": "Accounting",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10129",
-        "name": "Glioma Diagnosis and Treatment",
-        "description": "This cluster of papers focuses on the genetics, classification, treatment, and epidemiology of gliomas, particularly glioblastoma and medulloblastoma. It covers topics such as the molecular pathways, mutations (e.g., IDH), treatment strategies (e.g., temozolomide, radiotherapy), and the use of immunotherapy in neuro-oncology.",
-        "works_count": 203098,
-        "field": "Medicine",
-        "subfield": "Oncology",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11618",
-        "name": "Cholesterol and Lipid Metabolism",
-        "description": "This cluster of papers focuses on the intricate mechanisms of cholesterol metabolism, including the roles of key regulators such as LXR and SREBP, the impact on atherosclerosis, and the involvement of specific proteins like ABCA1 in processes such as cholesterol efflux from cells. It also delves into the effects of phytosterols on lipid levels and the interplay between cholesterol homeostasis and inflammation in conditions like atherosclerosis.",
-        "works_count": 68331,
+        "id": "https://openalex.org/T10044",
+        "name": "Protein Structure and Dynamics",
+        "description": "This cluster of papers focuses on the prediction and analysis of protein structures using methods such as molecular dynamics simulations, force fields, homology modeling, and circular dichroism. It also explores topics related to intrinsically disordered proteins, enzyme catalysis, and the effects of macromolecular crowding on protein behavior.",
+        "works_count": 225595,
         "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Biochemistry",
+        "subfield": "Molecular Biology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T10275",
-        "name": "2D Materials and Applications",
-        "description": "This cluster of papers covers a wide range of research on two-dimensional materials, including semiconducting transition metal dichalcogenides like monolayer MoS2 and black phosphorus. It explores topics such as van der Waals heterostructures, excitonic effects, photoluminescence, electronic structure, and the development of optoelectronic devices based on atomically thin semiconductors.",
-        "works_count": 93331,
-        "field": "Materials Science",
-        "subfield": "Materials Chemistry",
+        "id": "https://openalex.org/T10472",
+        "name": "Semiconductor materials and devices",
+        "description": "This cluster of papers focuses on the advances in atomic layer deposition (ALD) technology, particularly in the context of high-k dielectrics, gate oxides, and semiconductor devices. It covers topics such as thin film growth, dielectric breakdown mechanisms, metal gate transistors, interface engineering, and the impact of negative bias temperature instability (NBTI) degradation on device performance.",
+        "works_count": 135375,
+        "field": "Engineering",
+        "subfield": "Electrical and Electronic Engineering",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10068",
-        "name": "Technology Adoption and User Behaviour",
-        "description": "This cluster of papers explores the acceptance and adoption of information technology, focusing on the Technology Acceptance Model, user satisfaction, consumer trust in e-commerce, and the use of partial least squares structural equation modeling. It delves into topics such as online shopping behavior, mobile banking adoption, and the factors influencing user acceptance of new technologies.",
-        "works_count": 159405,
-        "field": "Decision Sciences",
-        "subfield": "Information Systems and Management",
+        "id": "https://openalex.org/T10941",
+        "name": "Musicology and Musical Analysis",
+        "description": "This cluster of papers covers a wide range of topics related to the historical and theoretical study of music, including musicology, musical theory, performance practice, historical analysis, cultural context, ethnomusicology, music criticism, musical narrative, mathematics of music, and opera studies. The papers explore various aspects of music from different time periods and cultural contexts, delving into the complexities of musical composition, performance, and reception.",
+        "works_count": 1700861,
+        "field": "Arts and Humanities",
+        "subfield": "Music",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10458",
+        "name": "Bladder and Urothelial Cancer Treatments",
+        "description": "This cluster of papers focuses on the diagnosis, treatment, and management of bladder cancer, particularly urothelial carcinoma. It covers topics such as chemotherapy, cystectomy, neoadjuvant therapy, molecular characterization, metastatic bladder cancer, guidelines for management, and immunotherapy. The papers provide insights into various aspects of bladder cancer research and clinical practice.",
+        "works_count": 122633,
+        "field": "Medicine",
+        "subfield": "Surgery",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10086",
+        "name": "Alzheimer's disease research and treatments",
+        "description": "This cluster of papers focuses on the research and mechanisms related to Alzheimer's disease, including the amyloid hypothesis, tau pathology, protein misfolding, neuroinflammation, synaptic dysfunction, oxidative stress, genetic associations, Aß oligomers, neurodegeneration, and therapeutic strategies.",
+        "works_count": 188368,
+        "field": "Neuroscience",
+        "subfield": "Cellular and Molecular Neuroscience",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10339",
+        "name": "Advanced Numerical Methods in Computational Mathematics",
+        "description": "This cluster of papers represents advancements in finite element methods, particularly focusing on their application to fluid-structure interaction problems. The papers cover topics such as discontinuous Galerkin methods, high-order schemes, adaptive mesh refinement, stabilized methods, multiscale modeling, preconditioners, variational methods, and PDE-constrained optimization.",
+        "works_count": 134229,
+        "field": "Engineering",
+        "subfield": "Computational Mechanics",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11592",
+        "name": "Phenomenology and Existential Philosophy",
+        "description": "This cluster of papers explores the application of phenomenological methods in psychological and philosophical research, focusing on topics such as empathy, body experience, qualitative research, ethics, and ontology. It delves into the works of prominent figures like Husserl and Merleau-Ponty to investigate lived experiences and subjective consciousness.",
+        "works_count": 206705,
+        "field": "Arts and Humanities",
+        "subfield": "Philosophy",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10984",
+        "name": "Sinusitis and nasal conditions",
+        "description": "This cluster of papers focuses on chronic rhinosinusitis and nasal polyps, covering topics such as inflammation, biologics, eosinophilia, sinus microbiome, treatment guidelines, endoscopic surgery, quality of life, and immunopathology.",
+        "works_count": 75051,
+        "field": "Medicine",
+        "subfield": "Otorhinolaryngology",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10294",
+        "name": "Cell death mechanisms and regulation",
+        "description": "This cluster of papers explores the molecular mechanisms, regulation, and implications of apoptosis and other forms of cell death, with a focus on the roles of Bcl-2 family proteins, mitochondria, TNF signaling, caspases, and reactive oxygen species. It also delves into the application of these insights in cancer therapy.",
+        "works_count": 104958,
+        "field": "Biochemistry, Genetics and Molecular Biology",
+        "subfield": "Molecular Biology",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10064",
+        "name": "Complex Network Analysis Techniques",
+        "description": "This cluster of papers focuses on the statistical mechanics and dynamics of complex networks, exploring topics such as community structure, social influence, scale-free networks, epidemic spreading, centrality measures, random graphs, influence maximization, and small-world networks.",
+        "works_count": 109719,
+        "field": "Physics and Astronomy",
+        "subfield": "Statistical and Nonlinear Physics",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11507",
+        "name": "Religion and Society Interactions",
+        "description": "This cluster of papers explores the complex interplay between religion and secularism in modern society, addressing topics such as the public sphere, globalization, atheism, nationalism, religious pluralism, and their impact on politics and civil society. It delves into the challenges and transformations brought about by the coexistence of religious and secular ideologies in various cultural and national contexts.",
+        "works_count": 173732,
+        "field": "Social Sciences",
+        "subfield": "Sociology and Political Science",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,225 +4069,303 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T12455",
-            "name": "Mediterranean and Iberian flora and fauna",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10005",
-            "name": "Ecology and Vegetation Dynamics Studies",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 5,
-        "example_work_ids": [
-          "https://openalex.org/W1995386451",
-          "https://openalex.org/W2014256778",
-          "https://openalex.org/W1556778234",
-          "https://openalex.org/W2460341654",
-          "https://openalex.org/W2234087956"
-        ],
-        "research_question": "How are Mediterranean and Iberian flora and fauna and Ecology and Vegetation Dynamics Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mediterranean and Iberian flora and fauna and Ecology and Vegetation Dynamics Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12776",
-            "name": "Electrohydrodynamics and Fluid Dynamics",
+            "id": "https://openalex.org/T10472",
+            "name": "Semiconductor materials and devices",
             "field": "Engineering",
             "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11661",
+            "name": "Copper Interconnects and Reliability",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
           }
         ],
-        "coassigned_work_count": 3,
+        "coassigned_work_count": 4,
         "example_work_ids": [
-          "https://openalex.org/W2073292063",
-          "https://openalex.org/W2010004076",
-          "https://openalex.org/W2017661443"
+          "https://openalex.org/W2003645630",
+          "https://openalex.org/W2158932701",
+          "https://openalex.org/W1995191254",
+          "https://openalex.org/W2023603575"
         ],
-        "research_question": "How are Mass Spectrometry Techniques and Applications and Electrohydrodynamics and Fluid Dynamics connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mass Spectrometry Techniques and Applications and Electrohydrodynamics and Fluid Dynamics will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Semiconductor materials and devices and Copper Interconnects and Reliability connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Semiconductor materials and devices and Copper Interconnects and Reliability will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
+            "id": "https://openalex.org/T10472",
+            "name": "Semiconductor materials and devices",
+            "field": "Engineering",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T12166",
-            "name": "Ion-surface interactions and analysis",
+            "id": "https://openalex.org/T13889",
+            "name": "Advanced Materials and Semiconductor Technologies",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 4,
+        "example_work_ids": [
+          "https://openalex.org/W2158932701",
+          "https://openalex.org/W1995191254",
+          "https://openalex.org/W2310418687",
+          "https://openalex.org/W2023603575"
+        ],
+        "research_question": "How are Semiconductor materials and devices and Advanced Materials and Semiconductor Technologies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Semiconductor materials and devices and Advanced Materials and Semiconductor Technologies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10510",
+            "name": "Stroke Rehabilitation and Recovery",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13986",
+            "name": "Medical Practices and Rehabilitation",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          }
+        ],
+        "coassigned_work_count": 4,
+        "example_work_ids": [
+          "https://openalex.org/W1497431575",
+          "https://openalex.org/W2346795597",
+          "https://openalex.org/W2004319861",
+          "https://openalex.org/W2098661447"
+        ],
+        "research_question": "How are Stroke Rehabilitation and Recovery and Medical Practices and Rehabilitation connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Stroke Rehabilitation and Recovery and Medical Practices and Rehabilitation will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10472",
+            "name": "Semiconductor materials and devices",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11853",
+            "name": "Semiconductor materials and interfaces",
             "field": "Materials Science",
             "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W1974830441",
-          "https://openalex.org/W2068241704",
-          "https://openalex.org/W2010004076"
+          "https://openalex.org/W2093914900",
+          "https://openalex.org/W2019017977",
+          "https://openalex.org/W1986573991"
         ],
-        "research_question": "How are Mass Spectrometry Techniques and Applications and Ion-surface interactions and analysis connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mass Spectrometry Techniques and Applications and Ion-surface interactions and analysis will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Semiconductor materials and devices and Semiconductor materials and interfaces connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Semiconductor materials and devices and Semiconductor materials and interfaces will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13291",
-            "name": "Political Theory and Democracy",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T10510",
+            "name": "Stroke Rehabilitation and Recovery",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T13351",
-            "name": "Critical Theory and Political Philosophy",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T10614",
+            "name": "Transcranial Magnetic Stimulation Studies",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2139049236",
+          "https://openalex.org/W2115138492",
+          "https://openalex.org/W2098661447"
+        ],
+        "research_question": "How are Stroke Rehabilitation and Recovery and Transcranial Magnetic Stimulation Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Stroke Rehabilitation and Recovery and Transcranial Magnetic Stimulation Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10044",
+            "name": "Protein Structure and Dynamics",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12044",
+            "name": "Advanced Physical and Chemical Molecular Interactions",
+            "field": "Chemistry",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W4243728602",
-          "https://openalex.org/W1592635331"
+          "https://openalex.org/W2150981663",
+          "https://openalex.org/W2162166182"
         ],
-        "research_question": "How are Political Theory and Democracy and Critical Theory and Political Philosophy connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Political Theory and Democracy and Critical Theory and Political Philosophy will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Protein Structure and Dynamics and Advanced Physical and Chemical Molecular Interactions connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Protein Structure and Dynamics and Advanced Physical and Chemical Molecular Interactions will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12039",
-            "name": "Electron and X-Ray Spectroscopy Techniques",
-            "field": "Materials Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2068241704"
-        ],
-        "research_question": "How are Mass Spectrometry Techniques and Applications and Electron and X-Ray Spectroscopy Techniques connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mass Spectrometry Techniques and Applications and Electron and X-Ray Spectroscopy Techniques will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12167",
-            "name": "Bacterial Identification and Susceptibility Testing",
+            "id": "https://openalex.org/T10510",
+            "name": "Stroke Rehabilitation and Recovery",
             "field": "Medicine",
             "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2110174460"
-        ],
-        "research_question": "How are Mass Spectrometry Techniques and Applications and Bacterial Identification and Susceptibility Testing connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mass Spectrometry Techniques and Applications and Bacterial Identification and Susceptibility Testing will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10602",
-            "name": "Glycosylation and Glycoproteins Research",
-            "field": "Biochemistry, Genetics and Molecular Biology",
+            "id": "https://openalex.org/T10608",
+            "name": "Neurogenesis and neuroplasticity mechanisms",
+            "field": "Neuroscience",
             "domain": "Life Sciences"
           }
         ],
-        "coassigned_work_count": 1,
+        "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W1992066825"
+          "https://openalex.org/W1964143171",
+          "https://openalex.org/W2045421141"
         ],
-        "research_question": "How are Mass Spectrometry Techniques and Applications and Glycosylation and Glycoproteins Research connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mass Spectrometry Techniques and Applications and Glycosylation and Glycoproteins Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Stroke Rehabilitation and Recovery and Neurogenesis and neuroplasticity mechanisms connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Stroke Rehabilitation and Recovery and Neurogenesis and neuroplasticity mechanisms will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10836",
-            "name": "Metabolomics and Mass Spectrometry Studies",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2059327215"
-        ],
-        "research_question": "How are Mass Spectrometry Techniques and Applications and Metabolomics and Mass Spectrometry Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mass Spectrometry Techniques and Applications and Metabolomics and Mass Spectrometry Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T13291",
-            "name": "Political Theory and Democracy",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12133",
-            "name": "Pragmatism in Philosophy and Education",
+            "id": "https://openalex.org/T10941",
+            "name": "Musicology and Musical Analysis",
             "field": "Arts and Humanities",
             "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13380",
+            "name": "Sound Studies and Aurality",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W1515568215"
+          "https://openalex.org/W2114657100"
         ],
-        "research_question": "How are Political Theory and Democracy and Pragmatism in Philosophy and Education connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Political Theory and Democracy and Pragmatism in Philosophy and Education will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Musicology and Musical Analysis and Sound Studies and Aurality connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Musicology and Musical Analysis and Sound Studies and Aurality will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10941",
+            "name": "Musicology and Musical Analysis",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10788",
+            "name": "Neuroscience and Music Perception",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2092914491"
+        ],
+        "research_question": "How are Musicology and Musical Analysis and Neuroscience and Music Perception connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Musicology and Musical Analysis and Neuroscience and Music Perception will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10044",
+            "name": "Protein Structure and Dynamics",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10481",
+            "name": "Computer Graphics and Visualization Techniques",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2132629607"
+        ],
+        "research_question": "How are Protein Structure and Dynamics and Computer Graphics and Visualization Techniques connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Protein Structure and Dynamics and Computer Graphics and Visualization Techniques will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10044",
+            "name": "Protein Structure and Dynamics",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12274",
+            "name": "Electrostatics and Colloid Interactions",
+            "field": "Chemistry",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W1983649348"
+        ],
+        "research_question": "How are Protein Structure and Dynamics and Electrostatics and Colloid Interactions connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Protein Structure and Dynamics and Electrostatics and Colloid Interactions will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10044",
+            "name": "Protein Structure and Dynamics",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10211",
+            "name": "Computational Drug Discovery Methods",
+            "field": "Pharmacology, Toxicology and Pharmaceutics",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W4396721167"
+        ],
+        "research_question": "How are Protein Structure and Dynamics and Computational Drug Discovery Methods connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Protein Structure and Dynamics and Computational Drug Discovery Methods will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -4309,46 +4387,44 @@
       "experimenter",
       "reviewer"
     ],
-    "candidate_leads_generated": 19,
-    "new_candidate_leads": 9,
+    "candidate_leads_generated": 22,
+    "new_candidate_leads": 12,
     "selected_next_investigation": {
-      "id": "lead-b309d9f13d168e6f",
-      "key": "https://openalex.org/T10005|https://openalex.org/T12455",
+      "id": "lead-110a769bb76213ca",
+      "key": "https://openalex.org/T10510|https://openalex.org/T10614",
       "topics": [
         {
-          "id": "https://openalex.org/T12455",
-          "name": "Mediterranean and Iberian flora and fauna",
-          "field": "Agricultural and Biological Sciences",
-          "domain": "Life Sciences"
+          "id": "https://openalex.org/T10510",
+          "name": "Stroke Rehabilitation and Recovery",
+          "field": "Medicine",
+          "domain": "Health Sciences"
         },
         {
-          "id": "https://openalex.org/T10005",
-          "name": "Ecology and Vegetation Dynamics Studies",
-          "field": "Environmental Science",
-          "domain": "Physical Sciences"
+          "id": "https://openalex.org/T10614",
+          "name": "Transcranial Magnetic Stimulation Studies",
+          "field": "Neuroscience",
+          "domain": "Life Sciences"
         }
       ],
-      "research_question": "Under what measurable conditions, if any, are Mediterranean and Iberian flora and fauna and Ecology and Vegetation Dynamics Studies associated in independent empirical data?",
-      "candidate_hypothesis": "At least one measurable relationship may exist between Mediterranean and Iberian flora and fauna and Ecology and Vegetation Dynamics Studies; its direction, mechanism and generality are unknown.",
+      "research_question": "Under what measurable conditions, if any, are Stroke Rehabilitation and Recovery and Transcranial Magnetic Stimulation Studies associated in independent empirical data?",
+      "candidate_hypothesis": "At least one measurable relationship may exist between Stroke Rehabilitation and Recovery and Transcranial Magnetic Stimulation Studies; its direction, mechanism and generality are unknown.",
       "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
       "literature_signal": {
-        "coassigned_work_count": 5,
+        "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W1995386451",
-          "https://openalex.org/W2014256778",
-          "https://openalex.org/W1556778234",
-          "https://openalex.org/W2460341654",
-          "https://openalex.org/W2234087956"
+          "https://openalex.org/W2139049236",
+          "https://openalex.org/W2115138492",
+          "https://openalex.org/W2098661447"
         ],
         "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
       },
       "dataset_leads": [],
       "cross_domain": true,
       "status": "unvalidated_research_lead",
-      "priority_score": 0.7677,
+      "priority_score": 0.7411,
       "priority_components": {
         "novelty_to_agent_memory": 1.0,
-        "literature_signal": 0.589,
+        "literature_signal": 0.455,
         "falsifiability": 0.85,
         "dataset_lead_availability": 0.25,
         "cross_domain_breadth": 1.0
@@ -4387,397 +4463,41 @@
     },
     "ranked_leads": [
       {
-        "id": "lead-b309d9f13d168e6f",
-        "key": "https://openalex.org/T10005|https://openalex.org/T12455",
+        "id": "lead-110a769bb76213ca",
+        "key": "https://openalex.org/T10510|https://openalex.org/T10614",
         "topics": [
           {
-            "id": "https://openalex.org/T12455",
-            "name": "Mediterranean and Iberian flora and fauna",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10005",
-            "name": "Ecology and Vegetation Dynamics Studies",
-            "field": "Environmental Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Mediterranean and Iberian flora and fauna and Ecology and Vegetation Dynamics Studies associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mediterranean and Iberian flora and fauna and Ecology and Vegetation Dynamics Studies; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 5,
-          "example_work_ids": [
-            "https://openalex.org/W1995386451",
-            "https://openalex.org/W2014256778",
-            "https://openalex.org/W1556778234",
-            "https://openalex.org/W2460341654",
-            "https://openalex.org/W2234087956"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.7677,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.589,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-21d95d946a9f2bfe",
-        "key": "https://openalex.org/T10683|https://openalex.org/T12166",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12166",
-            "name": "Ion-surface interactions and analysis",
-            "field": "Materials Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Mass Spectrometry Techniques and Applications and Ion-surface interactions and analysis associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mass Spectrometry Techniques and Applications and Ion-surface interactions and analysis; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 3,
-          "example_work_ids": [
-            "https://openalex.org/W1974830441",
-            "https://openalex.org/W2068241704",
-            "https://openalex.org/W2010004076"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6961,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.455,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-990bc2c863aa8576",
-        "key": "https://openalex.org/T10683|https://openalex.org/T12776",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12776",
-            "name": "Electrohydrodynamics and Fluid Dynamics",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Mass Spectrometry Techniques and Applications and Electrohydrodynamics and Fluid Dynamics associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mass Spectrometry Techniques and Applications and Electrohydrodynamics and Fluid Dynamics; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 3,
-          "example_work_ids": [
-            "https://openalex.org/W2073292063",
-            "https://openalex.org/W2010004076",
-            "https://openalex.org/W2017661443"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6961,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.455,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-03cc3f568a3c6378",
-        "key": "https://openalex.org/T10602|https://openalex.org/T10683",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10602",
-            "name": "Glycosylation and Glycoproteins Research",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Mass Spectrometry Techniques and Applications and Glycosylation and Glycoproteins Research associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mass Spectrometry Techniques and Applications and Glycosylation and Glycoproteins Research; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W1992066825"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6955,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-fbb56bd1435ce953",
-        "key": "https://openalex.org/T10683|https://openalex.org/T10836",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10836",
-            "name": "Metabolomics and Mass Spectrometry Studies",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Mass Spectrometry Techniques and Applications and Metabolomics and Mass Spectrometry Studies associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mass Spectrometry Techniques and Applications and Metabolomics and Mass Spectrometry Studies; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2059327215"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6955,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-3455257052f7014a",
-        "key": "https://openalex.org/T10683|https://openalex.org/T12167",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12167",
-            "name": "Bacterial Identification and Susceptibility Testing",
+            "id": "https://openalex.org/T10510",
+            "name": "Stroke Rehabilitation and Recovery",
             "field": "Medicine",
             "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10614",
+            "name": "Transcranial Magnetic Stimulation Studies",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Mass Spectrometry Techniques and Applications and Bacterial Identification and Susceptibility Testing associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mass Spectrometry Techniques and Applications and Bacterial Identification and Susceptibility Testing; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Stroke Rehabilitation and Recovery and Transcranial Magnetic Stimulation Studies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Stroke Rehabilitation and Recovery and Transcranial Magnetic Stimulation Studies; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
-          "coassigned_work_count": 1,
+          "coassigned_work_count": 3,
           "example_work_ids": [
-            "https://openalex.org/W2110174460"
+            "https://openalex.org/W2139049236",
+            "https://openalex.org/W2115138492",
+            "https://openalex.org/W2098661447"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
         "cross_domain": true,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.6955,
+        "priority_score": 0.7411,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
+          "literature_signal": 0.455,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
           "cross_domain_breadth": 1.0
@@ -4815,42 +4535,186 @@
         }
       },
       {
-        "id": "lead-9f7772b57217d165",
-        "key": "https://openalex.org/T13291|https://openalex.org/T13351",
+        "id": "lead-6b3abfb0335f5797",
+        "key": "https://openalex.org/T10044|https://openalex.org/T12044",
         "topics": [
           {
-            "id": "https://openalex.org/T13291",
-            "name": "Political Theory and Democracy",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T10044",
+            "name": "Protein Structure and Dynamics",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T13351",
-            "name": "Critical Theory and Political Philosophy",
-            "field": "Arts and Humanities",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T12044",
+            "name": "Advanced Physical and Chemical Molecular Interactions",
+            "field": "Chemistry",
+            "domain": "Physical Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Political Theory and Democracy and Critical Theory and Political Philosophy associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Political Theory and Democracy and Critical Theory and Political Philosophy; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Protein Structure and Dynamics and Advanced Physical and Chemical Molecular Interactions associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Protein Structure and Dynamics and Advanced Physical and Chemical Molecular Interactions; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 2,
           "example_work_ids": [
-            "https://openalex.org/W4243728602",
-            "https://openalex.org/W1592635331"
+            "https://openalex.org/W2150981663",
+            "https://openalex.org/W2162166182"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
-        "cross_domain": false,
+        "cross_domain": true,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.6772,
+        "priority_score": 0.7222,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
           "literature_signal": 0.361,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-911458eb1345183a",
+        "key": "https://openalex.org/T10510|https://openalex.org/T10608",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10510",
+            "name": "Stroke Rehabilitation and Recovery",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10608",
+            "name": "Neurogenesis and neuroplasticity mechanisms",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Stroke Rehabilitation and Recovery and Neurogenesis and neuroplasticity mechanisms associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Stroke Rehabilitation and Recovery and Neurogenesis and neuroplasticity mechanisms; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 2,
+          "example_work_ids": [
+            "https://openalex.org/W1964143171",
+            "https://openalex.org/W2045421141"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7222,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.361,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-55d8cc36d9230193",
+        "key": "https://openalex.org/T10472|https://openalex.org/T11661",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10472",
+            "name": "Semiconductor materials and devices",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11661",
+            "name": "Copper Interconnects and Reliability",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Semiconductor materials and devices and Copper Interconnects and Reliability associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Semiconductor materials and devices and Copper Interconnects and Reliability; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 4,
+          "example_work_ids": [
+            "https://openalex.org/W2003645630",
+            "https://openalex.org/W2158932701",
+            "https://openalex.org/W1995191254",
+            "https://openalex.org/W2023603575"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7107,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.529,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
           "cross_domain_breadth": 0.55
         },
         "skeptic_review": {
@@ -4886,42 +4750,260 @@
         }
       },
       {
-        "id": "lead-13b63bdcf2a48f59",
-        "key": "https://openalex.org/T10683|https://openalex.org/T12039",
+        "id": "lead-53e47677ee88e123",
+        "key": "https://openalex.org/T10472|https://openalex.org/T13889",
         "topics": [
           {
-            "id": "https://openalex.org/T10683",
-            "name": "Mass Spectrometry Techniques and Applications",
-            "field": "Chemistry",
+            "id": "https://openalex.org/T10472",
+            "name": "Semiconductor materials and devices",
+            "field": "Engineering",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T12039",
-            "name": "Electron and X-Ray Spectroscopy Techniques",
+            "id": "https://openalex.org/T13889",
+            "name": "Advanced Materials and Semiconductor Technologies",
             "field": "Materials Science",
             "domain": "Physical Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Mass Spectrometry Techniques and Applications and Electron and X-Ray Spectroscopy Techniques associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mass Spectrometry Techniques and Applications and Electron and X-Ray Spectroscopy Techniques; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Semiconductor materials and devices and Advanced Materials and Semiconductor Technologies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Semiconductor materials and devices and Advanced Materials and Semiconductor Technologies; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
-          "coassigned_work_count": 1,
+          "coassigned_work_count": 4,
           "example_work_ids": [
-            "https://openalex.org/W2068241704"
+            "https://openalex.org/W2158932701",
+            "https://openalex.org/W1995191254",
+            "https://openalex.org/W2310418687",
+            "https://openalex.org/W2023603575"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
         "cross_domain": false,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.6505,
+        "priority_score": 0.7107,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.529,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-607a8f467b0001d9",
+        "key": "https://openalex.org/T10510|https://openalex.org/T13986",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10510",
+            "name": "Stroke Rehabilitation and Recovery",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13986",
+            "name": "Medical Practices and Rehabilitation",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Stroke Rehabilitation and Recovery and Medical Practices and Rehabilitation associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Stroke Rehabilitation and Recovery and Medical Practices and Rehabilitation; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 4,
+          "example_work_ids": [
+            "https://openalex.org/W1497431575",
+            "https://openalex.org/W2346795597",
+            "https://openalex.org/W2004319861",
+            "https://openalex.org/W2098661447"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7107,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.529,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-7d003a4e0ab4caf6",
+        "key": "https://openalex.org/T10472|https://openalex.org/T11853",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10472",
+            "name": "Semiconductor materials and devices",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11853",
+            "name": "Semiconductor materials and interfaces",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Semiconductor materials and devices and Semiconductor materials and interfaces associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Semiconductor materials and devices and Semiconductor materials and interfaces; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W2093914900",
+            "https://openalex.org/W2019017977",
+            "https://openalex.org/W1986573991"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6961,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-cd2e7ba665db7413",
+        "key": "https://openalex.org/T10044|https://openalex.org/T10481",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10044",
+            "name": "Protein Structure and Dynamics",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10481",
+            "name": "Computer Graphics and Visualization Techniques",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Protein Structure and Dynamics and Computer Graphics and Visualization Techniques associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Protein Structure and Dynamics and Computer Graphics and Visualization Techniques; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 1,
+          "example_work_ids": [
+            "https://openalex.org/W2132629607"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.6955,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
           "literature_signal": 0.228,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
+          "cross_domain_breadth": 1.0
         },
         "skeptic_review": {
           "alternative_explanations": [
@@ -4957,8 +5039,8 @@
       }
     ],
     "memory": {
-      "cycles_completed": 12,
-      "distinct_hypothesis_keys_seen": 163,
+      "cycles_completed": 13,
+      "distinct_hypothesis_keys_seen": 175,
       "purpose": "Avoid repeatedly presenting the same leads and retain an auditable exploration history."
     },
     "capability_boundary": "This cycle uses deterministic role functions, not a general reasoning model. It generates and evaluates research plans; it does not autonomously validate scientific discoveries or alter its own permissions or production code.",
@@ -8347,43 +8429,38 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between GDP per capita (constant 2015 US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between GDP per capita (constant 2015 US$) and Infant mortality (per 1,000 live births) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
-        "id": "our_world_in_data",
-        "name": "Our World in Data",
+        "id": "openalex",
+        "name": "OpenAlex",
         "domains": [
+          "all_sciences",
+          "physics",
           "biology",
-          "public_health",
-          "climate",
-          "energy",
+          "psychology",
           "economics",
-          "demography",
-          "agriculture"
+          "computer_science"
         ],
-        "kind": "quantitative_data",
+        "kind": "literature",
         "keywords": [
-          "life expectancy",
-          "health",
-          "climate change",
-          "energy",
-          "agriculture",
-          "population",
-          "education"
+          "scholarly articles",
+          "research papers",
+          "scientific literature"
         ],
-        "access": "public_downloads_and_apis",
-        "endpoint": "https://ourworldindata.org/",
+        "access": "public_api",
+        "endpoint": "https://api.openalex.org/",
         "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Dataset-level licences and attribution requirements must be checked individually."
+        "integration_status": "active_literature_only",
+        "notes": "Scholarly metadata search; not currently ingested as research observations."
       },
       {
         "id": "world_bank_wdi",
@@ -8411,52 +8488,6 @@
         "auth_required": false,
         "integration_status": "active",
         "notes": "Country-level indicators; ecological and coverage limitations apply."
-      },
-      {
-        "id": "gbif",
-        "name": "Global Biodiversity Information Facility",
-        "domains": [
-          "biology",
-          "ecology",
-          "biodiversity",
-          "environment"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "species",
-          "occurrence",
-          "wildlife",
-          "plants",
-          "animals"
-        ],
-        "access": "public_api",
-        "endpoint": "https://api.gbif.org/v1/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Occurrence data; coordinate uncertainty, sampling bias, and record-level licences matter."
-      },
-      {
-        "id": "openalex",
-        "name": "OpenAlex",
-        "domains": [
-          "all_sciences",
-          "physics",
-          "biology",
-          "psychology",
-          "economics",
-          "computer_science"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "scholarly articles",
-          "research papers",
-          "scientific literature"
-        ],
-        "access": "public_api",
-        "endpoint": "https://api.openalex.org/",
-        "auth_required": false,
-        "integration_status": "active_literature_only",
-        "notes": "Scholarly metadata search; not currently ingested as research observations."
       },
       {
         "id": "zenodo",
@@ -8500,16 +8531,16 @@
     "research_plan": {
       "selected_pair": [
         "gdp_per_capita",
-        "life_expectancy"
+        "infant_mortality"
       ],
-      "priority_score": 0.7591,
+      "priority_score": 0.7453,
       "selected_labels": [
         "GDP per capita (constant 2015 US$)",
-        "Life expectancy at birth (years)"
+        "Infant mortality (per 1,000 live births)"
       ],
-      "selection_score": 0.37955,
+      "selection_score": 0.37265,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between GDP per capita (constant 2015 US$) and Infant mortality (per 1,000 live births) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -8518,8 +8549,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 36,
-    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Life expectancy at birth (years) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 37,
+    "next_question": "Does the association between GDP per capita (constant 2015 US$) and Infant mortality (per 1,000 live births) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex topics, formulates falsifiable leads, and screens up to three small Zenodo CSV/TSV datasets per cycle where record metadata confirms an allowlisted open licence. Automated numeric associations are exploratory screens, not validated discoveries or independent replication."
   },
   "limitations": [
