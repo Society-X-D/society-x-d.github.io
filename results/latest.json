@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261127T192947Z",
-  "started_at": "2026-11-27T19:29:31.147735+00:00",
-  "completed_at": "2026-11-27T19:29:47.742886+00:00",
+  "run_id": "20261128T024408Z",
+  "started_at": "2026-11-28T02:43:45.770342+00:00",
+  "completed_at": "2026-11-28T02:44:08.052713+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T19:29:31.147735+00:00",
+      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T19:29:31.147735+00:00",
+      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T19:29:31.147735+00:00",
+      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T19:29:31.147735+00:00",
+      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T19:29:31.147735+00:00",
+      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T19:29:31.147735+00:00",
+      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-27T19:29:31.147735+00:00",
+      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
       "provider": "World Bank"
     }
   },
@@ -80,29 +80,29 @@
   },
   "biodiversity_observation": {
     "annual_coordinate_occurrence_record_counts": {
-      "2023": 289854105,
-      "2022": 253776881,
-      "2021": 241794104,
-      "2020": 214754875,
-      "2019": 186909573,
-      "2018": 160934741,
-      "2017": 154060058,
-      "2016": 141122058,
-      "2015": 114129624,
-      "2014": 106908162,
-      "2013": 91776527,
-      "2012": 83524952,
-      "2011": 71266331,
-      "2010": 65452252,
-      "2009": 56673012,
-      "2008": 49311675,
-      "2007": 45497352,
-      "2006": 40568391,
-      "2005": 38059811,
-      "2004": 34060680,
-      "2003": 30650365,
-      "2002": 28799680,
-      "2001": 26179296,
+      "2023": 289854114,
+      "2022": 253776890,
+      "2021": 241794107,
+      "2020": 214754883,
+      "2019": 186909581,
+      "2018": 160934743,
+      "2017": 154060059,
+      "2016": 141122095,
+      "2015": 114130116,
+      "2014": 106908227,
+      "2013": 91776533,
+      "2012": 83524954,
+      "2011": 71266332,
+      "2010": 65452283,
+      "2009": 56673021,
+      "2008": 49311676,
+      "2007": 45497349,
+      "2006": 40568397,
+      "2005": 38059820,
+      "2004": 34060685,
+      "2003": 30650368,
+      "2002": 28799699,
+      "2001": 26179298,
       "2000": 25586011
     },
     "provenance": {
@@ -3948,114 +3948,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 75,
+    "new_topics_in_sample": 70,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10140",
-        "name": "Food composition and properties",
-        "description": "This cluster of papers explores the role of dietary fiber, glycemic index, starch, and whole grains in human health. It covers topics such as the health benefits of dietary fiber, glycemic index methodology, physicochemical properties of starch, and the impact of whole grain consumption on metabolic health.",
-        "works_count": 176057,
-        "field": "Nursing",
-        "subfield": "Nutrition and Dietetics",
+        "id": "https://openalex.org/T10151",
+        "name": "Hepatitis C virus research",
+        "description": "This cluster of papers focuses on the epidemiology, treatment, and outcomes of hepatitis C virus infection. It covers topics such as antiviral therapy, genetic variation in viral clearance, global epidemiology, liver-related mortality, immune responses, and the impact of comorbidities like HIV and diabetes.",
+        "works_count": 133568,
+        "field": "Medicine",
+        "subfield": "Hepatology",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10301",
-        "name": "Mitochondrial Function and Pathology",
-        "description": "This cluster of papers focuses on the dynamics of mitochondria, the production and regulation of reactive oxygen species (ROS), and their implications in various biological processes such as aging, neurodegenerative diseases, and metabolic regulation. The papers cover topics including mitochondrial fusion and fission, oxidative stress, mitochondrial dysfunction, and the role of mitochondria in cell death.",
-        "works_count": 122754,
+        "id": "https://openalex.org/T10379",
+        "name": "Cellular Mechanics and Interactions",
+        "description": "This cluster of papers focuses on the interaction between cells and the extracellular matrix, with an emphasis on cell mechanics, mechanotransduction, and the role of matrix stiffness in regulating stem cell behavior, tissue engineering, and cancer progression.",
+        "works_count": 97751,
+        "field": "Biochemistry, Genetics and Molecular Biology",
+        "subfield": "Cell Biology",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11367",
+        "name": "Particle accelerators and beam dynamics",
+        "description": "This cluster of papers focuses on advancements in accelerator technology, particularly in the development of superconducting cavities, negative ion sources, and neutral beam injection for applications in high energy density physics and magnetic fusion. It also encompasses research on RF source development, particle-in-cell simulations, plasma diagnostics, and ion beam dynamics.",
+        "works_count": 3882537,
+        "field": "Physics and Astronomy",
+        "subfield": "Nuclear and High Energy Physics",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10047",
+        "name": "Financial Markets and Investment Strategies",
+        "description": "This cluster of papers explores asset pricing models, stock returns, market efficiency, investor sentiment, liquidity risk, behavioral finance, momentum investing, market microstructure, hedge funds, and the information content of various factors affecting asset prices.",
+        "works_count": 328806,
+        "field": "Economics, Econometrics and Finance",
+        "subfield": "Finance",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10554",
+        "name": "Hemoglobinopathies and Related Disorders",
+        "description": "This cluster of papers explores the genetic, clinical, and epidemiological aspects of hemoglobin disorders, including sickle-cell disease and thalassemia. It covers topics such as hemolysis, fetal hemoglobin regulation, iron overload, pulmonary hypertension, and the use of transfusion therapy. The genetic regulation of erythropoiesis by factors like GATA1 and BCL11A is also a focus of several papers.",
+        "works_count": 109482,
+        "field": "Medicine",
+        "subfield": "Genetics (clinical)",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12827",
+        "name": "Biochemical and Molecular Research",
+        "description": "This cluster of papers focuses on the intricate regulation and metabolic pathways of nucleotide biosynthesis, including purine and pyrimidine biosynthesis. It explores the structure, function, and inhibition of key enzymes such as CTP synthase, IMP dehydrogenase, and dihydroorotate dehydrogenase. The cluster also delves into disorders related to nucleotide metabolism, such as Lesch-Nyhan syndrome.",
+        "works_count": 81689,
         "field": "Biochemistry, Genetics and Molecular Biology",
         "subfield": "Molecular Biology",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T13031",
-        "name": "Civil and Structural Engineering Research",
-        "description": "This cluster of papers covers a wide range of topics in civil engineering and construction, including advancements in structural health monitoring, bridge engineering, geotechnical design, material properties, historical analysis of structures, sustainable development, and concrete technology. The papers also discuss infrastructure maintenance and the application of innovative technologies in the field.",
-        "works_count": 259756,
-        "field": "Engineering",
-        "subfield": "Civil and Structural Engineering",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10595",
-        "name": "Medieval Literature and History",
-        "description": "This cluster of papers covers a wide range of topics related to medieval studies, including literature, religion, society, manuscripts, monasticism, Anglo-Saxon history, culture, and philosophy in Europe during the medieval period.",
-        "works_count": 737477,
-        "field": "Arts and Humanities",
-        "subfield": "History",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10979",
-        "name": "Breastfeeding Practices and Influences",
-        "description": "This cluster of papers explores various aspects of breastfeeding, including its epidemiology, mechanisms, and lifelong effects on both maternal and child health. It covers topics such as the impact of breastfeeding on infant and child mortality, cognitive development, infectious diseases, maternal health outcomes, and the duration of exclusive breastfeeding. Additionally, it delves into factors influencing breastfeeding practices, interventions to promote breastfeeding, and the relationship between breastfeeding and long-term health outcomes.",
-        "works_count": 110736,
-        "field": "Medicine",
-        "subfield": "Epidemiology",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11310",
-        "name": "Connective tissue disorders research",
-        "description": "This cluster of papers explores genetic and molecular aspects of various connective tissue disorders, including Marfan syndrome, Ehlers-Danlos syndrome, and Osteogenesis Imperfecta. It delves into mutations in genes encoding proteins like TGF-ß receptor, elastin, fibrillin-1, and collagen, as well as their implications in aortic aneurysms and skeletal abnormalities.",
-        "works_count": 45687,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Genetics",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10197",
-        "name": "Membrane Separation Technologies",
-        "description": "This cluster of papers explores advancements in water purification technologies, focusing on membrane technology, desalination, nanofiltration, forward osmosis, graphene-based membranes, membrane fouling, sustainable water treatment, polymer membranes, membrane distillation, and antifouling strategies.",
-        "works_count": 150964,
+        "id": "https://openalex.org/T10266",
+        "name": "Plant Water Relations and Carbon Dynamics",
+        "description": "This cluster of papers explores the impact of drought and heat-induced tree mortality on global forests, highlighting emerging climate change risks. It delves into mechanisms of plant survival and mortality during drought, ecosystem dynamics, carbon cycling, and the role of stomata in driving environmental change. The research also evaluates the vulnerability of forests to drought, the global distribution of terrestrial carbon dioxide uptake, and the implications of widespread tree mortality triggered by climate stress.",
+        "works_count": 99445,
         "field": "Environmental Science",
-        "subfield": "Water Science and Technology",
+        "subfield": "Global and Planetary Change",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10130",
-        "name": "Mathematics Education and Teaching Techniques",
-        "description": "This cluster of papers explores the concept of Pedagogical Content Knowledge (PCK) in the context of education research, focusing on the knowledge and skills required by teachers to effectively teach specific content areas. The cluster delves into topics such as technological pedagogical content knowledge, teacher professional development, mathematics instruction, classroom discourse, and lesson study.",
-        "works_count": 354650,
+        "id": "https://openalex.org/T10749",
+        "name": "International Law and Human Rights",
+        "description": "This cluster of papers focuses on the intersection of international criminal law, human rights obligations, and global governance. It explores topics such as state responsibility, norm conflicts, transnational legal pluralism, and the role of the Security Council in addressing war crimes and human rights violations.",
+        "works_count": 278282,
         "field": "Social Sciences",
-        "subfield": "Education",
+        "subfield": "Political Science and International Relations",
         "domain": "Social Sciences"
       },
       {
-        "id": "https://openalex.org/T10390",
-        "name": "Ovarian function and disorders",
-        "description": "This cluster of papers focuses on the diagnosis and management of polycystic ovary syndrome (PCOS), covering topics such as ovarian reserve, insulin resistance, metabolic syndrome, androgen excess, fertility, anti-Mullerian hormone, cardiovascular disease, obesity, and infertility. The papers discuss various aspects of PCOS including its impact on long-term health risks, diagnostic criteria, treatment options, and the association with other conditions such as cardiovascular disease and metabolic syndrome.",
-        "works_count": 97725,
+        "id": "https://openalex.org/T10416",
+        "name": "Traumatic Brain Injury Research",
+        "description": "This cluster of papers focuses on the epidemiology, impact, and long-term consequences of traumatic brain injury (TBI), particularly concussion and mild TBI. It covers a wide range of topics including neurological outcomes, cognitive rehabilitation, sports-related injuries, neuropathological changes, and consciousness assessment in TBI patients.",
+        "works_count": 95789,
         "field": "Medicine",
-        "subfield": "Reproductive Medicine",
+        "subfield": "Clinical Neurology",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T12486",
-        "name": "Food Supply Chain Traceability",
-        "description": "This cluster of papers focuses on the traceability of food products throughout the supply chain, emphasizing the use of RFID technology, cold chain monitoring, and quality assurance. It explores topics such as consumer perception, logistics management, and the integration of Internet of Things for ensuring transparency and efficient temperature management. The cluster also addresses challenges and opportunities in implementing traceability systems in the food industry.",
-        "works_count": 25139,
+        "id": "https://openalex.org/T11423",
+        "name": "Pesticide Residue Analysis and Safety",
+        "description": "This cluster of papers focuses on the analysis of pesticide residues in food using liquid chromatography and mass spectrometry techniques. It covers topics such as multiresidue methods, QuEChERS sample preparation, matrix effects, method validation, and high-throughput analysis for ensuring food safety.",
+        "works_count": 79369,
         "field": "Agricultural and Biological Sciences",
         "subfield": "Food Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T11119",
-        "name": "Urban Stormwater Management Solutions",
-        "description": "This cluster of papers focuses on urban stormwater management, sustainable drainage systems, and the impact of urbanization on hydrology and water quality. It covers topics such as low impact development practices, bioretention technology, the effects of impervious surfaces, rainwater harvesting, pollutant removal, and the influence of climate change on urban drainage systems.",
-        "works_count": 107477,
-        "field": "Environmental Science",
-        "subfield": "Environmental Engineering",
+        "id": "https://openalex.org/T11698",
+        "name": "Underwater Acoustics Research",
+        "description": "This cluster of papers focuses on the use of multiscale acoustic and machine learning techniques for mapping and classifying the seafloor, including habitat classification, bathymetry data analysis, geoacoustic inversion, and the study of marine sediments. The research covers a wide range of topics related to underwater acoustics and the application of advanced technologies for understanding and visualizing the spatial ecology of the seafloor.",
+        "works_count": 92316,
+        "field": "Earth and Planetary Sciences",
+        "subfield": "Oceanography",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T14030",
-        "name": "Taxation and Legal Issues",
-        "description": "This cluster of papers focuses on the European Union tax law and policy, particularly addressing issues such as tax avoidance, corporate taxation, financial reporting, cross-border taxation, the implementation of General Anti-Avoidance Rules (GAARs), and the impact of EU directives on member states' tax systems. The papers also explore the balance between tax sovereignty and the fundamental freedoms within the EU, as well as the harmonization of tax regulations across borders.",
-        "works_count": 318370,
-        "field": "Business, Management and Accounting",
-        "subfield": "Accounting",
+        "id": "https://openalex.org/T10953",
+        "name": "E-Government and Public Services",
+        "description": "This cluster of papers explores the evolution, impact, and challenges of E-Government initiatives, focusing on transparency, trust, social media, open data, citizen engagement, ICTs, government services, accountability, and the role of the public sector.",
+        "works_count": 176172,
+        "field": "Social Sciences",
+        "subfield": "Political Science and International Relations",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,270 +4069,256 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
+            "id": "https://openalex.org/T10047",
+            "name": "Financial Markets and Investment Strategies",
+            "field": "Economics, Econometrics and Finance",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12123",
+            "name": "Financial Analysis and Corporate Governance",
+            "field": "Business, Management and Accounting",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W1995834279",
+          "https://openalex.org/W2166215547",
+          "https://openalex.org/W2136120210",
+          "https://openalex.org/W2104795328",
+          "https://openalex.org/W2125520394"
+        ],
+        "research_question": "How are Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10151",
+            "name": "Hepatitis C virus research",
+            "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T14127",
-            "name": "Food Nutrient Composition and Product Development",
+            "id": "https://openalex.org/T11495",
+            "name": "Animal Virus Infections Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W2006309458",
+          "https://openalex.org/W2027545702",
+          "https://openalex.org/W2127685726",
+          "https://openalex.org/W2317554121",
+          "https://openalex.org/W2066124462"
+        ],
+        "research_question": "How are Hepatitis C virus research and Animal Virus Infections Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Hepatitis C virus research and Animal Virus Infections Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T11367",
+            "name": "Particle accelerators and beam dynamics",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10559",
+            "name": "Particle Accelerators and Free-Electron Lasers",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 5,
+        "example_work_ids": [
+          "https://openalex.org/W1492136317",
+          "https://openalex.org/W2133292567",
+          "https://openalex.org/W3049167472",
+          "https://openalex.org/W1953332660",
+          "https://openalex.org/W1588264866"
+        ],
+        "research_question": "How are Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12264",
+            "name": "Tissue Engineering and Regenerative Medicine",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 4,
         "example_work_ids": [
-          "https://openalex.org/W2160446463",
-          "https://openalex.org/W2920925854",
-          "https://openalex.org/W1856323793",
-          "https://openalex.org/W2811371655"
+          "https://openalex.org/W2134208433",
+          "https://openalex.org/W2045295282",
+          "https://openalex.org/W2058096164",
+          "https://openalex.org/W2037810763"
         ],
-        "research_question": "How are Food composition and properties and Food Nutrient Composition and Product Development connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Food composition and properties and Food Nutrient Composition and Product Development will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10411",
-            "name": "Proteins in Food Systems",
-            "field": "Agricultural and Biological Sciences",
+            "id": "https://openalex.org/T10343",
+            "name": "Hydrogels: synthesis, properties, applications",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2054635074",
+          "https://openalex.org/W2037810763"
+        ],
+        "research_question": "How are Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10923",
+            "name": "Force Microscopy Techniques and Applications",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2054635074"
+        ],
+        "research_question": "How are Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12061",
+            "name": "Axon Guidance and Neuronal Signaling",
+            "field": "Neuroscience",
             "domain": "Life Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2160446463",
-          "https://openalex.org/W2920925854"
+          "https://openalex.org/W2063220206"
         ],
-        "research_question": "How are Food composition and properties and Proteins in Food Systems connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Food composition and properties and Proteins in Food Systems will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Cellular Mechanics and Interactions and Axon Guidance and Neuronal Signaling connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Axon Guidance and Neuronal Signaling will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T12964",
-            "name": "Diet, Metabolism, and Disease",
+            "id": "https://openalex.org/T10831",
+            "name": "Cell Adhesion Molecules Research",
             "field": "Medicine",
             "domain": "Health Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2097365404",
-          "https://openalex.org/W2144832958"
+          "https://openalex.org/W2045295282"
         ],
-        "research_question": "How are Food composition and properties and Diet, Metabolism, and Disease connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Food composition and properties and Diet, Metabolism, and Disease will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Cellular Mechanics and Interactions and Cell Adhesion Molecules Research connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Cell Adhesion Molecules Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
+            "id": "https://openalex.org/T10151",
+            "name": "Hepatitis C virus research",
+            "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10866",
-            "name": "Nutritional Studies and Diet",
-            "field": "Medicine",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10261",
+            "name": "Genetic Associations and Epidemiology",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
           }
         ],
-        "coassigned_work_count": 2,
+        "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2144832958",
-          "https://openalex.org/W2169509583"
+          "https://openalex.org/W2063285149"
         ],
-        "research_question": "How are Food composition and properties and Nutritional Studies and Diet connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Food composition and properties and Nutritional Studies and Diet will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Hepatitis C virus research and Genetic Associations and Epidemiology connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Hepatitis C virus research and Genetic Associations and Epidemiology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T13031",
-            "name": "Civil and Structural Engineering Research",
-            "field": "Engineering",
+            "id": "https://openalex.org/T11367",
+            "name": "Particle accelerators and beam dynamics",
+            "field": "Physics and Astronomy",
             "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T10395",
-            "name": "Construction Project Management and Performance",
-            "field": "Decision Sciences",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T11920",
+            "name": "Pulsed Power Technology Applications",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W129014274"
+          "https://openalex.org/W1588264866"
         ],
-        "research_question": "How are Civil and Structural Engineering Research and Construction Project Management and Performance connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Civil and Structural Engineering Research and Construction Project Management and Performance will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12267",
-            "name": "Diet and metabolism studies",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2097365404"
-        ],
-        "research_question": "How are Food composition and properties and Diet and metabolism studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Food composition and properties and Diet and metabolism studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10066",
-            "name": "Gut microbiota and health",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W1877854700"
-        ],
-        "research_question": "How are Food composition and properties and Gut microbiota and health connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Food composition and properties and Gut microbiota and health will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12114",
-            "name": "Sensory Analysis and Statistical Methods",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2811371655"
-        ],
-        "research_question": "How are Food composition and properties and Sensory Analysis and Statistical Methods connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Food composition and properties and Sensory Analysis and Statistical Methods will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10301",
-            "name": "Mitochondrial Function and Pathology",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10085",
-            "name": "Parkinson's Disease Mechanisms and Treatments",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2152165298"
-        ],
-        "research_question": "How are Mitochondrial Function and Pathology and Parkinson's Disease Mechanisms and Treatments connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mitochondrial Function and Pathology and Parkinson's Disease Mechanisms and Treatments will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10301",
-            "name": "Mitochondrial Function and Pathology",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10445",
-            "name": "Antioxidant Activity and Oxidative Stress",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W4247088117"
-        ],
-        "research_question": "How are Mitochondrial Function and Pathology and Antioxidant Activity and Oxidative Stress connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mitochondrial Function and Pathology and Antioxidant Activity and Oxidative Stress will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10301",
-            "name": "Mitochondrial Function and Pathology",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11457",
-            "name": "Adipose Tissue and Metabolism",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2131415852"
-        ],
-        "research_question": "How are Mitochondrial Function and Pathology and Adipose Tissue and Metabolism connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Mitochondrial Function and Pathology and Adipose Tissue and Metabolism will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Particle accelerators and beam dynamics and Pulsed Power Technology Applications connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Particle accelerators and beam dynamics and Pulsed Power Technology Applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -4354,45 +4340,46 @@
       "experimenter",
       "reviewer"
     ],
-    "candidate_leads_generated": 21,
-    "new_candidate_leads": 11,
+    "candidate_leads_generated": 20,
+    "new_candidate_leads": 10,
     "selected_next_investigation": {
-      "id": "lead-032fb3e8f0161f95",
-      "key": "https://openalex.org/T10140|https://openalex.org/T14127",
+      "id": "lead-309a7f06e933385a",
+      "key": "https://openalex.org/T10151|https://openalex.org/T11495",
       "topics": [
         {
-          "id": "https://openalex.org/T10140",
-          "name": "Food composition and properties",
-          "field": "Nursing",
+          "id": "https://openalex.org/T10151",
+          "name": "Hepatitis C virus research",
+          "field": "Medicine",
           "domain": "Health Sciences"
         },
         {
-          "id": "https://openalex.org/T14127",
-          "name": "Food Nutrient Composition and Product Development",
+          "id": "https://openalex.org/T11495",
+          "name": "Animal Virus Infections Studies",
           "field": "Agricultural and Biological Sciences",
           "domain": "Life Sciences"
         }
       ],
-      "research_question": "Under what measurable conditions, if any, are Food composition and properties and Food Nutrient Composition and Product Development associated in independent empirical data?",
-      "candidate_hypothesis": "At least one measurable relationship may exist between Food composition and properties and Food Nutrient Composition and Product Development; its direction, mechanism and generality are unknown.",
+      "research_question": "Under what measurable conditions, if any, are Hepatitis C virus research and Animal Virus Infections Studies associated in independent empirical data?",
+      "candidate_hypothesis": "At least one measurable relationship may exist between Hepatitis C virus research and Animal Virus Infections Studies; its direction, mechanism and generality are unknown.",
       "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
       "literature_signal": {
-        "coassigned_work_count": 4,
+        "coassigned_work_count": 5,
         "example_work_ids": [
-          "https://openalex.org/W2160446463",
-          "https://openalex.org/W2920925854",
-          "https://openalex.org/W1856323793",
-          "https://openalex.org/W2811371655"
+          "https://openalex.org/W2006309458",
+          "https://openalex.org/W2027545702",
+          "https://openalex.org/W2127685726",
+          "https://openalex.org/W2317554121",
+          "https://openalex.org/W2066124462"
         ],
         "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
       },
       "dataset_leads": [],
       "cross_domain": true,
       "status": "unvalidated_research_lead",
-      "priority_score": 0.7557,
+      "priority_score": 0.7677,
       "priority_components": {
         "novelty_to_agent_memory": 1.0,
-        "literature_signal": 0.529,
+        "literature_signal": 0.589,
         "falsifiability": 0.85,
         "dataset_lead_availability": 0.25,
         "cross_domain_breadth": 1.0
@@ -4431,32 +4418,106 @@
     },
     "ranked_leads": [
       {
-        "id": "lead-032fb3e8f0161f95",
-        "key": "https://openalex.org/T10140|https://openalex.org/T14127",
+        "id": "lead-309a7f06e933385a",
+        "key": "https://openalex.org/T10151|https://openalex.org/T11495",
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
+            "id": "https://openalex.org/T10151",
+            "name": "Hepatitis C virus research",
+            "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T14127",
-            "name": "Food Nutrient Composition and Product Development",
+            "id": "https://openalex.org/T11495",
+            "name": "Animal Virus Infections Studies",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Food composition and properties and Food Nutrient Composition and Product Development associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Food composition and properties and Food Nutrient Composition and Product Development; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Hepatitis C virus research and Animal Virus Infections Studies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Hepatitis C virus research and Animal Virus Infections Studies; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 5,
+          "example_work_ids": [
+            "https://openalex.org/W2006309458",
+            "https://openalex.org/W2027545702",
+            "https://openalex.org/W2127685726",
+            "https://openalex.org/W2317554121",
+            "https://openalex.org/W2066124462"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7677,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.589,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-da01ac3cc81c8755",
+        "key": "https://openalex.org/T10379|https://openalex.org/T12264",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12264",
+            "name": "Tissue Engineering and Regenerative Medicine",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 4,
           "example_work_ids": [
-            "https://openalex.org/W2160446463",
-            "https://openalex.org/W2920925854",
-            "https://openalex.org/W1856323793",
-            "https://openalex.org/W2811371655"
+            "https://openalex.org/W2134208433",
+            "https://openalex.org/W2045295282",
+            "https://openalex.org/W2058096164",
+            "https://openalex.org/W2037810763"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4504,30 +4565,178 @@
         }
       },
       {
-        "id": "lead-a4a882f9d479023c",
-        "key": "https://openalex.org/T10140|https://openalex.org/T10411",
+        "id": "lead-ce635dcba7c264ca",
+        "key": "https://openalex.org/T10047|https://openalex.org/T12123",
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
+            "id": "https://openalex.org/T10047",
+            "name": "Financial Markets and Investment Strategies",
+            "field": "Economics, Econometrics and Finance",
+            "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T10411",
-            "name": "Proteins in Food Systems",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T12123",
+            "name": "Financial Analysis and Corporate Governance",
+            "field": "Business, Management and Accounting",
+            "domain": "Social Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Food composition and properties and Proteins in Food Systems associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Food composition and properties and Proteins in Food Systems; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 5,
+          "example_work_ids": [
+            "https://openalex.org/W1995834279",
+            "https://openalex.org/W2166215547",
+            "https://openalex.org/W2136120210",
+            "https://openalex.org/W2104795328",
+            "https://openalex.org/W2125520394"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7227,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.589,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-248e73e90a007341",
+        "key": "https://openalex.org/T10559|https://openalex.org/T11367",
+        "topics": [
+          {
+            "id": "https://openalex.org/T11367",
+            "name": "Particle accelerators and beam dynamics",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10559",
+            "name": "Particle Accelerators and Free-Electron Lasers",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 5,
+          "example_work_ids": [
+            "https://openalex.org/W1492136317",
+            "https://openalex.org/W2133292567",
+            "https://openalex.org/W3049167472",
+            "https://openalex.org/W1953332660",
+            "https://openalex.org/W1588264866"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": false,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7227,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.589,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 0.55
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-38d835468eca595f",
+        "key": "https://openalex.org/T10343|https://openalex.org/T10379",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10343",
+            "name": "Hydrogels: synthesis, properties, applications",
+            "field": "Materials Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 2,
           "example_work_ids": [
-            "https://openalex.org/W2160446463",
-            "https://openalex.org/W2920925854"
+            "https://openalex.org/W2054635074",
+            "https://openalex.org/W2037810763"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4575,29 +4784,29 @@
         }
       },
       {
-        "id": "lead-af873586ac47e456",
-        "key": "https://openalex.org/T10066|https://openalex.org/T10140",
+        "id": "lead-30e380f5940eecb5",
+        "key": "https://openalex.org/T10151|https://openalex.org/T10261",
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
+            "id": "https://openalex.org/T10151",
+            "name": "Hepatitis C virus research",
+            "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10066",
-            "name": "Gut microbiota and health",
+            "id": "https://openalex.org/T10261",
+            "name": "Genetic Associations and Epidemiology",
             "field": "Biochemistry, Genetics and Molecular Biology",
             "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Food composition and properties and Gut microbiota and health associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Food composition and properties and Gut microbiota and health; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Hepatitis C virus research and Genetic Associations and Epidemiology associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Hepatitis C virus research and Genetic Associations and Epidemiology; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W1877854700"
+            "https://openalex.org/W2063285149"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4645,29 +4854,29 @@
         }
       },
       {
-        "id": "lead-e8037955ce2c95bc",
-        "key": "https://openalex.org/T10085|https://openalex.org/T10301",
+        "id": "lead-fb659a8b68e12595",
+        "key": "https://openalex.org/T10379|https://openalex.org/T10831",
         "topics": [
           {
-            "id": "https://openalex.org/T10301",
-            "name": "Mitochondrial Function and Pathology",
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
             "field": "Biochemistry, Genetics and Molecular Biology",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10085",
-            "name": "Parkinson's Disease Mechanisms and Treatments",
+            "id": "https://openalex.org/T10831",
+            "name": "Cell Adhesion Molecules Research",
             "field": "Medicine",
             "domain": "Health Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Mitochondrial Function and Pathology and Parkinson's Disease Mechanisms and Treatments associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mitochondrial Function and Pathology and Parkinson's Disease Mechanisms and Treatments; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Cell Adhesion Molecules Research associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Cell Adhesion Molecules Research; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W2152165298"
+            "https://openalex.org/W2045295282"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4715,239 +4924,29 @@
         }
       },
       {
-        "id": "lead-d17981c1200c45f9",
-        "key": "https://openalex.org/T10140|https://openalex.org/T12114",
+        "id": "lead-c3296666fd5a2b6b",
+        "key": "https://openalex.org/T10379|https://openalex.org/T10923",
         "topics": [
           {
-            "id": "https://openalex.org/T10140",
-            "name": "Food composition and properties",
-            "field": "Nursing",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12114",
-            "name": "Sensory Analysis and Statistical Methods",
-            "field": "Agricultural and Biological Sciences",
-            "domain": "Life Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Food composition and properties and Sensory Analysis and Statistical Methods associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Food composition and properties and Sensory Analysis and Statistical Methods; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2811371655"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6955,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-21d4a1a1ca7edf4f",
-        "key": "https://openalex.org/T10301|https://openalex.org/T10445",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10301",
-            "name": "Mitochondrial Function and Pathology",
+            "id": "https://openalex.org/T10379",
+            "name": "Cellular Mechanics and Interactions",
             "field": "Biochemistry, Genetics and Molecular Biology",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10445",
-            "name": "Antioxidant Activity and Oxidative Stress",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Mitochondrial Function and Pathology and Antioxidant Activity and Oxidative Stress associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mitochondrial Function and Pathology and Antioxidant Activity and Oxidative Stress; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W4247088117"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6955,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-7ffda8c9e39a9645",
-        "key": "https://openalex.org/T10301|https://openalex.org/T11457",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10301",
-            "name": "Mitochondrial Function and Pathology",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11457",
-            "name": "Adipose Tissue and Metabolism",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Mitochondrial Function and Pathology and Adipose Tissue and Metabolism associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Mitochondrial Function and Pathology and Adipose Tissue and Metabolism; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2131415852"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6955,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-cf1b159aa4dfdc94",
-        "key": "https://openalex.org/T10395|https://openalex.org/T13031",
-        "topics": [
-          {
-            "id": "https://openalex.org/T13031",
-            "name": "Civil and Structural Engineering Research",
-            "field": "Engineering",
+            "id": "https://openalex.org/T10923",
+            "name": "Force Microscopy Techniques and Applications",
+            "field": "Physics and Astronomy",
             "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10395",
-            "name": "Construction Project Management and Performance",
-            "field": "Decision Sciences",
-            "domain": "Social Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Civil and Structural Engineering Research and Construction Project Management and Performance associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Civil and Structural Engineering Research and Construction Project Management and Performance; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W129014274"
+            "https://openalex.org/W2054635074"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4996,8 +4995,8 @@
       }
     ],
     "memory": {
-      "cycles_completed": 14,
-      "distinct_hypothesis_keys_seen": 186,
+      "cycles_completed": 15,
+      "distinct_hypothesis_keys_seen": 196,
       "purpose": "Avoid repeatedly presenting the same leads and retain an auditable exploration history."
     },
     "capability_boundary": "This cycle uses deterministic role functions, not a general reasoning model. It generates and evaluates research plans; it does not autonomously validate scientific discoveries or alter its own permissions or production code.",
@@ -8386,14 +8385,14 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "spearman_rank",
-      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
-      "path": "proposals/spearman_rank.py"
+      "method": "winsorized_pearson",
+      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
+      "path": "proposals/winsorized_pearson.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
@@ -8447,59 +8446,6 @@
         "notes": "Scholarly metadata search; not currently ingested as research observations."
       },
       {
-        "id": "our_world_in_data",
-        "name": "Our World in Data",
-        "domains": [
-          "biology",
-          "public_health",
-          "climate",
-          "energy",
-          "economics",
-          "demography",
-          "agriculture"
-        ],
-        "kind": "quantitative_data",
-        "keywords": [
-          "life expectancy",
-          "health",
-          "climate change",
-          "energy",
-          "agriculture",
-          "population",
-          "education"
-        ],
-        "access": "public_downloads_and_apis",
-        "endpoint": "https://ourworldindata.org/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Dataset-level licences and attribution requirements must be checked individually."
-      },
-      {
-        "id": "pubmed",
-        "name": "PubMed / NCBI E-utilities",
-        "domains": [
-          "biology",
-          "medicine",
-          "public_health",
-          "neuroscience",
-          "psychology"
-        ],
-        "kind": "literature",
-        "keywords": [
-          "clinical",
-          "disease",
-          "health",
-          "medical",
-          "brain",
-          "mental health"
-        ],
-        "access": "public_api",
-        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
-        "auth_required": false,
-        "integration_status": "catalogued",
-        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
-      },
-      {
         "id": "zenodo",
         "name": "Zenodo Open Research Data",
         "domains": [
@@ -8540,17 +8486,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "health_spending",
-        "infant_mortality"
+        "literacy",
+        "unemployment"
       ],
-      "priority_score": 0.7424,
+      "priority_score": 0.734,
       "selected_labels": [
-        "Current health expenditure per capita (US$)",
-        "Infant mortality (per 1,000 live births)"
+        "Adult literacy rate (%)",
+        "Unemployment (% of labor force)"
       ],
-      "selection_score": 0.3712,
+      "selection_score": 0.367,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -8559,8 +8505,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 38,
-    "next_question": "Does the association between Current health expenditure per capita (US$) and Infant mortality (per 1,000 live births) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 39,
+    "next_question": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex topics, formulates falsifiable leads, and screens up to three small Zenodo CSV/TSV datasets per cycle where record metadata confirms an allowlisted open licence. Automated numeric associations are exploratory screens, not validated discoveries or independent replication."
   },
   "limitations": [
