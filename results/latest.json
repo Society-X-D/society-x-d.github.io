@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "project": "SOCIETY-X",
-  "run_id": "20261128T024408Z",
-  "started_at": "2026-11-28T02:43:45.770342+00:00",
-  "completed_at": "2026-11-28T02:44:08.052713+00:00",
+  "run_id": "20261128T115248Z",
+  "started_at": "2026-11-28T11:52:35.190856+00:00",
+  "completed_at": "2026-11-28T11:52:48.743993+00:00",
   "runtime": {
     "python": "3.12.16",
     "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43"
@@ -20,43 +20,43 @@
     "life_expectancy": {
       "indicator_code": "SP.DYN.LE00.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
+      "retrieved_at": "2026-11-28T11:52:35.190856+00:00",
       "provider": "World Bank"
     },
     "gdp_per_capita": {
       "indicator_code": "NY.GDP.PCAP.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
+      "retrieved_at": "2026-11-28T11:52:35.190856+00:00",
       "provider": "World Bank"
     },
     "infant_mortality": {
       "indicator_code": "SP.DYN.IMRT.IN",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.IMRT.IN?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
+      "retrieved_at": "2026-11-28T11:52:35.190856+00:00",
       "provider": "World Bank"
     },
     "urban_population": {
       "indicator_code": "SP.URB.TOTL.IN.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
+      "retrieved_at": "2026-11-28T11:52:35.190856+00:00",
       "provider": "World Bank"
     },
     "health_spending": {
       "indicator_code": "SH.XPD.CHEX.PC.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
+      "retrieved_at": "2026-11-28T11:52:35.190856+00:00",
       "provider": "World Bank"
     },
     "unemployment": {
       "indicator_code": "SL.UEM.TOTL.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
+      "retrieved_at": "2026-11-28T11:52:35.190856+00:00",
       "provider": "World Bank"
     },
     "literacy": {
       "indicator_code": "SE.ADT.LITR.ZS",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SE.ADT.LITR.ZS?date=2000%3A2023&format=json&per_page=20000",
-      "retrieved_at": "2026-11-28T02:43:45.770342+00:00",
+      "retrieved_at": "2026-11-28T11:52:35.190856+00:00",
       "provider": "World Bank"
     }
   },
@@ -80,11 +80,11 @@
   },
   "biodiversity_observation": {
     "annual_coordinate_occurrence_record_counts": {
-      "2023": 289854114,
+      "2023": 289854116,
       "2022": 253776890,
       "2021": 241794107,
       "2020": 214754883,
-      "2019": 186909581,
+      "2019": 186909582,
       "2018": 160934743,
       "2017": 154060059,
       "2016": 141122095,
@@ -3180,51 +3180,10 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 42,
-        "status": "some_indexed_matches",
-        "results": [
-          {
-            "title": "Health Inequities, Environmental Insecurity and the Attainment of the Millennium Development Goals in Sub-Saharan Africa: The Case Study of Zambia",
-            "year": 2006,
-            "type": "article",
-            "doi": "https://doi.org/10.3390/ijerph2006030026",
-            "openalex_id": "https://openalex.org/W2151580544",
-            "cited_by_count": 31
-          },
-          {
-            "title": "Toward Country-led Development: A Multi-partner Evaluation of the Comprehensive Development Framework",
-            "year": 2003,
-            "type": "book",
-            "doi": "https://doi.org/10.1596/0-8213-5669-0",
-            "openalex_id": "https://openalex.org/W2504057722",
-            "cited_by_count": 35
-          },
-          {
-            "title": "Impact investing as a tool for achieving the targets for sustainable development of the region",
-            "year": 2023,
-            "type": "conference-paper",
-            "doi": "https://doi.org/10.1051/e3sconf/202345101016",
-            "openalex_id": "https://openalex.org/W4388936344",
-            "cited_by_count": 1
-          },
-          {
-            "title": "Air Pollution and Health Status in Sub-Sahara Africa (SSA)",
-            "year": 2019,
-            "type": "article",
-            "doi": "https://doi.org/10.7176/jesd/10-22-03",
-            "openalex_id": "https://openalex.org/W2992010826",
-            "cited_by_count": 10
-          },
-          {
-            "title": "DECOMPOSING WELL-BEING INDICATORS USING DISTRIBUTIONAL DATA",
-            "year": 2004,
-            "type": "preprint",
-            "doi": "https://doi.org/10.22004/ag.econ.20232",
-            "openalex_id": "https://openalex.org/W1601313619",
-            "cited_by_count": 0
-          }
-        ],
-        "search_url": "https://api.openalex.org/works?search=%22Infant+mortality+%28per+1%2C000+live+births%29%22+AND+%22Life+expectancy+at+birth+%28years%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
         "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
       },
       "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
@@ -3426,7 +3385,7 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 20,
+        "indexed_work_count": 21,
         "status": "some_indexed_matches",
         "results": [
           {
@@ -3508,51 +3467,10 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 413,
-        "status": "substantial_indexed_literature",
-        "results": [
-          {
-            "title": "Guinea: Background Appendices",
-            "year": 1995,
-            "type": "article",
-            "doi": "https://doi.org/10.5089/9781451815887.002",
-            "openalex_id": "https://openalex.org/W4251447449",
-            "cited_by_count": 0
-          },
-          {
-            "title": "Is Human Development Index (HDI) a reflector of quality of air? a comparative study on developed and developing countries",
-            "year": 2014,
-            "type": "preprint",
-            "doi": null,
-            "openalex_id": "https://openalex.org/W1495062917",
-            "cited_by_count": 5
-          },
-          {
-            "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
-            "year": 2025,
-            "type": "article",
-            "doi": "https://doi.org/10.47895/amp.vi0.6790",
-            "openalex_id": "https://openalex.org/W4410047673",
-            "cited_by_count": 0
-          },
-          {
-            "title": "Social, Economic and Environmental Determinants of Life Expectancy in Nigeria",
-            "year": 2024,
-            "type": "article",
-            "doi": "https://doi.org/10.56279/ter.v14i1.175",
-            "openalex_id": "https://openalex.org/W4401018809",
-            "cited_by_count": 8
-          },
-          {
-            "title": "Human development index in a context of human development: Review on the western Balkans countries",
-            "year": 2020,
-            "type": "article",
-            "doi": "https://doi.org/10.1002/brb3.1755",
-            "openalex_id": "https://openalex.org/W3047671339",
-            "cited_by_count": 115
-          }
-        ],
-        "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
         "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
       },
       "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
@@ -3590,51 +3508,10 @@
         "sensitivity_warnings": []
       },
       "literature_context": {
-        "indexed_work_count": 95,
-        "status": "substantial_indexed_literature",
-        "results": [
-          {
-            "title": "Socioeconomic Macro-Level Determinants of Hypertension: Ecological Analysis of 138 Low- and Middle-Income Countries",
-            "year": 2023,
-            "type": "article",
-            "doi": "https://doi.org/10.3390/jcdd10020057",
-            "openalex_id": "https://openalex.org/W4318612675",
-            "cited_by_count": 18
-          },
-          {
-            "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
-            "year": 2025,
-            "type": "article",
-            "doi": "https://doi.org/10.47895/amp.vi0.6790",
-            "openalex_id": "https://openalex.org/W4410047673",
-            "cited_by_count": 0
-          },
-          {
-            "title": "Valuing the joint effect of adult literacy and economic growth on renewable energy consumption in African zone",
-            "year": 2022,
-            "type": "article",
-            "doi": "https://doi.org/10.33445/sds.2022.12.1.12",
-            "openalex_id": "https://openalex.org/W4214774388",
-            "cited_by_count": 1
-          },
-          {
-            "title": "Trends of Urbanization in West Bengal: A District Level Study",
-            "year": 2023,
-            "type": "article",
-            "doi": "https://doi.org/10.48175/ijarsct-10419m",
-            "openalex_id": "https://openalex.org/W4393111855",
-            "cited_by_count": 0
-          },
-          {
-            "title": "The Little Data Book on Information and Communication Technology 2014",
-            "year": 2014,
-            "type": "book",
-            "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
-            "openalex_id": "https://openalex.org/W4235301359",
-            "cited_by_count": 18
-          }
-        ],
-        "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
+        "indexed_work_count": null,
+        "status": "not_assessed",
+        "results": [],
+        "search_url": null,
         "interpretation": "A bounded bibliographic search is not a systematic review. Few matches do not establish novelty; many matches do not establish consensus."
       },
       "why_investigate": "The signal repeats across multiple annual country samples. The next useful step is to test alternative explanations and independent measures, not to infer causation.",
@@ -3948,114 +3825,114 @@
     "provider": "OpenAlex Topics API",
     "topics_sampled": 80,
     "new_topics_this_cycle": 12,
-    "new_topics_in_sample": 70,
+    "new_topics_in_sample": 73,
     "topics_discovered": [
       {
-        "id": "https://openalex.org/T10151",
-        "name": "Hepatitis C virus research",
-        "description": "This cluster of papers focuses on the epidemiology, treatment, and outcomes of hepatitis C virus infection. It covers topics such as antiviral therapy, genetic variation in viral clearance, global epidemiology, liver-related mortality, immune responses, and the impact of comorbidities like HIV and diabetes.",
-        "works_count": 133568,
+        "id": "https://openalex.org/T10537",
+        "name": "Attention Deficit Hyperactivity Disorder",
+        "description": "This cluster of papers focuses on the worldwide prevalence, neurobiology, treatment, executive function, and comorbidity of Attention-Deficit/Hyperactivity Disorder (ADHD). It includes meta-analyses, genetic studies, brain imaging research, and discussions on the impact of ADHD on individuals across the lifespan.",
+        "works_count": 106449,
         "field": "Medicine",
-        "subfield": "Hepatology",
+        "subfield": "Psychiatry and Mental health",
         "domain": "Health Sciences"
       },
       {
-        "id": "https://openalex.org/T10379",
-        "name": "Cellular Mechanics and Interactions",
-        "description": "This cluster of papers focuses on the interaction between cells and the extracellular matrix, with an emphasis on cell mechanics, mechanotransduction, and the role of matrix stiffness in regulating stem cell behavior, tissue engineering, and cancer progression.",
-        "works_count": 97751,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Cell Biology",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11367",
-        "name": "Particle accelerators and beam dynamics",
-        "description": "This cluster of papers focuses on advancements in accelerator technology, particularly in the development of superconducting cavities, negative ion sources, and neutral beam injection for applications in high energy density physics and magnetic fusion. It also encompasses research on RF source development, particle-in-cell simulations, plasma diagnostics, and ion beam dynamics.",
-        "works_count": 3882537,
-        "field": "Physics and Astronomy",
-        "subfield": "Nuclear and High Energy Physics",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10047",
-        "name": "Financial Markets and Investment Strategies",
-        "description": "This cluster of papers explores asset pricing models, stock returns, market efficiency, investor sentiment, liquidity risk, behavioral finance, momentum investing, market microstructure, hedge funds, and the information content of various factors affecting asset prices.",
-        "works_count": 328806,
-        "field": "Economics, Econometrics and Finance",
-        "subfield": "Finance",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10554",
-        "name": "Hemoglobinopathies and Related Disorders",
-        "description": "This cluster of papers explores the genetic, clinical, and epidemiological aspects of hemoglobin disorders, including sickle-cell disease and thalassemia. It covers topics such as hemolysis, fetal hemoglobin regulation, iron overload, pulmonary hypertension, and the use of transfusion therapy. The genetic regulation of erythropoiesis by factors like GATA1 and BCL11A is also a focus of several papers.",
-        "works_count": 109482,
-        "field": "Medicine",
-        "subfield": "Genetics (clinical)",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T12827",
-        "name": "Biochemical and Molecular Research",
-        "description": "This cluster of papers focuses on the intricate regulation and metabolic pathways of nucleotide biosynthesis, including purine and pyrimidine biosynthesis. It explores the structure, function, and inhibition of key enzymes such as CTP synthase, IMP dehydrogenase, and dihydroorotate dehydrogenase. The cluster also delves into disorders related to nucleotide metabolism, such as Lesch-Nyhan syndrome.",
-        "works_count": 81689,
-        "field": "Biochemistry, Genetics and Molecular Biology",
-        "subfield": "Molecular Biology",
-        "domain": "Life Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10266",
-        "name": "Plant Water Relations and Carbon Dynamics",
-        "description": "This cluster of papers explores the impact of drought and heat-induced tree mortality on global forests, highlighting emerging climate change risks. It delves into mechanisms of plant survival and mortality during drought, ecosystem dynamics, carbon cycling, and the role of stomata in driving environmental change. The research also evaluates the vulnerability of forests to drought, the global distribution of terrestrial carbon dioxide uptake, and the implications of widespread tree mortality triggered by climate stress.",
-        "works_count": 99445,
-        "field": "Environmental Science",
-        "subfield": "Global and Planetary Change",
-        "domain": "Physical Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10749",
-        "name": "International Law and Human Rights",
-        "description": "This cluster of papers focuses on the intersection of international criminal law, human rights obligations, and global governance. It explores topics such as state responsibility, norm conflicts, transnational legal pluralism, and the role of the Security Council in addressing war crimes and human rights violations.",
-        "works_count": 278282,
-        "field": "Social Sciences",
-        "subfield": "Political Science and International Relations",
-        "domain": "Social Sciences"
-      },
-      {
-        "id": "https://openalex.org/T10416",
-        "name": "Traumatic Brain Injury Research",
-        "description": "This cluster of papers focuses on the epidemiology, impact, and long-term consequences of traumatic brain injury (TBI), particularly concussion and mild TBI. It covers a wide range of topics including neurological outcomes, cognitive rehabilitation, sports-related injuries, neuropathological changes, and consciousness assessment in TBI patients.",
-        "works_count": 95789,
-        "field": "Medicine",
-        "subfield": "Clinical Neurology",
-        "domain": "Health Sciences"
-      },
-      {
-        "id": "https://openalex.org/T11423",
-        "name": "Pesticide Residue Analysis and Safety",
-        "description": "This cluster of papers focuses on the analysis of pesticide residues in food using liquid chromatography and mass spectrometry techniques. It covers topics such as multiresidue methods, QuEChERS sample preparation, matrix effects, method validation, and high-throughput analysis for ensuring food safety.",
-        "works_count": 79369,
+        "id": "https://openalex.org/T11796",
+        "name": "Horticultural and Viticultural Research",
+        "description": "This cluster of papers explores the genetic and environmental factors influencing grapevine cultivation, including the impact of climate change on wine quality, the role of anthocyanins and water deficit in grape development, transcriptome analysis of grape berries, and the concept of terroir in viticulture.",
+        "works_count": 98265,
         "field": "Agricultural and Biological Sciences",
-        "subfield": "Food Science",
+        "subfield": "Plant Science",
         "domain": "Life Sciences"
       },
       {
-        "id": "https://openalex.org/T11698",
-        "name": "Underwater Acoustics Research",
-        "description": "This cluster of papers focuses on the use of multiscale acoustic and machine learning techniques for mapping and classifying the seafloor, including habitat classification, bathymetry data analysis, geoacoustic inversion, and the study of marine sediments. The research covers a wide range of topics related to underwater acoustics and the application of advanced technologies for understanding and visualizing the spatial ecology of the seafloor.",
-        "works_count": 92316,
-        "field": "Earth and Planetary Sciences",
-        "subfield": "Oceanography",
+        "id": "https://openalex.org/T13681",
+        "name": "Engineering and Information Technology",
+        "description": "This cluster of papers covers a wide range of topics related to software development, engineering processes, and information systems. It includes discussions on modeling, automation, database systems, web-based applications, simulation, energy systems, quality assurance, and internet courses.",
+        "works_count": 238390,
+        "field": "Computer Science",
+        "subfield": "Software",
         "domain": "Physical Sciences"
       },
       {
-        "id": "https://openalex.org/T10953",
-        "name": "E-Government and Public Services",
-        "description": "This cluster of papers explores the evolution, impact, and challenges of E-Government initiatives, focusing on transparency, trust, social media, open data, citizen engagement, ICTs, government services, accountability, and the role of the public sector.",
-        "works_count": 176172,
+        "id": "https://openalex.org/T10258",
+        "name": "Philosophy and Theoretical Science",
+        "description": "This cluster of papers encompasses a wide range of topics related to consciousness, phenomenal experience, grounding, cognitive science, neuroscience, perception, truth, philosophy of mind, modal logic, and self-awareness. The papers explore various aspects of consciousness and aim to understand the nature of subjective experience from philosophical and scientific perspectives.",
+        "works_count": 191620,
+        "field": "Arts and Humanities",
+        "subfield": "Philosophy",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11071",
+        "name": "Treatment of Major Depression",
+        "description": "This cluster of papers focuses on the molecular mechanisms and treatment strategies for depression, with a particular emphasis on antidepressant medications, ketamine, NMDA receptor antagonists, and neurobiological pathways. It covers topics such as treatment-resistant depression, glutamate signaling, cognitive impairment, and synaptic plasticity. The papers also discuss clinical guidelines and the evaluation of outcomes for various treatment approaches.",
+        "works_count": 98064,
+        "field": "Medicine",
+        "subfield": "Pharmacology (medical)",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10469",
+        "name": "Psoriasis: Treatment and Pathogenesis",
+        "description": "This cluster of papers focuses on the reciprocal developmental pathways for the generation of pathogenic effector TH17 cells and regulatory T cells, particularly in the context of autoimmune inflammation, interleukin-23, psoriasis, and the role of cytokines such as TGF-ß. It also explores the differentiation, cytokine profile, and function of human interleukin 17–producing helper T cells.",
+        "works_count": 85638,
+        "field": "Immunology and Microbiology",
+        "subfield": "Immunology",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10219",
+        "name": "Mechanical Behavior of Composites",
+        "description": "This cluster of papers focuses on advances in composite materials and structures, with a particular emphasis on topics such as delamination, cohesive zone models, fiber-reinforced composites, finite element analysis, adhesive joints, ballistic impact, damage modeling, fracture mechanics, and textile composites. The papers cover a wide range of research areas including simulation, experimental analysis, and mechanical behavior of composite materials.",
+        "works_count": 156787,
+        "field": "Engineering",
+        "subfield": "Mechanics of Materials",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10574",
+        "name": "Crime Patterns and Interventions",
+        "description": "This cluster of papers explores the impact of social structure on crime and delinquency, including the influence of neighborhood effects, general strain theory, youth violence, fear of crime, and developmental trajectories. It investigates the relationship between social disorganization, criminal behavior, and the role of various theories in understanding the dynamics of crime within different social contexts.",
+        "works_count": 155151,
         "field": "Social Sciences",
-        "subfield": "Political Science and International Relations",
+        "subfield": "Sociology and Political Science",
+        "domain": "Social Sciences"
+      },
+      {
+        "id": "https://openalex.org/T11962",
+        "name": "Cardiac Fibrosis and Remodeling",
+        "description": "This cluster of papers explores the molecular mechanisms underlying cardiac remodeling and repair, focusing on the inflammatory response, myocardial infarction, fibrosis, hypertrophy, macrophage involvement, extracellular matrix dynamics, and the role of cytokines in heart failure.",
+        "works_count": 49646,
+        "field": "Medicine",
+        "subfield": "Cardiology and Cardiovascular Medicine",
+        "domain": "Health Sciences"
+      },
+      {
+        "id": "https://openalex.org/T13591",
+        "name": "Pasture and Agricultural Systems",
+        "description": "This cluster of papers focuses on the management of perennial pasture systems in Australia, with an emphasis on topics such as grazing management, water use efficiency, drought survival strategies, soil water balance, and the impact of climate change. The research explores the characteristics and performance of temperate grasses, sustainable grazing systems, and the potential contribution of perennial legumes to agricultural sustainability in dryland cropping systems.",
+        "works_count": 77002,
+        "field": "Agricultural and Biological Sciences",
+        "subfield": "Agronomy and Crop Science",
+        "domain": "Life Sciences"
+      },
+      {
+        "id": "https://openalex.org/T10944",
+        "name": "Turbomachinery Performance and Optimization",
+        "description": "This cluster of papers focuses on the aerodynamics and heat transfer phenomena in turbomachinery, with specific emphasis on topics such as turbine performance, film cooling techniques, boundary layer transition modeling, stall and surge control, and separation control. It also includes research on blade tip heat transfer, axial compressor behavior, and the application of large-eddy simulations in understanding complex flow phenomena.",
+        "works_count": 130240,
+        "field": "Engineering",
+        "subfield": "Aerospace Engineering",
+        "domain": "Physical Sciences"
+      },
+      {
+        "id": "https://openalex.org/T12070",
+        "name": "Writing and Handwriting Education",
+        "description": "This cluster of papers focuses on effective strategies for writing instruction in education, including handwriting development, self-regulated strategy development, meta-analyses of writing interventions, and the impact of writing on learning and academic achievement. It covers a wide range of topics related to writing skills, motivation, cognitive development, and interventions for students with learning disabilities.",
+        "works_count": 120502,
+        "field": "Social Sciences",
+        "subfield": "Education",
         "domain": "Social Sciences"
       }
     ],
@@ -4069,256 +3946,299 @@
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10047",
-            "name": "Financial Markets and Investment Strategies",
-            "field": "Economics, Econometrics and Finance",
-            "domain": "Social Sciences"
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T12123",
-            "name": "Financial Analysis and Corporate Governance",
+            "id": "https://openalex.org/T10042",
+            "name": "Neural and Behavioral Psychology Studies",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2106131177",
+          "https://openalex.org/W2144579914",
+          "https://openalex.org/W2094371263"
+        ],
+        "research_question": "How are Attention Deficit Hyperactivity Disorder and Neural and Behavioral Psychology Studies connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Attention Deficit Hyperactivity Disorder and Neural and Behavioral Psychology Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T14104",
+            "name": "Developmental and Educational Neuropsychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 3,
+        "example_work_ids": [
+          "https://openalex.org/W2106131177",
+          "https://openalex.org/W2144579914",
+          "https://openalex.org/W2094371263"
+        ],
+        "research_question": "How are Attention Deficit Hyperactivity Disorder and Developmental and Educational Neuropsychology connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Attention Deficit Hyperactivity Disorder and Developmental and Educational Neuropsychology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T13681",
+            "name": "Engineering and Information Technology",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11734",
+            "name": "Decision Support System Applications",
             "field": "Business, Management and Accounting",
             "domain": "Social Sciences"
           }
         ],
-        "coassigned_work_count": 5,
+        "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W1995834279",
-          "https://openalex.org/W2166215547",
-          "https://openalex.org/W2136120210",
-          "https://openalex.org/W2104795328",
-          "https://openalex.org/W2125520394"
+          "https://openalex.org/W2756384353",
+          "https://openalex.org/W2884502808",
+          "https://openalex.org/W4402154155"
         ],
-        "research_question": "How are Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Engineering and Information Technology and Decision Support System Applications connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Engineering and Information Technology and Decision Support System Applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10151",
-            "name": "Hepatitis C virus research",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11495",
-            "name": "Animal Virus Infections Studies",
+            "id": "https://openalex.org/T11796",
+            "name": "Horticultural and Viticultural Research",
             "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12399",
+            "name": "Wine Industry and Tourism",
+            "field": "Business, Management and Accounting",
+            "domain": "Social Sciences"
           }
         ],
-        "coassigned_work_count": 5,
+        "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W2006309458",
-          "https://openalex.org/W2027545702",
-          "https://openalex.org/W2127685726",
-          "https://openalex.org/W2317554121",
-          "https://openalex.org/W2066124462"
+          "https://openalex.org/W1979241560",
+          "https://openalex.org/W2340461078",
+          "https://openalex.org/W1988678077"
         ],
-        "research_question": "How are Hepatitis C virus research and Animal Virus Infections Studies connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Hepatitis C virus research and Animal Virus Infections Studies will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Horticultural and Viticultural Research and Wine Industry and Tourism connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Horticultural and Viticultural Research and Wine Industry and Tourism will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T11367",
-            "name": "Particle accelerators and beam dynamics",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10559",
-            "name": "Particle Accelerators and Free-Electron Lasers",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 5,
-        "example_work_ids": [
-          "https://openalex.org/W1492136317",
-          "https://openalex.org/W2133292567",
-          "https://openalex.org/W3049167472",
-          "https://openalex.org/W1953332660",
-          "https://openalex.org/W1588264866"
-        ],
-        "research_question": "How are Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12264",
-            "name": "Tissue Engineering and Regenerative Medicine",
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
             "field": "Medicine",
             "domain": "Health Sciences"
-          }
-        ],
-        "coassigned_work_count": 4,
-        "example_work_ids": [
-          "https://openalex.org/W2134208433",
-          "https://openalex.org/W2045295282",
-          "https://openalex.org/W2058096164",
-          "https://openalex.org/W2037810763"
-        ],
-        "research_question": "How are Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10343",
-            "name": "Hydrogels: synthesis, properties, applications",
-            "field": "Materials Science",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T10182",
+            "name": "Child and Adolescent Psychosocial and Emotional Development",
+            "field": "Psychology",
+            "domain": "Social Sciences"
           }
         ],
         "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2054635074",
-          "https://openalex.org/W2037810763"
+          "https://openalex.org/W2171074660",
+          "https://openalex.org/W2601578636"
         ],
-        "research_question": "How are Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Attention Deficit Hyperactivity Disorder and Child and Adolescent Psychosocial and Emotional Development connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Attention Deficit Hyperactivity Disorder and Child and Adolescent Psychosocial and Emotional Development will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
+            "id": "https://openalex.org/T11796",
+            "name": "Horticultural and Viticultural Research",
+            "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10923",
-            "name": "Force Microscopy Techniques and Applications",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T10434",
+            "name": "Chromosomal and Genetic Variations",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
           }
         ],
-        "coassigned_work_count": 1,
+        "coassigned_work_count": 2,
         "example_work_ids": [
-          "https://openalex.org/W2054635074"
+          "https://openalex.org/W2068697952",
+          "https://openalex.org/W2115483901"
         ],
-        "research_question": "How are Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Horticultural and Viticultural Research and Chromosomal and Genetic Variations connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Horticultural and Viticultural Research and Chromosomal and Genetic Variations will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T10258",
+            "name": "Philosophy and Theoretical Science",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
           },
           {
-            "id": "https://openalex.org/T12061",
-            "name": "Axon Guidance and Neuronal Signaling",
+            "id": "https://openalex.org/T14394",
+            "name": "Cognitive Science and Education Research",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
+          }
+        ],
+        "coassigned_work_count": 2,
+        "example_work_ids": [
+          "https://openalex.org/W2164558494",
+          "https://openalex.org/W2888882506"
+        ],
+        "research_question": "How are Philosophy and Theoretical Science and Cognitive Science and Education Research connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Philosophy and Theoretical Science and Cognitive Science and Education Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10106",
+            "name": "Autism Spectrum Disorder Research",
             "field": "Neuroscience",
             "domain": "Life Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2063220206"
+          "https://openalex.org/W2171074660"
         ],
-        "research_question": "How are Cellular Mechanics and Interactions and Axon Guidance and Neuronal Signaling connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Axon Guidance and Neuronal Signaling will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Attention Deficit Hyperactivity Disorder and Autism Spectrum Disorder Research connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Attention Deficit Hyperactivity Disorder and Autism Spectrum Disorder Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       },
       {
         "topics": [
           {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
+            "field": "Medicine",
+            "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10831",
-            "name": "Cell Adhesion Molecules Research",
+            "id": "https://openalex.org/T13283",
+            "name": "Mental Health Research Topics",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2099917845"
+        ],
+        "research_question": "How are Attention Deficit Hyperactivity Disorder and Mental Health Research Topics connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Attention Deficit Hyperactivity Disorder and Mental Health Research Topics will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
             "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11539",
+            "name": "Survey Methodology and Nonresponse",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2099917845"
+        ],
+        "research_question": "How are Attention Deficit Hyperactivity Disorder and Survey Methodology and Nonresponse connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Attention Deficit Hyperactivity Disorder and Survey Methodology and Nonresponse will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T13681",
+            "name": "Engineering and Information Technology",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11986",
+            "name": "Scientific Computing and Data Management",
+            "field": "Decision Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "coassigned_work_count": 1,
+        "example_work_ids": [
+          "https://openalex.org/W2125194763"
+        ],
+        "research_question": "How are Engineering and Information Technology and Scientific Computing and Data Management connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Engineering and Information Technology and Scientific Computing and Data Management will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
+        "status": "literature_derived_hypothesis_unvalidated"
+      },
+      {
+        "topics": [
+          {
+            "id": "https://openalex.org/T13681",
+            "name": "Engineering and Information Technology",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
             "domain": "Health Sciences"
           }
         ],
         "coassigned_work_count": 1,
         "example_work_ids": [
-          "https://openalex.org/W2045295282"
+          "https://openalex.org/W2756384353"
         ],
-        "research_question": "How are Cellular Mechanics and Interactions and Cell Adhesion Molecules Research connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Cellular Mechanics and Interactions and Cell Adhesion Molecules Research will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T10151",
-            "name": "Hepatitis C virus research",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10261",
-            "name": "Genetic Associations and Epidemiology",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W2063285149"
-        ],
-        "research_question": "How are Hepatitis C virus research and Genetic Associations and Epidemiology connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Hepatitis C virus research and Genetic Associations and Epidemiology will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
-        "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
-        "status": "literature_derived_hypothesis_unvalidated"
-      },
-      {
-        "topics": [
-          {
-            "id": "https://openalex.org/T11367",
-            "name": "Particle accelerators and beam dynamics",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11920",
-            "name": "Pulsed Power Technology Applications",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "coassigned_work_count": 1,
-        "example_work_ids": [
-          "https://openalex.org/W1588264866"
-        ],
-        "research_question": "How are Particle accelerators and beam dynamics and Pulsed Power Technology Applications connected, and under what conditions does that connection appear in independent empirical data?",
-        "candidate_hypothesis": "The apparent connection between Particle accelerators and beam dynamics and Pulsed Power Technology Applications will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
+        "research_question": "How are Engineering and Information Technology and Electronic Health Records Systems connected, and under what conditions does that connection appear in independent empirical data?",
+        "candidate_hypothesis": "The apparent connection between Engineering and Information Technology and Electronic Health Records Systems will be measurable in at least one independent empirical dataset, but its direction and mechanism remain unknown.",
         "falsification": "Reject or substantially revise this lead if independent datasets do not reproduce the relationship, if it disappears under plausible confounder controls, or if the co-classification is driven only by a small set of papers.",
         "status": "literature_derived_hypothesis_unvalidated"
       }
@@ -4340,46 +4260,44 @@
       "experimenter",
       "reviewer"
     ],
-    "candidate_leads_generated": 20,
-    "new_candidate_leads": 10,
+    "candidate_leads_generated": 22,
+    "new_candidate_leads": 12,
     "selected_next_investigation": {
-      "id": "lead-309a7f06e933385a",
-      "key": "https://openalex.org/T10151|https://openalex.org/T11495",
+      "id": "lead-5684f90be7efabcd",
+      "key": "https://openalex.org/T10042|https://openalex.org/T10537",
       "topics": [
         {
-          "id": "https://openalex.org/T10151",
-          "name": "Hepatitis C virus research",
+          "id": "https://openalex.org/T10537",
+          "name": "Attention Deficit Hyperactivity Disorder",
           "field": "Medicine",
           "domain": "Health Sciences"
         },
         {
-          "id": "https://openalex.org/T11495",
-          "name": "Animal Virus Infections Studies",
-          "field": "Agricultural and Biological Sciences",
+          "id": "https://openalex.org/T10042",
+          "name": "Neural and Behavioral Psychology Studies",
+          "field": "Neuroscience",
           "domain": "Life Sciences"
         }
       ],
-      "research_question": "Under what measurable conditions, if any, are Hepatitis C virus research and Animal Virus Infections Studies associated in independent empirical data?",
-      "candidate_hypothesis": "At least one measurable relationship may exist between Hepatitis C virus research and Animal Virus Infections Studies; its direction, mechanism and generality are unknown.",
+      "research_question": "Under what measurable conditions, if any, are Attention Deficit Hyperactivity Disorder and Neural and Behavioral Psychology Studies associated in independent empirical data?",
+      "candidate_hypothesis": "At least one measurable relationship may exist between Attention Deficit Hyperactivity Disorder and Neural and Behavioral Psychology Studies; its direction, mechanism and generality are unknown.",
       "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
       "literature_signal": {
-        "coassigned_work_count": 5,
+        "coassigned_work_count": 3,
         "example_work_ids": [
-          "https://openalex.org/W2006309458",
-          "https://openalex.org/W2027545702",
-          "https://openalex.org/W2127685726",
-          "https://openalex.org/W2317554121",
-          "https://openalex.org/W2066124462"
+          "https://openalex.org/W2106131177",
+          "https://openalex.org/W2144579914",
+          "https://openalex.org/W2094371263"
         ],
         "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
       },
       "dataset_leads": [],
       "cross_domain": true,
       "status": "unvalidated_research_lead",
-      "priority_score": 0.7677,
+      "priority_score": 0.7411,
       "priority_components": {
         "novelty_to_agent_memory": 1.0,
-        "literature_signal": 0.589,
+        "literature_signal": 0.455,
         "falsifiability": 0.85,
         "dataset_lead_availability": 0.25,
         "cross_domain_breadth": 1.0
@@ -4418,43 +4336,41 @@
     },
     "ranked_leads": [
       {
-        "id": "lead-309a7f06e933385a",
-        "key": "https://openalex.org/T10151|https://openalex.org/T11495",
+        "id": "lead-5684f90be7efabcd",
+        "key": "https://openalex.org/T10042|https://openalex.org/T10537",
         "topics": [
           {
-            "id": "https://openalex.org/T10151",
-            "name": "Hepatitis C virus research",
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T11495",
-            "name": "Animal Virus Infections Studies",
-            "field": "Agricultural and Biological Sciences",
+            "id": "https://openalex.org/T10042",
+            "name": "Neural and Behavioral Psychology Studies",
+            "field": "Neuroscience",
             "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Hepatitis C virus research and Animal Virus Infections Studies associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Hepatitis C virus research and Animal Virus Infections Studies; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Attention Deficit Hyperactivity Disorder and Neural and Behavioral Psychology Studies associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Attention Deficit Hyperactivity Disorder and Neural and Behavioral Psychology Studies; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
-          "coassigned_work_count": 5,
+          "coassigned_work_count": 3,
           "example_work_ids": [
-            "https://openalex.org/W2006309458",
-            "https://openalex.org/W2027545702",
-            "https://openalex.org/W2127685726",
-            "https://openalex.org/W2317554121",
-            "https://openalex.org/W2066124462"
+            "https://openalex.org/W2106131177",
+            "https://openalex.org/W2144579914",
+            "https://openalex.org/W2094371263"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
         "cross_domain": true,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.7677,
+        "priority_score": 0.7411,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.589,
+          "literature_signal": 0.455,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
           "cross_domain_breadth": 1.0
@@ -4492,119 +4408,116 @@
         }
       },
       {
-        "id": "lead-da01ac3cc81c8755",
-        "key": "https://openalex.org/T10379|https://openalex.org/T12264",
+        "id": "lead-f0864b81429707ff",
+        "key": "https://openalex.org/T10537|https://openalex.org/T14104",
         "topics": [
           {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12264",
-            "name": "Tissue Engineering and Regenerative Medicine",
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
             "field": "Medicine",
             "domain": "Health Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Tissue Engineering and Regenerative Medicine; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 4,
-          "example_work_ids": [
-            "https://openalex.org/W2134208433",
-            "https://openalex.org/W2045295282",
-            "https://openalex.org/W2058096164",
-            "https://openalex.org/W2037810763"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.7557,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.529,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-ce635dcba7c264ca",
-        "key": "https://openalex.org/T10047|https://openalex.org/T12123",
-        "topics": [
+          },
           {
-            "id": "https://openalex.org/T10047",
-            "name": "Financial Markets and Investment Strategies",
-            "field": "Economics, Econometrics and Finance",
+            "id": "https://openalex.org/T14104",
+            "name": "Developmental and Educational Neuropsychology",
+            "field": "Psychology",
             "domain": "Social Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Attention Deficit Hyperactivity Disorder and Developmental and Educational Neuropsychology associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Attention Deficit Hyperactivity Disorder and Developmental and Educational Neuropsychology; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W2106131177",
+            "https://openalex.org/W2144579914",
+            "https://openalex.org/W2094371263"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7411,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-e7061aad660088af",
+        "key": "https://openalex.org/T11734|https://openalex.org/T13681",
+        "topics": [
+          {
+            "id": "https://openalex.org/T13681",
+            "name": "Engineering and Information Technology",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
           },
           {
-            "id": "https://openalex.org/T12123",
-            "name": "Financial Analysis and Corporate Governance",
+            "id": "https://openalex.org/T11734",
+            "name": "Decision Support System Applications",
             "field": "Business, Management and Accounting",
             "domain": "Social Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Financial Markets and Investment Strategies and Financial Analysis and Corporate Governance; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Engineering and Information Technology and Decision Support System Applications associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Engineering and Information Technology and Decision Support System Applications; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
-          "coassigned_work_count": 5,
+          "coassigned_work_count": 3,
           "example_work_ids": [
-            "https://openalex.org/W1995834279",
-            "https://openalex.org/W2166215547",
-            "https://openalex.org/W2136120210",
-            "https://openalex.org/W2104795328",
-            "https://openalex.org/W2125520394"
+            "https://openalex.org/W2756384353",
+            "https://openalex.org/W2884502808",
+            "https://openalex.org/W4402154155"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
         "dataset_leads": [],
-        "cross_domain": false,
+        "cross_domain": true,
         "status": "unvalidated_research_lead",
-        "priority_score": 0.7227,
+        "priority_score": 0.7411,
         "priority_components": {
           "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.589,
+          "literature_signal": 0.455,
           "falsifiability": 0.85,
           "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
+          "cross_domain_breadth": 1.0
         },
         "skeptic_review": {
           "alternative_explanations": [
@@ -4639,104 +4552,102 @@
         }
       },
       {
-        "id": "lead-248e73e90a007341",
-        "key": "https://openalex.org/T10559|https://openalex.org/T11367",
+        "id": "lead-9e094d7f97293433",
+        "key": "https://openalex.org/T11796|https://openalex.org/T12399",
         "topics": [
           {
-            "id": "https://openalex.org/T11367",
-            "name": "Particle accelerators and beam dynamics",
-            "field": "Physics and Astronomy",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10559",
-            "name": "Particle Accelerators and Free-Electron Lasers",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Particle accelerators and beam dynamics and Particle Accelerators and Free-Electron Lasers; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 5,
-          "example_work_ids": [
-            "https://openalex.org/W1492136317",
-            "https://openalex.org/W2133292567",
-            "https://openalex.org/W3049167472",
-            "https://openalex.org/W1953332660",
-            "https://openalex.org/W1588264866"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": false,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.7227,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.589,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 0.55
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-38d835468eca595f",
-        "key": "https://openalex.org/T10343|https://openalex.org/T10379",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
+            "id": "https://openalex.org/T11796",
+            "name": "Horticultural and Viticultural Research",
+            "field": "Agricultural and Biological Sciences",
             "domain": "Life Sciences"
           },
           {
-            "id": "https://openalex.org/T10343",
-            "name": "Hydrogels: synthesis, properties, applications",
-            "field": "Materials Science",
-            "domain": "Physical Sciences"
+            "id": "https://openalex.org/T12399",
+            "name": "Wine Industry and Tourism",
+            "field": "Business, Management and Accounting",
+            "domain": "Social Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Hydrogels: synthesis, properties, applications; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Horticultural and Viticultural Research and Wine Industry and Tourism associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Horticultural and Viticultural Research and Wine Industry and Tourism; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 3,
+          "example_work_ids": [
+            "https://openalex.org/W1979241560",
+            "https://openalex.org/W2340461078",
+            "https://openalex.org/W1988678077"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7411,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.455,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-b968201b7041e233",
+        "key": "https://openalex.org/T10182|https://openalex.org/T10537",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
+            "field": "Medicine",
+            "domain": "Health Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10182",
+            "name": "Child and Adolescent Psychosocial and Emotional Development",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Attention Deficit Hyperactivity Disorder and Child and Adolescent Psychosocial and Emotional Development associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Attention Deficit Hyperactivity Disorder and Child and Adolescent Psychosocial and Emotional Development; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 2,
           "example_work_ids": [
-            "https://openalex.org/W2054635074",
-            "https://openalex.org/W2037810763"
+            "https://openalex.org/W2171074660",
+            "https://openalex.org/W2601578636"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4784,29 +4695,100 @@
         }
       },
       {
-        "id": "lead-30e380f5940eecb5",
-        "key": "https://openalex.org/T10151|https://openalex.org/T10261",
+        "id": "lead-8b7043e6107dc25e",
+        "key": "https://openalex.org/T10258|https://openalex.org/T14394",
         "topics": [
           {
-            "id": "https://openalex.org/T10151",
-            "name": "Hepatitis C virus research",
+            "id": "https://openalex.org/T10258",
+            "name": "Philosophy and Theoretical Science",
+            "field": "Arts and Humanities",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T14394",
+            "name": "Cognitive Science and Education Research",
+            "field": "Neuroscience",
+            "domain": "Life Sciences"
+          }
+        ],
+        "research_question": "Under what measurable conditions, if any, are Philosophy and Theoretical Science and Cognitive Science and Education Research associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Philosophy and Theoretical Science and Cognitive Science and Education Research; its direction, mechanism and generality are unknown.",
+        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
+        "literature_signal": {
+          "coassigned_work_count": 2,
+          "example_work_ids": [
+            "https://openalex.org/W2164558494",
+            "https://openalex.org/W2888882506"
+          ],
+          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
+        },
+        "dataset_leads": [],
+        "cross_domain": true,
+        "status": "unvalidated_research_lead",
+        "priority_score": 0.7222,
+        "priority_components": {
+          "novelty_to_agent_memory": 1.0,
+          "literature_signal": 0.361,
+          "falsifiability": 0.85,
+          "dataset_lead_availability": 0.25,
+          "cross_domain_breadth": 1.0
+        },
+        "skeptic_review": {
+          "alternative_explanations": [
+            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
+            "A third variable may explain any apparent association.",
+            "The apparent link may be driven by a narrow set of studies, locations or time periods."
+          ],
+          "falsification_tests": [
+            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
+            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
+            "Use negative controls and time-lag tests where the domain supports them.",
+            "Attempt replication in a different population, setting or data collection process.",
+            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
+          ]
+        },
+        "experiment_plan": {
+          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
+          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
+          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
+          "stage_4": "Run falsification, robustness and independent replication checks.",
+          "execution_status": "plan_only_no_external_dataset_download_or_execution"
+        },
+        "reviewer_assessment": {
+          "status": "lead_only_not_a_discovery",
+          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
+          "limitations": [
+            "No causal conclusion is supported.",
+            "Novelty has not been established by a systematic literature review.",
+            "Dataset metadata candidates have not been downloaded, licensed or validated.",
+            "Human domain review and independent replication are required before strong claims."
+          ]
+        }
+      },
+      {
+        "id": "lead-213a6664d897c9f0",
+        "key": "https://openalex.org/T10106|https://openalex.org/T10537",
+        "topics": [
+          {
+            "id": "https://openalex.org/T10537",
+            "name": "Attention Deficit Hyperactivity Disorder",
             "field": "Medicine",
             "domain": "Health Sciences"
           },
           {
-            "id": "https://openalex.org/T10261",
-            "name": "Genetic Associations and Epidemiology",
-            "field": "Biochemistry, Genetics and Molecular Biology",
+            "id": "https://openalex.org/T10106",
+            "name": "Autism Spectrum Disorder Research",
+            "field": "Neuroscience",
             "domain": "Life Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Hepatitis C virus research and Genetic Associations and Epidemiology associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Hepatitis C virus research and Genetic Associations and Epidemiology; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Attention Deficit Hyperactivity Disorder and Autism Spectrum Disorder Research associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Attention Deficit Hyperactivity Disorder and Autism Spectrum Disorder Research; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W2063285149"
+            "https://openalex.org/W2171074660"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4854,99 +4836,29 @@
         }
       },
       {
-        "id": "lead-fb659a8b68e12595",
-        "key": "https://openalex.org/T10379|https://openalex.org/T10831",
+        "id": "lead-e7fdd66becbe7dc9",
+        "key": "https://openalex.org/T10350|https://openalex.org/T13681",
         "topics": [
           {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10831",
-            "name": "Cell Adhesion Molecules Research",
-            "field": "Medicine",
-            "domain": "Health Sciences"
-          }
-        ],
-        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Cell Adhesion Molecules Research associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Cell Adhesion Molecules Research; its direction, mechanism and generality are unknown.",
-        "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
-        "literature_signal": {
-          "coassigned_work_count": 1,
-          "example_work_ids": [
-            "https://openalex.org/W2045295282"
-          ],
-          "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
-        },
-        "dataset_leads": [],
-        "cross_domain": true,
-        "status": "unvalidated_research_lead",
-        "priority_score": 0.6955,
-        "priority_components": {
-          "novelty_to_agent_memory": 1.0,
-          "literature_signal": 0.228,
-          "falsifiability": 0.85,
-          "dataset_lead_availability": 0.25,
-          "cross_domain_breadth": 1.0
-        },
-        "skeptic_review": {
-          "alternative_explanations": [
-            "Topic co-assignment may reflect indexing conventions rather than a real-world mechanism.",
-            "A third variable may explain any apparent association.",
-            "The apparent link may be driven by a narrow set of studies, locations or time periods."
-          ],
-          "falsification_tests": [
-            "Find at least one independent dataset with documented provenance and a compatible operational definition.",
-            "Test whether the relationship survives plausible confounder adjustment and alternative measurements.",
-            "Use negative controls and time-lag tests where the domain supports them.",
-            "Attempt replication in a different population, setting or data collection process.",
-            "Reject the lead if the signal disappears, reverses unpredictably or depends on one influential source."
-          ]
-        },
-        "experiment_plan": {
-          "stage_1": "Inspect candidate source documentation, licence, collection process, units, coverage and missingness.",
-          "stage_2": "Define measurable variables and a preregistered analysis plan before confirmatory testing.",
-          "stage_3": "Run domain-appropriate descriptive and inferential analyses with uncertainty estimates.",
-          "stage_4": "Run falsification, robustness and independent replication checks.",
-          "execution_status": "plan_only_no_external_dataset_download_or_execution"
-        },
-        "reviewer_assessment": {
-          "status": "lead_only_not_a_discovery",
-          "evidence_level": "scholarly_metadata_or_exploratory_indicator_signal",
-          "limitations": [
-            "No causal conclusion is supported.",
-            "Novelty has not been established by a systematic literature review.",
-            "Dataset metadata candidates have not been downloaded, licensed or validated.",
-            "Human domain review and independent replication are required before strong claims."
-          ]
-        }
-      },
-      {
-        "id": "lead-c3296666fd5a2b6b",
-        "key": "https://openalex.org/T10379|https://openalex.org/T10923",
-        "topics": [
-          {
-            "id": "https://openalex.org/T10379",
-            "name": "Cellular Mechanics and Interactions",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10923",
-            "name": "Force Microscopy Techniques and Applications",
-            "field": "Physics and Astronomy",
+            "id": "https://openalex.org/T13681",
+            "name": "Engineering and Information Technology",
+            "field": "Computer Science",
             "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10350",
+            "name": "Electronic Health Records Systems",
+            "field": "Health Professions",
+            "domain": "Health Sciences"
           }
         ],
-        "research_question": "Under what measurable conditions, if any, are Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications associated in independent empirical data?",
-        "candidate_hypothesis": "At least one measurable relationship may exist between Cellular Mechanics and Interactions and Force Microscopy Techniques and Applications; its direction, mechanism and generality are unknown.",
+        "research_question": "Under what measurable conditions, if any, are Engineering and Information Technology and Electronic Health Records Systems associated in independent empirical data?",
+        "candidate_hypothesis": "At least one measurable relationship may exist between Engineering and Information Technology and Electronic Health Records Systems; its direction, mechanism and generality are unknown.",
         "null_hypothesis": "No reproducible relationship exists in independent empirical data after appropriate controls.",
         "literature_signal": {
           "coassigned_work_count": 1,
           "example_work_ids": [
-            "https://openalex.org/W2054635074"
+            "https://openalex.org/W2756384353"
           ],
           "interpretation": "Topic co-assignment in indexed literature is a discovery clue, not empirical evidence."
         },
@@ -4995,8 +4907,8 @@
       }
     ],
     "memory": {
-      "cycles_completed": 15,
-      "distinct_hypothesis_keys_seen": 196,
+      "cycles_completed": 16,
+      "distinct_hypothesis_keys_seen": 208,
       "purpose": "Avoid repeatedly presenting the same leads and retain an auditable exploration history."
     },
     "capability_boundary": "This cycle uses deterministic role functions, not a general reasoning model. It generates and evaluates research plans; it does not autonomously validate scientific discoveries or alter its own permissions or production code.",
@@ -5029,54 +4941,17 @@
   },
   "literature_screenings": [
     {
-      "indexed_work_count": 42,
-      "results": [
-        {
-          "title": "Health Inequities, Environmental Insecurity and the Attainment of the Millennium Development Goals in Sub-Saharan Africa: The Case Study of Zambia",
-          "year": 2006,
-          "type": "article",
-          "doi": "https://doi.org/10.3390/ijerph2006030026",
-          "openalex_id": "https://openalex.org/W2151580544",
-          "cited_by_count": 31
-        },
-        {
-          "title": "Toward Country-led Development: A Multi-partner Evaluation of the Comprehensive Development Framework",
-          "year": 2003,
-          "type": "book",
-          "doi": "https://doi.org/10.1596/0-8213-5669-0",
-          "openalex_id": "https://openalex.org/W2504057722",
-          "cited_by_count": 35
-        },
-        {
-          "title": "Impact investing as a tool for achieving the targets for sustainable development of the region",
-          "year": 2023,
-          "type": "conference-paper",
-          "doi": "https://doi.org/10.1051/e3sconf/202345101016",
-          "openalex_id": "https://openalex.org/W4388936344",
-          "cited_by_count": 1
-        },
-        {
-          "title": "Air Pollution and Health Status in Sub-Sahara Africa (SSA)",
-          "year": 2019,
-          "type": "article",
-          "doi": "https://doi.org/10.7176/jesd/10-22-03",
-          "openalex_id": "https://openalex.org/W2992010826",
-          "cited_by_count": 10
-        },
-        {
-          "title": "DECOMPOSING WELL-BEING INDICATORS USING DISTRIBUTIONAL DATA",
-          "year": 2004,
-          "type": "preprint",
-          "doi": "https://doi.org/10.22004/ag.econ.20232",
-          "openalex_id": "https://openalex.org/W1601313619",
-          "cited_by_count": 0
-        }
-      ],
-      "search_url": "https://api.openalex.org/works?search=%22Infant+mortality+%28per+1%2C000+live+births%29%22+AND+%22Life+expectancy+at+birth+%28years%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
       "variables": [
         "infant_mortality",
         "life_expectancy"
-      ]
+      ],
+      "indexed_work_count": null,
+      "results": [],
+      "search_url": null,
+      "failure": {
+        "error_type": "HTTPError",
+        "message": "HTTP Error 429: Too Many Requests"
+      }
     },
     {
       "indexed_work_count": 0,
@@ -5088,7 +4963,7 @@
       ]
     },
     {
-      "indexed_work_count": 20,
+      "indexed_work_count": 21,
       "results": [
         {
           "title": "Pakistan: Spending Needs for Reaching Sustainable Development Goals (SDGs)",
@@ -5138,104 +5013,30 @@
       ]
     },
     {
-      "indexed_work_count": 413,
-      "results": [
-        {
-          "title": "Guinea: Background Appendices",
-          "year": 1995,
-          "type": "article",
-          "doi": "https://doi.org/10.5089/9781451815887.002",
-          "openalex_id": "https://openalex.org/W4251447449",
-          "cited_by_count": 0
-        },
-        {
-          "title": "Is Human Development Index (HDI) a reflector of quality of air? a comparative study on developed and developing countries",
-          "year": 2014,
-          "type": "preprint",
-          "doi": null,
-          "openalex_id": "https://openalex.org/W1495062917",
-          "cited_by_count": 5
-        },
-        {
-          "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
-          "year": 2025,
-          "type": "article",
-          "doi": "https://doi.org/10.47895/amp.vi0.6790",
-          "openalex_id": "https://openalex.org/W4410047673",
-          "cited_by_count": 0
-        },
-        {
-          "title": "Social, Economic and Environmental Determinants of Life Expectancy in Nigeria",
-          "year": 2024,
-          "type": "article",
-          "doi": "https://doi.org/10.56279/ter.v14i1.175",
-          "openalex_id": "https://openalex.org/W4401018809",
-          "cited_by_count": 8
-        },
-        {
-          "title": "Human development index in a context of human development: Review on the western Balkans countries",
-          "year": 2020,
-          "type": "article",
-          "doi": "https://doi.org/10.1002/brb3.1755",
-          "openalex_id": "https://openalex.org/W3047671339",
-          "cited_by_count": 115
-        }
-      ],
-      "search_url": "https://api.openalex.org/works?search=%22Life+expectancy+at+birth+%28years%29%22+AND+%22Adult+literacy+rate+%28%25%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
       "variables": [
         "life_expectancy",
         "literacy"
-      ]
+      ],
+      "indexed_work_count": null,
+      "results": [],
+      "search_url": null,
+      "failure": {
+        "error_type": "HTTPError",
+        "message": "HTTP Error 429: Too Many Requests"
+      }
     },
     {
-      "indexed_work_count": 95,
-      "results": [
-        {
-          "title": "Socioeconomic Macro-Level Determinants of Hypertension: Ecological Analysis of 138 Low- and Middle-Income Countries",
-          "year": 2023,
-          "type": "article",
-          "doi": "https://doi.org/10.3390/jcdd10020057",
-          "openalex_id": "https://openalex.org/W4318612675",
-          "cited_by_count": 18
-        },
-        {
-          "title": "A Linear Regression Analysis of Factors Affecting Social Determinants of Health Indicators",
-          "year": 2025,
-          "type": "article",
-          "doi": "https://doi.org/10.47895/amp.vi0.6790",
-          "openalex_id": "https://openalex.org/W4410047673",
-          "cited_by_count": 0
-        },
-        {
-          "title": "Valuing the joint effect of adult literacy and economic growth on renewable energy consumption in African zone",
-          "year": 2022,
-          "type": "article",
-          "doi": "https://doi.org/10.33445/sds.2022.12.1.12",
-          "openalex_id": "https://openalex.org/W4214774388",
-          "cited_by_count": 1
-        },
-        {
-          "title": "Trends of Urbanization in West Bengal: A District Level Study",
-          "year": 2023,
-          "type": "article",
-          "doi": "https://doi.org/10.48175/ijarsct-10419m",
-          "openalex_id": "https://openalex.org/W4393111855",
-          "cited_by_count": 0
-        },
-        {
-          "title": "The Little Data Book on Information and Communication Technology 2014",
-          "year": 2014,
-          "type": "book",
-          "doi": "https://doi.org/10.1596/978-1-4648-0177-8",
-          "openalex_id": "https://openalex.org/W4235301359",
-          "cited_by_count": 18
-        }
-      ],
-      "search_url": "https://api.openalex.org/works?search=%22Adult+literacy+rate+%28%25%29%22+AND+%22Urban+population+%28%25+of+total%29%22&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Ccited_by_count",
       "variables": [
         "literacy",
         "urban_population"
-      ]
+      ],
+      "indexed_work_count": null,
+      "results": [],
+      "search_url": null,
+      "failure": {
+        "error_type": "HTTPError",
+        "message": "HTTP Error 429: Too Many Requests"
+      }
     }
   ],
   "adversarial_sensitivity_checks": [
@@ -8385,14 +8186,14 @@
   ],
   "self_improvement": {
     "proposal": {
-      "method": "winsorized_pearson",
-      "sha256": "b075a5cbe37e4c1a0cd0d767b4b92ebf4da48e1899c399c36d850ba104b65e44",
-      "path": "proposals/winsorized_pearson.py"
+      "method": "spearman_rank",
+      "sha256": "ffd13cbdf33d0c205f0420407f2f6e6ef052105db0f8e792bc7033f71fbd8ee5",
+      "path": "proposals/spearman_rank.py"
     },
     "policy": "Generated analysis-method code is stored as a sandbox proposal and syntax-checked. It is not imported or executed in production; tests and human-reviewed promotion are required."
   },
   "source_discovery": {
-    "query": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "query": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
     "catalogue_size": 6,
     "candidate_sources": [
       {
@@ -8446,6 +8247,59 @@
         "notes": "Scholarly metadata search; not currently ingested as research observations."
       },
       {
+        "id": "our_world_in_data",
+        "name": "Our World in Data",
+        "domains": [
+          "biology",
+          "public_health",
+          "climate",
+          "energy",
+          "economics",
+          "demography",
+          "agriculture"
+        ],
+        "kind": "quantitative_data",
+        "keywords": [
+          "life expectancy",
+          "health",
+          "climate change",
+          "energy",
+          "agriculture",
+          "population",
+          "education"
+        ],
+        "access": "public_downloads_and_apis",
+        "endpoint": "https://ourworldindata.org/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Dataset-level licences and attribution requirements must be checked individually."
+      },
+      {
+        "id": "pubmed",
+        "name": "PubMed / NCBI E-utilities",
+        "domains": [
+          "biology",
+          "medicine",
+          "public_health",
+          "neuroscience",
+          "psychology"
+        ],
+        "kind": "literature",
+        "keywords": [
+          "clinical",
+          "disease",
+          "health",
+          "medical",
+          "brain",
+          "mental health"
+        ],
+        "access": "public_api",
+        "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "auth_required": false,
+        "integration_status": "catalogued",
+        "notes": "Bibliographic and abstract discovery; literature is not itself quantitative validation."
+      },
+      {
         "id": "zenodo",
         "name": "Zenodo Open Research Data",
         "domains": [
@@ -8486,17 +8340,17 @@
     "mode": "rule_based_autonomous_planning",
     "research_plan": {
       "selected_pair": [
-        "literacy",
-        "unemployment"
+        "health_spending",
+        "literacy"
       ],
-      "priority_score": 0.734,
+      "priority_score": 0.7337,
       "selected_labels": [
-        "Adult literacy rate (%)",
-        "Unemployment (% of labor force)"
+        "Current health expenditure per capita (US$)",
+        "Adult literacy rate (%)"
       ],
-      "selection_score": 0.367,
+      "selection_score": 0.36685,
       "reason": "Highest evidence-led research priority after discounting previously selected pairs.",
-      "research_question": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+      "research_question": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
       "next_actions": [
         "Check source definitions, coverage, and missingness.",
         "Identify plausible confounders and alternative explanations.",
@@ -8505,8 +8359,8 @@
       ],
       "status": "candidate_question_not_a_verified_discovery"
     },
-    "cycles_completed": 39,
-    "next_question": "Does the association between Adult literacy rate (%) and Unemployment (% of labor force) persist when tested with alternative measures, time lags, and plausible confounders?",
+    "cycles_completed": 40,
+    "next_question": "Does the association between Current health expenditure per capita (US$) and Adult literacy rate (%) persist when tested with alternative measures, time lags, and plausible confounders?",
     "capability_note": "The agent samples OpenAlex topics, formulates falsifiable leads, and screens up to three small Zenodo CSV/TSV datasets per cycle where record metadata confirms an allowlisted open licence. Automated numeric associations are exploratory screens, not validated discoveries or independent replication."
   },
   "limitations": [
